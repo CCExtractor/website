@@ -1,27 +1,16 @@
 baseURL = "https://example.com/"
-title = "Compose Docs"
+title = "CCExtractor"
 enableRobotsTXT = true
 # this example loads the theme as hugo module
 # comment out line below, and uncomment the line after it if you prefer to load the theme normally
-theme = ["github.com/onweru/compose"] # edit this if you'ld rather use a fork of this repo
-# theme = "compose"
+# theme = ["github.com/onweru/compose"] # edit this if you'ld rather use a fork of this repo
+theme = "compose"
 enableGitInfo = true
 
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [outputs]
   home = ["HTML", "RSS","JSON"]
-
-#  menu items
-[[menu.main]]
-  name = "Docs"
-  weight = 2
-  url = "docs/"
-
-[[menu.main]]
-  name = "Example"
-  weight = 3
-  url = "https://docs.neuralvibes.com"
 
 [markup]
   [markup.goldmark]
@@ -48,7 +37,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
 
-  repo = "https://github.com/onweru/compose"
+  repo = "https://github.com/CCExtractor/"
 
   time_format_blog = "Monday, January 02, 2006"
   time_format_default = "January 2, 2006"
@@ -62,18 +51,15 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Site logo
   [params.logo]
-    lightMode = "images/compose.svg"
-    darkMode = "images/compose-light.svg"
+    lightMode = "images/ccx.svg"
+    darkMode = "images/ccx.svg"
 
   [params.source]
     name = "GitHub"
     iconLight = "images/GitHubMarkLight.svg"
     iconDark = "images/GitHubMarkDark.svg"
-    url = "https://github.com/onweru/compose/"
+    url = "https://github.com/CCExtractor/"
 
   # optional
-  # attribution. Feel free to delete this
   [params.author]
-    name = "Weru"
-    url = "https://neuralvibes.com/author/"
-
+    name = "CCExtractor"
