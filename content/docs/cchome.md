@@ -1,58 +1,47 @@
 +++
 title = "CCExtractor's home page"
+weight = 1  
 +++
 
-<!-- +++
-
-title = "Compose"
-# define chart data here
-[data]
-  fileLink = "content/projects.csv" # path to where csv is stored
-  colors = ["#627c62", "#11819b", "#ef7f1a", "#4e1154"] # chart colors
-  columnTitles = ["Section", "Status", "Author"] # optional if no table will be displayed from dataset
-  baseChartOn = 3 # number of column the chart(s) and graph should be drawn from # can be overridden directly via shortcode parameter # it's therefore optional
-  title = "Projects"
-    
-+++ -->
-
+<!-- {{< block "grid-2" >}}
 {{< column >}}
-# Welcome to CCExtractor
+# Compose your Docs with __Ease__.
 
-CCExtractor Development is an informal (meaning we're not incorporated anywhere) organization that exists to coordinate the development efforts of the volunteers that contribute to the software and to manage our participation in specific events such as Google Summer of Code and Code-In.
-    
+Compose is a lean theme for the `Hugo`, inspired by [forestry.io](https://forestry.io). 
+
+We do a [Pull Request](https://github.com/onweru/compose/pulls) contributions workflow on **GitHub**. Also feel free to raise any issues or feature suggestions.
 
 {{< tip "warning" >}}
-This website is still in beta, you might come across formatting errors or pages not found. Please report them on slack.    
+Note that the theme is built with simplicity in mind. [This way](/), if a suggestion complicates the usability of the theme, it may be declined. New users are always welcome!
 {{< /tip >}}
 
 {{< tip >}}
-To get in touch with us asap, join our slack channel. Most CCExtractor developers hang out in a slack team. You're welcome to request an invitation here: #TODO
+You can [generate graphs, charts](docs/compose/graphs-charts-tables/#show-a-pie-doughnut--bar-chart-at-once) and tables from a csv, ~~or a json~~ dataset
 {{< /tip >}}
 
-{{< button "docs/cchome/" "Read the Docs" >}}{{< button "docs/ideas_page_for_summer_of_code_2021/" "Here for GSoC'21?" >}}
+{{< button "docs/compose/" "Read the Docs" >}}{{< button "https://github.com/onweru/compose" "Download Theme" >}}
 {{< /column >}}
 
-
+{{< column >}}
+![diy](/images/scribble.jpg)
+{{< /column >}}
+{{< /block >}} -->
 <!-- \~\~META: title = CCExtractor\'s home page \~\~ -->
 
-<!-- 
-#### [Here for Google Summer of Code 2021?](docs/ideas_page_for_summer_of_code_2021)
+#### User documentation and files
+[How to chat with the team (for support, to join us, for GSoC, or anything else)](/public/general/support)
 
-# User documentation and files
+[What's CCExtractor? (the software, not the organization)](/public/general/whatsccextractor)
 
-#### [How to chat with the team (for support, to join us, for GSoC, or anything else)](public/general/support)
+[About CCExtractor Development (the organization, not the software)](/public/general/about_the_org)
 
-[What's CCExtractor? (the software, not the organization)](public/general/whatsccextractor)
-
-[About CCExtractor Development (the organization, not the software)](public/general/about_the_org)
-
-[Downloads](public/general/downloads)
+[Downloads](/public/general/downloads)
 
 [Changelog](https://github.com/CCExtractor/ccextractor/blob/master/docs/CHANGES.TXT)
 
-[Using the command line tool](public/general/command_line_usage)
+[Using the command line tool](/public/general/command_line_usage)
 
-[Using the Windows GUI](public/general/win_gui_usage)
+[Using the Windows GUI](/public/general/win_gui_usage)
 
 [Real time demo](http://realtimedemo.ccextractor.org:8080/)
 - Currently down, our primary source of data is moving to a new office
@@ -64,29 +53,29 @@ and their infrastructure is not yet available.
 
 [Translating subtitles in real time](public/gsoc/translating_captions)
 
-[Using the cross-platform GUI](public/gsoc/olegkisselef_qt_gui)
+[Using the cross-platform GUI](/public/gsoc/olegkisselef_qt_gui)
 
 [Extracting closed captions from a DVD step by step tutorial](public/gsoc/extract_from_DVD)
 
-[Working with HDHomeRun](public/general/Working_with_HDHomeRun)
+[Working with HDHomeRun](/public/general/Working_with_HDHomeRun)
 
-[Using SPUPNG](public/general/Using_SPUPNG)
+[Using SPUPNG](/public/general/Using_SPUPNG)
 
-[TV samples](public/general/TVSamples)
+[TV samples](/public/general/TVSamples)
 
-[Donate](public/general/http://sourceforge.net/donate/index.php?group_id=190832)
+[Donate](/public/general/http://sourceforge.net/donate/index.php?group_id=190832)
 
-[Cool external projects that use subtitles](public/general/coollinkswithsubfs)
+[Cool external projects that use subtitles](/public/general/coollinkswithsubfs)
 
-# Technical documentation
+#### Technical documentation
 
 Most of these pages are the result of Summer of Code work.
 
-[Getting started with our code](public/general/gettingstartedwithourcode)
+[Getting started with our code](/public/general/gettingstartedwithourcode)
 
-[Rotating capture system with HDHomeRun](public/general/Rotating_capture_system_with_HDHomeRun)
+[Rotating capture system with HDHomeRun](/public/general/Rotating_capture_system_with_HDHomeRun)
 
-[Subtitle standards around the world](public/general/Subtitle_standards_around_the_world)
+[Subtitle standards around the world](/public/general/Subtitle_standards_around_the_world)
 
 [Regression system](public/gsoc/ccextractor_regression_testing)
 
@@ -102,13 +91,13 @@ Most of these pages are the result of Summer of Code work.
 
 [Python Extension Module Compilation Documentation GSoC\'17](public/gsoc/Python_Extension_Module_Compilation_Documentation_GSoC'17)
 
-[Building CCExtractor inside a Vagrant box](public/general/vagrant)
+[Building CCExtractor inside a Vagrant box](/public/general/vagrant)
 
 [Activity Extractor (user)](public/codein/activity_extractor_user_docs)
 
 [Activity Extractor (technical)](public/codein/activity_extractor_technical_docs)
 
-# Google Code-in public/ pages
+#### Google Code-in public/ pages
 
 [Google Code-in 2016 task list](public/codein/Google_Code-in_2016_task_list)
 
@@ -127,7 +116,7 @@ FFmpeg](public/codein/google_code-in_2019/ffmpeg)
 
 [Google Code-in 2019 Mastermind](public/codein/google_code-in_2019/mastermind)
 
-# Summer of Code public/ pages
+#### Summer of Code public/ pages
 
 [Ideas page for Summer of Code 2021](public/gsoc/ideas_page_for_summer_of_code_2021)
 
@@ -149,7 +138,7 @@ FFmpeg](public/codein/google_code-in_2019/ffmpeg)
 
 [Blog Posts from our Students](public/blog_posts_our_students)
 
-# Season of docs public/ pages
+#### Season of docs public/ pages
 
 [Ideas page for Season of Docs 2019](public/gsoc/ideas_page_for_season_of_docs_2019)
 
@@ -211,7 +200,7 @@ FFmpeg](public/codein/google_code-in_2019/ffmpeg)
 
 [Nurendra - Sentiment Analysis / Realtime Translation with Google Translate/Apertium](public/gsoc/2015/nurendra)
 
-# Summer of Code private pages
+#### Summer of Code private pages
 
 [People](docs/privategsoc/People)
 
@@ -219,18 +208,18 @@ FFmpeg](public/codein/google_code-in_2019/ffmpeg)
 
 [Planned absences](docs/privategsoc/Planned_absences)
 
-# Contract work
+#### Contract work
 
-[How to hire CCExtractor developers](public/general/how_to_hire_us)
+[How to hire CCExtractor developers](/public/general/how_to_hire_us)
 
-# Miscellaneous resources about things that interest us
+#### Miscellaneous resources about things that interest us
 
-[Rust](public/general/rust_resources/rust)
+[Rust](/public/general/rust_resources/rust)
 
-[Flutter](public/general/flutter_resources/flutter)
+[Flutter](/public/general/flutter_resources/flutter)
 
-[Preparing for interviews (Silicon Valley style )](public/general/misc/interview_preparation)
+[Preparing for interviews (Silicon Valley style )](/public/general/misc/interview_preparation)
 
-[Useful linux tools](public/general/misc/Useful_linux_tools)
+[Useful linux tools](/public/general/misc/Useful_linux_tools)
 
-[Articles about vim (the editor)](public/general/misc/vim) -->
+[Articles about vim (the editor)](/public/general/misc/vim)

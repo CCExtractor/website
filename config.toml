@@ -11,6 +11,11 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [outputs]
   home = ["HTML", "RSS","JSON"]
+  
+[[menu.main]]
+  name = "Docs"
+  weight = 2
+  url = "docs/"
 
 [markup]
   [markup.goldmark]
@@ -38,7 +43,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [params]
 
   repo = "https://github.com/CCExtractor/"
-
+  enableSearch = false
   time_format_blog = "Monday, January 02, 2006"
   time_format_default = "January 2, 2006"
   enableDarkMode = true # set to false to disable darkmode by default # user will still have the option to use dark mode
@@ -59,7 +64,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     iconLight = "images/GitHubMarkLight.svg"
     iconDark = "images/GitHubMarkDark.svg"
     url = "https://github.com/CCExtractor/"
-
   # optional
   [params.author]
     name = "CCExtractor"
+
