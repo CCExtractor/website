@@ -70,7 +70,7 @@ trail. It's essential.
  **Qualification tasks**
 
 Take a look at [this
-page](https://ccextractor.org/public/gsoc/takehome).
+page](/public/gsoc/takehome).
 
 Your proposal should also include reports regarding scalability and
 fault tolerance of your chosen tech stack. A list of stacks and their

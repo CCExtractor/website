@@ -1,4 +1,7 @@
-# Mouseless for Linux
+---
+title: "Mouseless for Linux"
+---
+
 
  **Introduction**
 
@@ -21,5 +24,4 @@ any Linux tool you like.
 
  **Qualification tasks**
 
-Take a look at [this
-page](https://ccextractor.org/public/gsoc/takehome).
+Take a look at [this page](/public/gsoc/takehome).

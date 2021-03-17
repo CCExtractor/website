@@ -48,4 +48,4 @@ himself.
  **Qualification tasks**
 
 Take a look at [this
-page](https://ccextractor.org/public/gsoc/takehome).
+page](/public/gsoc/takehome).

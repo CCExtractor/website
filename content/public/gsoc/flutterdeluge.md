@@ -1,4 +1,6 @@
- **Write an flutter interface for Deluge**
+---
+title: "Write an flutter interface for Deluge"
+---
 
 [Deluge](https://deluge-torrent.org/) is a popular BitTorrent
 client. It's popular because it's quite efficient and performs really

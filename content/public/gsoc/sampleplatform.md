@@ -1,10 +1,8 @@
-\~\~META: title = Google Summer of Code 2020 - The sample platform /
-Continuous integration revisited \~\~
+---
+title: " Google Summer of Code 2020 - The sample platform / Continuous integration revisited"
+---
 
-# The sample platform / Continuous integration
-
-The [sample
-platform](https://sampleplatform.ccextractor.org/) was
+The [sample platform](https://sampleplatform.ccextractor.org/) was
 developed during GSoC '15 and overhauled during GSoC '16. In GSoC '17
 another student added support for the Windows part, as well as some
 bugfixes. The student continued his work during GSoC '18, and will
@@ -32,7 +30,7 @@ by discussions with the mentor on how to implement this.
 
 Features that will need to be implemented for certain are: - A
 coordinating platform that receives the call for actions, triggers the
-machines, displays results, \... - Scalable Linux/Mac/Windows
+machines, displays results, ... - Scalable Linux/Mac/Windows
 machines that can execute the regression tests (currently 180GB of
 samples!) - Deep integration with the GitHub Actions that should be
 run first (creating Linux, Windows, Mac builds), so that no time is
@@ -41,7 +39,7 @@ wasted if there are compiler errors or no code changes. - Watch
 Disregard that it's about the Rust community - it's the CD/CI part on
 it that is important to us. That's what we want.
 
-##### Getting started / Requirements
+### Getting started / Requirements
 
 The Sample Platform is written in Python, so we expect good knowledge of
 Python. The new project is not necessarily python-based, but the choice
@@ -54,18 +52,18 @@ If you are interested in taking up this project during GSoC, you will
 need to satisfy these requirements (in order of importance, not all are
 a necessity):  - A well researched, well written project proposal.
 This should include a monthly cost prediction based on expected
-runtime's, disk storage used, \... A comparison between multiple
+runtime's, disk storage used, ... A comparison between multiple
 providers (e.g. Azure, GCP, AWS, Packet) must be included. - Have
 chatted with the mentor(s) at least once. - Fixed a bug, improved
-installation documentation, \... (contributed something to the project).
+installation documentation, ... (contributed something to the project).
 There are some issues in the tracker labeled issues labeled
 [GSoC-proposal-task](https://github.com/CCExtractor/sample-platform/issues?q=is%3Aissue+is%3Aopen+label%3AGSoC-proposal-task)
 for this purpose. - Proof you've set up the Sample Platform
 locally.
 
-##### Additional information not necessarily well organized :-)
+### Additional information not necessarily well organized :-)
 
-\- For each sample we currently have one "good" output. That's not
+- For each sample we currently have one "good" output. That's not
 really correct. Changes in code might produce minor changes in the
 output (in the order of a few milliseconds). For each sample we'll need
 to have a set of correct outputs (possibly with a "correctness
@@ -77,7 +75,7 @@ PR. Instead, the system needs to report the difference between the code
 before and after the changes in the PR, which is much more useful. -
 We'll also need a way for final users to send test their own files
 against the current version so they don't need us to release a new
-CCExtractor version that \_could\_ fix something that is broken for
+CCExtractor version that _could_ fix something that is broken for
 them. - It should be possible for users to get a binary compiled by
 the new system, particularly for Windows (in linux we don't have this
 problem since the typical way to install CCExtractor is just to build
@@ -95,8 +93,8 @@ platforms, and so on. - We need to add a "regression finder"
 feature that works (and possibly uses) like git bisect: Give a specific
 sample find which specific commit changed the output.
 
-##### Mentor(s)
+### Mentor(s)
 
-\- Willem Van Iseghem (\@canihavesomecoffee on Slack) is a former GSoC
+- Willem Van Iseghem (@canihavesomecoffee on Slack) is a former GSoC
 student (2014, 2015, 2016) and mentor (2017, 2018, 2019). He started the
 project and is the official maintainer.

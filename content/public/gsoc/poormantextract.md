@@ -1,4 +1,6 @@
-# Poor Man's Textract
+---
+title: "Poor Man's Textract"
+---
 
  **Introduction**
 
@@ -15,14 +17,10 @@ Improve upon the existing PMT project:
 
 Previous (GCi) tasks that did something (albeit simpler) similar:
 
-[Musab Kılıç's exam
-analyzer](https://github.com/musabkilic/ExamAnalyzer)
-[RobOHt's exam
-analyzer](https://https://github.com/RobOHt/AutomataQP-Decomposer)
-[knightron0's exam
-analyzer](https://github.com/knightron0/exam-analyzer)
+- [Musab Kılıç's exam analyzer](https://github.com/musabkilic/ExamAnalyzer)
+- [RobOHt's exam analyzer](https://https://github.com/RobOHt/AutomataQP-Decomposer)
+- [knightron0's exam analyzer](https://github.com/knightron0/exam-analyzer)
 
  **Qualification tasks**
 
-Take a look at [this
-page](https://ccextractor.org/public/gsoc/takehome).
+Take a look at [this page](/public/gsoc/takehome).

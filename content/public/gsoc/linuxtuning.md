@@ -1,3 +1,7 @@
+---
+ title: "Linux tuning"
+---
+
  **Introduction**
 
 The linux kernel has hundreds of tunable settings. Some can be modified
@@ -14,5 +18,4 @@ tested with real data instead of synthetic tests.
 
  **Qualification tasks**
 
-Take a look at [this
-page](https://ccextractor.org/public/gsoc/takehome).
+Take a look at [this page](/public/gsoc/takehome).

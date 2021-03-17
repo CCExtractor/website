@@ -1,4 +1,6 @@
- **Replace CCExtractor's GUI with a modern, Flutter based one.**
+---
+title: "Replace CCExtractor's GUI with a modern, Flutter based one."
+---
 
 We have a [very old
 GUI](https://github.com/CCExtractor/CCExtractorWindowsGUI),
@@ -19,7 +21,7 @@ good and is portable. We are targeting Windows, Linux, and OSX.
 
 Things you have to do:
 
-\- Come up with a good design. This means not copying the old one - this
+- Come up with a good design. This means not copying the old one - this
 is not a port, it's a new UI! - Your program will just run
 CCExtractor. CCExtractor has an argument to "\--gui-reports" that will
 output progress in an easy to parse format. So you don't need to figure

@@ -39,4 +39,4 @@ skeleton at the very least to support all the channel features.
  **Qualification tasks**
 
 Take a look at [this
-page](https://ccextractor.org/public/gsoc/takehome).
+page](/public/gsoc/takehome).

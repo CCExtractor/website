@@ -1,4 +1,6 @@
-# rutorrent mobile interface (II)
+---
+title: "rutorrent mobile interface (II)"
+---
 
  **Introduction**
 
@@ -11,8 +13,8 @@ support.
 
 Yes, there are two things with almost the same name. To summarize:
 
-rtorrent =\> The BitTorrent client, a console-based tool that also has
-an API to interact with it. rutorrent =\> A web interface for
+rtorrent => The BitTorrent client, a console-based tool that also has
+an API to interact with it. rutorrent => A web interface for
 rtorrent that uses that API. It also does other things, for example, it
 can download torrents from an RSS feed. You configure RSS feeds in
 rutorrent's web interface, but there's also a backend service (written
@@ -26,18 +28,19 @@ developers.
 
 Your job is add a number of features to this project.
 
-`1) View Models: Generate a state model which holds the current state of the torrent lists even when the internet connection is not available. Currently, the torrent list vanishes as soon as internet connection is disconnected, with this state model, the user experience will improve.\\`
-
-2\) Automatic Tests: Write some unit tests for major classes and also
-widget testing for some components. 3) Media Player: Currently, VLC
+1) View Models: Generate a state model which holds the current state of the torrent lists even when the internet connection is not available. Currently, the torrent list vanishes as soon as internet connection is disconnected, with this state model, the user experience will improve.
+2) Automatic Tests: Write some unit tests for major classes and also
+widget testing for some components. 
+3) Media Player: Currently, VLC
 media player plugin is a heavy integration and also it lacks many of the
 basic media player functionalities. The aim would be to find an
 alternative way to stream videos such that the app size gets reduced or
-enhance the functionalities of it. 4) Production-type environment:
+enhance the functionalities of it. 
+4) Production-type environment:
 The aim would be to create separate branches for master and dev and to
 regularly merge dev to master to create a new release. Furthermore, this
-can be automatic using CI/C pipeline integration for the project. 5)
-Improve Documentation: Document the basic structure and architecture
+can be automatic using CI/C pipeline integration for the project. 
+5) Improve Documentation: Document the basic structure and architecture
 used in the app, maybe use Wikis, so that the new contributors find easy
 to understand the setup and code.
 
@@ -58,4 +61,4 @@ image.
  **Qualification tasks**
 
 Take a look at [this
-page](https://ccextractor.org/public/gsoc/takehome).
+page](/public/gsoc/takehome).

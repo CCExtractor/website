@@ -6,7 +6,7 @@ GSoC 2019 \~\~
 Click here for : [Slack](public/general/support), [Mailing
 List](https://groups.google.com/forum/#!forum/ccextractor-dev),
 [2019 Ideas
-Page](https://ccextractor.org/public/gsoc/ideas_page_for_summer_of_code_2019),
+Page](public/gsoc/ideas_page_for_summer_of_code_2019),
 [Past
 Archives](https://summerofcode.withgoogle.com/archive/search/?q=CCExtractor),
 [GitHub](https://github.com/CCExtractor/).

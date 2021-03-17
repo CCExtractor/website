@@ -50,7 +50,7 @@ page](https://playground.ccextractor.org/) Use it to
 learn the basics of dokuwiki and to submit documentation tasks.
 
 [Designers
-welcome.](https://ccextractor.org/public/codein/google_code-in_2017_code-in_for_designers)
+welcome.](/public/codein/google_code-in_2017_code-in_for_designers)
 What to expect if you want to participate in Code-in as a designer.
 
 \_\_** Tags **\_\_ As you probably know, tasks in Code-in have

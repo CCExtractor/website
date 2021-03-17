@@ -1,4 +1,6 @@
-# The next peer-to-peer protocol
+---
+title: "The next peer-to-peer protocol"
+---
 
  **Introduction**
 
@@ -11,7 +13,7 @@ BitTorrent is based on the concept of peers, which are BitTorrent
 clients, usually running on computers at home, that share data is a
 super-efficient manner. It works well, of course, but
 
-\- It requires users to have their computers on for a long time - It
+- It requires users to have their computers on for a long time - It
 requires users to expose their IP address - It requires users to use
 their home internet connection, making it hard to do other things at the
 same time such as streaming
@@ -28,7 +30,7 @@ Google Drive and so on.
 The goal here is to come up (and implement the first version) with a
 system that let those personal storage systems exchange data
 
-\- Securely - As cheap as possible - As fast as possible -
+- Securely - As cheap as possible - As fast as possible -
 As easily as possible
 
 A possible idea (one of many possibilities) would be to introduce the
@@ -48,5 +50,4 @@ the trust is broken.
 
  **Qualification tasks**
 
-Take a look at [this
-page](https://ccextractor.org/public/gsoc/takehome).
+Take a look at [this page](/public/gsoc/takehome).

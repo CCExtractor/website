@@ -77,5 +77,5 @@ world samples. For the qualification task, this does not have to be
 huge. A good representative set will do fine.
 
 Take a look at [this
-page](https://ccextractor.org/public/gsoc/takehome) for more
+page](/public/gsoc/takehome) for more
 issues.

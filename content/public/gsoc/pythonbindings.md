@@ -36,4 +36,4 @@ Code](https://github.com/CCExtractor/ccextractor/commit/6e2ce11b26b28decb8967a43
  **Qualification tasks**
 
 Take a look at [this
-page](https://ccextractor.org/public/gsoc/takehome).
+page](/public/gsoc/takehome).

@@ -1,4 +1,6 @@
- **Port and/or rewrite CEA-608 support to Rust**
+---
+title: "Port and/or rewrite CEA-608 support to Rust"
+---
 
 708 is the standard for analog TV in the US and a few other countries.
 Wait, don't go! It's upconverted so even if it's "old", it's the
@@ -6,16 +8,16 @@ minimum common denominator and present in all broadcasts.
 
 Current status:
 
-\- Complete implementation in C. May have bugs, but it's been used in
-production for ages.\\ - Written early, meaning lots of things weren't
-clear then and the code is messy.\\ - Suspected to have some security
-issues that Rust can help with.\\
+- Complete implementation in C. May have bugs, but it's been used in
+production for ages. - Written early, meaning lots of things weren't
+clear then and the code is messy. - Suspected to have some security
+issues that Rust can help with.
 
- **
 
-Job:**
 
-\- Replace the C code with Rust code.
+Job:
+
+- Replace the C code with Rust code.
 
 We will provide hundreds of samples (for which you must complete
 support, no exceptions) and access to a high speed linux server for you
@@ -53,4 +55,7 @@ we have listed on GitHub.
 
 This is also the best way to get accepted into GSoC.
 
-Qualification tasks Take a look at this page.
+ **Qualification tasks**
+
+Take a look at [this page](/public/gsoc/takehome).
+    

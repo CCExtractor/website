@@ -59,5 +59,4 @@ C++ learning Rust is not too hard and it's totally worth it.
 
  **Qualification tasks**
 
-Take a look at [this
-page](https://ccextractor.org/public/gsoc/takehome).
+Take a look at [this page](/public/gsoc/takehome).

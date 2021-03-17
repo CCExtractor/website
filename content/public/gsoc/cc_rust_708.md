@@ -1,4 +1,6 @@
-\~\~META: title = Google Summer of Code 2021 - Complete 708 support \~\~
+---
+title: "Google Summer of Code 2021 - Complete 708 support"
+---
 
  **Port and/or rewrite CEA-708 support to Rust**
 
@@ -8,8 +10,10 @@ while we are at it complete the known missing bits.
 
 This means:
 
-a\) Perfect timing. b) Perfect rendering, limited only by the output
-format. c) Full support to all languages for which samples are
+a) Perfect timing. 
+b) Perfect rendering, limited only by the output
+format. 
+c) Full support to all languages for which samples are
 available.
 
 We will provide hundreds of samples (for which you must complete
@@ -43,30 +47,27 @@ Getting started:
 good actually. It's not a complete description of the standard, but
 it's quite useful to understand what 708 is about.
 
-\_\_**Related GitHub Issues**\_\_ [Ver 0.85 CEA-708: 16 bit
-charset (Korean) Not
-support](https://github.com/CCExtractor/ccextractor/issues/690)
-[(problem extract Korean
-subtitles](https://github.com/CCExtractor/ccextractor/issues/677)
-\[\[<https://github.com/CCExtractor/ccextractor/issues/646>|\[CEA-708\]
-Missing the last subtitle\]\]
-\[\[<https://github.com/CCExtractor/ccextractor/issues/641>|\[CEA-708\]
-\[Timing\] Catchable bug with timing\]\] [Finish CEA-708
-support](https://github.com/CCExtractor/ccextractor/issues/3)
+**Related GitHub Issues** 
 
-\_\_**Mentors**\_\_ Carlos Fernandez Sanz (\@carlos.fernandez on
+- [Ver 0.85 CEA-708: 16 bit charset (Korean) Not support](https://github.com/CCExtractor/ccextractor/issues/690)
+- [problem extract Korean subtitles](https://github.com/CCExtractor/ccextractor/issues/677)
+- [[CEA-708] Missing the last subtitle](https://github.com/CCExtractor/ccextractor/issues/646)
+- [[CEA-708] [Timing] Catchable bug with timing](https://github.com/CCExtractor/ccextractor/issues/641)
+- [Finish CEA-708 support](https://github.com/CCExtractor/ccextractor/issues/3)
+
+**Mentors** 
+Carlos Fernandez Sanz (@carlos.fernandez on
 slack). Carlos wrote the original CEA-708 code. Evgeny Shulgin
-(\@izaron on slack). Evgeny is a 2016 Code-In Winner with CCExtractor,
+(@izaron on slack). Evgeny is a 2016 Code-In Winner with CCExtractor,
 and worked a lot on CEA-708.
 
-\_\_**How to get started**\_\_ Best thing you can do is download
-a few samples ([check our TV samples
-page](public/general/tvsamples)) and try to solve some of the
+**How to get started** 
+Best thing you can do is download
+a few samples ([check our TV samples page](/public/general/tvsamples)) and try to solve some of the
 CEA-708 issues we have listed on GitHub.
 
 This is also the best way to get accepted into GSoC.
 
  **Qualification tasks**
 
-Take a look at [this
-page](https://ccextractor.org/public/gsoc/takehome).
+Take a look at [this page](/public/gsoc/takehome).

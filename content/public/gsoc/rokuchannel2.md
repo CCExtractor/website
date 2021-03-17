@@ -1,4 +1,6 @@
-# Roku reference channel(II)
+---
+title: "Roku reference channel(II)"
+---
 
 Roku is currently the most common media streamer. It's cheap and
 neutral (it's not in any "fight"). Unfortunately, there aren't any
@@ -52,5 +54,4 @@ skeleton at the very least to support all the channel features.
 
  **Qualification tasks**
 
-Take a look at [this
-page](https://ccextractor.org/public/gsoc/takehome).
+Take a look at [this page](/public/gsoc/takehome).

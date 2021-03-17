@@ -1,4 +1,6 @@
-##### Poor Man's Rekognition (III)
+---
+title: "Poor Man's Rekognition (III)"
+---
 
 [Amazon Rekognition](https://aws.amazon.com/rekognition/) is
 a (paid) service that is able to identify objects, people, text, scenes,
@@ -35,15 +37,11 @@ Domain: Artificial Intelligence, Deep Learning, Computer Vision
 
 [Source Code](https://github.com/npbit/Rekognition)
 
-[Setting Up the Project and Brief
-Overview](https://github.com/npbit/Rekognition/wiki/GSoC-2020---Work-Product-Submission)
+[Setting Up the Project and Brief Overview](https://github.com/npbit/Rekognition/wiki/GSoC-2020---Work-Product-Submission)
 
  **In detail blogs**
 
-[GSoC Chronicles --- Only Time will
-Tell](https://medium.com/@pulkitmishra/gsoc-chronicles-only-time-will-tell-51966e55fa27)
-[<https://medium.com/@pulkitmishra/gsoc-chronicles-best-kept-code-4893823d0f12>](https://medium.com/@pulkitmishra/gsoc-chronicles-best-kept-code-4893823d0f12)
-[GSoC Chronicles --- commit the CRNN cometh the
-Text](https://medium.com/@pulkitmishra/gsoc-chronicles-commit-the-crnn-cometh-the-text-3eade47cf0c6)
-[<https://medium.com/@pulkitmishra/gsoc-chronicles-mightier-than-ssd-b89be236d852>
-](https://medium.com/@pulkitmishra/gsoc-chronicles-mightier-than-ssd-b89be236d852)
+- [GSoC Chronicles --- Only Time will Tell](https://medium.com/@pulkitmishra/gsoc-chronicles-only-time-will-tell-51966e55fa27)
+- [<https://medium.com/@pulkitmishra/gsoc-chronicles-best-kept-code-4893823d0f12>](https://medium.com/@pulkitmishra/gsoc-chronicles-best-kept-code-4893823d0f12)
+- [GSoC Chronicles --- commit the CRNN cometh the Text](https://medium.com/@pulkitmishra/gsoc-chronicles-commit-the-crnn-cometh-the-text-3eade47cf0c6)
+- [<https://medium.com/@pulkitmishra/gsoc-chronicles-mightier-than-ssd-b89be236d852> ](https://medium.com/@pulkitmishra/gsoc-chronicles-mightier-than-ssd-b89be236d852)

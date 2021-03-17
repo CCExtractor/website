@@ -1,4 +1,6 @@
- **Rewrite the OCR subsystem in Rust.**
+---
+title: "Rewrite the OCR subsystem in Rust."
+---
 
 This is NOT about rewriting the OCR library (tesseract) of course, but
 rather, the use with do of it.
@@ -14,4 +16,4 @@ make the conversion.
 
 This process has a bit of proprocessing to help the OCR, which has lots
 of moving bits around. There's a number of places in which wild-west
-memory management happens. You know where this is going\...
+memory management happens. You know where this is going...
