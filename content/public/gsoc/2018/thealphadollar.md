@@ -64,8 +64,8 @@ development and running cycle, respectively.
 
 -   You can see the recordings in [ Google
     Drive](https://www.google.com/drive/) of your linked
-    Google Account. \*\*The logs of the program are uploaded to
-    \"Nephos\_Logs\" folder for Redhen account.\*\*
+    Google Account. **The logs of the program are uploaded to
+    "Nephos\_Logs" folder for Redhen account.**
 
 ##### To Add Channels And Jobs
 
@@ -74,7 +74,7 @@ Config](https://www.github.com/thealphadollar/NephosConfig)
 repository to modify the channels, jobs and share lists that Nephos
 works on.
 
-##### Developer\'s Documentation
+##### Developer's Documentation
 
 Developers can view the documentation that is present for users since it
 is detailed and one needs to read it in order to understand how Nephos

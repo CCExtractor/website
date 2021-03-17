@@ -2,7 +2,7 @@
 
 There main program that can be used to connect to repository server is
 [CCExtractor](https://github.com/CCExtractor/ccextractor).
-You\'ll need to use the following options to specify input stream,
+You'll need to use the following options to specify input stream,
 server address and and some stream information:
 
 ` - Input options:`\
@@ -18,7 +18,7 @@ For example,
 `tail -f stream.ts | ccextractor -stdin -sendto example.com:3030 -tcpdesc "ABC"`
 
 will tell CCExtractor to read from standard input and to send captions
-to example.com at 3030 port with \"ABC\" description. Instead //tail -f
+to example.com at 3030 port with "ABC" description. Instead //tail -f
 stream.ts//, of course, can be any program that output video stream to
 standard output (stdout).
 
@@ -61,7 +61,7 @@ is 3 and scan file is located at //\~/.azap/cahnnels.conf//.
 ` - First, you should tune the tuner to this frequency by callingazap -a 3 -r KOCE There 3 is adapter number and KOCE is one of the channels on this freq.`\
 ` - The you should get a video stream from this channel and send to CCExtractordvbstream -f 129000000 -c 3 -o 8192 | ccextractor -stdin -pn 2 -quiet -sendto example.com:303 -tcpdesc KOCE The first clause will send video stream from 129000000 freq. from adapter #3 to the standart output without filtering (//-o 8192// option). Then CCExtractor will filter program #2 (//-pn 2// option) and send to example.com:3030 server.`
 
-Note that in the guide above we didn\'t filter program using
+Note that in the guide above we didn't filter program using
 //dvbstream//, although it is possible. The reason for this is to show
 basic idea of scripts in //test/streaming// directory. These scripts
 allow you get multiple video streams from a single tuner and send them

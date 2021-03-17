@@ -11,7 +11,7 @@ Shrivastava](https://github.com/saurabhshri) //
 
 {{
 <https://github.com/saurabhshri/ccextractor-web/raw/development/docs/images/usage.gif?900>
-\| Using CCExtractor Web}} \\\\
+| Using CCExtractor Web}} 
 
 ##### Introduction
 
@@ -60,10 +60,10 @@ the code. Find compiling, installing, usage instructions and docs here :
 The project is in its very early stage and is constantly evolving. The
 available functions, usage instructions et cetera are expected to
 refactor over time. Feel free to contribute and improve the project.
-Currently, files could only be uploaded from a user\'s file system. In
+Currently, files could only be uploaded from a user's file system. In
 future, I would like to add the capability to add files from cloud
 storage like Google Drive and add batch processing. Feel free to raise
-any issue in the repository\'s issue tracker :
+any issue in the repository's issue tracker :
 <https://github.com/saurabhshri/ccextractor-web/issues>
 
 ##### Read More

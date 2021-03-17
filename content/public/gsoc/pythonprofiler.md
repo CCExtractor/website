@@ -9,15 +9,15 @@ and then come back here :-)
 #### The Task
 
 We want to build a complete profiler tool. During Google Code-in we
-created several proofs of concept, so we know it\'s possible, and we
-also know that it\'s a really good idea that got popular really fast.
+created several proofs of concept, so we know it's possible, and we
+also know that it's a really good idea that got popular really fast.
 For reference, as you can see in the article linked above, five high
 school students created each their own implementation (by themselves) in
 around one month with really impressive results.
 
-You can take their existing work (it\'s open-source after all) and build
+You can take their existing work (it's open-source after all) and build
 upon it, or you can do your own thing. But of course, your product must
-demonstrate GSoC quality - you\'ll be working full-time for 3 months :-)
+demonstrate GSoC quality - you'll be working full-time for 3 months :-)
 
 #### Ideas
 

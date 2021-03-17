@@ -1,4 +1,4 @@
-# GSoC\'16 Project Documentation
+# GSoC'16 Project Documentation
 
 ##### Commits
 

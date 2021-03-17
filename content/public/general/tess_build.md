@@ -2,7 +2,7 @@
 
  **Warning - the development of the current version of Tesseract
         and cppan is very active, and this tutorial may be obsolete.
-        This documentation is working at 21.12.2016\*\*
+        This documentation is working at 21.12.2016**
 
 Tesseract is an optical character recognition engine for various
 operating systems. This library is currently used in CCExtractor. At the
@@ -77,7 +77,7 @@ Note - if you just add a built libraries to ccextractor.sln without
 updating ccextractor OCR code, there may be errors due to legacy code.
 
 Open tesseract/build/tesseract.sln and explore it. To find out where the
-header files and .lib files, open Properties of \"tesseract\" project.
+header files and .lib files, open Properties of "tesseract" project.
 You must look at C/C++-\>General-\>Additional Include Directories and
 Linker-\>Input-\>Additional Dependencies. DLL files are in
 tesseract/build/bin folder. Copy all files in ccextractor\\windows\\libs

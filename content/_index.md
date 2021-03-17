@@ -33,7 +33,7 @@ To get in touch with us asap, join our slack channel. Most CCExtractor developer
 {{< /column >}}
 
 
-<!-- \~\~META: title = CCExtractor\'s home page \~\~ -->
+<!-- \~\~META: title = CCExtractor's home page \~\~ -->
 
 <!-- 
 #### [Here for Google Summer of Code 2021?](docs/ideas_page_for_summer_of_code_2021)
@@ -96,11 +96,11 @@ Most of these pages are the result of Summer of Code work.
 
 [Subtitle Downloader (technical)](public/gsoc/Subtitle_Extractor_technical_docs)
 
-[DVD Subtitles Technical Documentation GSoC\'16](public/gsoc/DVD_Subtitles_Technical_Documentation_GSoC'16)
+[DVD Subtitles Technical Documentation GSoC'16](public/gsoc/DVD_Subtitles_Technical_Documentation_GSoC'16)
 
-[Python Extension Module Technical Documentation GSoC\'17](public/gsoc/Python_Extension_Module_Technical_Documentation_GSoC'17)
+[Python Extension Module Technical Documentation GSoC'17](public/gsoc/Python_Extension_Module_Technical_Documentation_GSoC'17)
 
-[Python Extension Module Compilation Documentation GSoC\'17](public/gsoc/Python_Extension_Module_Compilation_Documentation_GSoC'17)
+[Python Extension Module Compilation Documentation GSoC'17](public/gsoc/Python_Extension_Module_Compilation_Documentation_GSoC'17)
 
 [Building CCExtractor inside a Vagrant box](public/general/vagrant)
 
@@ -157,7 +157,7 @@ FFmpeg](public/codein/google_code-in_2019/ffmpeg)
 
 #### GSoC Students Project Report
 
- **2019\*\*
+ **2019**
 
 [Amit - Poor Man's Rekognition](public/gsoc/2019/pymit)
 
@@ -165,11 +165,11 @@ FFmpeg](public/codein/google_code-in_2019/ffmpeg)
 
 [Faiz - Poor Man's Rekognition ](public/gsoc/2019/faizkhan)
 
-[Sarfaraz - Poor Man\'s Rekognition](public/gsoc/2019/sziraqui)
+[Sarfaraz - Poor Man's Rekognition](public/gsoc/2019/sziraqui)
 
 [Shivam Kumar Jha - Sample Platform](https://github.com/CCExtractor/sample-platform/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Athealphadollar)
 
- **2018\*\*
+ **2018**
 
 [Archit - FabBits](public/gsoc/2018/achie27)
 
@@ -181,7 +181,7 @@ FFmpeg](public/codein/google_code-in_2019/ffmpeg)
 
 [Satyam Mittal - The sample platform / Continuous integration](public/gsoc/2018/satyam)
 
- **2017\*\*
+ **2017**
 
 [Diptanshu - Python Extension Module (bindings) for CCExtractor](public/gsoc/2017/diptanshu)
 
@@ -189,7 +189,7 @@ FFmpeg](public/codein/google_code-in_2019/ffmpeg)
 
 [Satyam - Sample platform improvements (Windows testing)](public/gsoc/2017/satyam)
 
- **2016\*\*
+ **2016**
 
 [Willem - Sample platform iteration 2](public/gsoc/2016/willem)
 
@@ -205,7 +205,7 @@ FFmpeg](public/codein/google_code-in_2019/ffmpeg)
 
 [Vasanth - Commercial detection](public/gsoc/2016/vasanth)
 
- **2015\*\*
+ **2015**
 
 [Willem - Sample submission platform / CCExtractor improvements](public/gsoc/2015/willem)
 

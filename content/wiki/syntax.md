@@ -4,14 +4,14 @@
 language, which tries to make the datafiles to be as readable as
 possible. This page contains all possible syntax you may use when
 editing the pages. Simply have a look at the source of this page by
-pressing \"Edit this page\". If you want to try something, just use the
+pressing "Edit this page". If you want to try something, just use the
 [playground](playground:playground) page. The simpler markup
 is easily accessible via [quickbuttons](doku>toolbar), too.
 
 ##### Basic Text Formatting
 
-DokuWiki supports \*\*bold\*\*, //italic//, \_\_underlined\_\_ and
-*monospaced* texts. Of course you can \*\*\_\_//*combine*//\_\_\*\* all
+DokuWiki supports **bold**, //italic//, \_\_underlined\_\_ and
+*monospaced* texts. Of course you can **\_\_//*combine*//\_\_** all
 these.
 
 ` DokuWiki supports **bold**, //italic//, __underlined__ and `*`monospaced`*` texts.`\
@@ -25,13 +25,13 @@ You can mark something as ~~deleted~~ as well.
 
 ` You can mark something as `~~`deleted`~~` as well.`
 
- **Paragraphs\*\* are created from blank lines. If you want to
-        \*\*force a newline\*\* without a paragraph, you can use two
+ **Paragraphs** are created from blank lines. If you want to
+        **force a newline** without a paragraph, you can use two
         backslashes followed by a whitespace or the end of line.
 
-This is some text with some linebreaks\\\\ Note that the two backslashes
-are only recognized at the end of a line\\\\ or followed by\\\\ a
-whitespace \\\\this happens without it.
+This is some text with some linebreaks Note that the two backslashes
+are only recognized at the end of a line or followed by a
+whitespace this happens without it.
 
 ` This is some text with some linebreaks\\ Note that the`\
 ` two backslashes are only recognized at the end of a line\\`\
@@ -91,7 +91,7 @@ Notes:
 
 DokuWiki supports [doku\>Interwiki](doku>Interwiki) links.
 These are quick links to other Wikis. For example this is a link to
-Wikipedia\'s page about Wikis: [wp\>Wiki](wp>Wiki).
+Wikipedia's page about Wikis: [wp\>Wiki](wp>Wiki).
 
 ` DokuWiki supports `[`doku>Interwiki`](doku>Interwiki)` links. These are quick links to other Wikis.`\
 ` For example this is a link to Wikipedia's page about Wikis: `[`wp>Wiki`](wp>Wiki)`.`
@@ -109,13 +109,13 @@ Notes:
 ` * For security reasons direct browsing of windows shares only works in Microsoft Internet Explorer per default (and only in the "local zone").`\
 ` * For Mozilla and Firefox it can be enabled through different workaround mentioned in the `[`Mozilla`` ``Knowledge`` ``Base`](http://kb.mozillazine.org/Links_to_local_pages_do_not_work)`. However, there will still be a JavaScript warning about trying to open a Windows Share. To remove this warning (for all users), put the following line in `*`conf/lang/en/lang.php`*` (more details at `[`localization`](doku>localization#changing_some_localized_texts_and_strings_in_your_installation)`): <code - conf/lang/en/lang.php>`
 
-\<?php /\*\*
+\<?php /**
 
 `* Customization of the english language file`\
 `* Copy only the strings that needs to be modified`\
 `*/`
 
-\$lang\[\'js\'\]\[\'nosmblinks\'\] = \'\'; ~~~
+\$lang\['js'\]\['nosmblinks'\] = ''; ~~~
 
 #### Image Links
 
@@ -174,7 +174,7 @@ Real size:
 Resize to given width:
 
 Resize to given width and height((when the aspect ratio of the given
-width and height doesn\'t match that of the image, it will be cropped to
+width and height doesn't match that of the image, it will be cropped to
 the new ratio before resizing)):
 
 Resized external image:          
@@ -197,7 +197,7 @@ By using left or right whitespaces you can choose the alignment.
 Of course, you can add a title (displayed as a tooltip by most
 browsers), too.
 
-{{ wiki:dokuwiki-128.png \|This is the caption}}
+{{ wiki:dokuwiki-128.png |This is the caption}}
 
 ` {{ wiki:dokuwiki-128.png |This is the caption}}`
 
@@ -208,8 +208,8 @@ Links](#Image_Links) above.
 
 DokuWiki can embed the following media formats directly.
 
-\| Image \| *gif*, *jpg*, *png* \| \| Video \| *webm*, *ogv*, *mp4* \|
-\| Audio \| *ogg*, *mp3*, *wav* \| \| Flash \| *swf* \|
+| Image | *gif*, *jpg*, *png* | | Video | *webm*, *ogv*, *mp4* |
+| Audio | *ogg*, *mp3*, *wav* | | Flash | *swf* |
 
 If you specify a filename that is not a supported media format, then it
 will be displayed as a link instead.
@@ -235,7 +235,7 @@ When you upload a *video.webm* and *video.ogv* next to the referenced
 *video.mp4*, DokuWiki will automatically add them as alternatives so
 that one of the three files is understood by your browser.
 
-Additionally DokuWiki supports a \"poster\" image which will be shown
+Additionally DokuWiki supports a "poster" image which will be shown
 before the video has started. That image needs to have the same filename
 as the video and be either a jpg or png file. In the example above a
 *video.jpg* file would work.
@@ -317,7 +317,7 @@ characters to their typographically correct entities. Here is an example
 of recognized characters.
 
 -\> \<- \<-\> =\> \<= \<=\> \>\> \<\< \-- \-\-- 640x480 (c) (tm) (r)
-\"He thought \'It\'s a man\'s world\'\...\"
+"He thought 'It's a man's world'\..."
 
 `-> <- <-> => <= <=> >> << -- --- 640x480 (c) (tm) (r)`
 `"He thought 'It's a man's world'..."`
@@ -326,18 +326,18 @@ The same can be done to produce any kind of HTML, it just needs to be
 added to the [pattern file](doku>entities).
 
 There are three exceptions which do not come from that pattern file:
-multiplication entity (640x480), \'single\' and \"double quotes\". They
+multiplication entity (640x480), 'single' and "double quotes". They
 can be turned off through a [config
 option](doku>config:typography).
 
 ##### Quoting
 
-Some times you want to mark some text to show it\'s a reply or comment.
+Some times you want to mark some text to show it's a reply or comment.
 You can use the following syntax:
 
 <code> I think we should do it
 
-\> No we shouldn\'t
+\> No we shouldn't
 
 \>\> Well, I say we should
 
@@ -349,7 +349,7 @@ You can use the following syntax:
 
 I think we should do it
 
-\> No we shouldn\'t
+\> No we shouldn't
 
 \>\> Well, I say we should
 
@@ -363,11 +363,11 @@ I think we should do it
 
 DokuWiki supports a simple syntax to create tables.
 
-\^ Heading 1 \^ Heading 2 \^ Heading 3 \^ \| Row 1 Col 1 \| Row 1 Col 2
-\| Row 1 Col 3 \| \| Row 2 Col 1 \| some colspan (note the double pipe)
-\|\| \| Row 3 Col 1 \| Row 3 Col 2 \| Row 3 Col 3 \|
+\^ Heading 1 \^ Heading 2 \^ Heading 3 \^ | Row 1 Col 1 | Row 1 Col 2
+| Row 1 Col 3 | | Row 2 Col 1 | some colspan (note the double pipe)
+|| | Row 3 Col 1 | Row 3 Col 2 | Row 3 Col 3 |
 
-Table rows have to start and end with a *\|* for normal rows or a *\^*
+Table rows have to start and end with a *|* for normal rows or a *\^*
 for headers.
 
 ` ^ Heading 1      ^ Heading 2       ^ Heading 3          ^`\
@@ -381,11 +381,11 @@ separators!
 
 Vertical tableheaders are possible, too.
 
-\| \^ Heading 1 \^ Heading 2 \^ \^ Heading 3 \| Row 1 Col 2 \| Row 1 Col
-3 \| \^ Heading 4 \| no colspan this time \| \| \^ Heading 5 \| Row 2
-Col 2 \| Row 2 Col 3 \|
+| \^ Heading 1 \^ Heading 2 \^ \^ Heading 3 | Row 1 Col 2 | Row 1 Col
+3 | \^ Heading 4 | no colspan this time | | \^ Heading 5 | Row 2
+Col 2 | Row 2 Col 3 |
 
-As you can see, it\'s the cell separator before a cell which decides
+As you can see, it's the cell separator before a cell which decides
 about the formatting:
 
 ` |              ^ Heading 1            ^ Heading 2          ^`\
@@ -396,9 +396,9 @@ about the formatting:
 You can have rowspans (vertically connected cells) by adding *%%:::%%*
 into the cells below the one to which they should connect.
 
-\^ Heading 1 \^ Heading 2 \^ Heading 3 \^ \| Row 1 Col 1 \| this cell
-spans vertically \| Row 1 Col 3 \| \| Row 2 Col 1 \| ::: \| Row 2 Col 3
-\| \| Row 3 Col 1 \| ::: \| Row 2 Col 3 \|
+\^ Heading 1 \^ Heading 2 \^ Heading 3 \^ | Row 1 Col 1 | this cell
+spans vertically | Row 1 Col 3 | | Row 2 Col 1 | ::: | Row 2 Col 3
+| | Row 3 Col 1 | ::: | Row 2 Col 3 |
 
 Apart from the rowspan syntax those cells should not contain anything
 else.
@@ -413,8 +413,8 @@ at the opposite end of your text: Add two spaces on the left to align
 right, two spaces on the right to align left and two spaces at least at
 both ends for centered text.
 
-\^ Table with alignment \^\^\^ \| right\| center \|left \| \|left \|
-right\| center \| \| xxxxxxxxxxxx \| xxxxxxxxxxxx \| xxxxxxxxxxxx \|
+\^ Table with alignment \^\^\^ | right| center |left | |left |
+right| center | | xxxxxxxxxxxx | xxxxxxxxxxxx | xxxxxxxxxxxx |
 
 This is how it looks in the source:
 
@@ -428,11 +428,11 @@ Note: Vertical alignment is not supported.
 ##### No Formatting
 
 If you need to display text exactly like it is typed (without any
-formatting), enclose the area either with *%%%%\'\' tags or even
-simpler, with double percent signs \'\'\<nowiki\>%%*.
+formatting), enclose the area either with *%%%%'' tags or even
+simpler, with double percent signs ''\<nowiki\>%%*.
 
 This is some text which contains addresses like this:
-http://www.splitbrain.org and \*\*formatting\*\*, but nothing is done
+http://www.splitbrain.org and **formatting**, but nothing is done
 with it. The same is true for %%//\_\_this\_\_ text// with a smiley
 ;-)%%.
 
@@ -476,7 +476,7 @@ syntax uses the same code and file blocks described in the previous
 section, but this time the name of the language syntax to be highlighted
 is included inside the tag, e.g. *\<code java\>* or *\<file java\>*.
 
-<code java> /\*\*
+<code java> /**
 
 `* The HelloWorldApp class implements an application that`\
 `* simply displays "Hello World!" to the standard output.`\
@@ -530,18 +530,18 @@ this by specifying a file name after language code like this:
 
 `<file php myexample.php>` `<?php echo "hello world!"; ?>` </file>
 
-\<file php myexample.php\> \<?php echo \"hello world!\"; ?\> </file>
+\<file php myexample.php\> \<?php echo "hello world!"; ?\> </file>
 
-If you don\'t want any highlighting but want a downloadable file,
+If you don't want any highlighting but want a downloadable file,
 specify a dash (*-*) as the language code: *%%\<code - myfile.foo\>%%*.
 
 ##### Embedding HTML and PHP
 
 You can embed raw HTML or PHP code into your documents by using the
-\'\'%%
+''%%
 
 <html>
-\%%\'\' or *%%<php>%%* tags. (Use uppercase tags if you need to enclose
+\%%'' or *%%<php>%%* tags. (Use uppercase tags if you need to enclose
 block level elements.)
 
 HTML example:
@@ -568,8 +568,8 @@ And this is some block HTML
 </HTML>
 PHP example:
 
-<code> <php> echo \'The PHP version: \'; echo phpversion(); echo \'
-(generated inline HTML)\'; </php> <PHP> echo \'
+<code> <php> echo 'The PHP version: '; echo phpversion(); echo '
+(generated inline HTML)'; </php> <PHP> echo '
 
 <table class="inline">
 <tr>
@@ -577,20 +577,20 @@ PHP example:
 The same, but inside a block level element:
 
 </td>
-\'; echo \'
+'; echo '
 
 <td>
-\'.phpversion().\'
+'.phpversion().'
 
 </td>
-\'; echo \'
+'; echo '
 
 </tr>
 </table>
-\'; </PHP> ~~~
+'; </PHP> ~~~
 
-<php> echo \'The PHP version: \'; echo phpversion(); echo \' (inline
-HTML)\'; </php> <PHP> echo \'
+<php> echo 'The PHP version: '; echo phpversion(); echo ' (inline
+HTML)'; </php> <PHP> echo '
 
 <table class="inline">
 <tr>
@@ -598,19 +598,19 @@ HTML)\'; </php> <PHP> echo \'
 The same, but inside a block level element:
 
 </td>
-\'; echo \'
+'; echo '
 
 <td>
-\'.phpversion().\'
+'.phpversion().'
 
 </td>
-\'; echo \'
+'; echo '
 
 </tr>
 </table>
-\'; </PHP>
+'; </PHP>
 
- **Please Note\*\*: HTML and PHP embedding is disabled by default
+ **Please Note**: HTML and PHP embedding is disabled by default
         in the configuration. If disabled, the code is displayed instead
         of executed.
 
@@ -623,14 +623,14 @@ understood by SimplePie can be used in DokuWiki as well. You can
 influence the rendering by multiple additional space separated
 parameters:
 
-\^ Parameter \^ Description \^ \| any number \| will be used as maximum
-number items to show, defaults to 8 \| \| reverse \| display the last
-items in the feed first \| \| author \| show item authors names \| \|
-date \| show item dates \| \| description\| show the item description.
+\^ Parameter \^ Description \^ | any number | will be used as maximum
+number items to show, defaults to 8 | | reverse | display the last
+items in the feed first | | author | show item authors names | |
+date | show item dates | | description| show the item description.
 If [HTML](doku>config:htmlok) is disabled all tags will be
-stripped \| \| nosort \| do not sort the items in the feed \| \|
-//n//\[dhm\] \| refresh period, where d=days, h=hours, m=minutes. (e.g.
-12h = 12 hours). \|
+stripped | | nosort | do not sort the items in the feed | |
+//n//\[dhm\] | refresh period, where d=days, h=hours, m=minutes. (e.g.
+12h = 12 hours). |
 
 The refresh period defaults to 4 hours. Any value below 10 minutes will
 be treated as 10 minutes. [wiki:DokuWiki](wiki:DokuWiki) will
@@ -644,7 +644,7 @@ By default the feed will be sorted by date, newest items first. You can
 sort it by oldest first using the *reverse* parameter, or display the
 feed as is with *nosort*.
 
- **Example:\*\*
+ **Example:**
 
 ` `
 
@@ -653,16 +653,16 @@ feed as is with *nosort*.
 Some syntax influences how DokuWiki renders a page without creating any
 output it self. The following control macros are availble:
 
-\^ Macro \^ Description \| \| %%\~\~NOTOC\~\~%% \| If this macro is
-found on the page, no table of contents will be created \| \|
-%%\~\~NOCACHE\~\~%% \| DokuWiki caches all output by default. Sometimes
+\^ Macro \^ Description | | %%\~\~NOTOC\~\~%% | If this macro is
+found on the page, no table of contents will be created | |
+%%\~\~NOCACHE\~\~%% | DokuWiki caches all output by default. Sometimes
 this might not be wanted (eg. when the %%<php>%% syntax above is used),
 adding this macro will force DokuWiki to rerender a page on every call
-\|
+|
 
 ##### Syntax Plugins
 
-DokuWiki\'s syntax can be extended by
+DokuWiki's syntax can be extended by
 [Plugins](doku>plugins). How the installed plugins are used
 is described on their appropriate description pages. The following
 syntax plugins are available in this particular DokuWiki installation:

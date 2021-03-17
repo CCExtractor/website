@@ -37,7 +37,7 @@ E.g.
 In the above example each word from subtitle is tagged with beginning
 and ending timestamps based on audio.
 
-{{ youtube\>38\_27E1PxXA?large }} \\\\
+{{ youtube\>38\_27E1PxXA?large }} 
 
 CCAligner makes use of automatic speech recognition to analyse audio and
 recognise words to perform alignment. The project comprises of both user
@@ -94,7 +94,7 @@ and code reviews.
 
 ` * All my commits to CCExtractor repository : `[`https://github.com/CCExtractor/ccextractor/commits?author=saurabhshri`](https://github.com/CCExtractor/ccextractor/commits?author=saurabhshri)
 
-3\. Improving CCExtractor\'s sample-platform, fixing and reporting
+3\. Improving CCExtractor's sample-platform, fixing and reporting
 issues, and help in PR and code reviews.
 
 ` * All my commits to Sample-Platform repository : `[`https://github.com/canihavesomecoffee/sample-platform/commits?author=saurabhshri`](https://github.com/canihavesomecoffee/sample-platform/commits?author=saurabhshri)
@@ -105,19 +105,19 @@ issues, and help in PR and code reviews.
 
 ` * Karaoke Demo 2 [Ted Talk]  `
 
-\\\\
+
 
 ` * Karaoke Demo 3 [Cartoon Show]  `
 
-\\\\
+
 
 ` * Karaoke Demo 4 [Discussion Video]  `
 
-\\\\
+
 
 ` * Transcription Demo [Reality Show]  `
 
-\\\\
+
 
 ##### Third party libraries and dependencies
 
@@ -150,7 +150,7 @@ refactor over time. Feel free to contribute and improve the project.
 Currently, officially only US English is supported. For other languages
 and accents, a proper trained acoustic model could be supplied and
 experimented with. Text tokenisation within the program needs
-improvement. Feel free to raise any issue in the repository\'s issue
+improvement. Feel free to raise any issue in the repository's issue
 tracker : <https://github.com/saurabhshri/ccaligner/issues>
 
 ##### Read More

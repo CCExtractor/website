@@ -1,7 +1,7 @@
 # Quick Installation Guide
 
 This is a guide for deploying repository on a single instance. For that
-we\'ll use Amazon EC2 Instance with Linux AMI 2015.03. Make sure that
+we'll use Amazon EC2 Instance with Linux AMI 2015.03. Make sure that
 you opened 80, 22 and 3030 TCP ports, they will be used for Web access,
 SSH and to connect tv tuners.
 

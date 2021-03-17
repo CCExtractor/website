@@ -42,7 +42,7 @@ the binary), or take parts of the code. Keep in mind however that
 CCExtractor is GPLv2 so if you take parts or all of the source code your
 code must also be GPLv2.
 
-#### What\'s the point of generating separate files for subtitles, if they are already in the source file?
+#### What's the point of generating separate files for subtitles, if they are already in the source file?
 
 There are several reasons to have subtitles separated from the video file, including:
 
@@ -76,8 +76,8 @@ CCExtractor currently handles:
 
 Usually, if you record a TV show with your capture card and CCExtractor
 produces the expected result, it will work for your all recordings. If
-it doesn\'t, which means that your card uses a format CCExtractor can\'t
-handle, please contact me and we\'ll try to make it work.
+it doesn't, which means that your card uses a format CCExtractor can't
+handle, please contact me and we'll try to make it work.
 
 #### Can I edit the subtitles?
 
@@ -91,21 +91,21 @@ subtitle editing tools - there are many available.
 
 At this time, CCExtractor can generate .srt, .smi and raw and bin files.
 
-#### What\'s a raw file?
+#### What's a raw file?
 
 A raw file is a file that contains an exact dump of the closed captions
 bytes, without any processing. This lets you use any tool of your choice
 to process the data. For example,
-[McPoodle\'s](http://www.theneitherworld.com/mcpoodle/SCC_TOOLS/DOCS/SCC_TOOLS.HTML)
+[McPoodle's](http://www.theneitherworld.com/mcpoodle/SCC_TOOLS/DOCS/SCC_TOOLS.HTML)
 excellent tools can generate subtitles files in several formats, adjust
 timing, etc.
 
-#### What\'s a bin file? How is it different from a raw file?
+#### What's a bin file? How is it different from a raw file?
 
 A bin file contains a dump of the closed captions bytes (same as a raw
 file) but it also includes timing information. This is a format that we
-made up for CCExtractor, i.e. it\'s not any kind of industry standard.
-However, it\'s the most useful (to us) for debugging purposes, so if you
+made up for CCExtractor, i.e. it's not any kind of industry standard.
+However, it's the most useful (to us) for debugging purposes, so if you
 need to send us a sample please use this format. Also, a bin format can
 hold several CC streams (several languages, even from both analog and
 digital). A raw file cannot.
@@ -114,8 +114,8 @@ digital). A raw file cannot.
 
 Obviously, it depends on the computer and the length of the file. In my
 (really old) computer it took around 90 seconds for a 45 minutes show in
-HDTV, with CPU usage around 3% (I/O operations are what\'s holding it
-back). Currently (2018) we\'re processing as many as 20 TV channels in
+HDTV, with CPU usage around 3% (I/O operations are what's holding it
+back). Currently (2018) we're processing as many as 20 TV channels in
 real time using a single computer with a i5 CPU.
 
 #### What platforms does CCExtractor work on?
@@ -127,14 +127,14 @@ source .zip).
 #### Where can I download it?
 
 The source code is hosted on github. Check out our download page for
-links to everything. Old versions were hosted on sourceforge. We\'re
+links to everything. Old versions were hosted on sourceforge. We're
 keeping those there for statistical purposes. This is the [old download page](http://sourceforge.net/project/showfiles.php?group_id=190832)
 and this is the [old project summary page](http://sourceforge.net/projects/ccextractor/).
 
 #### How I can contact the author?
 
-There\'s no longer one author. Carlos is still the official maintainer
-but there\'s a lot of people contributing to the project. Best thing is
+There's no longer one author. Carlos is still the official maintainer
+but there's a lot of people contributing to the project. Best thing is
 to check out our support page.
 
 #### How do I use this tool (parameters, etc)?
@@ -145,7 +145,7 @@ just give it the input file name, like this:
 ```ccextractor the.sopranos.ts```
 
 As for the lack of documentation: There is no lack of documentation!
-It\'s just included in the program itself. Just run it without
+It's just included in the program itself. Just run it without
 parameters and you will get complete details.
 
 #### How can I contribute to this project?
@@ -158,11 +158,11 @@ There are several ways:
 
 #### Does CCExtractor use code from other projects?
 
-Yes. Lots of code came originally from McPoodle\'s tools (even though it
-was ported from Perl to C). We\'ve also taken code from MythTV (which in
+Yes. Lots of code came originally from McPoodle's tools (even though it
+was ported from Perl to C). We've also taken code from MythTV (which in
 turn took some from other places) and FFmpeg. The teletext code is 95%
-Petr Kutalek\'s and was integrated with permission.
+Petr Kutalek's and was integrated with permission.
 
-A good thing about Open Source is that you don\'t need to reinvent the
+A good thing about Open Source is that you don't need to reinvent the
 wheel unless you want to (or unless you think you can come up with a
-\'rounder\' wheel).
+'rounder' wheel).

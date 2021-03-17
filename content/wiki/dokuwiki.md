@@ -2,9 +2,9 @@
 
 [](doku>wiki:dokuwiki) DokuWiki is a simple to use and highly
 versatile Open Source [wp\>wiki](wp>wiki) software that
-doesn\'t require a database. It is loved by users for its clean and
+doesn't require a database. It is loved by users for its clean and
 readable [wiki:syntax](wiki:syntax). The ease of maintenance,
-backup and integration makes it an administrator\'s favorite. Built in
+backup and integration makes it an administrator's favorite. Built in
 [access controls](doku>acl) and [authentication
 connectors](doku>auth) make DokuWiki especially useful in the
 enterprise context and the large number of
@@ -25,7 +25,7 @@ All documentation and additional information besides the [syntax
 description](syntax) is maintained in the DokuWiki at
 [www.dokuwiki.org](doku>).
 
- **About DokuWiki\*\*
+ **About DokuWiki**
 
 ` * `[`A`` ``feature`` ``list`](doku>features)` :!:`\
 ` * `[`Happy`` ``Users`](doku>users)\
@@ -33,7 +33,7 @@ description](syntax) is maintained in the DokuWiki at
 ` * `[`What`` ``Bloggers`` ``think`](doku>blogroll)\
 ` * `[`Compare`` ``it`` ``with`` ``other`` ``wiki`` ``software`](https://www.wikimatrix.org/show/DokuWiki)
 
- **Installing DokuWiki\*\*
+ **Installing DokuWiki**
 
 ` * `[`System`` ``Requirements`](doku>requirements)\
 ` * `[`Download`` ``DokuWiki`](https://download.dokuwiki.org/)` :!:`\
@@ -41,21 +41,21 @@ description](syntax) is maintained in the DokuWiki at
 ` * `[`How`` ``to`` ``install`` ``or`` ``upgrade`](doku>Install)` :!:`\
 ` * `[`Configuration`](doku>config)
 
- **Using DokuWiki\*\*
+ **Using DokuWiki**
 
 ` * `[`Wiki`` ``Syntax`](doku>syntax)\
 ` * `[`The`` ``manual`](doku>manual)` :!:`\
 ` * `[`Frequently`` ``Asked`` ``Questions`` ``(FAQ)`](doku>FAQ)\
 ` * `[`Glossary`](doku>glossary)
 
- **Customizing DokuWiki\*\*
+ **Customizing DokuWiki**
 
 ` * `[`Tips`` ``and`` ``Tricks`](doku>tips)\
 ` * `[`How`` ``to`` ``create`` ``and`` ``use`` ``templates`](doku>Template)\
 ` * `[`Installing`` ``plugins`](doku>plugins)\
 ` * `[`Development`` ``Resources`](doku>development)
 
- **DokuWiki Feedback and Community\*\*
+ **DokuWiki Feedback and Community**
 
 ` * `[`Subscribe`` ``to`` ``the`` ``newsletter`](doku>newsletter)` :!:`\
 ` * `[`Join`` ``the`` ``mailing`` ``list`](doku>mailinglist)\

@@ -8,7 +8,7 @@ and organisations alike require some specific part of this contextual
 information for their needs; maybe for creating a highlights reel of a
 sports match or mining data from movies for their machine learning
 models. This makes parts of certain types of videos very useful. FabBits
-tries to automate finding them. \\\\ Following are the things it will be
+tries to automate finding them.  Following are the things it will be
 able to detect -
 
 ` * Action sequences in movies/shows - ✅\\`\
@@ -24,27 +24,27 @@ able to detect -
 
 Project repo -
 [github.com/achie27/FabBits](https://github.com/achie27/FabBits)
-\\\\ Blog posts - [
-medium.com/\@achie27](http://www.medium.com/@achie27) \\\\
+ Blog posts - [
+medium.com/\@achie27](http://www.medium.com/@achie27) 
 Samples - [ Drive
 folder](https://drive.google.com/drive/folders/1lsrLW0c7Pq4FYpWZjrCqKs3RFTwL-1ub)
 
 ##### Requirements
 
-You need the following things to run FabBits-\\\\ 1. [
-Python3](https://www.python.org/download/releases/3.0/) \\\\
+You need the following things to run FabBits- 1. [
+Python3](https://www.python.org/download/releases/3.0/) 
 2. [ OpenCV ](https://opencv.org)- Used for image and video
-processing \\\\ 3. [ Moviepy
+processing  3. [ Moviepy
 ](https://zulko.github.io/moviepy/) - Used for video editing
-and audio processing \\\\ 4. [ PyQt5
+and audio processing  4. [ PyQt5
 ](https://www.riverbankcomputing.com/software/pyqt/intro) -
-Used to make the GUI \\\\ 5. [ Scipy ](https://scipy.org) -
-Used for audio processing \\\\ 6. [
+Used to make the GUI  5. [ Scipy ](https://scipy.org) -
+Used for audio processing  6. [
 Tesserocr](https://github.com/sirfz/tesserocr) - Used for,
-well, OCR \\\\ 7. [ Pillow
+well, OCR  7. [ Pillow
 ](https://pillow.readthedocs.io/en/latest/) - Used to
-preprocess images for OCR \\\\ The python dependencies can be installed
-by running - \\\\
+preprocess images for OCR  The python dependencies can be installed
+by running - 
 
 ` pip3 install scipy`\
 ` pip3 install opencv-python `\
@@ -84,5 +84,5 @@ like - `python3 goal_detector.py soccer_match.mp4`
 
 ##### References
 
-All the references can be found listed in the repository\'s
+All the references can be found listed in the repository's
 [readme](https://github.com/achie27/FabBits#readme).

@@ -29,8 +29,8 @@ The first half of the summer went as planned but then some problems
 arouse. The first version used Google Datastore and App Engine. Turned
 out hosting it cost \$300 per two week which was very expensive. So we
 decided to use Amazon AWS. I changed the code for their services and
-then I wasted a lot of time trying to deploy it, but I couldn\'t and I
-still don\'t know why (although I used it in the previous year). Then I
+then I wasted a lot of time trying to deploy it, but I couldn't and I
+still don't know why (although I used it in the previous year). Then I
 switched to Google Container Engine, it worked, but my app used a lot of
 CPU %, so I had to redesign it again and reconsider a lot of decisions
 (in panic). Because of this the following features were not done:

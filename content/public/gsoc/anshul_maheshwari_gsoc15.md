@@ -131,7 +131,7 @@ dec\_ctx1, &lctx-\>dec\_ctx\_head, list, struct lib\_cc\_decode) {
 
 ##### How to evaluate?
 
-Clone my repository from git hub in \*\*any\*\* directory of gsoc server
+Clone my repository from git hub in **any** directory of gsoc server
 `git clone --depth `[`https://github.com/anshul1912/ccextractor.git`](https://github.com/anshul1912/ccextractor.git)
 
 Run CCextractor with multiprogram in argument

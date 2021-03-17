@@ -1,7 +1,7 @@
-This seems interesting. Here\'s the original request email:
+This seems interesting. Here's the original request email:
 
 Does CCExtractor have support for extracting captions contained in the
-VAUX area on DV streams, and I just can\'t figure out how to use it?
+VAUX area on DV streams, and I just can't figure out how to use it?
 
 If not, are there any plans to integrate this into CCExtractor? It seems
 to me that the only software available to do this is MacCaption, which
@@ -12,7 +12,7 @@ Here are some links to specifications I have run across:
 <http://ffmpeg.sourcearchive.com/documentation/0.6/dvdata_8h-source.html>
 
 This page contains links to two DV-stream-containing files that
-supposedly contain captions in their streams, meant for testing one\'s
+supposedly contain captions in their streams, meant for testing one's
 equipment chain: <http://www.cpcweb.com/dv/dv-hardware.htm>
 <http://www.cpcweb.com/samples/CPCDemo_DV_720x480_CC.mov>
 <http://www.cpcweb.com/samples/CPCDemo_DV_720x480_CC.avi>
@@ -30,6 +30,6 @@ Line 21 at the cost of quality and edit-ability:
 
 If one wants to transcribe an NTSC source with captions and already owns
 a good analog source (LaserDisc, SVHS) and DV-based digitizer, it would
-be nice to have this capability in CCExtractor\'s arsenal of features.
+be nice to have this capability in CCExtractor's arsenal of features.
 
 Thanks for your time and consideration.

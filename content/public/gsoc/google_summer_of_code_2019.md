@@ -13,7 +13,7 @@ Archives](https://summerofcode.withgoogle.com/archive/search/?q=CCExtractor),
 
 ------------------------------------------------------------------------
 
-{{ :public/gsoc/gsoc-cc.png?nolink \|}}
+{{ :public/gsoc/gsoc-cc.png?nolink |}}
 
 <text size="18px" align="justify"> CCExtractor Development has been
 accepted to Google Summer of Code each year, ever since we applied for
@@ -22,8 +22,8 @@ Continuing with open source spirit, we are actively applying to Google
 Summer of Code 2019 to work with potential new community members!
 </text>
 
-<text size="18px" align="justify"> If you\'re coming across Google
-summer of Code, which we\'ll call GSoC from now, for the first time \--
+<text size="18px" align="justify"> If you're coming across Google
+summer of Code, which we'll call GSoC from now, for the first time \--
 it is a global program where students work with an open source
 organization on a 3 month programming project during their break from
 school. Google awards stipends (and other good stuff) to students for
@@ -38,16 +38,16 @@ mutual learning and growing program for both students and mentors.
 #### Who are we?
 
 <text size="18px" align="justify"> CCExtractor is originally an
-organization about subtitles and accessibility (our \"official\"
-description below). However, we\'re doing lots of other things that are
+organization about subtitles and accessibility (our "official"
+description below). However, we're doing lots of other things that are
 related, including tinkering with open video hardware (JokerTV), imaging
 (OCR), and more. So we have projects that cover a range of interests,
 despite our core tool being the most amazing subtitle extractor. </text>
 
 <text size="18px" align="justify"> And now, the official description:
-Whether it\'s because you are learning a new language, have hearing
+Whether it's because you are learning a new language, have hearing
 problems or just at a loud place, subtitles are an essential part of
-enjoying TV and movies for a a lot of people. There\'s plenty of tools
+enjoying TV and movies for a a lot of people. There's plenty of tools
 to manage audio/video, but when it comes to subtitles, the few tools
 that exist are closed source and extremely expensive. CCExtractor is the
 one tool that is free, portable, open source and community managed that
@@ -69,8 +69,8 @@ on closed captions (surely explains better than us why there are so
 useful) </text>
 
 <text size="18px" align="justify"> We are a small org, which means that
-your contribution will have a large impact. It\'s not going to mean a
-0.5% improvement on a big project - it\'s going to be more than 10% on a
+your contribution will have a large impact. It's not going to mean a
+0.5% improvement on a big project - it's going to be more than 10% on a
 medium size one. If you like challenges and want a chance to shine this
 is your place. </text>
 
@@ -82,8 +82,8 @@ the sister program GCI. As mentors, they also come to the Summer of Code
 summit which traditionally takes place in October. </text>
 
 <text size="18px" align="justify"> We provide exceptional resources for
-students - we\'ll give access to a high speed servers, all our samples
-(we\'ll even ship a portable drive with them anywhere in the world, if
+students - we'll give access to a high speed servers, all our samples
+(we'll even ship a portable drive with them anywhere in the world, if
 you have slow connections), specifications et cetera. Students have
 flexibility of choosing projects from a wide range of topics &
 technologies and even propose their own. </text>
@@ -100,9 +100,9 @@ on our slack group! </text>
 
 <text size="18px" align="justify">
 
- **We have a dedicated page for covering this year\'s projects,
+ **We have a dedicated page for covering this year's projects,
         check it out
-        [here](public/gsoc/ideas_page_for_summer_of_code_2019).\*\*
+        [here](public/gsoc/ideas_page_for_summer_of_code_2019).**
         It also contains proposal guidelines and other information you
         need to know before applying. If you have any suggestions or you
         want to propose your own project - please reach out to us in the
@@ -120,9 +120,9 @@ find here
 [here](https://ccextractor.org/#gsoc_students_project_report).
 </text>
 
-#### Can\'t access slack?
+#### Can't access slack?
 
 <text size="18px" align="justify"> Apparently Russia has blocked slack.
 If this is your case please email us (gsoc at ccextractor dot org) and
-we\'ll work out a solution with you. We really want you to participate!
+we'll work out a solution with you. We really want you to participate!
 </text>

@@ -1,6 +1,6 @@
 # Server Application Architecture
 
-After installation, you\'ll have the following files in your file
+After installation, you'll have the following files in your file
 system:
 
 ` * /usr/bin/ccr -- Server application executable`\

@@ -1,13 +1,13 @@
 ### Slack
 
 Slack is a great communication tool. Most CCExtractor developers hang
-out in a slack team. You\'re welcome to request an invitation here:
+out in a slack team. You're welcome to request an invitation here:
 TODO
 
 ### Technical issues
 
 By far the best way to get report issues is by opening a ticket at
-[GitHub\'s issue
+[GitHub's issue
 tracker](https://github.com/CCExtractor/ccextractor/issues).
 
 When creating a ticket:
@@ -32,5 +32,5 @@ Slack.
 
 ### Email
 
-If you need to use email, you can reach the organisation\'s admin on the
+If you need to use email, you can reach the organisation's admin on the
 next email address: ```carlos@ccextractor.org```

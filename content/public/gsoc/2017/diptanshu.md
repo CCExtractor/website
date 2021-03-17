@@ -23,7 +23,7 @@ expected to be silent, i.e. not outputting any STDOUT information.
 
 The module was needed to be silent in terms of all the output generated
 by CCExtractor. The output files were to be generated via Python and not
-via CCExtractor as the module\'s prime duty was to extract the captions
+via CCExtractor as the module's prime duty was to extract the captions
 in CCExtractor and parse the extracted captions to Python for
 processing.
 
@@ -112,11 +112,11 @@ contains relevant information.
 
 ##### Contributions \[PRs/Commits\]
 
-All the \*\*commits made by me to the CCExtractor repository\*\* could
+All the **commits made by me to the CCExtractor repository** could
 be found
 [here](https://github.com/CCExtractor/ccextractor/commits/master?author=Diptanshu8).
 
-All the \*\*pull requests by me to the CCExtractor repository\*\* could
+All the **pull requests by me to the CCExtractor repository** could
 be found
 [here](https://github.com/CCExtractor/ccextractor/pulls?q=is%3Apr+author%3ADiptanshu8+is%3Aclosed).
 

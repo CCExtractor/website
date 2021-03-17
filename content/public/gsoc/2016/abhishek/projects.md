@@ -7,11 +7,11 @@
 ##### Details
 
 All the technical details are commented in the codes and the
-documentation is available in the Readme\'s of their directories. The
+documentation is available in the Readme's of their directories. The
 variables, classes and other components of the code are named properly
-in Camel Case for easier understanding of the code. \\\\ \\\\
+in Camel Case for easier understanding of the code.  
 
- **Repositories:\*\*
+ **Repositories:**
 
 ` * `[`https://github.com/abhishek-vinjamoori/SubtitleExtractor`](https://github.com/abhishek-vinjamoori/SubtitleExtractor)` - Subtitle Extractor`
 
@@ -36,17 +36,17 @@ The project deals with downloading of subtitles from popular online TV
 Services like Netflix, BBC,Hulu. The project aims to perform this task
 without the need for the user to interact with the browser. The process
 is automated completely. The user just needs to input the URL of the
-video and the application will download the subtitles.\\\\ For services
+video and the application will download the subtitles. For services
 like YouTube, CrunchyRoll which have subtitles in multiple languages,
-the user gets an option to choose the preferred language. \\\\ For
+the user gets an option to choose the preferred language.  For
 Netflix, Amazon the user needs to have a valid login and subscription to
-the videos, only then the subtitles will be downloaded. \\\\
+the videos, only then the subtitles will be downloaded. 
 
 The whole application was written from scratch. It was coded in Python 3
 and it uses a few external libraries like BeautifulSoup, selenium for
 Python.
 
-The commits to this project repository can be found in the link - \\\\
+The commits to this project repository can be found in the link - 
 
 [ Subtitle Extractor
 Commits](https://github.com/abhishek-vinjamoori/SubtitleExtractor/commits/master)
@@ -74,6 +74,6 @@ bugs and features for CCExtractor:
 ` *`[`https://github.com/CCExtractor/ccextractor/pull/351`](https://github.com/CCExtractor/ccextractor/pull/351)` \\`\
 ` *`[`https://github.com/CCExtractor/ccextractor/pull/329`](https://github.com/CCExtractor/ccextractor/pull/329)` \\`
 
-The detailed list of commits can be found here on this page - \\\\ [ My
+The detailed list of commits can be found here on this page -  [ My
 commits to the main
 repository](https://github.com/abhishek-vinjamoori/ccextractor/commits/master?author=abhishek-vinjamoori)

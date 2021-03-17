@@ -9,8 +9,8 @@ The repositories are located here:
 
 <https://github.com/canihavesomecoffee/ccx_testsuite> (Project from GSoC
 2014, not that much changes this year, except for some fixes and
-improvements)\\\\ <https://github.com/canihavesomecoffee/ccx_gitbot>\\\\
-<https://github.com/canihavesomecoffee/ccx_submissionplatform>\\\\
+improvements) <https://github.com/canihavesomecoffee/ccx_gitbot>
+<https://github.com/canihavesomecoffee/ccx_submissionplatform>
 
 ##### How to use?
 
@@ -18,13 +18,13 @@ improvements)\\\\ <https://github.com/canihavesomecoffee/ccx_gitbot>\\\\
 
 No changes from last year, still as described in the first section of
 [CCExtractor regresssion testing / GitHub
-bot](gsocpublic/ccextractor_regression_testing).\\\\
+bot](gsocpublic/ccextractor_regression_testing).
 
 #### GitHub bot
 
 Refer to the bot section in the [CCExtractor regresssion testing /
 GitHub bot](gsocpublic/ccextractor_regression_testing)
-page.\\\\
+page.
 
 #### Submission platform
 
@@ -32,24 +32,24 @@ To view samples, test results and download samples there is no need for
 an account. To upload samples, registration is required. Samples (\<1GB)
 can be uploaded through HTTP; FTP allows all sizes. Special care has
 been taken to keep all samples anonymous (except to the user itself and
-the admin), and if required, a user can anonymize his/her account.\\\\
+the admin), and if required, a user can anonymize his/her account.
 
 ##### How to evaluate?
 
 The bot can be evaluated (user-side) by issuing commands to it on GitHub
 (see [CCExtractor regresssion testing / GitHub
 bot](gsocpublic/ccextractor_regression_testing) for
-instructions). It\'s been used already by Anshul, Kisselef and Ruslan
-for the last PR they made.\\\\
+instructions). It's been used already by Anshul, Kisselef and Ruslan
+for the last PR they made.
 
 The sample submission platform can be tested (user-side) by either
 browsing around on the site and/or creating an account (the latter is
 required to upload samples). At this moment, a limited section of
 regression samples was already added, and this will be expanded very
-soon.\\\\
+soon.
 
 To test the admin parts of both the bot & the sample platform I refer to
-the mail I wrote to Carlos.\\\\
+the mail I wrote to Carlos.
 
 ##### Contribution for blog
 

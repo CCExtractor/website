@@ -47,7 +47,7 @@ config file in the \*Configuration\* section.
 Search for files with *<name>* and/or tags *<tag1> <tag2> \...*. The
 and/or part will be decided by the *do\_and* parameter. If specified,
 all parameters (name, tags) will be joined by an AND i.e it will search
-for \*\*\"<name> AND <tag1> AND <tag2> \...\"\*\* If not, ANDs will be
+for **"<name> AND <tag1> AND <tag2> \..."** If not, ANDs will be
 replaced by ORs.
 
 Atleast one of *\--name* and *\--tags* is required.
@@ -79,7 +79,7 @@ to the command.
 Note, The tags provided follow the OR semantics. i.e. in the above
 example, every file with the tag //tag1//
 
- **OR\*\* //tag2// will be shared.
+ **OR** //tag2// will be shared.
 
 To view all permissions,
 
@@ -113,21 +113,21 @@ Specify when to download other post download options.
 ` nephos job add --name `<jobname>` --channel `<channel>` --start `<starttime>` --duration `<length>` \`\
 `                --upload --convert_to `<format>` --tag `<tag1>` `<tag2>
 
-Following are mandatory arguments:\\\\ *\--name* is the name of the job.
-This should be unique for each job.\\\\ *\--channel* is the name of the
+Following are mandatory arguments: *\--name* is the name of the job.
+This should be unique for each job. *\--channel* is the name of the
 associated channel. This channel should have already been added by the
-*channel add* subcommand.\\\\ *\--start* is the start time of the job
+*channel add* subcommand. *\--start* is the start time of the job
 written in the popular cron format. For more info on the format go
 [here](http://www.nncron.ru/help/EN/working/cron-format.htm).
-This was used as an reference.\\\\ *\--duration* is how long you want to
-record. This is provided in minutes.\\\\
+This was used as an reference. *\--duration* is how long you want to
+record. This is provided in minutes.
 
-Rest are optional arguments:\\\\ *\--upload* instructs nephos to upload
+Rest are optional arguments: *\--upload* instructs nephos to upload
 the file to Google Drive. This will most likely be the default case in
-the future versions. In such a case, this option will be removed.\\\\
+the future versions. In such a case, this option will be removed.
 *\--convert\_to* makes so that the downloaded file is converted to the
-provided format before being uploaded.\\\\ *\--tag* tags the uploaded
-file with the provided tags.\\\\
+provided format before being uploaded. *\--tag* tags the uploaded
+file with the provided tags.
 
 Note that *\--tag* is dependent providing the *\--upload* option. If it
 not provided *\--tag* is a NOOP.
@@ -145,7 +145,7 @@ syntax to add a job:
 ` nephos job add --name `<jobname>` --program_tags `<tag1>` `<tag2>` .. \`\
 `              --upload --convert_to `<format>` --tag `<tag1>` `<tag2>
 
-This will find all programs with \*\*any\*\* of the provided tags and
+This will find all programs with **any** of the provided tags and
 add them as jobs.
 
 ### Initialise Server
@@ -170,5 +170,5 @@ contains more information about the internals of the project.
 There is still a lot of stuff that can be improved here. Have a look at
 the
 [issues](https://github.com/AadityaNair/ProjectNephos/issues)
-to know what can be done and don\'t hesitate to create a new one if you
+to know what can be done and don't hesitate to create a new one if you
 find something new.

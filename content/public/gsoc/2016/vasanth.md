@@ -42,7 +42,7 @@ commercials on an unknown stream of video, we obtain the audio for the
 given video file. We scan through the audio to detect matching
 fingerprints in the database. We store these matched segments as
 commercials in the output and the undetected segments as
-\"Unclassified\". A sample output from the system is as below.
+"Unclassified". A sample output from the system is as below.
 
 `   00:01:39 - 00:02:09 = ad by honda`\
 `   00:02:09 - 00:02:16 = ad by eye witness news`\
@@ -72,8 +72,8 @@ command.
 `   python main.py -g labels.txt video.mpg`
 
 Where labels.txt should contain the location and the content of the
-commercials in video.mpg. The program updates the database \*\*only
-if\*\* a commercial having the \*\*same name is not\*\* already present
+commercials in video.mpg. The program updates the database **only
+if** a commercial having the **same name is not** already present
 in the database.
 
 This part of the program, requires the directories data/, data/audio and
@@ -83,15 +83,15 @@ purpose, stored in data/audio. The files are created in serial order of
 the commercials found.
 
 Another file called commercial.csv is also created. This file contains a
-visual view of the database in excel form. It is best to \*\*not
-edit\*\* this file, since the creation of the output file by the system
+visual view of the database in excel form. It is best to **not
+edit** this file, since the creation of the output file by the system
 relies on the order of the contents in this file.
 
  **Note:When running generate for the first time, see to that there
         is no file called commercials.csv, the tables songs and
         fingerprints in dejavu detabase are empty and in db/audio and
-        db/video, there is only file \".temp\". If all of these
-        conditions are not met, then it leads to errors\*\*
+        db/video, there is only file ".temp". If all of these
+        conditions are not met, then it leads to errors**
 
 ##### Detection of commercials
 
@@ -130,17 +130,17 @@ OUTPUT in constants.py.
 
 To start the web interface, we have to run gunicorn as a daemon, this is
 done in start\_server.sh present in src/web. Run the shell script as
-follows \*\*in src/web\*\*:
+follows **in src/web**:
 
 `   chmod +x start_server.sh`\
 `   ./start_server.sh`
 
 This makes gunicorn, run on port 127.0.0.1:8000.
 
-In the web interface, there is are seek and edit buttons. \"seek\" seeks
+In the web interface, there is are seek and edit buttons. "seek" seeks
 the video to the required starting point of the block and edit allows
 the user to edit the tag given to that block. Once done tagging the
-content, one may chose to click on \"Save changes\". This saves the
+content, one may chose to click on "Save changes". This saves the
 changes made and stores it in output.txt. After the changes have been
 saved, to make the update in the database, run the following command.
 
@@ -149,10 +149,10 @@ saved, to make the update in the database, run the following command.
 This concludes all the features of the system.
 
 When tagging unclassified content, if it is a commercial, it should
-start with \"ad\", this helps the system detect it is a commercial so
+start with "ad", this helps the system detect it is a commercial so
 that it can fingerprint it in the database.
 
- **Note:\*\*The ads currently present in the database at any time
+ **Note:**The ads currently present in the database at any time
         can be viewed by navigating to the folder db/video.
 
 #### Common unnoticeable bugs
@@ -189,7 +189,7 @@ to the current interface for tagging content in Red Hen Labs.
 The figure below, shows the first screen when the interface is opened.
 
 We can go to each of the labels and edit in place, changes will be made
-immediately through AJAX. \'+\' button is used to split a label into two
+immediately through AJAX. '+' button is used to split a label into two
 parts. When we click on that button, we get an image, that looks similar
 to this.
 
@@ -247,7 +247,7 @@ Once this is done, we restart the server.
 
  **Note:The above config file cannot be copied as is, the paths
         have to be specified. It is best to keep CommercialDetection in
-        /var/www/ where it is accessible to nginx.\*\*
+        /var/www/ where it is accessible to nginx.**
 
 # Evaluating the system
 

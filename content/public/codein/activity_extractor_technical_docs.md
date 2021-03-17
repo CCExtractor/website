@@ -1,248 +1,252 @@
-# Activity Extractor Technical Documentation
+---
+title: "Activity Extractor Technical Documentation"
+---
 
 This page contains how the service modules were coded and also how to
 add support for a new service.
 
-##### Module Information
+### Module Information
 
-#### ActivityExtractor.py
+##### ActivityExtractor.py
 
 This module is responsible for processing the parameters passed through
 the command line and calling the appropriate streaming service.
 
 It passes the streaming service a dictionary containing credentials
-required to complete the process\\\\ The dictionary is formatted like
+required to complete the process The dictionary is formatted like
 this:
+```
+ parameters = {
+   'url': self.url,
+   'email': self.email,
+   'password': self.password,
+   'user': self.user
+ }
+ ```    
 
-` parameters = {`\
-`   'url': self.url,`\
-`   'email': self.email,`\
-`   'password': self.password,`\
-`   'user': self.user`\
-` }`\
-` `
+url: The url the driver initially navigates to. email: The email
+required to log into the service. password: The password associated
+with the email. user: **(Only required for Netflix)** The profile
+name the user wishes to retrieve viewing activity from.
 
-url: The url the driver initially navigates to.\\\\ email: The email
-required to log into the service.\\\\ password: The password associated
-with the email.\\\\ user: //(Only required for Netflix)// The profile
-name the user wishes to retrieve viewing activity from.\\\\
-
-#### common.py
+##### common.py
 
 Contains modules common to all services.
 
-\> output\_activity(SERVICE, activity\_list)
+`output_activity(SERVICE, activity_list)`
 --------------------------------------------
 
-Module to output activity into a .txt file.\\\\ \\\\ Accepts 2
-parameters \'SERVICE\' and \'activity\_list\':\\\\ SERVICE: Name of the
-service calling the function.\\\\ activity\_list: List of viewing
-activity extracted from the streaming service.\\\\
+Module to output activity into a .txt file.  Accepts 2
+parameters 'SERVICE' and 'activity_list': SERVICE: Name of the
+service calling the function. activity_list: List of viewing
+activity extracted from the streaming service.
 
-#### hulu.py
+##### hulu.py
 
 Gets viewing activity from Hulu.
 
-\> get\_activity()
+` get_activity()`
 ------------------
 
-Called from the Main Module. It\'s main purpose is to initialize the
-process and call login\_hulu()
+Called from the Main Module. It's main purpose is to initialize the
+process and call login_hulu()
 
-\> login\_hulu()
+` login_hulu()`
 ----------------
 
 First this function creates an instance of Chrome and passes potential
-arguments to the driver.\\\\ It then navigates to www.hulu.com and logs
-in with the user credentials. Then calls navigate\_site()
+arguments to the driver. It then navigates to www.hulu.com and logs
+in with the user credentials. Then calls navigate_site()
 
-\> navigate\_site()
+` navigate_site()`
 -------------------
 
-The main purpose of this function is to navigate to the \'History\' page
+The main purpose of this function is to navigate to the 'History' page
 on Hulu.
 
-\> navigate\_pages()
+`navigate_pages()`
 --------------------
 
-Depending on the length of the user\'s viewing history there may be
-multiple pages of viewing history.\\\\ This function calls
-get\_page\_activity() for every page of viewing history. Then calls
-common.output\_activity().\\\\
+Depending on the length of the user's viewing history there may be
+multiple pages of viewing history. This function calls
+get_page_activity() for every page of viewing history. Then calls
+common.output_activity().
 
-\> get\_page\_activity()
+`get_page_activity()`
 ------------------------
 
 Gets all the viewing activity on the current viewing history page. Also
-displays a progress bar to the user.\\\\
+displays a progress bar to the user.
 
 #### amazon.py
 
 Gets viewing activity from Amazon.
 
-\> get\_activity()
+`get_activity()`
 ------------------
 
-Called from the Main Module. It\'s main purpose is to initialize the
-process and call login\_amazon()
+Called from the Main Module. It's main purpose is to initialize the
+process and call login_amazon()
 
-\> login\_amazon()
+`login_amazon()`
 ------------------
 
 First this function creates an instance of Chrome and passes potential
-arguments to the driver.\\\\ It then navigates to
+arguments to the driver. It then navigates to
 <https://www.amazon.com/gp/sign-in.html> and logs in with the user
 credentials. It then navigates to the viewing history page by passing a
-url to the driver. Calls navigate\_pages()
+url to the driver. Calls navigate_pages()
 
-\> navigate\_pages()
+`navigate_pages()`
 --------------------
 
-Depending on the length of the user\'s viewing history there may be
-multiple pages of viewing history.\\\\ This function calls
-get\_page\_activity() for every page of viewing history. Then calls
-common.output\_activity().\\\\
+Depending on the length of the user's viewing history there may be
+multiple pages of viewing history. This function calls
+get_page_activity() for every page of viewing history. Then calls
+common.output_activity().
 
-\> get\_page\_activity()
+`get_page_activity()`
 ------------------------
 
-Gets all the viewing activity on the current viewing history page.\\\\
+Gets all the viewing activity on the current viewing history page.
 
 #### netflix.py
 
 Gets viewing activity from Netflix.
 
-\> get\_activity()
+`get_activity()`
 ------------------
 
-Called from the Main Module. It\'s main purpose is to initialize the
-process and call login\_netflix()
+Called from the Main Module. It's main purpose is to initialize the
+process and call login_netflix()
 
-\> login\_amazon()
+`login_amazon()`
 ------------------
 
 First this function creates an instance of Chrome and passes potential
-arguments to the driver.\\\\ It then navigates to
+arguments to the driver. It then navigates to
 <https://www.netflix.com/Login> and logs in with the user credentials.
-It then calls get\_active\_profile()
+It then calls get_active_profile()
 
-\> get\_active\_profile()
+`get_active_profile()`
 -------------------------
 
 Selects user profile based on profile name present in
-parameters\[\'user\'\]. Calls navigate\_site()
+parameters['user']. Calls navigate_site()
 
-\> navigate\_site()
+`navigate_site()`
 -------------------
 
-Calls hover\_click() then clicks the \'Viewing Activity\' link once
-hover\_click() has navigated to the user\'s account page. Then calls
-scroll\_to\_bottom()
+Calls hover_click() then clicks the 'Viewing Activity' link once
+hover_click() has navigated to the user's account page. Then calls
+scroll_to_bottom()
 
-\> hover\_click()
+`hover_click()`
 -----------------
 
 Hovers on the profile icon in the top right corner of the Netflix
-homepage. Then clicks on \'Your Account\' on the dropdown menu that
+homepage. Then clicks on 'Your Account' on the dropdown menu that
 appears. Returns True or False depending on whether the process was
 successful.
 
-\> scroll\_to\_bottom()
+`scroll_to_bottom()`
 -----------------------
 
-Depending on the length of the user\'s viewing activity Netflix displays
+Depending on the length of the user's viewing activity Netflix displays
 only a portion of it. In order to have Netflix display the full list
-this function is called.\\\\ Scrolls to the bottom of the page and waits
+this function is called. Scrolls to the bottom of the page and waits
 for Netflix to load the next dynamic page of activity. This may be
 repeated multiple time until all of the activity is displayed. Calls
-get\_page\_activity()
+get_page_activity()
 
-\> get\_page\_activity()
+`get_page_activity()`
 ------------------------
 
 Gets all viewing activity from the page. Displays a progress bar to the
-user. Calls common.output\_activity()\\\\
+user. Calls common.output_activity()
 
-##### New Service Instructions
+### New Service Instructions
 
 In order to add a new service to the platform, follow these steps.
 
-#### Instructions
+##### Instructions
 
- **1\. Add your service and it\'s parameters to the file
-        \'userconfig.ini\'\*\*\\\\
+ **1. Add your service and it's parameters to the file 'userconfig.ini'**
 
 Follow this format when adding your service:
 
-` [SERVICE_NAME]`\
-` url      = service_login_page_url`\
-` email    = test@email.com`\
-` password = test`\
-` `
+ [SERVICE_NAME]
+ url      = service_login_page_url
+ email    = test@email.com
+ password = test
+ 
 
- **2\. Create a .py file for your service.\*\*\\\\
+ **2. Create a .py file for your service.**
 
-Take a look at hulu.py, amazon.py or netflix.py as a reference.\\\\ \\\\
+Take a look at hulu.py, amazon.py or netflix.py as a reference. 
 Your file must have a class containing all of the functions required to
-login and get viewing activity. The class should be named like
-\'SERVICE\_NAMEActivityExtractor\'.\\\\ Example:
-NetflixActivityExtractor\\\\ \\\\ Your class\'s init() function needs to
+login and get viewing activity. 
+
+The class should be named like
+'SERVICE_NAMEActivityExtractor'. Example:
+NetflixActivityExtractor  Your class's init() function needs to
 accept an argument that will contain the parameters which
-ActivityExtractor.py will pass.\\\\ Here is the general format:
+ActivityExtractor.py will pass. Here is the general format:
+```
+ def __init__(self, parameters):
+   self.parameters = parameters
+   self.driver = None
+   ...
+``` 
 
-` def __init__(self, parameters):`\
-`   self.parameters = parameters`\
-`   self.driver = None`\
-`   ...`\
-`   `
+The main things your function should accomplish:
 
-The main things your function should accomplish:\\\\
+- Log into streaming service
+- Navigate to viewing activity page
+- Retrieve viewing activity
+- Display progress bar (if possible)
+- Call common.output_activity() to output viewing activity into a .txt file
 
-`- Log into streaming service\\`\
-`- Navigate to viewing activity page\\`\
-`- Retrieve viewing activity\\`\
-`- Display progress bar (if possible)\\`\
-`- Call common.output_activity() to output viewing activity into a .txt file\\`
-
-\\\\ common.output\_activity() accepts 2 parameters. The first is the
+ common.output_activity() accepts 2 parameters. The first is the
 name of the viewing service, the second is a list containing all of the
-viewing activity. Make user to \'import common\' to use the
-function.\\\\ \\\\
+viewing activity. Make user to 'import common' to use the
+function. 
 
- **3\. Add you service into ActivityExtractor.py.\*\*\\\\
+ **3. Add you service into ActivityExtractor.py.**
 
-In \'ActivityExtractor.py\', create an import statement to import your
-service class from your service file.\\\\ It should be something like
+In 'ActivityExtractor.py', create an import statement to import your
+service class from your service file. It should be something like
 this:
 
-` from SERVICE_NAME import SERVICE_NAMEActivityExtractor`
+ from SERVICE_NAME import SERVICE_NAMEActivityExtractor
 
-Next you have to add your service into supported\_services.\\\\ In the
+Next you have to add your service into supported_services. In the
 ActivityExtractor, the init() function has a dictionary named
-\'self.supported\_services\'. Add your service into the dictionary
-following the format of the other services.\\\\ It should look something
-like this:\\\\
+'self.supported_services'. Add your service into the dictionary
+following the format of the other services. It should look something
+like this:
 
-` self.supported_services = {`\
-`   'amazon': AmazonActivityExtractor,`\
-`   'hulu': HuluActivityExtractor,`\
-`   'netflix': NetflixActivityExtractor,`\
-`   'SERVICE_NAME': SERVICENAMEActivityExtractor`\
-` }`\
-` `
+```
+ self.supported_services = {
+   'amazon': AmazonActivityExtractor,
+   'hulu': HuluActivityExtractor,
+   'netflix': NetflixActivityExtractor,
+   'SERVICE_NAME': SERVICENAMEActivityExtractor
+ }
+ ```
 
- **4\. Test the program with your service and report any errors.\*\*\\\\
+ **4. Test the program with your service and report any errors.**
 
 If your service worked successfully create a pull request to the
-repository and it\'ll be added. If any errors are thrown that you can\'t
-solve yourself, create an issue in the repository and we\'ll try helping
-you out.\\\\ \\\\
+repository and it'll be added. If any errors are thrown that you can't
+solve yourself, create an issue in the repository and we'll try helping
+you out. 
 
- **5\. Add your service to this documentation page.\*\*\\\\
+ **5. Add your service to this documentation page.**
 
 Contact Carlos to get login credentials for this page and add your
-service following the format of the other streaming services.\\\\ \\\\
-\\\\
+service following the format of the other streaming services. 
 
- **For bug fixes create an issue on the repository\*\*\\\\
-    -   For any other inquiries contact me at m13basra\@gmail.com\*\*
+
+ **For bug fixes create an issue on the repository**
+- For any other inquiries contact me at m13basra@gmail.com

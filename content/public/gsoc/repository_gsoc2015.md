@@ -4,11 +4,11 @@ You can find it working at
 <http://web-1567166165.us-west-2.elb.amazonaws.com/view>. Ask me
 personally for DNS name to connect the tuners.
 
-It\'s working with 5 web server instances and 5 repository server app
-instances. It\'s been working for 4 days straight and 2 tuners
-reconnected 1 time. It\'s 24.08 now :)
+It's working with 5 web server instances and 5 repository server app
+instances. It's been working for 4 days straight and 2 tuners
+reconnected 1 time. It's 24.08 now :)
 
-I\'ve added 2 deployment guides for Amazon AWS and a guide on how to
+I've added 2 deployment guides for Amazon AWS and a guide on how to
 connect a client application. You call walk them thought to evaluate my
 project.
 
@@ -32,7 +32,7 @@ My plans regarding repository project:
 
 ##### Contribution to blog
 
-I\'ve been working on closed closed captions online repository. It
+I've been working on closed closed captions online repository. It
 consists of two main parts. The first one is a server application that
 is used for connecting CCExtractor instances which in their turn
 extracts closed captions from a video stream. The second part is a web

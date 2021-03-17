@@ -7,7 +7,7 @@ Repository on Amazon Web Service.
 
 ##### Server Architecture
 
-First, let\'s consider server architecture. I suggest to use the
+First, let's consider server architecture. I suggest to use the
 approach based only on EC2, RDS and ELB services provided by Amazon.
 
 Server architecture includes the following components:
@@ -30,17 +30,17 @@ with specified inbound rules:
 ### cc-tuners-lb
 
 Security group for repository servers load balancer. For each server
-with tuners you\'ll need to create an inbound rule with its IP as a
+with tuners you'll need to create an inbound rule with its IP as a
 source.
 
-\^ Type \^ Ports \^ Source \^ \| Custom TCP \| 3030 \| <servers_IPs> \|
+\^ Type \^ Ports \^ Source \^ | Custom TCP | 3030 | <servers_IPs> |
 
 ### cc-web-lb
 
 Security group for web servers load balancer. This group grants access
 from any IP to web pages.
 
-\^ Type \^ Ports \^ Source \^ \| HTTP \| 80 \| 0.0.0.0/0 \|
+\^ Type \^ Ports \^ Source \^ | HTTP | 80 | 0.0.0.0/0 |
 
 ### cc-slave
 
@@ -49,27 +49,27 @@ ports for load balancer and NFS server. SSH is added for administration
 purposes and can be removed later. To create rules for NFS you will have
 create cc-master group first.
 
-\^ Type \^ Ports \^ Source \^ \| All TCP \| 0-65535 \|
-<cc-load-balancer sg-id> \| \| Custom TCP \| 111 \| <cc-master sg-id> \|
-\| Custom TCP \| 2049 \| <cc-master sg-id> \| \| Custom UDP \| 111 \|
-<cc-master sg-id> \| \| Custom UDP \| 32806 \| <cc-master sg-id> \| \|
-SSH \| 22 \| \"My Ip\" \|
+\^ Type \^ Ports \^ Source \^ | All TCP | 0-65535 |
+<cc-load-balancer sg-id> | | Custom TCP | 111 | <cc-master sg-id> |
+| Custom TCP | 2049 | <cc-master sg-id> | | Custom UDP | 111 |
+<cc-master sg-id> | | Custom UDP | 32806 | <cc-master sg-id> | |
+SSH | 22 | "My Ip" |
 
 ### cc-master
 
 Security group for NFS server.
 
-\^ Type \^ Ports \^ Source \^ \| Custom TCP \| 111 \| <cc-slave sg-id>
-\| \| Custom TCP \| 2049 \| <cc-slave sg-id> \| \| Custom UDP \| 111 \|
-<cc-slaver sg-id> \| \| Custom UDP \| 32806 \| <cc-slaver sg-id> \| \|
-SSH \| 22 \| \"My Ip\" \|
+\^ Type \^ Ports \^ Source \^ | Custom TCP | 111 | <cc-slave sg-id>
+| | Custom TCP | 2049 | <cc-slave sg-id> | | Custom UDP | 111 |
+<cc-slaver sg-id> | | Custom UDP | 32806 | <cc-slaver sg-id> | |
+SSH | 22 | "My Ip" |
 
 ### cc-db
 
 Security group for RDS MySQL database instance.
 
-\^ Type \^ Ports \^ Source \^ \| MYSQL/Auror \| 3306 \| <cc-slave sg-id>
-\| \| MYSQL/Aurora \| 3306 \| \"My Ip\" \|
+\^ Type \^ Ports \^ Source \^ | MYSQL/Auror | 3306 | <cc-slave sg-id>
+| | MYSQL/Aurora | 3306 | "My Ip" |
 
 #### Creating Database
 

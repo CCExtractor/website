@@ -2,13 +2,13 @@
 system \~\~ [This](http://realtimedemo.ccextractor.org:8080/)
 is our proof of concept demo for real time subtitles.
 
-It\'s fed in real time by a number of HDHomeRun tuners that are
+It's fed in real time by a number of HDHomeRun tuners that are
 connected to CCExtractor, which in turn decodes the subtitles and
 uploads them to this system, which uses NodeJS among other things.
 
 Right now, only monitoring web page is implemented (the one you see in
 demo), which is not intended to be used by end-users. During this summer
-you\'ll have to design and implement a complete system, which should
+you'll have to design and implement a complete system, which should
 include:
 
 ` - Web pages, for displaying channels and real-time captions. UI sketches in the repository will give you ideas of which features are required. Additional features, listed below are also desired:`\
@@ -25,9 +25,9 @@ What should I do?
 ` * Discuss the project with mentor and suggest new ideas. `\
 ` * **Don't ask questions regarding installation and usage (it works fine).** It only shows that you are incapable of reading the code and solving problems, we don't need such developers. If you think there's a bug in deployment stage, fix it and submit a pull request.`
 
-\_\_\*\*Mentor\*\*\_\_\\\\ Ruslan Kuchumov (\@kuchumovri on slack) is a
+\_\_**Mentor**\_\_ Ruslan Kuchumov (\@kuchumovri on slack) is a
 former GSoC student (2014, 2015, 2016) and mentor (2017). He has done
-all the work so far so he\'s the best possible mentor.
+all the work so far so he's the best possible mentor.
 
 Repository Link :
 [<https://github.com/rkuchumov/ccr>](https://github.com/rkuchumov/ccr/)

@@ -59,12 +59,12 @@ features and fixes are given below.
 
 ##### Contributions\[Commits/PRs\]
 
- **All my commits to the repository can be found here\*\*:
+ **All my commits to the repository can be found here**:
         [Commits](https://github.com/canihavesomecoffee/sample-platform/commits/master?author=satyammittal)
 
 <!-- -->
 
- **All my pull requests to the repository can be found here\*\*:
+ **All my pull requests to the repository can be found here**:
         [Pull
         Requests](https://github.com/canihavesomecoffee/sample-platform/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Asatyammittal)
 

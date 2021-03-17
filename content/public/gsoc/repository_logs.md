@@ -2,7 +2,7 @@
 
 Repository server application can produce two log files for error and
 debug messages. The first one is used for logging errors that caused
-server to close connection or to terminate (such as \"out of memory\"
+server to close connection or to terminate (such as "out of memory"
 errors). The second one is used for logging client activities and
 tracing system events. This log file is turned off by default.
 
