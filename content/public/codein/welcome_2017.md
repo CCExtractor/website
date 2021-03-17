@@ -29,7 +29,7 @@ a slack channel in which everyone is welcome. You will find members of
 the core team, past Summer of Code students and mentors, past Code-In
 students including the winners, etc. Feel free to come talk to us. You
 can invite yourself from [our support
-page](public/general/support).
+page](/public/general/support).
 
 A video of our two winners from Code-In 2016 talking at Google's
 offices in San Francisco about what they did:

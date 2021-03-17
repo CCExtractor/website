@@ -1,1 +1,1 @@
-This page has been moved [here](public/gsoc/2017/saurabh).
+This page has been moved [here](/public/gsoc/2017/saurabh).

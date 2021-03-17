@@ -1,8 +1,9 @@
-\~\~META: title = Google Summer of Code 2017 ideas page \~\~
+---
+title: "Google Summer of Code 2017 ideas page"
+---
 
-# Google Summer of Code 2017
 
-\_\_** About us **\_\_
+**About us**
 
 We are a small org, which means that your contribution is expected to
 have a very large impact. It's not going to mean a 0.5% improvement on
@@ -45,14 +46,17 @@ points. You get points:
 issues](https://github.com/canihavesomecoffee/sample-platform/issues)
 (default 1 points per issue unless specified somewhere in the issue
 page). Most issues have an explicit number of points that you can find
-in a comment. 2) By joining the community in slack. You can invite
-yourself [here](public/general/support). (1 point) 3) If
+in a comment. 
+2) By joining the community in slack. You can invite
+yourself [here](/public/general/support). (1 point) 
+3) If
 you are a former [Code-in
 finalist](https://developers.google.com/open-source/gci/) you
 start with 1 point. If you were a winner, you start with 2 points. Note
 that there are just a few developers that meet this, so don't be
 discouraged if you aren't one of them. Almost no one is, but we'd love
-to hear from those that are. 4) By sending us a TV sample that has
+to hear from those that are. 
+4) By sending us a TV sample that has
 something we don't support. It doesn't have to be from your own
 country (since hopefully, we already support it), but if it is, so much
 the better. This is probably hard to get, since we already got all the
@@ -157,30 +161,22 @@ and accessibility please get in touch. We prefer that you do something
 that you are passionate about even if it's something we hadn't
 considered.
 
-[Write high speed subtitle synchronization
-tools](public/gsoc/highspeedsync)
+[Write high speed subtitle synchronization tools](/public/gsoc/highspeedsync)
 
-[Add support for DTMB countries](public/gsoc/DTMB)
+[Add support for DTMB countries](/public/gsoc/dtmb)
 
-[Detect Automatically the most interesting bits of sample
-videos](public/gsoc/interestingbits)
+[Detect Automatically the most interesting bits of sample videos](/public/gsoc/interestingbits)
 
-[Do word by word subtitle-audio
-sync](public/gsoc/wordbywordsync)
+[Do word by word subtitle-audio sync](/public/gsoc/wordbywordsync)
 
-[Write Python bindings for
-CCExtractor](public/gsoc/pythonbindings)
+[Write Python bindings for CCExtractor](/public/gsoc/pythonbindings)
 
-[Create a integrated GUI, replacing what we
-have](public/gsoc/integratedgui)
+[Create a integrated GUI, replacing what we have](/public/gsoc/integratedgui)
 
-[Complete 708 support](public/gsoc/complete708support)
+[Complete 708 support](/public/gsoc/complete708support)
 
-[A web-site to view captions in
-real-time](public/gsoc/realtimecaptionswebsite)
+[A web-site to view captions in real-time](/public/gsoc/realtimecaptionswebsite)
 
-[Project Nephos: Cloud based storage for a massive collection of TV
-recordings](public/gsoc/projectnephos)
+[Project Nephos: Cloud based storage for a massive collection of TV recordings](/public/gsoc/projectnephos)
 
-[ Enable automated testing on windows and other general sample platform
-improvements ](public/gsoc/windowstesting)
+[ Enable automated testing on windows and other general sample platform improvements ](/public/gsoc/windowstesting)

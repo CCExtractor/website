@@ -18,7 +18,7 @@ I am the only contributor to this repository. Started it from scratch.
 ### How to use?
 
 The usage is listed in the README file of the GitHub repository and also
-in the [ USER DOCUMENTATION WIKI PAGE](public/gsoc/2016/abishek/subtitle_downloader)
+in the [ USER DOCUMENTATION WIKI PAGE](/public/gsoc/2016/abishek/subtitle_downloader)
 
 ### Technical Documentation
 

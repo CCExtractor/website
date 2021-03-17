@@ -141,7 +141,7 @@ page). Most issues have an explicit number of points that you can find
 in a comment. 
 
 2) By joining the community in Slack. You can invite
-yourself [here](public/general/support). (1 point) 
+yourself [here](/public/general/support). (1 point) 
 
 3) If
 you are a former [Code-in

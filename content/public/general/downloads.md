@@ -57,7 +57,7 @@ it would take is just to overwrite files.
 
 [ User Documentation for Activity Extractor ](http://www.ccextractor.org/doku.php?id=public/codein/activity_extractor_user_docs)
 
-[CCAligner - Word by Word Audio Subtitle Synchronisation Tool and API](public/gsoc/2017/saurabh)
+[CCAligner - Word by Word Audio Subtitle Synchronisation Tool and API](/public/gsoc/2017/saurabh)
 
  **Dependencies**
 

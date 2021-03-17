@@ -102,7 +102,7 @@ on our slack group! </text>
 
  **We have a dedicated page for covering this year's projects,
         check it out
-        [here](public/gsoc/ideas_page_for_summer_of_code_2019).**
+        [here](/public/gsoc/ideas_page_for_summer_of_code_2019).**
         It also contains proposal guidelines and other information you
         need to know before applying. If you have any suggestions or you
         want to propose your own project - please reach out to us in the
