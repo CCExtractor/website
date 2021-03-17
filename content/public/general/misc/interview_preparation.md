@@ -1,3 +1,7 @@
+---
+title: "Interview preparation"
+---
+
 For now this is quite disorganized, just a collection of links. But it
 will get better :-
 

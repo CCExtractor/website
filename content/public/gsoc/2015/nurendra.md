@@ -1,12 +1,14 @@
-# GSOC 2015 Documentation
+---
+title: "Sentiment Analysis / Realtime Translation with Google Translate/Apertium"
+---
 
-##### Projects
+### Projects
 
-` - Realtime Translation using Google Translate`\
-` - Realtime Translation using Apertium`\
-` - Web application to compare statistics of Stock Price, TV Mentions and Twitter`
+ - Realtime Translation using Google Translate
+ - Realtime Translation using Apertium
+ - Web application to compare statistics of Stock Price, TV Mentions and Twitter
 
-##### Technical Documentation
+### Technical Documentation
 
 All the technical details are commented in the codes and the
 documentation is available in the Readme's of their directories. The
@@ -15,13 +17,13 @@ in Camel Case for easier understanding of the code.
 
  **Repositories:**
 
-` * `[`https://github.com/Akirato/goslateTranslator`](https://github.com/Akirato/goslateTranslator)` - Google Translate Translator`\
-` * `[`https://github.com/Akirato/apertiumTranslator`](https://github.com/Akirato/apertiumTranslator)` - Apertium Translator`\
-` * `[`https://github.com/Akirato/sentimentAnalysisTool`](https://github.com/Akirato/sentimentAnalysisTool)` - Tool for Sentiment Analysis`\
-` * `[`https://github.com/Akirato/statsChart`](https://github.com/Akirato/statsChart)` - The entire web application for statistics comparison`\
-` * `[`https://github.com/Akirato/statsChart-backend`](https://github.com/Akirato/statsChart-backend)` - The backend of the statistics web application`
+ * [https://github.com/Akirato/goslateTranslator](https://github.com/Akirato/goslateTranslator) - Google Translate Translator
+ * [https://github.com/Akirato/apertiumTranslator](https://github.com/Akirato/apertiumTranslator) - Apertium Translator
+ * [https://github.com/Akirato/sentimentAnalysisTool](https://github.com/Akirato/sentimentAnalysisTool) - Tool for Sentiment Analysis
+ * [https://github.com/Akirato/statsChart](https://github.com/Akirato/statsChart) - The entire web application for statistics comparison
+ * [https://github.com/Akirato/statsChart-backend](https://github.com/Akirato/statsChart-backend) - The backend of the statistics web application
 
-##### How to use?
+### How to use?
 
 #### Google Translate and Apertium Realtime Translation
 
@@ -36,31 +38,31 @@ The application is presently hosted at
 <https://95.211.109.210/statsChart/default/index>  It has been built
 on Web2py framework.
 
-` - Make a MySQL database called "statschart" and run the three scripts given in `[`https://github.com/Akirato/statsChart-backend`](https://github.com/Akirato/statsChart-backend)\
-` - Download web2py from `[`http://web2py.com/init/default/download`](http://web2py.com/init/default/download)\
-` - Clone `[`https://github.com/Akirato/statsChart`](https://github.com/Akirato/statsChart)` into web2py/applications/`\
-` - Go to web2py/application/statsChart/models/db.py and connect your databases.`\
-` - Run the web2py server.`\
-` - The application should be hosted at `<host-server>`/statsChart/default/index`
+ - Make a MySQL database called "statschart" and run the three scripts given in [https://github.com/Akirato/statsChart-backend](https://github.com/Akirato/statsChart-backend)
+ - Download web2py from [http://web2py.com/init/default/download](http://web2py.com/init/default/download)
+ - Clone [https://github.com/Akirato/statsChart](https://github.com/Akirato/statsChart) into web2py/applications/
+ - Go to web2py/application/statsChart/models/db.py and connect your databases.
+ - Run the web2py server.
+ - The application should be hosted at <host-server>/statsChart/default/index
 
  **Deployment on a new server:**
 
-` - Make a MySQL database on the server called "statschart" and run the three scripts given in `[`https://github.com/Akirato/statsChart-backend`](https://github.com/Akirato/statsChart-backend)\
-` - Install and deploy web2py on a new server.`\
-` - Several Deployment Recipes for common servers are given at `[`http://web2py.com/books/default/chapter/29/13/deployment-recipes`](http://web2py.com/books/default/chapter/29/13/deployment-recipes)\
-` - After this is done, a web2py/ directory will be made in the server.`\
-` - Clone `[`https://github.com/Akirato/statsChart`](https://github.com/Akirato/statsChart)` into web2py/applications/`\
-` - Go to web2py/application/statsChart/models/db.py and connect your databases.`\
-` - Run the web2py server.`\
-` - The application should be hosted at `<host-server>`/statsChart/default/index`
+ - Make a MySQL database on the server called "statschart" and run the three scripts given in [https://github.com/Akirato/statsChart-backend](https://github.com/Akirato/statsChart-backend)
+ - Install and deploy web2py on a new server.
+ - Several Deployment Recipes for common servers are given at [http://web2py.com/books/default/chapter/29/13/deployment-recipes](http://web2py.com/books/default/chapter/29/13/deployment-recipes)
+ - After this is done, a web2py/ directory will be made in the server.
+ - Clone [https://github.com/Akirato/statsChart](https://github.com/Akirato/statsChart) into web2py/applications/
+ - Go to web2py/application/statsChart/models/db.py and connect your databases.
+ - Run the web2py server.
+ - The application should be hosted at <host-server>/statsChart/default/index
 
-##### How to evaluate?
+### How to evaluate?
 
 #### Google Translate and Apertium Realtime Translation
 
 Repositories of both the translators have methodAnalysis/analyse.py
 file. Execute this file if the code is working properly. Also
-English-\>Spanish realtime translation is available at
+English->Spanish realtime translation is available at
 <http://gsocdev.ccextractor.org/~nurendra/translated/test2/tail.php>
 
 #### Web Application for comparing Statistics
@@ -71,7 +73,7 @@ entire code, go to <https://95.211.109.210/admin/default/index> Give the
 password: "akirato123" and select "statsChart" to check the entire
 code.
 
-##### Contribution to blog
+### Contribution to blog
 
 The subtitles generated by CCExtractor can now be translated and be made
 available to a larger audience due to the realtime translation tool.

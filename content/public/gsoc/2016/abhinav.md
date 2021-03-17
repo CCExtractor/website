@@ -1,7 +1,11 @@
+---
+title: "Extract hard-coded subtitles from video streams"
+---
+
 Documentation for my project can be seen
 [here](https://abhinavshukla95.wordpress.com/2016/08/18/google-summer-of-code-work-product-submission/).
 
-#### Description
+### Description
 
 My project was to add the capability of extracting burned-in (hard)
 subtitles from videos to CCExtractor. As of now, CCExtractor works by

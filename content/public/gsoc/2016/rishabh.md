@@ -1,18 +1,20 @@
-# GSoC'16 Project Documentation
+---
+title: "DVD Subtitle Extraction"
+---
 
-##### Commits
+### Commits
 
 All my work done during GSoC commited to the mainstream master branch
 can be found
 [here](https://github.com/CCExtractor/ccextractor/commits/master?author=bigharshrag).
 
-##### Technical Documentation
+### Technical Documentation
 
 The technical documentation on how the code is structured as well as
 installation is available [
 here](http://www.ccextractor.org/doku.php?id=public/gsoc/dvd_subtitles_technical_documentation_gsoc_16).
 
-##### About the Project
+### About the Project
 
 DVD Subtitle Extraction
 -----------------------
@@ -29,7 +31,7 @@ A part of my project was to support CEA-708 subtitles. It is a closed
 captioning standard used in the US and Canada. CCExtractor has support
 for CEA-708 but it is not complete.
 
-##### Other Work
+### Other Work
 
 In addition to the project, I worked on bug fixes and other features.
 All my merged pull requests can be found
@@ -39,10 +41,10 @@ Initially, Vob files were new to me and to understand their data
 arrangement I wrote a program which is in another
 [repository](https://github.com/bigharshrag/DVDSub).
 
-##### Known Issues and Future Work
+### Known Issues and Future Work
 
 I hope to continue to add improvements to DVD subtitles extraction as
 well as CCExtractor.
 
-` * There is no support for IFO files at the moment. IFO files contain information regarding the data in the DVD. I hope to add support for IFO files pretty soon.`\
-` * Episode selection is not supported. To be added with IFO files.`
+ * There is no support for IFO files at the moment. IFO files contain information regarding the data in the DVD. I hope to add support for IFO files pretty soon.
+ * Episode selection is not supported. To be added with IFO files.

@@ -1,6 +1,8 @@
-======= Flutter resources ======
+---
+title: "Flutter Resources"
+---
 
-#### Tutorials
+### Tutorials
 
 [Building a portfolio
 website](https://medium.com/flutter-community/flutter-for-web-building-a-portfolio-website-3e9865710efe)

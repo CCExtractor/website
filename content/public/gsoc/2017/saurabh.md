@@ -1,11 +1,11 @@
-# CCAligner : Word by Word Audio Subtitle Synchronisation
+---
+title: "CCAligner : Word by Word Audio Subtitle Synchronisation"
+---
 
-//Developed under Google Summer of Code, 2017 with CCExtractor
-Development By [Saurabh
-Shrivastava](https://github.com/saurabhshri) //
 
-//Blog entry for final submission :
-(https://saurabhshri.github.io/gsoc-final-submission/) //
+*Developed under Google Summer of Code, 2017 with CCExtractor Development By [Saurabh Shrivastava](https://github.com/saurabhshri)*
+
+*Blog entry for final submission : (https://saurabhshri.github.io/gsoc-final-submission/)*
 
 ------------------------------------------------------------------------
 
@@ -16,10 +16,10 @@ synchronisation in them i.e. the subtitles containing the dialogue
 appear when the person starts talking and disappears when the dialogue
 finishes. This continues for the whole video. For example :
 
-`1274` `01:55:48,484 -> 01:55:50,860`
-`The Force is strong with this one`
+1274 01:55:48,484 -> 01:55:50,860
+The Force is strong with this one
 
-In the above example, the dialogue *\#1274* - *The Force is strong with
+In the above example, the dialogue *#1274* - *The Force is strong with
 this one* appears at *1:55:48* remains in the screen for two seconds and
 disappears at *1:55:50*.
 
@@ -31,13 +31,13 @@ it's basic functionality.
 
 E.g.
 
-`The [6948484:6948500]` `Force [6948501:6948633]` `is [6948634:6948710]`
-`strong [6948711:6949999]` `with [6949100:6949313]`
+The [6948484:6948500] Force [6948501:6948633] is [6948634:6948710]
+strong [6948711:6949999] with [6949100:6949313]
 
 In the above example each word from subtitle is tagged with beginning
 and ending timestamps based on audio.
 
-{{ youtube\>38\_27E1PxXA?large }} 
+{{< youtube "38_27E1PxXA" >}} 
 
 CCAligner makes use of automatic speech recognition to analyse audio and
 recognise words to perform alignment. The project comprises of both user
@@ -45,21 +45,21 @@ friendly tool and developer friendly API.
 
 ##### Project Related Links
 
-` * Project repository on Github: `[`https://github.com/saurabhshri/CCAligner`](https://github.com/saurabhshri/CCAligner)
+ * Project repository on Github: [https://github.com/saurabhshri/CCAligner](https://github.com/saurabhshri/CCAligner)
 
-` * Project readme : `[`https://github.com/saurabhshri/CCAligner/blob/master/README.adoc`](https://github.com/saurabhshri/CCAligner/blob/master/README.adoc)
+ * Project readme : [https://github.com/saurabhshri/CCAligner/blob/master/README.adoc](https://github.com/saurabhshri/CCAligner/blob/master/README.adoc)
 
-` * Project documentation : `[`https://github.com/saurabhshri/CCAligner/blob/master/docs/`](https://github.com/saurabhshri/CCAligner/blob/master/docs/)
+ * Project documentation : [https://github.com/saurabhshri/CCAligner/blob/master/docs/](https://github.com/saurabhshri/CCAligner/blob/master/docs/)
 
-` * My blog (includes weekly GSoC posts) : `[`https://saurabhshri.github.io`](https://saurabhshri.github.io)
+ * My blog (includes weekly GSoC posts) : [https://saurabhshri.github.io](https://saurabhshri.github.io)
 
-` * Milestones and deliverable checklist : `[`https://saurabhshri.github.io/gsoc/`](https://saurabhshri.github.io/gsoc/)
+ * Milestones and deliverable checklist : [https://saurabhshri.github.io/gsoc/](https://saurabhshri.github.io/gsoc/)
 
-` * Project link on official GSoC web-app : `[`https://summerofcode.withgoogle.com/projects/#5589068587991040`](https://summerofcode.withgoogle.com/projects/#5589068587991040)
+ * Project link on official GSoC web-app : [https://summerofcode.withgoogle.com/projects/#5589068587991040](https://summerofcode.withgoogle.com/projects/#5589068587991040)
 
-` * Project proposal : `[`https://github.com/saurabhshri/saurabhshri.github.io/blob/master/GSoC/`](https://github.com/saurabhshri/saurabhshri.github.io/blob/master/GSoC/)
+ * Project proposal : [https://github.com/saurabhshri/saurabhshri.github.io/blob/master/GSoC/](https://github.com/saurabhshri/saurabhshri.github.io/blob/master/GSoC/)
 
-` * Mentors : `[` ``@cfsmp3`](https://github.com/cfsmp3)` and `[` ``@AlexBratosin2001`](https://github.com/AlexBratosin2001)
+ * Mentors : [ @cfsmp3](https://github.com/cfsmp3) and [ @AlexBratosin2001](https://github.com/AlexBratosin2001)
 
 The project was built by me individually. All the external libraries and
 code used are credited wherever due.
@@ -72,7 +72,7 @@ above). Code is properly commented and the variables, classes and other
 components are named properly in Camel Case for easier understanding of
 the code. Find compiling, installing, usage instructions and docs here :
 
-` * `[`https://github.com/saurabhshri/CCAligner`](https://github.com/saurabhshri/CCAligner)
+ * [https://github.com/saurabhshri/CCAligner](https://github.com/saurabhshri/CCAligner)
 
 ##### Additional Work
 
@@ -81,66 +81,66 @@ header SubRip subtitle parser library in C++ and contributing to various
 open source projects, including, but not limited to CCExtractor,
 Sample-Platform, AutoEdit2, Rhubarb Lip Sync, CMUSphinx.
 
-1\. Created a single header SubRip subtitle parser library in C++. This
+1. Created a single header SubRip subtitle parser library in C++. This
 served as a core in CCAligner subtitle handling. It has very huge number
 of options available, and is very simple to use.
 
-` * Project repository : `[`https://github.com/saurabhshri/simple-yet-powerful-srt-subtitle-parser-cpp`](https://github.com/saurabhshri/simple-yet-powerful-srt-subtitle-parser-cpp)
+ * Project repository : [https://github.com/saurabhshri/simple-yet-powerful-srt-subtitle-parser-cpp](https://github.com/saurabhshri/simple-yet-powerful-srt-subtitle-parser-cpp)
 
-` * Documentation : `[`https://github.com/saurabhshri/CCAligner/tree/master/docs`](https://github.com/saurabhshri/CCAligner/tree/master/docs)
+ * Documentation : [https://github.com/saurabhshri/CCAligner/tree/master/docs](https://github.com/saurabhshri/CCAligner/tree/master/docs)
 
-2\. Improving existing CCExtractor features, fixing issues and help in PR
+2. Improving existing CCExtractor features, fixing issues and help in PR
 and code reviews.
 
-` * All my commits to CCExtractor repository : `[`https://github.com/CCExtractor/ccextractor/commits?author=saurabhshri`](https://github.com/CCExtractor/ccextractor/commits?author=saurabhshri)
+ * All my commits to CCExtractor repository : [https://github.com/CCExtractor/ccextractor/commits?author=saurabhshri](https://github.com/CCExtractor/ccextractor/commits?author=saurabhshri)
 
-3\. Improving CCExtractor's sample-platform, fixing and reporting
+3. Improving CCExtractor's sample-platform, fixing and reporting
 issues, and help in PR and code reviews.
 
-` * All my commits to Sample-Platform repository : `[`https://github.com/canihavesomecoffee/sample-platform/commits?author=saurabhshri`](https://github.com/canihavesomecoffee/sample-platform/commits?author=saurabhshri)
+ * All my commits to Sample-Platform repository : [https://github.com/canihavesomecoffee/sample-platform/commits?author=saurabhshri](https://github.com/canihavesomecoffee/sample-platform/commits?author=saurabhshri)
 
-4\. Link to my Github profile : <https://github.com/saurabhshri>
+4. Link to my Github profile : <https://github.com/saurabhshri>
 
 ##### Some Demostrations
 
-` * Karaoke Demo 2 [Ted Talk]  `
+ * Karaoke Demo 2 [Ted Talk]  
 
 
 
-` * Karaoke Demo 3 [Cartoon Show]  `
+ * Karaoke Demo 3 [Cartoon Show]  
 
 
 
-` * Karaoke Demo 4 [Discussion Video]  `
+ * Karaoke Demo 4 [Discussion Video]  
 
 
 
-` * Transcription Demo [Reality Show]  `
+ * Transcription Demo [Reality Show]  
 
 
 
 ##### Third party libraries and dependencies
 
-All the third party libraries are located in \`src/lib\_ext\` and along
+All the third party libraries are located in src/lib_ext and along
 with their individual licenses.
 
-1\. PocketSphinx : PocketSphinx is a lightweight speech recognition
+1. PocketSphinx : PocketSphinx is a lightweight speech recognition
 engine. It is portable and is used in ASR based alignment.
-//(https://github.com/cmusphinx/pocketsphinx)//
+(https://github.com/cmusphinx/pocketsphinx)
 
-2\. SphinxBase : Basic libraries as well as some common utilities for
+2. SphinxBase : Basic libraries as well as some common utilities for
 manipulating acoustic feature and audio files. This is used by
-PocketSphinx. //(https://github.com/cmusphinx/sphinxbase)//
+PocketSphinx. (https://github.com/cmusphinx/sphinxbase)
 
-3\. srtparser.h : srtparser.h is a single header, simple and powerful C++
+3. srtparser.h : srtparser.h is a single header, simple and powerful C++
 srt subtitle parsing library that allows to easily handle, process and
 manipulate srt subtitle files.
-//(https://github.com/saurabhshri/simple-yet-powerful-srt-subtitle-parser-cpp)//
+(https://github.com/saurabhshri/simple-yet-powerful-srt-subtitle-parser-cpp)
 
-4\. webRTC : WebRTC is a free, open project that provides browsers and
+4. webRTC : WebRTC is a free, open project that provides browsers and
 mobile applications with Real-Time Communications (RTC) capabilities via
 simple APIs. It is used to perform VAD in the project.
-//(https://webrtc.org)//
+(https://webrtc.org)
 
 ##### Known Issues / Future Work Needed
 

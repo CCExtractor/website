@@ -1,6 +1,8 @@
-======= GSOC 2015 Documentation =======
+---
+title: "Sample submission platform / CCExtractor improvements"
+---
 
-##### Technical Documentation
+### Technical Documentation
 
 All technical documentation has been posted to the GitHub repositories,
 either in the form of the README, or in form of comments.
@@ -12,7 +14,7 @@ The repositories are located here:
 improvements) <https://github.com/canihavesomecoffee/ccx_gitbot>
 <https://github.com/canihavesomecoffee/ccx_submissionplatform>
 
-##### How to use?
+### How to use?
 
 #### Test Suite
 
@@ -34,7 +36,7 @@ can be uploaded through HTTP; FTP allows all sizes. Special care has
 been taken to keep all samples anonymous (except to the user itself and
 the admin), and if required, a user can anonymize his/her account.
 
-##### How to evaluate?
+### How to evaluate?
 
 The bot can be evaluated (user-side) by issuing commands to it on GitHub
 (see [CCExtractor regresssion testing / GitHub
@@ -51,7 +53,7 @@ soon.
 To test the admin parts of both the bot & the sample platform I refer to
 the mail I wrote to Carlos.
 
-##### Contribution for blog
+### Contribution for blog
 
 The submission of new samples has been quite chaotic in the past of
 CCExtractor, with users submitting samples through FTP, GitHub, Google

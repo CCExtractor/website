@@ -203,15 +203,6 @@ Most of these pages are the result of Summer of Code work.
 [Nurendra - Sentiment Analysis / Realtime Translation with Google Translate/Apertium](/public/gsoc/2015/nurendra)
 
 ---
-#### Summer of Code private pages
-
-[People](docs/privategsoc/People)
-
-[Technical Resources](docs/privategsoc/technical_resources)
-
-[Planned absences](docs/privategsoc/Planned_absences)
-
----
 #### Contract work
 
 [How to hire CCExtractor developers](/public/general/how_to_hire_us)
@@ -225,6 +216,6 @@ Most of these pages are the result of Summer of Code work.
 
 [Preparing for interviews (Silicon Valley style )](/public/general/misc/interview_preparation)
 
-[Useful linux tools](/public/general/misc/Useful_linux_tools)
+[Useful linux tools](/public/general/misc/useful_linux_tools)
 
 [Articles about vim (the editor)](/public/general/misc/vim)

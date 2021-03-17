@@ -3,6 +3,19 @@ title: "Docs"
 weight: 1
 ---
 
-Welcome to the Compose theme user guide! This guide shows you how to get started creating technical documentation sites using Compose, including site customization and how to use Compose's blocks and templates.
+{{< column >}}
+# Welcome to CCExtractor
 
-{{< button "./ideas_page_for_summer_of_code_2021/" "Get started now" >}}
+CCExtractor Development is an informal (meaning we're not incorporated anywhere) organization that exists to coordinate the development efforts of the volunteers that contribute to the software and to manage our participation in specific events such as Google Summer of Code and Code-In.
+    
+
+{{< tip "warning" >}}
+This website is still in beta, you might come across formatting errors or pages not found. Please report them on slack.    
+{{< /tip >}}
+
+{{< tip >}}
+To get in touch with us asap, join our slack channel. Most CCExtractor developers hang out in a slack team. You're welcome to request an invitation here: #TODO
+{{< /tip >}}
+
+{{< button "cchome/" "Read the Docs" >}}{{< button "ideas_page_for_summer_of_code_2021/" "Here for GSoC'21?" >}}
+{{< /column >}}

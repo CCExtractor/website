@@ -1,4 +1,6 @@
-### About Rust
+---
+title: "About Rust"
+---
 
 [What can do you with
 Rust?](https://medium.com/swlh/what-can-you-do-with-rust-4748ac506506)

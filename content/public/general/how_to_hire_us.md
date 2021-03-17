@@ -1,3 +1,7 @@
+---
+title: "How to hire us"
+---
+
 If you need custom work regarding CCExtractor you can send Carlos an
 email:
 

@@ -1,4 +1,4 @@
-baseURL = "https://techno-disaster.github.io/cchome"
+baseURL = "https://techno-disaster.github.io/"
 title = "CCExtractor"
 enableRobotsTXT = true
 # this example loads the theme as hugo module
