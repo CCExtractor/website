@@ -14,7 +14,8 @@ This website is still in beta, you might come across formatting errors or pages 
 {{< /tip >}}
 
 {{< tip >}}
-To get in touch with us asap, join our slack channel. Most CCExtractor developers hang out in a slack team. You're welcome to request an invitation here: #TODO
+To get in touch with us, join our slack channel. Most CCExtractor developers hang out in a slack team. You're welcome to request an invitation [here](/public//general/support/)
+
 {{< /tip >}}
 
 {{< button "cchome/" "Read the Docs" >}}{{< button "ideas_page_for_summer_of_code_2021/" "Here for GSoC'21?" >}}

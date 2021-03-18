@@ -33,7 +33,6 @@ processing.
 
  * Project Repository on GitHub [CCExtractor](https://github.com/CCExtractor/ccextractor)
  * Project Documentation [Documentation](/public/gsoc/python_extension_module_technical_documentation_gsoc_17)
- * Project Proposal for GSOC 2017 [here](https://old.ccextractor.org/_media/gsoc:gsoc2017:media:gsoc_2017_proposal_ccextractor_modified.pdf)
  * Official GSOC Project link [Project](https://summerofcode.withgoogle.com/projects/#6123526338641920)
  * My blog [Blog](https://diptanshujamgade.wordpress.com/)
  * Mentor [@cfsmp3](https://github.com/cfsmp3)
