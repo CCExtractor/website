@@ -28,3 +28,9 @@ HUGO_VERSION = "0.81.0"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+  from = "/public:gsoc:extract_from_dvd"
+  to = "/public/gsoc/extract_from_dvd"
+  status = 301
+  force = true
