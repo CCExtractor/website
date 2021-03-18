@@ -1,4 +1,4 @@
-baseURL = "https://ccextractor-website.netlify.app/"
+baseURL = "https://www.ccextractor.org/"
 title = "CCExtractor"
 enableRobotsTXT = true
 # this example loads the theme as hugo module
