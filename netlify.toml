@@ -39,4 +39,4 @@ HUGO_ENABLEGITINFO = "true"
   from = "/public:gsoc:welcome_to_summer_of_code_2015" 
   to = "/public/gsoc/welcome_to_summer_of_code_2015" 
   status = 301 
-  force = true,
+  force = true
