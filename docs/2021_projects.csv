@@ -1,2 +1,0 @@
-Initial Rust scaffolding,Set up the base Rust infrastructure. Build with cargo. FFI.,(Some) Rust Some (C), A lot of Rust + C interoperability CCExtractor internals, Medium
-Rewrite 708 decoder in Rust,CEA-708 is the American standard for digital subtitles. We have a reasonably good (meaning easy to understand and it was written when we knew what we were doing) C base. We'd like to port it to rust. We will provide you with the official technical standards.,(Some) Rust Some (C),Digital subtitles. Working with standards.,Medium
