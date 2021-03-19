@@ -93,9 +93,21 @@ We will update the descriptions often.
 
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| [ rutorrent mobile interface (II) ](/public/gsoc/flutterrutorrent2) | rutorrent is a popular web interface for rtorrent, which is possibly the most used BitTorrent client in linux. Last year we started a new project to write a Flutter based interface and was successful and it's gaining traction on its own. We want to work on that project and include new features. | Flutter | BitTorrent | Medium | 
-| [ support more torrent clients ](/public/gsoc/flutter-more-clients) | We'd like to add support for other clients to our rutorrent mobile interface (which of course will get a new name): [Flood](https://flood.js.org) and [Deluge](https://deluge-torrent.org). | Flutter | API, Teamwork | Medium | 
+| [ ruTorrent mobile interface (II) ](/public/gsoc/flutterrutorrent2) | ruTorrent is a popular web interface for rTorrent, which is possibly the most used BitTorrent client in linux. Last year we started a new project to write a Flutter based interface and was successful and it's gaining traction on its own. We want to work on that project and include new features. | Flutter | BitTorrent | Medium | 
+| [ support more torrent clients ](/public/gsoc/flutter-more-clients) | We'd like to add support for other clients to our ruTorrent mobile interface (which of course will get a new name): [Flood](https://flood.js.org) and [Deluge](https://deluge-torrent.org). | Flutter | API, Teamwork | Medium | 
 | [ CCExtractor's GUI in Flutter ](/public/gsoc/ccextractor_gui) | Over the years there's been a few attempts to replace the GUI for our core tool, CCExtractor, but none have been really successful. Using flutter, let's write a modern GUI. | Flutter | CCExtractor | Medium |
+
+#### rTorrent
+
+We use [jesec/rtorrent](https://github.com/jesec/rtorrent). It provides a more modern base with Bazel/CMake and C++ 17 (instead of autotools and C++ 0x). Plus, your works are guaranteed to be incorporated if they match expectations.
+
+| Name | Description | Tech you need to know | Tech you will learn | Difficulty |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| [ a modern RPC interface ](/public/gsoc/rtorrent-modern-rpc) | rTorrent currently uses an antique XMLRPC interface, which is limited in capability, not scalable, hard to use, insecure and low-performance. Community needs a modern RPC interface with full bidirectional, stream processing, incremental data loading and high concurrency capabilities, which allows real-time events for RPC users, reduced serialization/transfer overheads, potentially better security (with authentication and/or TLS), etc. | C++ | RPC, Event Loop | Medium/Hard |
+| asynchronous name resolution | UDP tracker name resolution is not asynchronous at the moment, which causes blocking in the main thread and can block (timeout) other ongoing/incoming connections/transfers. c-ares or libwebsockets implementation is preferred, as c-ares is already used by curl, which rTorrent depends on, while libwebsockets may be used by a future WebSockets RPC interface. | C, C++ | Threading, Event Loop | Medium |
+| improve scalability - on start | It takes 3 minutes to load 28890 entries from the session directory on start. Only 1 core is used. Deal with this situation, potentially by making the session functions thread safe and spawning more threads for the tasks. | C++ | Threading | Medium |
+| improve scalability | rTorrent has a well-defined threading behaviour, which makes it stable and light on resources. There are 3 permanent threads only: main, disk and scgi. However, in the age of Gigabit/10G connections, 3 threads are often not sufficient. Implement a new threading model with better scalability. | C++ | Threading | Hard |
+| scheduling/queuing | In some cases, users might want to download a series of torrents one-by-one without having to manually start the next when the previous is completed. Implement a scheduler along with a queue to allow users to limit the number of maximum simultaneous downloads. Enqueue if the user adds a download or decrease the limit. Dequeue when a download is completed or the user increases the limit. Keep the queue state across reboots. | C++ | Scheduling | Medium |
 
 #### New things we're currently interested on
 
