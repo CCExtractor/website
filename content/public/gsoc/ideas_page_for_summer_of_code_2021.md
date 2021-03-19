@@ -93,8 +93,8 @@ We will update the descriptions often.
 
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| [ rutorrent mobile interface (II) ](/public/gsoc/flutterrutorrent2) | rutorrent is the most popular web interface for rtorrent, which is possibly the most used BitTorrent client in linux. Last year we started a new project to write a Flutter based interface and was successful and it's gaining traction on its own. We want to work on that project and include new features. | Flutter | BitTorrent | Medium | 
-| [ Deluge mobile interface ](/public/gsoc/flutterdeluge) | Deluge is a popular BitTorrent client that has bad web interface and no (decent) mobile interface. We'd like to add support for it until our rutorrent mobile interface (which of course wouldn't be just rutorrent anymore) | Flutter | BitTorrent | Medium | 
+| [ rutorrent mobile interface (II) ](/public/gsoc/flutterrutorrent2) | rutorrent is a popular web interface for rtorrent, which is possibly the most used BitTorrent client in linux. Last year we started a new project to write a Flutter based interface and was successful and it's gaining traction on its own. We want to work on that project and include new features. | Flutter | BitTorrent | Medium | 
+| [ support more torrent clients ](/public/gsoc/flutter-more-clients) | We'd like to add support for other clients to our rutorrent mobile interface (which of course will get a new name): [Flood](https://flood.js.org) and [Deluge](https://deluge-torrent.org). | Flutter | API, Teamwork | Medium | 
 | [ CCExtractor's GUI in Flutter ](/public/gsoc/ccextractor_gui) | Over the years there's been a few attempts to replace the GUI for our core tool, CCExtractor, but none have been really successful. Using flutter, let's write a modern GUI. | Flutter | CCExtractor | Medium |
 
 #### New things we're currently interested on

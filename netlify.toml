@@ -829,6 +829,6 @@ HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
   from = "/public:gsoc:flutterdeluge" 
-  to = "/public/gsoc/flutterdeluge" 
+  to = "/public/gsoc/flutter-more-clients" 
   status = 301 
   force = true
