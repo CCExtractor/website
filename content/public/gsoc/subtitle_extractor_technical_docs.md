@@ -143,13 +143,13 @@ Beautiful soup text it can be found that every video has this parameter.
 Subtitles:
 
 `         `<span class="showmedia-subtitle-text">\
-`           `<img src="http://static.ak.crunchyroll.com/i/country_flags/us.gif"/>` `\
+`           `<img src="https://static.ak.crunchyroll.com/i/country_flags/us.gif"/>` `\
 `           `<a href="/naruto-shippuden/episode-464-ninshu-the-ninja-creed-696237?ssid=206027" title="English (US)">`English (US)`</a>`,`\
-`           `<img src="http://static.ak.crunchyroll.com/i/country_flags/sa.gif"/>` `\
+`           `<img src="https://static.ak.crunchyroll.com/i/country_flags/sa.gif"/>` `\
 `           `<a href="/naruto-shippuden/episode-464-ninshu-the-ninja-creed-696237?ssid=206015" title="العربية">`العربية`</a>`,`\
-`           `<img src="http://static.ak.crunchyroll.com/i/country_flags/it.gif"/>` `\
+`           `<img src="https://static.ak.crunchyroll.com/i/country_flags/it.gif"/>` `\
 `           `<a href="/naruto-shippuden/episode-464-ninshu-the-ninja-creed-696237?ssid=206733" title="Italiano">`Italiano`</a>`, `\
-`           `<img src="http://static.ak.crunchyroll.com/i/country_flags/de.gif"/>\
+`           `<img src="https://static.ak.crunchyroll.com/i/country_flags/de.gif"/>\
 `           `<a href="/naruto-shippuden/episode-464-ninshu-the-ninja-creed-696237?ssid=206033" title="Deutsch">`Deutsch`</a>\
 `         `</span>\
 `       `
@@ -164,7 +164,7 @@ on the choice, we append the ID from the list obtained above. A sample
 subtitle URL, where a script\_id(206027) has been appended to the base
 URL :
 
-` `[`http://www.crunchyroll.com/xml/?req=RpcApiSubtitle_GetXml&subtitle_script_id=206027`](http://www.crunchyroll.com/xml/?req=RpcApiSubtitle_GetXml&subtitle_script_id=206027)\
+` `[`https://www.crunchyroll.com/xml/?req=RpcApiSubtitle_GetXml&subtitle_script_id=206027`](http://www.crunchyroll.com/xml/?req=RpcApiSubtitle_GetXml&subtitle_script_id=206027)\
 ` `
 
 The encrypted subtitles are extracted from the above URL. The decryption
