@@ -34,6 +34,4 @@ General things to keep in mind while working:
  **Slack**
 
 Slack is a great communication tool. Most CCExtractor developers hang
-out in a slack team. You're welcome to request an invitation here:
-
-{slackinvite}
+out in a slack team. You're welcome to request an invitation [here](/public//general/support/)

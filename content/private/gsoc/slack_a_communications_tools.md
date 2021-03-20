@@ -11,5 +11,4 @@ Everyone in the [People](People) page have been invited.
 
 <https://rhccgsoc15.slack.com>
 
-And you can request an invite by sending filling out this form \`
-{slackinvite} \`
+And you can request an invite by sending filling out this form [here](/public//general/support/)
