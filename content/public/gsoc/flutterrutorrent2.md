@@ -43,6 +43,8 @@ can be automatic using CI/C pipeline integration for the project.
 5) Improve Documentation: Document the basic structure and architecture
 used in the app, maybe use Wikis, so that the new contributors find easy
 to understand the setup and code.
+6) rutorrent has a good IRSSI support. We want the same notifications that
+appear on IRSSI's tab in rutorrent to be available on our mobile app.
 
  **Notes**
 
