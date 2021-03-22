@@ -31,7 +31,7 @@ HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
   from = "/doku.php?id=public:general:command_line_usage"
-  to = "/public/general/command_line_usage" 
+  to = "?id" 
   status = 301 
   force = true
   query = {id = ":id"}
