@@ -2,6 +2,8 @@
 
 Watch this video.
 
+{{< youtube "7QhwgrOrnyE" >}}
+
 And then come with a plan :-)
 
  **Qualification tasks**
