@@ -16,7 +16,7 @@ title = "Compose"
 +++ -->
 
 {{< column >}}
-# Welcome to CCExtractor
+# Welcome to CCExtractorr
 
 CCExtractor Development is an informal (meaning we're not incorporated anywhere) organization that exists to coordinate the development efforts of the volunteers that contribute to the software and to manage our participation in specific events such as Google Summer of Code and Code-In.
     
