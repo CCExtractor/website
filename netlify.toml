@@ -30,7 +30,7 @@ HUGO_VERSION = "0.81.0"
 HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
-  from = "doku.php?id=public:general:command_line_usage"
+  from = "/doku.php?id=public:general:command_line_usage"
   to = "/public/general/command_line_usage?no-query-string" 
   status = 301 
   force = true
