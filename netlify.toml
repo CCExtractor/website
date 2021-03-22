@@ -30,6 +30,12 @@ HUGO_VERSION = "0.81.0"
 HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
+  from = "/doku.php?id=public:general:command_line_usage" 
+  to = "/public/general/command_line_usage" 
+  status = 301 
+  force = true
+
+[[redirects]]
   from = "/public:gsoc:welcome_to_summer_of_code_2015" 
   to = "/public/gsoc/welcome_to_summer_of_code_2015" 
   status = 301 
