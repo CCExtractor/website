@@ -30,18 +30,942 @@ HUGO_VERSION = "0.81.0"
 HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
-  from = "/doku.php"
-  to = "/public/general/command_line_usage?no-query-string" 
+  from = "/doku.php"  
+  to = "/public/gsoc/welcome_to_summer_of_code_2015/?no-query-string" 
   status = 301 
-  force = true
-  query = {id = "public:general:command_line_usage"}
+  force = true 
+  query = {id= "public:gsoc:welcome_to_summer_of_code_2015"} 
 
 [[redirects]]
-  from = "/doku.php"
+  from = "/doku.php"  
+  to = "/public/general/command_line_usage/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:general:command_line_usage"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/anshul_maheshwari_gsoc15/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:anshul_maheshwari_gsoc15"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/welcome_to_summer_of_code_2016/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:welcome_to_summer_of_code_2016"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/olegkisselef_cea_708/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:olegkisselef_cea_708"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/translating_captions/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:translating_captions"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/olegkisselef_qt_gui/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:olegkisselef_qt_gui"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/general/downloads/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:general:downloads"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/amazon_aws_deployment/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:amazon_aws_deployment"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/ccextractor_regression_testing/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:ccextractor_regression_testing"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/2015/nurendra/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:2015:nurendra"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/2016/vasanth/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:2016:vasanth"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/repository_architecture/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:repository_architecture"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/2015/willem/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:2015:willem"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/general/support/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:general:support"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/general/how_to_hire_us/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:general:how_to_hire_us"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/2016/abishek/subtitle_downloader/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:2016:abishek:subtitle_downloader"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/configuration_options/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:configuration_options"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/database_architecture/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:database_architecture"} 
+
+[[redirects]]
+  from = "/doku.php"  
   to = "/public/general/win_gui_usage/?no-query-string" 
   status = 301 
-  force = true
-  query = {id = "public:general:win_gui_usage"}
+  force = true 
+  query = {id= "public:general:win_gui_usage"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/extract_from_dvd/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:extract_from_dvd"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/general/working_with_hdhomerun/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:general:working_with_hdhomerun"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/general/using_spupng/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:general:using_spupng"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/general/http/sourceforge.net_donate_index.php/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:general:http:sourceforge.net_donate_index.php"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/2016/willem/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:2016:willem"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/general/rotating_capture_system_with_hdhomerun/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:general:rotating_capture_system_with_hdhomerun"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/repository_gsoc2015/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:repository_gsoc2015"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/2016/abhishek/projects/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:2016:abhishek:projects"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/timeline/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:timeline"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/ccextractor_bug_hunt/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:ccextractor_bug_hunt"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/ccextractor_unassigned_tasks_pick_what_like/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:ccextractor_unassigned_tasks_pick_what_like"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/ccextractor_tasks/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:ccextractor_tasks"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/subtitle_extractor_technical_docs/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:subtitle_extractor_technical_docs"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/2016/abhinav/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:2016:abhinav"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/2016/shruti/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:2016:shruti"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/2016/rishabh/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:2016:rishabh"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/2016/ruslan/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:2016:ruslan"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/dvd_subtitles_technical_documentation_gsoc_16/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:dvd_subtitles_technical_documentation_gsoc_16"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/dv_support_request/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:dv_support_request"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/repository_quick_install/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:repository_quick_install"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/repository_protocol/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:repository_protocol"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/repository_clients/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:repository_clients"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/server_application_structure/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:server_application_structure"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/repository_logs/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:repository_logs"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/gsoc2016/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:gsoc2016"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/codein/google_code-in_2016_task_list/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:codein:google_code-in_2016_task_list"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/ideas_page_for_summer_of_code_2017/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:ideas_page_for_summer_of_code_2017"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/general/subtitle_standards_around_the_world/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:general:subtitle_standards_around_the_world"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/general/vagrant/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:general:vagrant"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/general/tvsamples/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:general:tvsamples"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/codein/activity_extractor_user_docs/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:codein:activity_extractor_user_docs"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/codein/activity_extractor_technical_docs/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:codein:activity_extractor_technical_docs"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/general/tess_build/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:general:tess_build"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/general/about_the_org/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:general:about_the_org"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/highspeedsync/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:highspeedsync"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/dtmb/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:dtmb"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/interestingbits/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:interestingbits"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/wordbywordsync/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:wordbywordsync"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/pythonbindings/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:pythonbindings"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/integratedgui/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:integratedgui"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/complete708support/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:complete708support"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/realtimecaptionswebsite/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:realtimecaptionswebsite"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/projectnephos/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:projectnephos"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/windowstesting/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:windowstesting"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/general/coollinkswithsubfs/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:general:coollinkswithsubfs"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/2017/saurabh/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:2017:saurabh"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/2017/satyam/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:2017:satyam"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/2017/diptanshu/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:2017:diptanshu"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/python_extension_module_technical_documentation_gsoc_17/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:python_extension_module_technical_documentation_gsoc_17"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/python_extension_module_compilation_documentation_gsoc_17/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:python_extension_module_compilation_documentation_gsoc_17"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/codein/welcome_2017/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:codein:welcome_2017"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/codein/google_code-in_2017_code-in_for_designers/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:codein:google_code-in_2017_code-in_for_designers"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/ideas_page_for_summer_of_code_2018/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:ideas_page_for_summer_of_code_2018"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/realtimesubtitles/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:realtimesubtitles"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/sampleplatform/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:sampleplatform"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/jokertv/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:jokertv"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/ocr/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:ocr"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/livetvooverinternet/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:livetvooverinternet"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/general/gettingstartedwithourcode/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:general:gettingstartedwithourcode"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/general/whatsccextractor/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:general:whatsccextractor"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/2018/aaditya/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:2018:aaditya"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/2018/thealphadollar/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:2018:thealphadollar"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/2018/achie27/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:2018:achie27"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/gsoc2017/ccaligner_word_by_word_audio_subtitle_synchronisation_saurabh_shrivastava_gsoc_2017/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:gsoc2017:ccaligner_word_by_word_audio_subtitle_synchronisation_saurabh_shrivastava_gsoc_2017"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/2018/saurabh/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:2018:saurabh"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/gsoc2017/python_extension_module_for_ccextractor_diptanshu_jamgade_gsoc_2017/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:gsoc2017:python_extension_module_for_ccextractor_diptanshu_jamgade_gsoc_2017"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/gsoc2017/google_summer_of_code_2017_satyam_mittal/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:gsoc2017:google_summer_of_code_2017_satyam_mittal"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/2018/satyam/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:2018:satyam"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/codein/google_code-in_2018_task_list_sample/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:codein:google_code-in_2018_task_list_sample"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/codein/google_code-in_2018/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:codein:google_code-in_2018"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/ideas_page_for_summer_of_code_2019/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:ideas_page_for_summer_of_code_2019"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/google_summer_of_code_2019/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:google_summer_of_code_2019"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/pipot/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:pipot"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/rcloneweb/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:rcloneweb"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/swaglyrics/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:swaglyrics"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/poormanrekognition/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:poormanrekognition"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/ideas_page_for_season_of_docs_2019/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:ideas_page_for_season_of_docs_2019"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/blog_posts_our_students/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:blog_posts_our_students"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/2019/pymit/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:2019:pymit"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/2019/vertexc/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:2019:vertexc"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/2019/faizkhan/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:2019:faizkhan"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/2019/sziraqui/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:2019:sziraqui"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/general/rust_resources/rust/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:general:rust_resources:rust"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/codein/google_code-in_2019/flutter/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:codein:google_code-in_2019:flutter"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/general/flutter_resources/flutter/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:general:flutter_resources:flutter"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/ideas_page_for_summer_of_code_2020/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:ideas_page_for_summer_of_code_2020"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/general/misc/interview_preparation/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:general:misc:interview_preparation"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/general/misc/useful_linux_tools/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:general:misc:useful_linux_tools"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/codein/google_code-in_2019/mastermind/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:codein:google_code-in_2019:mastermind"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/general/misc/vim/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:general:misc:vim"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/poormanrekognition2/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:poormanrekognition2"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/rokuchannel/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:rokuchannel"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/pythonprofiler/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:pythonprofiler"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/ffmpeg-rust/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:ffmpeg-rust"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/votecounter/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:votecounter"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/japanese/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:japanese"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/rule-engine/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:rule-engine"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/poormantextract/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:poormantextract"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/rcloneweb2/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:rcloneweb2"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/mouseless/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:mouseless"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/flutterrutorrent/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:flutterrutorrent"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/cloudtorrent/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:cloudtorrent"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/takehome/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:takehome"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/linuxtuning/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:linuxtuning"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/ideas_page_for_season_of_docs_2020/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:ideas_page_for_season_of_docs_2020"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/ideas_page_for_summer_of_code_2021/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:ideas_page_for_summer_of_code_2021"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/cc_rust_scaffolding/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:cc_rust_scaffolding"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/cc_rust_708/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:cc_rust_708"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/rokuchannel2/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:rokuchannel2"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/flutterrutorrent2/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:flutterrutorrent2"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/cc_rust_608/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:cc_rust_608"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/cc_rust_ocr/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:cc_rust_ocr"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/ccextractor_gui/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:ccextractor_gui"} 
+
+[[redirects]]
+  from = "/doku.php"  
+  to = "/public/gsoc/flutterdeluge/?no-query-string" 
+  status = 301 
+  force = true 
+  query = {id= "public:gsoc:flutterdeluge"} 
 
 [[redirects]]
   from = "/public:gsoc:welcome_to_summer_of_code_2015" 
