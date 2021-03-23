@@ -30,8 +30,8 @@ HUGO_VERSION = "0.81.0"
 HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
-  from = "/doku.php?id=public:general:command_line_usage"
-  to = "/" 
+  from = "/doku.php"
+  to = "/public/general/command_line_usage?no-query-string" 
   status = 301 
   force = true
   query = {id = "public:general:command_line_usage"}
@@ -41,6 +41,7 @@ HUGO_ENABLEGITINFO = "true"
   to = "/public/general/win_gui_usage/?no-query-string" 
   status = 301 
   force = true
+  query = {id = "public:general:win_gui_usage"}
 
 [[redirects]]
   from = "/public:gsoc:welcome_to_summer_of_code_2015" 
