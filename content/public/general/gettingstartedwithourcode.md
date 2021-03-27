@@ -41,7 +41,7 @@ in files you have .avi, .mkv, .mp4, .mpeg and so on? Those are container
 formats, because they "contain" the parts of the media: Video, audio
 and subtitles. Each of those have some limitations, but in general, the
 contain format doesn't specify how each part of the media is encoded.
-You have can a .mkv (Matroska) that contains the video encoded as
+You can have a .mkv (Matroska) that contains the video encoded as
 MPEG-2, or H264, etc, then the audio as MP3, or AAC and so on.
 
 In TV broadcast, the typical container is the Transport Stream (.ts). A
@@ -57,15 +57,6 @@ and return parts of it.
 
 ### Subtitles
 
-The usual audio/video streams come in a number of variants. You know how in files you have .avi, .mkv, .mp4, .mpeg and so on? Those are container formats, because they “contain” the parts of the media: Video, audio and subtitles. Each of those have some limitations, but in general, the contain format doesn't specify how each part of the media is encoded. You have can a .mkv (Matroska) that contains the video encoded as MPEG-2, or H264, etc, then the audio as MP3, or AAC and so on.
-
-In TV broadcast, the typical container is the Transport Stream (.ts). A Transport Stream can carry more than one TV program (for example, BBC One, BBC Two and BBC News), each of them with its own video, audio, and subtitles (and for each, maybe more than one language).
-
-Streaming services such as iTunes uses .mp4.
-
-The parts of CCExtractor that handle the containers are called **demuxers**. A demuxer is capable of reading a specific container and return parts of it.
-
-Subtitles
 Our input streams are files that contain subtitles. These subtitles can be encoded in a different ways depending on the country they come from or the technology used to make the recording. Focusing on recordings made from a TV broadcast, we have:
 
 **CEA-608**, which is the “old” format used in North America. It comes from the analog days of NTSC, but while the transmission was analog, in the end you have 2 bytes (that's digital) of subtitle data in each frame, and that's the one thing that is important to keep in mind. You don't need to bother understanding the analog part of the transmission, because what we process is just those two bytes.
