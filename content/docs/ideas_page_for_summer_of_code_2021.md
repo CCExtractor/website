@@ -96,6 +96,7 @@ We will update the descriptions often.
 | [ ruTorrent mobile interface (II) ](/public/gsoc/flutterrutorrent2) | ruTorrent is a popular web interface for rTorrent, which is possibly the most used BitTorrent client in linux. Last year we started a new project to write a Flutter based interface and was successful and it's gaining traction on its own. We want to work on that project and include new features. | Flutter | BitTorrent | Medium | 
 | [ support more torrent clients ](/public/gsoc/flutter-more-clients) | We'd like to add support for other clients to our ruTorrent mobile interface (which of course will get a new name): [Flood](https://flood.js.org) and [Deluge](https://deluge-torrent.org). | Flutter | API, Teamwork | Medium | 
 | [ CCExtractor's GUI in Flutter ](/public/gsoc/ccextractor_gui) | Over the years there's been a few attempts to replace the GUI for our core tool, CCExtractor, but none have been really successful. Using flutter, let's write a modern GUI. | Flutter | CCExtractor | Medium |
+| [ Beacon ](/public/gsoc/beacon) | We have a short version on this as a qualification tool (which you should do first) but this is actually a complete project we expect to become very popular. | Flutter | Scalability | Medium |
 
 #### rTorrent
 
