@@ -9,10 +9,10 @@ program (that can be called by scripts so integration with larger
 processes is straightforward).
 
 Running CCExtractor without any parameter will display a help screen
-with all the options. As of version 0.81 the help screen is as follows:
+with all the options. As of version 0.88 the help screen is as follows:
 
 ```
-CCExtractor 0.81, Carlos Fernandez Sanz, Volker Quetschke.
+CCExtractor 0.88, Carlos Fernandez Sanz, Volker Quetschke.
 Teletext portions taken from Petr Kutalek's telxcc
 --------------------------------------------------------------------------
 Originally based on McPoodle's tools. Check his page for lots of information
@@ -35,16 +35,18 @@ File name related options:
     -o outputfilename: Use -o parameters to define output filename if you don't
                        like the default ones (same as infile plus _1 or _2 when
                        needed and file extension, e.g. .srt).
-                           -o or -o1 -> Name of the first (maybe only) output
-                                        file.
-                           -o2       -> Name of the second output file, when
-                                        it applies.
          -cf filename: Write 'clean' data to a file. Cleans means the ES
                        without TS or PES headers.
               -stdout: Write output to stdout (console) instead of file. If
-                       stdout is used, then -o, -o1 and -o2 can't be used. Also
+                       stdout is used, then -o can't be used. Also
                        -stdout will redirect all messages to stderr (error).
-
+           -pesheader: Dump the PES Header to stdout (console). This is
+                       used for debugging purposes to see the contents
+                       of each PES packet header.
+         -debugdvbsub: Write the DVB subtitle debug traces to console.
+      -ignoreptsjumps: Ignore PTS jumps (default).
+         -fixptsjumps: fix pts jumps. Use this parameter if you
+                       experience timeline resets/jumps in the output.
                -stdin: Reads input from stdin (console) instead of file.
 You can pass as many input files as you need. They will be processed in order.
 If a file name is suffixed by +, ccextractor will try to follow a numerical
@@ -54,8 +56,11 @@ Output will be one single file (either raw or srt). Use this if you made your
 recording in several cuts (to skip commercials for example) but you want one
 subtitle file with contiguous timing.
 
-Effect output files
+Output file segmentation:
     -outinterval x output in interval of x seconds
+   --segmentonkeyonly -key: When segmenting files, do it only after a I frame
+                            trying to behave like FFmpeg
+
 Network support:
             -udp port: Read the input via UDP (listening in the specified port)
                        instead of reading a file.
@@ -65,19 +70,27 @@ Network support:
                               hostname or IPv4 address. If host is not specified
                               then listens on the local host.
 
-            -sendto host[:port]: Sends data in BIN format to the server according
-                                 to the CCExtractor's protocol over TCP. For IPv6
-                                 use [addres]:port
-            -tcp port: Reads the input data in BIN format according to CCExtractor's
-                       protocol, listening specified port on the local host
-            -tcppassword password: Sets server password for new connections to tcp server
-            -tcpdesc description: Sends to the server short description about captions e.g.
-                                  channel name or file name
+            -udp [src@host:]port: Read the input via UDP (listening in the specified
+                              port) instead of reading a file. Host and src can be a
+                              hostname or IPv4 address. If host is not specified
+                              then listens on the local host.
+
+            -sendto host[:port]: Sends data in BIN format to the server
+                                 according to the CCExtractor's protocol over
+                                 TCP. For IPv6 use [address]:port
+            -tcp port: Reads the input data in BIN format according to
+                        CCExtractor's protocol, listening specified port on the
+                        local host
+            -tcppassword password: Sets server password for new connections to
+                                   tcp server
+            -tcpdesc description: Sends to the server short description about
+                                  captions e.g. channel name or file name
 Options that affect what will be processed:
           -1, -2, -12: Output Field 1 data, Field 2 data, or both
                        (DEFAULT is -1)
-Use --append to prevent overwriting of existing files. The output will be appended instead.
--cc2: When in srt/sami mode, process captions in channel 2
+Use --append to prevent overwriting of existing files. The output will be
+      appended instead.
+                 -cc2: When in srt/sami mode, process captions in channel 2
                        instead of channel 1.
 -svc --service N1[cs1],N2[cs2]...:
                        Enable CEA-708 (DTVCC) captions processing for the listed
@@ -86,11 +99,12 @@ Use --append to prevent overwriting of existing files. The output will be append
                        primary and secondary language services.
                        Pass "all" to process all services found.
 
-                       If captions in a service are stored in 16-bit encoding, you can
-                       specify what charset or encoding was used. Pass its name after
-                       service number (e.g. "1[EUC-KR],3" or "all[EUC-KR]") and it will
-                       encode specified charset to UTF-8 using iconv. See iconv documentation
-                       to check if required encoding/charset is supported.
+                       If captions in a service are stored in 16-bit encoding,
+                       you can specify what charset or encoding was used. Pass
+                       its name after service number (e.g. "1[EUC-KR],3" or
+                       "all[EUC-KR]") and it will encode specified charset to
+                       UTF-8 using iconv. See iconv documentation to check if
+                       required encoding/charset is supported.
 
 In general, if you want English subtitles you don't need to use these options
 as they are broadcast in field 1, channel 1. If you want the second language
@@ -112,7 +126,10 @@ Input formats:
                        bin  -> CCExtractor's own binary format.
                        raw  -> For McPoodle's raw files.
                        mp4  -> MP4/MOV/M4V and similar.
-       -ts, -ps, -es, -mp4, -wtv and -asf (or --dvr-ms) can be used as shorts.
+                       m2ts -> BDAV MPEG-2 Transport Stream
+                       mkv  -> Matroska container and WebM.
+                       mxf  -> Material Exchange Format (MXF).
+       -ts, -ps, -es, -mp4, -wtv, -mkv and -asf/--dvr-ms can be used as shorts.
 
 Output formats:
 
@@ -121,15 +138,20 @@ Output formats:
        where format is one of these:
                       srt     -> SubRip (default, so not actually needed).
                       ass/ssa -> SubStation Alpha.
+                      ccd     -> Scenarist Closed Caption Disassembly format
+                      scc     -> Scenarist Closed Caption format
                       webvtt  -> WebVTT format
+                      webvtt-full -> WebVTT format with styling
                       sami    -> MS Synchronized Accesible Media Interface.
                       bin     -> CC data in CCExtractor's own binary format.
                       raw     -> CC data in McPoodle's Broadcast format.
                       dvdraw  -> CC data in McPoodle's DVD format.
+                      mcc     -> CC data compressed using MacCaption Format.
                       txt     -> Transcript (no time codes, no roll-up
                                  captions, just the plain transcription.
                       ttxt    -> Timed Transcript (transcription with time
                                  info)
+                      g608    -> Grid 608 format.
                       smptett -> SMPTE Timed Text (W3C TTML) format.
                       spupng  -> Set of .xml and .png files for use with
                                  dvdauthor's spumux.
@@ -138,6 +160,8 @@ Output formats:
                       report  -> Prints to stdout information about captions
                                  in specified input. Don't produce any file
                                  output
+
+       -srt, -dvdraw, -sami, -webvtt, -txt, -ttxt and -null can be used as shorts.
 
 Options that affect how input files will be processed.
         -gt --goptime: Use GOP for timing instead of PTS. This only applies
@@ -194,6 +218,7 @@ Options that affect how input files will be processed.
                        -autoprogram (see below) is used.
          -autoprogram: If there's more than one program in the stream, just use
                        the first one we find that contains a suitable stream.
+        -multiprogram: Uses multiple programs from the same input stream.
              -datapid: Don't try to find out the stream for caption/teletext
                        data, just use this one instead.
       -datastreamtype: Instead of selecting the stream by its PID, select it
@@ -218,15 +243,54 @@ Options that affect how input files will be processed.
                        you prefer your own reference. Note: Current this only
                        affects Teletext in timed transcript with -datets.
            --noscte20: Ignore SCTE-20 data if present.
+  --webvtt-create-css: Create a separate file for CSS instead of inline.
+              -deblev: Enable debug so the calculated distance for each two
+                       strings is displayed. The output includes both strings,
+                       the calculated distance, the maximum allowed distance,
+                       and whether the strings are ultimately considered  
+                       equivalent or not, i.e. the calculated distance is 
+                       less or equal than the max allowed..
+-anvid --analyzevideo  Analyze the video stream even if it's not used for
+                       subtitles. This allows to provide video information.
+  --no-timestamp-map   Use this flag to disable the X-TIMESTAMP-MAP header for WebVTT
+Levenshtein distance:
+
+  When processing teletext files CCExtractor tries to correct typos by
+  comparing consecutive lines. If line N+1 is almost identical to line N except
+  for minor changes (plus next characters) then it assumes that line N that a
+  typo that was corrected in N+1. This is currently implemented in teletext
+  because it's where samples files that could benefit from this were available.
+  You can adjust, or disable, the algorithm settings with the following
+  parameters.
+
+           -nolevdist: Don't attempt to correct typos with Levenshtein distance.
+ -levdistmincnt value: Minimum distance we always allow regardless
+                       of the length of the strings.Default 2. 
+                       This means that if the calculated distance 
+                       is 0,1 or 2, we consider the strings to be equivalent.
+ -levdistmaxpct value: Maximum distance we allow, as a percentage of
+                       the shortest string length. Default 10%.0
+                       For example, consider a comparison of one string of 
+	                    30 characters and one of 60 characters. We want to 
+                       determine whether the first 30 characters of the longer
+                       string are more or less the same as the shortest string,
+	                    i.e. whether the longest string  is the shortest one
+                       plus new characters and maybe some corrections. Since
+                       the shortest string is 30 characters and  the default
+                       percentage is 10%, we would allow a distance of up 
+                       to 3 between the first 30 characters.
 
 Options that affect what kind of output will be produced:
+            -chapters: (Experimental) Produces a chapter file from MP4 files.
+                       Note that this must only be used with MP4 files,
+                       for other files it will simply generate subtitles file.
                  -bom: Append a BOM (Byte Order Mark) to output files.
                        Note that most text processing tools in linux will not
                        like BOM.
                        This is the default in Windows builds.
-               -nobom: Do not append a BOM (Byte Order Mark) to output files.
-                       Note that this may break files when using Windows.
-                       This is the default in non-Windows builds.
+                       -nobom: Do not append a BOM (Byte Order Mark) to output
+                       files. Note that this may break files when using
+                       Windows. This is the default in non-Windows builds.
              -unicode: Encode subtitles in Unicode instead of Latin-1.
                 -utf8: Encode subtitles in UTF-8 (no longer needed.
                        because UTF-8 is now the default).
@@ -254,7 +318,14 @@ Options that affect what kind of output will be produced:
                        Use one line per word. Lines starting with # are
                        considered comments and discarded.
 
-          -unixts REF: For timed transcripts that have an absolute date
+                 --kf: Censors profane words from subtitles.
+--profanity-file <file>: Add the contents of <file> to the list of words that.
+                         must be censored. The content of <file>, follows the
+                         same syntax as for the capitalization file
+-sbs --splitbysentence: Split output text so each frame contains a complete
+                       sentence. Timings are adjusted based on number of
+                       characters
+.          -unixts REF: For timed transcripts that have an absolute date
                        instead of a timestamp relative to the file start), use
                        this time reference (UNIX timestamp). 0 => Use current
                        system time.
@@ -267,17 +338,68 @@ Options that affect what kind of output will be produced:
                        free to play with it but be aware that this format
                        is really live - don't rely on its output format
                        not changing between versions.
+            -latrusmap Map Latin symbols to Cyrillic ones in special cases
+                       of Russian Teletext files (issue #1086)
+                 -xds: In timed transcripts, all XDS information will be saved
+                       to the output file.
                   -lf: Use LF (UNIX) instead of CRLF (DOS, Windows) as line
                        terminator.
+                  -df: For MCC Files, force dropframe frame count.
             -autodash: Based on position on screen, attempt to determine
                        the different speakers and a dash (-) when each
                        of them talks (.srt/.vtt only, -trim required).
           -xmltv mode: produce an XMLTV file containing the EPG data from
                        the source TS file. Mode: 1 = full output
                        2 = live output. 3 = both
+ -xmltvliveinterval x: interval of x seconds between writing live mode xmltv output.
+-xmltvoutputinterval x: interval of x seconds between writing full file xmltv output.
+    -xmltvonlycurrent: Only print current events for xmltv output.
                  -sem: Create a .sem file for each output file that is open
                        and delete it on file close.
-
+             -dvblang: For DVB subtitles, select which language's caption
+                       stream will be processed. e.g. 'eng' for English.
+                       If there are multiple languages, only this specified
+                       language stream will be processed (default).
+             -ocrlang: Manually select the name of the Tesseract .traineddata
+                       file. Helpful if you want to OCR a caption stream of
+                       one language with the data of another language.
+                       e.g. '-dvblang chs -ocrlang chi_tra' will decode the
+                       Chinese (Simplified) caption stream but perform OCR
+                       using the Chinese (Traditional) trained data
+                       This option is also helpful when the traineddata file
+                       has non standard names that don't follow ISO specs
+          -quant mode: How to quantize the bitmap before passing it to tesseract
+                       for OCR'ing.
+                       0: Don't quantize at all.
+                       1: Use CCExtractor's internal function (default).
+                       2: Reduce distinct color count in image for faster results.
+                 -oem: Select the OEM mode for Tesseract.
+                       Available modes :
+                       0: OEM_TESSERACT_ONLY - the fastest mode.
+                       1: OEM_LSTM_ONLY - use LSTM algorithm for recognition.
+                       2: OEM_TESSERACT_LSTM_COMBINED - both algorithms.
+                       Default value depends on the tesseract version linked :
+                       Tesseract v3 : default mode is 0,
+                       Tesseract v4 : default mode is 1.
+             -mkvlang: For MKV subtitles, select which language's caption
+                       stream will be processed. e.g. 'eng' for English.
+                       Language codes can be either the 3 letters bibliographic
+                       ISO-639-2 form (like "fre" for french) or a language
+                       code followed by a dash and a country code for specialities
+                       in languages (like "fre-ca" for Canadian French).
+          -nospupngocr When processing DVB don't use the OCR to write the text as
+                       comments in the XML file.
+                -font: Specify the full path of the font that is to be used when
+                       generating SPUPNG files. If not specified, you need to
+                       have the default font installed (Helvetica for macOS, Calibri
+                       for Windows, and Noto for other operating systems at their
+)                       default location
+)                -italics: Specify the full path of the italics font that is to be used when
+                       generating SPUPNG files. If not specified, you need to
+                       have the default font installed (Helvetica Oblique for macOS, Calibri Italic
+                       for Windows, and NotoSans Italic for other operating systems at their
+)                       default location
+)
 Options that affect how ccextractor reads and writes (buffering):
     -bi --bufferinput: Forces input buffering.
  -nobi -nobufferinput: Disables input buffering.
@@ -288,7 +410,7 @@ Options that affect how ccextractor reads and writes (buffering):
                        attempt to create it again when needed.
      -ff --forceflush: Flush the file buffer whenever content is written.
 
-Options that affect the built-in closed caption decoder:
+Options that affect the built-in 608 closed caption decoder:
                  -dru: Direct Roll-Up. When in roll-up mode, write character by
                        character instead of line by line. Note that this
                        produces (much) larger files.
@@ -331,20 +453,20 @@ Options that affect what segment of the input file(s) to process:
 -scr --screenfuls num: Write 'num' screenfuls and terminate processing.
 
 Options that affect which codec is to be used have to be searched in input
-  If codec type is not selected then first elementary stream suitable for
+  If codec type is not selected then first elementary stream suitable for 
   subtitle is selected, please consider -teletext -noteletext override this
   option.
       -codec dvbsub    select the dvb subtitle from all elementary stream,
-                        if stream of dvb subtitle type is not found then
+                        if stream of dvb subtitle type is not found then 
                         nothing is selected and no subtitle is generated
       -nocodec dvbsub   ignore dvb subtitle and follow default behaviour
       -codec teletext   select the teletext subtitle from elementary stream
       -nocodec teletext ignore teletext subtitle
   NOTE: option given in form -foo=bar ,-foo = bar and --foo=bar are invalid
         valid option are only in form -foo bar
-        nocodec and codec parameter must not be same if found to be same
-        then parameter of nocodec is ignored, this flag should be passed
-        once, more then one are not supported yet and last parameter would
+        nocodec and codec parameter must not be same if found to be same 
+        then parameter of nocodec is ignored, this flag should be passed 
+        once, more then one are not supported yet and last parameter would 
         taken in consideration
 Adding start and end credits:
   CCExtractor can _try_ to add a custom message (for credits for example) at
@@ -414,8 +536,9 @@ Teletext related options:
 Transcript customizing options:
     -customtxt format: Use the passed format to customize the (Timed) Transcript
                        output. The format must be like this: 1100100 (7 digits).
-                       These indicate whether the next things should be displayed
-                       or not in the (timed) transcript. They represent (in order):
+                       These indicate whether the next things should be
+                       displayed or not in the (timed) transcript. They
+                       represent (in order): 
                            - Display start time
                            - Display end time
                            - Display caption mode
@@ -428,7 +551,8 @@ Transcript customizing options:
                        1110101 is the default for timed transcripts
                        1111001 is the default setting for -ucla
                        Make sure you use this parameter after others that might
-                       affect these settings (-out, -ucla, -xds, -txt, -ttxt, ...)
+                       affect these settings (-out, -ucla, -xds, -txt, 
+                       -ttxt ...)
 
 Communication with other programs and console output:
    --gui_mode_reports: Report progress and interesting events to stderr
@@ -467,5 +591,63 @@ will create the files:
     /tmp/output_2.d/sub0000.png
     /tmp/output_2.d/sub0001.png
     ...
+
+Burned-in subtitle extraction:
+         -hardsubx : Enable the burned-in subtitle extraction subsystem.
+
+         NOTE: The following options will work only if -hardsubx is 
+                specified before them:-
+
+       -tickertext : Search for burned-in ticker text at the bottom of
+                     the screen.
+
+         -ocr_mode : Set the OCR mode to either frame-wise, word-wise
+                     or letter wise.
+                     e.g. -ocr_mode frame (default), -ocr_mode word, 
+                     -ocr_mode letter
+
+         -subcolor : Specify the color of the subtitles
+                     Possible values are in the set 
+                     {white,yellow,green,cyan,blue,magenta,red}.
+                     Alternatively, a custom hue value between 1 and 360 
+                     may also be specified.
+                     e.g. -subcolor white or -subcolor 270 (for violet).
+                     Refer to an HSV color chart for values.
+
+ -min_sub_duration : Specify the minimum duration that a subtitle line 
+                     must exist on the screen.
+                     The value is specified in seconds.
+                     A lower value gives better results, but takes more 
+                     processing time.
+                     The recommended value is 0.5 (default).
+                     e.g. -min_sub_duration 1.0 (for a duration of 1 second)
+
+   -detect_italics : Specify whether italics are to be detected from the 
+                     OCR text.
+                     Italic detection automatically enforces the OCR mode 
+                     to be word-wise
+      -conf_thresh : Specify the classifier confidence threshold between
+                      1 and 100.
+                     Try and use a threshold which works for you if you get 
+                     a lot of garbage text.
+                     e.g. -conf_thresh 50
+
+ -whiteness_thresh : For white subtitles only, specify the luminance 
+                     threshold between 1 and 100
+                     This threshold is content dependent, and adjusting
+                     values may give you better results
+                     Recommended values are in the range 80 to 100.
+                     The default value is 95
+
+            An example command for burned-in subtitle extraction is as follows:
+               ccextractor video.mp4 -hardsubx -subcolor white -detect_italics 
+                   -whiteness_thresh 90 -conf_thresh 60
+
+
+         --version : Display current CCExtractor version and detailed information.
 Error: (This help screen was shown because there were no input files)
+
+Issues? Open a ticket here
+https://github.com/CCExtractor/ccextractor/issues
+
 ```
