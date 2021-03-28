@@ -30,6 +30,12 @@ HUGO_VERSION = "0.81.0"
 HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
+  from = "/public/gsoc/ideas_page_for_summer_of_code_2021" 
+  to = "/docs/ideas_page_for_summer_of_code_2021" 
+  status = 301 
+  force = true
+
+[[redirects]]
   from = "/doku.php"  
   to = "/public/gsoc/welcome_to_summer_of_code_2015/?no-query-string" 
   status = 301 
@@ -906,7 +912,7 @@ HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
   from = "/doku.php"  
-  to = "/public/gsoc/ideas_page_for_summer_of_code_2021/?no-query-string" 
+  to = "/docs/ideas_page_for_summer_of_code_2021/?no-query-string" 
   status = 301 
   force = true 
   query = {id= "public:gsoc:ideas_page_for_summer_of_code_2021"} 
@@ -1719,7 +1725,7 @@ HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
   from = "/public:gsoc:ideas_page_for_summer_of_code_2021" 
-  to = "/public/gsoc/ideas_page_for_summer_of_code_2021" 
+  to = "/docs/ideas_page_for_summer_of_code_2021" 
   status = 301 
   force = true
 
