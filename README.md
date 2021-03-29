@@ -1,4 +1,4 @@
-# website
+# Website
 www.ccextractor.org
 
 ### Adding more GSoC ideas: 
