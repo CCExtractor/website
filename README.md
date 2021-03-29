@@ -2,7 +2,7 @@
 
 This is the repository hosting the source code of our website (https://www.ccextractor.org).
 
-It is being built automatically using [Hugo](https://gohugo.io/) in a [GitHub Actions](https://docs.github.com/en/actions) workflow. 
+It is being built automatically using [Hugo](https://gohugo.io/) with [Netlify's continuous deployment](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/). 
 
 ## Contributing
 
