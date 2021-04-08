@@ -35,7 +35,7 @@ machines that can execute the regression tests (currently 180GB of
 samples!) - Deep integration with the GitHub Actions that should be
 run first (creating Linux, Windows, Mac builds), so that no time is
 wasted if there are compiler errors or no code changes. - Watch
-[this video](https://www.youtube.com/watch?v=407nwX6_70).
+[this video](https://www.youtube.com/watch?v=407nwX6__70).
 Disregard that it's about the Rust community - it's the CD/CI part on
 it that is important to us. That's what we want.
 
