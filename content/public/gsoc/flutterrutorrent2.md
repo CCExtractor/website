@@ -26,25 +26,21 @@ developers.
 
  **Your job**
 
-Your job is add a number of features to this project.
+Your job is to write your proposal on any of the following:
 
-1) View Models: Generate a state model which holds the current state of the torrent lists even when the internet connection is not available. Currently, the torrent list vanishes as soon as internet connection is disconnected, with this state model, the user experience will improve.
-2) Automatic Tests: Write some unit tests for major classes and also
-widget testing for some components. 
-3) Media Player: Currently, VLC
-media player plugin is a heavy integration and also it lacks many of the
-basic media player functionalities. The aim would be to find an
-alternative way to stream videos such that the app size gets reduced or
-enhance the functionalities of it. 
-4) Production-type environment:
-The aim would be to create separate branches for master and dev and to
-regularly merge dev to master to create a new release. Furthermore, this
-can be automatic using CI/C pipeline integration for the project. 
-5) Improve Documentation: Document the basic structure and architecture
-used in the app, maybe use Wikis, so that the new contributors find easy
-to understand the setup and code.
-6) rutorrent has a good IRSSI support. We want the same notifications that
-appear on IRSSI's tab in rutorrent to be available on our mobile app.
+* Improve current project
+	1) Stacked architecture: Stacked architecture works great with Provider so we want to migrate the app to the stacked architecture.
+	2) Organized Code/File Structure: According to the stacked architecture create services, views and view models for better organization.
+	3) Production-type environment: The aim would be to create separate branches for master and dev and to regularly merge dev to master to create a new release. Furthermore, this can be automatic using CI/CD pipeline integration for the project.
+	4) Improve Documentation: Document the basic structure and architecture used in the app, maybe use Wikis, so that the new contributors find easy to understand the setup and code.
+	5) Suggest improvements or enhancements required apart from the above mentioned ones.
+
+* Implement new features to the project
+	1) Automatic Tests: Write some unit tests for major classes and also widget testing for some components.
+	2) Media Player: Currently, VLC media player plugin is being used for streaming media files. But it lacks many of the features which a basic media player provides. So, the aim would be to add new features to it like fast forward, adding subtitles, changing volume and brightness etc.
+	3) Autodl-IRSSI notifications: rutorrent has good IRSSI support. We want the same notifications that appear on IRSSI's tab in rutorrent to be available on our mobile app.
+	4) IOS Release: Work on the ios release for rutorrent-mobile app, which will involve thorough testing on the ios device. Then signing the app and making a github release for the same.
+	5) Suggest new features or any other plugin implementations of the web interface which are required on the mobile app.
 
  **Notes**
 
