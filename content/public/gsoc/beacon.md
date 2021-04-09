@@ -13,8 +13,8 @@ The basic idea is this:
 - The beacon indicates of course the location of the leader which anyone can follow.
 - A beacon can be transferred from one device to another, typically because there's a change in whoever is leading the group.
 - Beacons can be accessed anonymously (at least for now - maybe we'll add privacy options in the future). This is important, because as we said, it's possible that the user is just joining a city tour and has no way to get in touch with anyone.
-- Each beacon has a short code (we can use short since beacons are short lived) and several convenience ways to access it (URL, QR, etc)
-- Beacons have a start and end time during they are active. This can be prescheduled, or the beacon owner can just activate / detactivate on demand.
+- Each beacon has a short code (we can use short since beacons are short lived) and several convenient ways to access it (URL, QR, etc)
+- Beacons have a start and end time during they are active. This can be prescheduled, or the beacon owner can just activate / deactivate on demand.
 - Beacon followers ideally should just have the app installed, but since they might not the beacon URL should provide at least basic page with the current location.
 - For an active beacon (only) the route is saved so the user can later share it.
 - From the app we'll have an "Add landmark" feature to mark interesting points.
