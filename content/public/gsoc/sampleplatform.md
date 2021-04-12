@@ -3,90 +3,77 @@ title: " Google Summer of Code 2020 - The sample platform / Continuous integrati
 ---
 
 The [sample platform](https://sampleplatform.ccextractor.org/) was
-developed during GSoC '15 and overhauled during GSoC '16. In GSoC '17
-another student added support for the Windows part, as well as some
-bugfixes. The student continued his work during GSoC '18, and will
-mentor this year. Last year a new student did some improvements and
-bugfixes.
+developed during GSoC '15 and got improved during every GSoC edition since.
 
-This GCi edition we came to the conclusion that for new contributors,
-there are a bunch of drawbacks in the current system that make it no
-longer viable to continue to run the platform in it's current form.
+During the last edition of GCi we noticed that new contributors find the current 
+system confusing at first, which make it no longer viable to continue to run the 
+platform in it's current form.
 
-
-The two main issues are: - Long runtime if a lot of commits/PR's
-are opened. This is because there is only one instance per OS
-available. - Unclear what the tests were being compared against. We
-should be able to have multiple approved versions and tell the user if
+The two main issues are: 
+- Long runtime if a lot of commits/PR's are opened. This is because 
+there is only one instance per OS available. 
+- Unclear what the tests were being compared against. We should be 
+able to have multiple approved versions and tell the user if
 the result deviates from those known ones.
 
-With a lot of different cloud offerings available and the launch of
-GitHub actions we want to iterate on the design of the Sample Platform,
-moving the infrastructure from a single dedicated server to a scalable
-service that can cope with the variations in load.
+The second issue has recently been (partially solved) by allowing multiple result
+files to be set as an "correct" output.
 
-This will need an upfront survey of the existing functionality, followed
-by discussions with the mentor on how to implement this.
+During GSoC '20 a student attempted a full rewrite of the platform, but this
+effort failed unfortunately. It gave us good insights though on the platform of choice,
+which is Google's Cloud Platform (GCP). 
 
-Features that will need to be implemented for certain are: - A
-coordinating platform that receives the call for actions, triggers the
-machines, displays results, ... - Scalable Linux/Mac/Windows
-machines that can execute the regression tests (currently 180GB of
-samples!) - Deep integration with the GitHub Actions that should be
-run first (creating Linux, Windows, Mac builds), so that no time is
-wasted if there are compiler errors or no code changes. - Watch
-[this video](https://www.youtube.com/watch?v=407nwX6__70).
+You can find the repository with the code here (for reference purposes): 
+https://github.com/CCExtractor/sample-platform-v2
+
+For this year, we want to focus on migrating the existing python codebase to GCP,
+and getting a setup where we can launch disposable machines instead of the current
+KVM setup. This will eliminate the queue that is sometimes built up.
+
+Watch [this video](https://www.youtube.com/watch?v=407nwX6__70).
 Disregard that it's about the Rust community - it's the CD/CI part on
 it that is important to us. That's what we want.
+
+Task list:
+- Make a cost estimation of running the platform, the storage of the samples (180GB) and the test
+runners
+- Migrate the current website to a GCP running instance
+- Update GH Actions to only trigger the platform if both builds on Linux & Windows succeed. This
+will reduce wasting time when a build fails anyway.
+- Update our mod_ci module to use the GCP API to start a disposable machine for both
+Windows & Linux. It is **vital** that you look into the workings of Windows on GCP, because
+we will have to fail you if you only setup Linux. Windows is an essential part of our testing
+infrastructure.
 
 ### Getting started / Requirements
 
 The Sample Platform is written in Python, so we expect good knowledge of
-Python. The new project is not necessarily python-based, but the choice
-should be made based on maintainability (unit testing) and availability
-of third-party API's and libraries.
+Python. Choices for libraries should be made based on maintainability 
+(unit testing) and availability of third-party API's.
 
 #### Qualification
 
 If you are interested in taking up this project during GSoC, you will
 need to satisfy these requirements (in order of importance, not all are
-a necessity):  - A well researched, well written project proposal.
+a necessity):
+- A well researched, well written project proposal.
 This should include a monthly cost prediction based on expected
-runtime's, disk storage used, ... A comparison between multiple
-providers (e.g. Azure, GCP, AWS, Packet) must be included. - Have
-chatted with the mentor(s) at least once. - Fixed a bug, improved
-installation documentation, ... (contributed something to the project).
+runtime's, disk storage used, ... for GCP. 
+- Have chatted with the mentor(s) at least once.
+- Fixed a bug, improved installation documentation, ... (contributed something to the project).
 There are some issues in the tracker labeled issues labeled
 [GSoC-proposal-task](https://github.com/CCExtractor/sample-platform/issues?q=is%3Aissue+is%3Aopen+label%3AGSoC-proposal-task)
-for this purpose. - Proof you've set up the Sample Platform
-locally.
+for this purpose.
+- Proof you've set up the Sample Platform locally.
 
 ### Additional information not necessarily well organized :-)
 
-- For each sample we currently have one "good" output. That's not
-really correct. Changes in code might produce minor changes in the
-output (in the order of a few milliseconds). For each sample we'll need
-to have a set of correct outputs (possibly with a "correctness
-score"). - When a pull-request is checked, our system now reports
-the number of "broken" samples, meaning how many samples are producing
-an incorrect output according to our "good output" list. This however
-does not help much determining how the output changes for this specific
+- When a pull-request is checked, our system now reports the number of "broken" samples, 
+meaning how many samples are producing an incorrect output according to our "good output" list. 
+This however does not help much determining how the output changes for this specific
 PR. Instead, the system needs to report the difference between the code
-before and after the changes in the PR, which is much more useful. -
-We'll also need a way for final users to send test their own files
-against the current version so they don't need us to release a new
-CCExtractor version that _could_ fix something that is broken for
-them. - It should be possible for users to get a binary compiled by
-the new system, particularly for Windows (in linux we don't have this
-problem since the typical way to install CCExtractor is just to build
-from source). Note that this build is already happening, so don't worry
-much if you have zero interest on Windows :-) You can use what we
-already have in order to build. - We currently run all the tests for
-each PR. This is overkill. Instead, we should have different sets of
-tests, for example "only MP4 files", or only "teletext", and so on,
-and the developer should be able to decide which tests he needs to run
-his PR on (or maybe none, for example if he just edited the help
-screen). - One of the reasons we're "going cloud" (as opposed to
+before and after the changes in the PR, which is much more useful. 
+- One of the reasons we're "going cloud" (as opposed to
 continue to run in one server) is the ability to scale and parallelize.
 It must be possible to check several PRs at the same time, different
 platforms, and so on. - We need to add a "regression finder"
@@ -98,3 +85,5 @@ sample find which specific commit changed the output.
 - Willem Van Iseghem (@canihavesomecoffee on Slack) is a former GSoC
 student (2014, 2015, 2016) and mentor (2017, 2018, 2019). He started the
 project and is the official maintainer.
+- Shivam Jha (@thealphadollar on Slack) is a former GSoC student (2018, 2019), mentor (2020)
+and is co-maintainer of the platform.
