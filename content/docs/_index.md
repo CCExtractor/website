@@ -18,5 +18,5 @@ To get in touch with us, join our slack channel. Most CCExtractor developers han
 
 {{< /tip >}}
 
-{{< button "cchome/" "Read the Docs" >}}{{< button "ideas_page_for_summer_of_code_2021/" "Here for GSoC'21?" >}}
+{{< button "public/general/downloads/" "Downloads" >}} {{< button "cchome/" "Read the Docs" >}}{{< button "ideas_page_for_summer_of_code_2021/" "Here for GSoC'21?" >}}
 {{< /column >}}
