@@ -18,10 +18,10 @@ title = "Compose"
 {{< column >}}
 # Welcome to CCExtractor
 
-### About CCExtractor (the software)
+#### About CCExtractor (the software)
 CCExtractor is the de-factor open source standard for closed captions / subtitles extraction from any media file. While the software itself belong to the niche category (main users being universities, media companies and enthusiasts) its output (meaning the .srt files it generates) is used by millions. If you've ever downloaded an external subtitle file for a TV show - most likely the original file came from CCExtractor.
 
-### About CCExtractor Development (the organization)
+#### About CCExtractor Development (the organization)
 CCExtractor Development is an informal (meaning we're not incorporated anywhere) organization that exists to coordinate the development efforts of the volunteers that contribute to the software and to manage our participation in specific events such as Google Summer of Code and Code-In.
     
 
