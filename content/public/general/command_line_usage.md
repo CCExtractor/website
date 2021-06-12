@@ -35,8 +35,6 @@ File name related options:
     -o outputfilename: Use -o parameters to define output filename if you don't
                        like the default ones (same as infile plus _1 or _2 when
                        needed and file extension, e.g. .srt).
-         -cf filename: Write 'clean' data to a file. Cleans means the ES
-                       without TS or PES headers.
               -stdout: Write output to stdout (console) instead of file. If
                        stdout is used, then -o can't be used. Also
                        -stdout will redirect all messages to stderr (error).
@@ -48,6 +46,7 @@ File name related options:
          -fixptsjumps: fix pts jumps. Use this parameter if you
                        experience timeline resets/jumps in the output.
                -stdin: Reads input from stdin (console) instead of file.
+                       Alternatively, - can be used instead of -stdin
 You can pass as many input files as you need. They will be processed in order.
 If a file name is suffixed by +, ccextractor will try to follow a numerical
 sequence. For example, DVD001.VOB+ means DVD001.VOB, DVD002.VOB and so on
@@ -91,7 +90,7 @@ Options that affect what will be processed:
 Use --append to prevent overwriting of existing files. The output will be
       appended instead.
                  -cc2: When in srt/sami mode, process captions in channel 2
-                       instead of channel 1.
+                       instead of channel 1. Alternatively, -CC2 can also be used.
 -svc --service N1[cs1],N2[cs2]...:
                        Enable CEA-708 (DTVCC) captions processing for the listed
                        services. The parameter is a comma delimited list
