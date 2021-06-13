@@ -2,11 +2,13 @@
 title: "CCExtractor downloads"
 ---
 
-Current version: 0.88 (May 21st, 2019)
+Current version: 0.89 (June 13, 2021)
 
- **CCExtractor's source code**
+ **CCExtractor's source code (current, some variants not yet available) **
 
-[CLI Source code full](https://github.com/CCExtractor/ccextractor/archive/v0.88.zip)
+[CLI Source code full](https://github.com/CCExtractor/ccextractor/archive/refs/tags/v0.89.tar.gz)
+
+ **CCExtractor's source code for 0.88 **
 
 [CLI Source code without Windows blobs (reduced size)](https://github.com/CCExtractor/ccextractor/releases/download/v0.88/ccextractor-0.88_no_windows.zip)
 
