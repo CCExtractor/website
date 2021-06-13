@@ -8,6 +8,8 @@ Current version: 0.89 (June 13, 2021)
 
 [CLI Source code full](https://github.com/CCExtractor/ccextractor/archive/refs/tags/v0.89.tar.gz)
 
+[CLI binaries for Windows)(https://github.com/CCExtractor/ccextractor/suites/2983776538/artifacts/67339947)
+
  **CCExtractor's source code for 0.88 **
 
 [CLI Source code without Windows blobs (reduced size)](https://github.com/CCExtractor/ccextractor/releases/download/v0.88/ccextractor-0.88_no_windows.zip)
