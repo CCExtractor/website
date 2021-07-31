@@ -16,7 +16,9 @@ weight = 1
 
 [Using the command line tool](/public/general/command_line_usage)
 
-[Using the Windows GUI](/public/general/win_gui_usage)
+[Build and use the CCExtractor flutter GUI](/public/general/win_gui_usage)
+
+[Using the Windows GUI](/public/general/win_gui_usage) \[ARCHIVED\]
 
 [Real time demo](http://realtimedemo.ccextractor.org:8080/) - Currently down, our primary source of data is moving to a new office and their infrastructure is not yet available.
 
@@ -26,7 +28,7 @@ weight = 1
 
 [Translating subtitles in real time](/public/gsoc/translating_captions)
 
-[Using the cross-platform GUI](/public/gsoc/olegkisselef_qt_gui)
+[Using the cross-platform GUI](/public/gsoc/olegkisselef_qt_gui) \[ARCHIVED\]
 
 [Extracting closed captions from a DVD step by step tutorial](/public/gsoc/extract_from_dvd)
 

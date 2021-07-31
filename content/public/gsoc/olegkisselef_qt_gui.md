@@ -2,6 +2,10 @@
 title: "Cross-platform Qt GUI"
 ---
 
+{{< tip "warning" >}}
+This GUI is now archived, use the flutter one from  [here](/public/general/flutter_gui)
+{{< /tip >}}
+
 CCExtractor Cross-platform Qt GUI lets users not familiar with CLI to
 extract subtitles. Oleg
 [implemented](https://github.com/kisselef/ccextractor-gui-qt)

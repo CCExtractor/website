@@ -2,6 +2,11 @@
 title: "Windows GUI usage"
 ---
 
+{{< tip "warning" >}}
+This GUI is now archived, use the flutter one from  [here](/public/general/flutter_gui)
+{{< /tip >}}
+
+
 The new interface is all you need, as it includes all the options. After
 installing CCExtractor you will have a shortcut in your desktop and a
 new entry in the Program Files folder (CCExtractor → CCExtractorGUI).

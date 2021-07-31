@@ -1,3 +1,5 @@
+github.com/Techno-Disaster/compose v0.0.0-20210612195545-417ec8c5abc8 h1:gniIvNFEjr3mG6mugeisL2uECPtzr7OsOa06WM0bmrQ=
+github.com/Techno-Disaster/compose v0.0.0-20210612195545-417ec8c5abc8/go.mod h1:4UviMFFVBlNSClOr/ZFfKJl2yAM7MeJ6jZCsy2bbatg=
 github.com/onweru/compose v0.0.0-20201006150935-3c1a2b1a5808 h1:6eVMm+cuEWeCodoHVzfjPc1+BOJMvm7boxrsXSMcbBg=
 github.com/onweru/compose v0.0.0-20201006150935-3c1a2b1a5808/go.mod h1:tf1kQIBUcwJ/3mRFU5eiMrMvsDScVTK2IEFsZE3hZOc=
 github.com/onweru/compose v0.0.0-20201008112336-b33efbb800d7 h1:tAyTSeyByfv2gPaqUrYi0kk0Z9jLTkAz24iSqLsotaA=
@@ -152,3 +154,4 @@ github.com/onweru/compose v0.0.0-20210309133307-8a3113c43d31 h1:8xkpWOA0lGo296VN
 github.com/onweru/compose v0.0.0-20210309133307-8a3113c43d31/go.mod h1:tf1kQIBUcwJ/3mRFU5eiMrMvsDScVTK2IEFsZE3hZOc=
 github.com/onweru/compose v0.0.0-20210312153401-7f1c7da6d155 h1:EDrVXssmI+WiQ1KgYizL8qTR43e+vRvtrlwOSs1xRkU=
 github.com/onweru/compose v0.0.0-20210312153401-7f1c7da6d155/go.mod h1:tf1kQIBUcwJ/3mRFU5eiMrMvsDScVTK2IEFsZE3hZOc=
+github.com/onweru/compose v0.0.0-20210506215729-3f2ccb9b9acb/go.mod h1:tf1kQIBUcwJ/3mRFU5eiMrMvsDScVTK2IEFsZE3hZOc=
