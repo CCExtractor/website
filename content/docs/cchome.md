@@ -16,7 +16,7 @@ weight = 1
 
 [Using the command line tool](/public/general/command_line_usage)
 
-[Build and use the CCExtractor flutter GUI](/public/general/win_gui_usage)
+[Build and use the CCExtractor flutter GUI](/public/general/flutter_gui.md)
 
 [Using the Windows GUI](/public/general/win_gui_usage) \[ARCHIVED\]
 
