@@ -36,6 +36,7 @@ The GUI is mainly divided into 2 parts, the home screen and the settings screen(
 {{< picture "flutter_gui/addfiles.png" "flutter_gui/addfiles.png" "GUI Input" >}}
 
 - Once you select your files use the start all button to start running ccextractor on the selected files one by one. 
+- How it works? The GUI simply uses a [dart process](https://api.dart.dev/stable/2.13.4/dart-io/Process/start.html) which runs the ccextractor binary with the selected settings
 - You can see the live output in the Logs container below. 
 - You can also use the clear list button to remove all the selected files from the menu. 
 - The progress for each file is shown with a circular green progress indicator. 
