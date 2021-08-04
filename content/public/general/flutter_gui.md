@@ -26,10 +26,12 @@ If you run the GUI from nighly builds or source, you need to manually have the c
 
 ### Additional macOS steps:
 - If you build and install from source, you will probably get a `Process not permitted operation error` to fix remove 
-```
+
+```xml
 <key>com.apple.security.app-sandbox</key>
 	<true/>
 ```
+
 from macos/*.entitlements files
 
 --- 
