@@ -2,6 +2,12 @@
 title: "Build and use the CCExtractor flutter GUI"
 ---
 
+
+{{< tip >}}
+A cleaner version of this doc can be found [here](https://github.com/CCExtractor/ccextractorfluttergui/blob/master/README.md)
+{{< /tip >}}
+
+
 The new cross platform interface is all you need, as it includes all the options. After installing GUI you will have a shortcut in your desktop, this lets users not familiar with CLI to extract subtitles.
 Usually, you will never need to use all the options (and even if you do, all the setting are saved locally at Documents/config.json in your PC) for regular usage.
 
