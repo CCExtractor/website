@@ -1,17 +1,11 @@
 ---
-title: "Google Summer of Code (GSoC) 2021 ideas page"
+title: "Google Summer of Code (GSoC) 2022 ideas page"
 weight: 1
 ---
 
 Welcome to our ideas page. It's great you want to start early. Please
 join us in our slack channel! (we'll leave as an exercise to you to
 find it --- it's on our website).
-
-This is an "new way of doing things year". GSoC
-projects are now supposed to take around 175 hours and we've
-adapted our ideas to reflect that. If you think any idea is too
-long or too short please let us know - we still need to fine
-tune this!
 
 As you will see, this year has a lot of Rust. The reason is simple:
 Security. Our C code base has known (and we suspect, a lot of unknown)
@@ -49,8 +43,14 @@ get in touch for questions, or just check their page from time to time.
 We will update the descriptions often. 
 {{< /tip >}}
 
-#### CCExtractor Rust rewrite
+#### CCExtractor
 
+| Name | Description | Tech you need to know | Tech you will learn | Difficulty |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| [Subtitle quality quantification tool](/public/gsoc/2022/subtitle_quality/) | Writing a subtitle quality quantification tool | (Some) Rust, Some (C) | CCExtractor internals | Medium |
+
+
+#### CCExtractor Rust rewrite
 
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
@@ -61,7 +61,6 @@ We will update the descriptions often.
 
 
 #### Core subtitle tool (CCExtractor itself)
-
 
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
@@ -97,6 +96,7 @@ We will update the descriptions often.
 | [ support more torrent clients ](/public/gsoc/flutter-more-clients) | We'd like to add support for other clients to our ruTorrent mobile interface (which of course will get a new name): [Flood](https://flood.js.org) and [Deluge](https://deluge-torrent.org). | Flutter | API, Teamwork | Medium | 
 | [ CCExtractor's GUI in Flutter ](/public/gsoc/ccextractor_gui) | Over the years there's been a few attempts to replace the GUI for our core tool, CCExtractor, but none have been really successful. Using flutter, let's write a modern GUI. | Flutter | CCExtractor | Medium |
 | [ Beacon ](/public/gsoc/beacon) | We have a short version on this as a qualification tool (which you should do first) but this is actually a complete project we expect to become very popular. | Flutter | Scalability | Medium |
+| [ TaskWarrior ](/public/gsoc/2022/taskwarrior) | [Taskwarrior](https://taskwarrior.org/). is a very nice command-line tool (yes, in 2022 — and I love it!) to manage task list. Let's use flutter to create a app for it!! | Flutter | Scalability | Medium |
 
 #### rTorrent
 
