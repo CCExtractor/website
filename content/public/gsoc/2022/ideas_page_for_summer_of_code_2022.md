@@ -96,7 +96,7 @@ We will update the descriptions often.
 | [ support more torrent clients ](/public/gsoc/flutter-more-clients) | We'd like to add support for other clients to our ruTorrent mobile interface (which of course will get a new name): [Flood](https://flood.js.org) and [Deluge](https://deluge-torrent.org). | Flutter | API, Teamwork | Medium | 
 | [ CCExtractor's GUI in Flutter ](/public/gsoc/ccextractor_gui) | Over the years there's been a few attempts to replace the GUI for our core tool, CCExtractor, but none have been really successful. Using flutter, let's write a modern GUI. | Flutter | CCExtractor | Medium |
 | [ Beacon ](/public/gsoc/beacon) | We have a short version on this as a qualification tool (which you should do first) but this is actually a complete project we expect to become very popular. | Flutter | Scalability | Medium |
-| [ TaskWarrior ](/public/gsoc/2022/taskwarrior) | [Taskwarrior](https://taskwarrior.org/). is a very nice command-line tool (yes, in 2022 — and I love it!) to manage task list. Let's use flutter to create a app for it!! | Flutter | Scalability | Medium |
+| [ TaskWarrior ](/public/gsoc/2022/taskwarrior) | Taskwarrior is a very nice command-line tool (yes, in 2022 — and I love it!) to manage task list. Let's use flutter to create a app for it!! | Flutter | Scalability | Medium |
 
 #### rTorrent
 
