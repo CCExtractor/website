@@ -8,7 +8,7 @@ Current version: 0.92 (Aug 10, 2021)
 
 [CLI Source code full](https://github.com/CCExtractor/ccextractor/archive/refs/tags/v0.92.tar.gz)
 
-[Windows MSI builds](https://github.com/CCExtractor/ccextractor/releases), for Windows XP and 7 last updated build [here](https://github.com/CCExtractor/ccextractor/releases/tag/v0.89)
+Windows MSI builds (windows 7 and above), can be found [here](https://github.com/CCExtractor/ccextractor/releases), for Windows XP last updated build [here](https://github.com/CCExtractor/ccextractor/releases/tag/v0.89)
 
 For GUI on other platfroms look [here](/public/general/flutter_gui)
 
