@@ -54,7 +54,7 @@ We will update the descriptions often.
 
 GSOC 2021 was quite successful on this front. The 708 decoder was rewritten in Rust, and in the process we fixed all the known (then) issues with 708. The student who did all this work (Punit Lodha) is going to mentor in 2022. 
 
-In 2022 we'd like to tackle these tasks. 
+In 2022 we'd like to tackle these tasks. If you're interested, you can get some feeling of the system by fixing https://github.com/CCExtractor/ccextractor/issues/1407
 
 
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty |
