@@ -82,7 +82,7 @@ In 2022 we'd like to tackle these tasks. If you're interested, you can get some 
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | [ ruTorrent mobile interface (II) ](/public/gsoc/flutterrutorrent2) | ruTorrent is a popular web interface for rTorrent, which is possibly the most used BitTorrent client in linux. Last year we started a new project to write a Flutter based interface and was successful and it's gaining traction on its own. We want to work on that project and include new features. | Flutter | BitTorrent | Medium | 
 | [ support more torrent clients ](/public/gsoc/flutter-more-clients) | We'd like to add support for other clients to our ruTorrent mobile interface (which of course will get a new name): [Flood](https://flood.js.org) and [Deluge](https://deluge-torrent.org). | Flutter | API, Teamwork | Medium | 
-| [ Beacon ](/public/gsoc/beacon) | We have a short version on this as a qualification tool (which you should do first) but this is actually a complete project we expect to become very popular. | Flutter | Scalability | Medium |
+| [ Beacon ](/public/gsoc/2022/beacon) | This project was started last year and it aims to ease the group travelling (or hiking). By using this, the group leader would be able to share his live location with the entire crew. We want to improve on past work, include new features, and release it.  | Flutter | Scalability | Medium |
 | [ TaskWarrior ](/public/gsoc/2022/taskwarrior) | Taskwarrior is a very nice command-line tool (yes, in 2022 — and I love it!) to manage task list. Let's use flutter to create a app for it!! | Flutter | Scalability | Medium |
 
 #### rTorrent
