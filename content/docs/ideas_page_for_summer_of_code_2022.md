@@ -70,13 +70,6 @@ In 2022 we'd like to tackle these tasks. If you're interested, you can get some 
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 [The sample platform (/ continuous integration) project](/public/gsoc/sampleplatform) | The sample platform is a good way to help new contributors to check if their code doesn't introduce any regressions. It's pretty stable, but is often hard to interpret for new contributors, and still pretty slow if the queue builds up. We want to move the platform towards GCP (Google Cloud Platform) and run the tests on disposable instances rather than through KVM. **This project is guaranteed to be selected if the proposal is good.** | Git Python | Google Cloud API's GitHub Actions GitHub API's Continuous Integration (CI) Automated deployments GitHub integration | Medium/Hard |
 
-#### Artificial Intelligence and clever algorithms
-
-| Name | Description | Tech you need to know | Tech you will learn | Difficulty |
-| ----------- | ----------- | ----------- | ----------- | ----------- |
-| [Poor man's Rekognition (III)](/public/gsoc/poormanrekognition2) | Amazon Rekognition is a (paid) service that is able to identify celebrity faces in a picture. Last year we did some work towards creating a free alternative. This year we want to improve on the past work. | Your choice | AI  Computer vision | Unknown | 
-| [Poor man's Textract](/public/gsoc/poormantextract) | Amazon Textract a (paid) service that "automatically extracts text and data from scanned documents. Amazon Textract goes beyond simple optical character recognition (OCR) to also identify the contents of fields in forms and information stored in tables". We want to build a free alternative that provides an output of similar quality. | Your choice | AI  Computer vision  OCR | Unknown |
-
 #### Multimedia (misc)
 
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty |
@@ -84,7 +77,6 @@ In 2022 we'd like to tackle these tasks. If you're interested, you can get some 
 | [Improve our reference channel for Roku ](/public/gsoc/rokuchannel2) | Roku is currently the most common media streamer. It's cheap and neutral (it's not in any "fight"). Unfortunately, there aren't any good open source channels, so if you want to start your own you have to start from scratch. Last year we started a new channel everyone can use as a starting point. We'd like to continue working on it, adding new features. We will send a free Roku to our student for development. | None | Brightscript Roku Video Streaming | Medium |
 
 #### Flutter
-
 
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
@@ -113,6 +105,13 @@ We use [jesec/rtorrent](https://github.com/jesec/rtorrent). It provides a more m
 | [ BitTorrent over TLS ](/public/gsoc/bittorrent-tls) | BitTorrent protocol is not secure. Its encryption mechanism is outdated and weak. Even for obfuscation, it is ineffective. Nowadays, even an entry-level gateway has the capability to detect and block BitTorrent traffic at little to no risk. The BitTorrent community would benefit from a new standard encryption mechanism that allows strong encryption, forward secrecy and resistance to censorship. | Depends | Networking, Standardization | Hard | 
 | [ The next peer-to-peer protocol ](/public/gsoc/cloudtorrent) | BitTorrent is of course the world's most used peer to peer protocol. It's great, but it was designed before the cloud was ubiquitous and it doesn't make use of the places where you have the most storage or the most bandwidth. Can we design something for the next decade? | Depends | Peer-to-peer, cloud | Unknown | 
 | [ Linux tuning for network throughput ](/public/gsoc/linuxtuning) | Come up with a system that tunes the linux kernel to maximize network throughput for a number of workloads, such as web server or BitTorrent. We will provide access to a server with a huge pipe (10 Gbit/s, SSD, lots of cores) and your job is to build a tool that maximizes the throughput (and prove it!) | Linux | Kernel internals, Networking | Hard |
+
+#### Artificial Intelligence and clever algorithms
+
+| Name | Description | Tech you need to know | Tech you will learn | Difficulty |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| [Poor man's Rekognition (III)](/public/gsoc/poormanrekognition2) | Amazon Rekognition is a (paid) service that is able to identify celebrity faces in a picture. Last year we did some work towards creating a free alternative. This year we want to improve on the past work. | Your choice | AI  Computer vision | Unknown | 
+| [Poor man's Textract](/public/gsoc/poormantextract) | Amazon Textract a (paid) service that "automatically extracts text and data from scanned documents. Amazon Textract goes beyond simple optical character recognition (OCR) to also identify the contents of fields in forms and information stored in tables". We want to build a free alternative that provides an output of similar quality. | Your choice | AI  Computer vision  OCR | Unknown |
 
 #### About us
 
