@@ -52,10 +52,13 @@ We will update the descriptions often.
 
 #### CCExtractor Rust rewrite
 
+GSOC 2021 was quite successful on this front. The 708 decoder was rewritten in Rust, and in the process we fixed all the known (then) issues with 708. The student who did all this work (Punit Lodha) is going to mentor in 2022. 
+
+In 2022 we'd like to tackle these tasks. 
+
+
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| [Initial Rust scaffolding](/public/gsoc/cc_rust_scaffolding/) | Set up the base Rust infrastructure. Build with cargo. FFI. | (Some) Rust, Some (C) | A lot of Rust + C interoperability. CCExtractor internals | Medium |
-| [Rewrite 708 decoder in Rust](/public/gsoc/cc_rust_708) | CEA-708 is the American standard for digital subtitles. We have a reasonably good (meaning, easy to understand, and it was written when we knew what we were doing) C base. We'd like to port it to rust. We will provide you with the official technical standards. | (Some) Rust, Some (C) | Digital subtitles Working with standards. | Medium |
 | [Rewrite 608 decoder in Rust](/public/gsoc/cc_rust_608/)  | CEA-608 is the American standard for analog subtitles. It also carries things like emergency alerts, basic TV guide, and content classification. We have a complete implementation in C that works OK (possibly with some bugs) but that is not really very well organized. We'd like to port it to rust. We will provide you with the official technical standards. | (Some) Rust, Some (C) | Analog subtitles, XDS Working with standards. | Medium |
 | [Rewrite the OCR subsystem in Rust.](/public/gsoc/cc_rust_ocr/) | We use tesseract to OCR bitmap based subtitles. It's a great library, but because its input is a bitmap that is preprocessed (so provide a reasonable input) there's lots of places in which there can be buffer overruns, underruns… many of the problems that Rust shines on are evidenced here. So a Rust rewrite of this would be a big win. | OCR Rust FFI | Tesseract Imaging OCR | Medium |
 
