@@ -61,15 +61,14 @@ In 2022 we'd like to tackle these tasks. If you're interested, you can get some 
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | [Rewrite 608 decoder in Rust](/public/gsoc/cc_rust_608/)  | CEA-608 is the American standard for analog subtitles. It also carries things like emergency alerts, basic TV guide, and content classification. We have a complete implementation in C that works OK (possibly with some bugs) but that is not really very well organized. We'd like to port it to rust. We will provide you with the official technical standards. | (Some) Rust, Some (C) | Analog subtitles, XDS Working with standards. | Medium |
 | [Rewrite the OCR subsystem in Rust.](/public/gsoc/cc_rust_ocr/) | We use tesseract to OCR bitmap based subtitles. It's a great library, but because its input is a bitmap that is preprocessed (so provide a reasonable input) there's lots of places in which there can be buffer overruns, underruns… many of the problems that Rust shines on are evidenced here. So a Rust rewrite of this would be a big win. | OCR Rust FFI | Tesseract Imaging OCR | Medium |
+| [Add support for DTMB countries](/public/gsoc/dtmb) | DTMB is the standard for Chinese TV, also implemented by countries such as Cuba. What kind of student is ideal for this task? One with lots of analytic skills and patience. If you are one of those, don't disregard this task just because you don't speak (or maybe, even care) about Chinese. The experience on dealing with this will be extremely valuable in the future.We will use part of the organization funds to buy standard documents you might need, a capture device, and in general, anything required to make your life easier. | Rust | DTMB  Video standards Hardware Research | Unknown | 
+| [Add Japanese support](/public/gsoc/japanese) | Captions are used by people all over the world on a regular basis. Most of us are familiar with regular horizontal captions at the bottom of the screen, but did you know that in Japan a common position for captions is vertically on the right or left side of the screen? Come learn more about what Japanese audiences need out of captions as well as how captioning standard likes IMSC and WebVTT support these features.| Japanese (or be good with foreign languages), Rust | Depends | Suspected hard |
 
-
-#### Core subtitle tool (CCExtractor itself)
+#### Support tools we and other orgs use as part of their development process
 
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| [Add support for DTMB countries](/public/gsoc/dtmb) | DTMB is the standard for Chinese TV, also implemented by countries such as Cuba. What kind of student is ideal for this task? One with lots of analytic skills and patience. If you are one of those, don't disregard this task just because you don't speak (or maybe, even care) about Chinese. The experience on dealing with this will be extremely valuable in the future.We will use part of the organization funds to buy standard documents you might need, a capture device, and in general, anything required to make your life easier. | C | DTMB  Video standards Hardware Research | Unknown | 
-| [Add Japanese support](/public/gsoc/japanese) | Captions are used by people all over the world on a regular basis. Most of us are familiar with regular horizontal captions at the bottom of the screen, but did you know that in Japan a common position for captions is vertically on the right or left side of the screen? Come learn more about what Japanese audiences need out of captions as well as how captioning standard likes IMSC and WebVTT support these features.| Japanese (or be good with foreign languages) | Depends | Suspected hard |
-
+[The sample platform (/ continuous integration) project](/public/gsoc/sampleplatform) | The sample platform is a good way to help new contributors to check if their code doesn't introduce any regressions. It's pretty stable, but is often hard to interpret for new contributors, and still pretty slow if the queue builds up. We want to move the platform towards GCP (Google Cloud Platform) and run the tests on disposable instances rather than through KVM. **This project is guaranteed to be selected if the proposal is good.** | Git Python | Google Cloud API's GitHub Actions GitHub API's Continuous Integration (CI) Automated deployments GitHub integration | Medium/Hard |
 
 #### Artificial Intelligence and clever algorithms
 
@@ -77,12 +76,6 @@ In 2022 we'd like to tackle these tasks. If you're interested, you can get some 
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | [Poor man's Rekognition (III)](/public/gsoc/poormanrekognition2) | Amazon Rekognition is a (paid) service that is able to identify celebrity faces in a picture. Last year we did some work towards creating a free alternative. This year we want to improve on the past work. | Your choice | AI  Computer vision | Unknown | 
 | [Poor man's Textract](/public/gsoc/poormantextract) | Amazon Textract a (paid) service that "automatically extracts text and data from scanned documents. Amazon Textract goes beyond simple optical character recognition (OCR) to also identify the contents of fields in forms and information stored in tables". We want to build a free alternative that provides an output of similar quality. | Your choice | AI  Computer vision  OCR | Unknown |
-
-#### Support tools we and other orgs use as part of their development process
-
-| Name | Description | Tech you need to know | Tech you will learn | Difficulty |
-| ----------- | ----------- | ----------- | ----------- | ----------- |
-[The sample platform (/ continuous integration) project](/public/gsoc/sampleplatform) | The sample platform is a good way to help new contributors to check if their code doesn't introduce any regressions. It's pretty stable, but is often hard to interpret for new contributors, and still pretty slow if the queue builds up. We want to move the platform towards GCP (Google Cloud Platform) and run the tests on disposable instances rather than through KVM. **This project is guaranteed to be selected if the proposal is good.** | Git Python | Google Cloud API's GitHub Actions GitHub API's Continuous Integration (CI) Automated deployments GitHub integration | Medium/Hard |
 
 #### Multimedia (misc)
 
@@ -146,9 +139,7 @@ be able to help others out as well while working on your project.
 Exception: If your country (such as **Russia**) has banned Slack please get in touch in we'll work out a solution with you. We absolutely want you to participate.
 
 A [mailing list](https://groups.google.com/forum/#!forum/ccextractor-dev)
-is also available for those that prefer email over slack. It's a new
-mailing list (the old one hasn't been used in a long time) but it's
-read by everyone involved in GSoC.
+is also available for those that prefer email over Slack. Note that getting replies might be faster on Slack though.
 
 **All our top committers will be mentoring**. Many of them are former GSoC students or winners of GCI.
 
@@ -170,9 +161,6 @@ access (from the acceptance date) to
 fantastic resource to learn algorithms, prepare for coding interviews,
 and in general learn fundamentals.
 
-The student working on CEA-708 will also receive a copy of the latest
-CEA-708 specification document.
-
 #### About what we use
 
 This is what we use **today**. It doesn't mean this is what we want
@@ -180,12 +168,9 @@ to continue using. Probably not --- we're really open to change. We're
 just describing the status quo so you know what you are getting into :-)
 
 The core tool that names the organization (CCExtractor) is a
-command-line program written in **C** (not C++).
+command-line program written in **C** (not C++), and new core parts are being written in **Rust**.
 
-The current Windows GUI is written in **C       #**, and we have another
-GUI for Linux that's written with Qt, and a small GUI that's
-integrated into the main program (C). In we're being honest, nothing is
-great. Good news for you is that you can start over if you want.
+The current GUI is written in **flutter**.
 
 The testing tool we use to run regression tests is mainly written in
 **Python**, but it also used Javascript, CSS and some shell
@@ -221,13 +206,10 @@ environment (for a server that is connected to internet of course).
 The sample platform also hosts a bunch of samples, both which are small
 or decently sized.
 
-Some projects have specific requirements: For example to add support for
-JokerTV you will need a physical JokerTV device. We will send one to the
-student that takes this project well before GSoC starts. The LiveTV
-project requires a subscription to YouTube with LiveTV (whatever it's
-called this week) and Hulu. We will pay for those. If your project
-requires some cloud resources (Google Compute Engine, for example), we
-will pay for that, too.
+Some projects have specific requirements, and we'll make sure that you get
+the resources you need: i.e. if your project requires some cloud resources
+(Google Compute Engine, for example), we'll make sure you get access to the
+resources.
 
 In general, you are not expected to pay for anything (other than your
 own development computer and internet, of course) related to any
