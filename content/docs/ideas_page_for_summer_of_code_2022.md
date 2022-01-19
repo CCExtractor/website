@@ -111,7 +111,7 @@ We use [jesec/rtorrent](https://github.com/jesec/rtorrent). It provides a more m
 
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| [Poor man's Rekognition (IV)](/public/gsoc/2022/poormanrekognition4) | Amazon Rekognition is a (paid) service that is capable of extracting information and insights from images and videos by identifying objects, text and activities, performing facial analysis, detecting inappropriate scenes, and much more using deep learning. In the last three years, we did some work towards creating a free and open source version of the same by training a bunch of models and creating easy to use APIs. This year we want to improve on the past work. | Python  Computer Vision | Django  Tensorflow | Unknown |
+| [Poor man's Rekognition (III)](/public/gsoc/poormanrekognition2) | Amazon Rekognition is a (paid) service that is able to identify celebrity faces in a picture. Last year we did some work towards creating a free alternative. This year we want to improve on the past work. | Your choice | AI Computer vision | Unknown |
 | [Poor man's Textract](/public/gsoc/poormantextract) | Amazon Textract a (paid) service that "automatically extracts text and data from scanned documents. Amazon Textract goes beyond simple optical character recognition (OCR) to also identify the contents of fields in forms and information stored in tables". We want to build a free alternative that provides an output of similar quality. | Your choice | AI  Computer vision  OCR | Unknown |
 
 #### About us
