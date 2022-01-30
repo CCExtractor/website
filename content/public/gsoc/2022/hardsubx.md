@@ -15,7 +15,7 @@ This is a high value task and we'd love to have it done, but in order to qualify
 
 **Related GitHub Issues:-** 
 
-https://github.com/CCExtractor/ccextractor/issues?q=is%3Aopen+is%3Aissue+label%3AHardsubX
+[HardsubX Github Issues](https://github.com/CCExtractor/ccextractor/issues?q=is%3Aopen+is%3Aissue+label%3AHardsubX)
 
 **Other Qualification tasks**
 
