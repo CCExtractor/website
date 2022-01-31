@@ -8,7 +8,7 @@ Flood is a monitoring service for various torrent clients. It's a Node.js servic
 
 ### Your Job
 
-The project was started in GSoC 21' to be a companion app for the [Flood](https://github.com/jesec/flood) service. We utalize its backend and provide a user frendly mobile interface. This time around we hope to expand on that by integrating
+The project was started in GSoC 21' to be a companion app for the [Flood](https://github.com/jesec/flood) service. We utilize its backend and provide a user frendly mobile interface. This time around we hope to expand on that by integrating
 
 1. RSS Feed
 2. Notification action support
