@@ -3,13 +3,12 @@ title: "Slack"
 ---
 
 Slack is a great communication tool. Most CCExtractor developers hang
-out in a slack team. You're welcome to request an invitation [here](https://slackinvite.ccextractor.org/), use token: **subtitles**
+out in a slack team. You're welcome to request an invitation [here](https://slackinvite.ccextractor.org), use token: **subtitles**
 
 ### Technical issues
 
 By far the best way to get report issues is by opening a ticket at
-[GitHub's issue
-tracker](https://github.com/CCExtractor/ccextractor/issues).
+[GitHub's issue tracker](https://github.com/CCExtractor/ccextractor/issues).
 
 When creating a ticket:
 
