@@ -26,10 +26,10 @@ List of things that should be done during your project:
 ### Links / references
 - the live sample platform: https://sampleplatform.ccextractor.org
 - it's source code: https://github.com/CCExtractor/sample-platform
-- archived v2* (**for reference only**): https://github.com/CCExtractor/sample-platform-v2
+- archived v2\* ( **for reference only** ): https://github.com/CCExtractor/sample-platform-v2
 - CCExtractor's GitHub workflows: https://github.com/CCExtractor/ccextractor/tree/master/.github/workflows
 
-* We have no plans to continue with this version due to it being a total rewrite. It might contain useful information on how GCP's platform works though.
+\* We have no plans to continue with this version due to it being a total rewrite. It might contain useful information on how GCP's platform works though.
 
 ### Getting started / Requirements
 
