@@ -50,7 +50,7 @@ GSOC 2021 was quite successful on this front. The 708 decoder was rewritten in R
 In 2022 we'd like to tackle these tasks. If you're interested, you can get some feeling of the system by fixing https://github.com/CCExtractor/ccextractor/issues/1407
 
 
-| Name | Description | Tech you need to know | Tech you will learn | Difficulty | | Size | 
+| Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size | 
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | [Rewrite 608 decoder in Rust](/public/gsoc/cc_rust_608/)  | CEA-608 is the American standard for analog subtitles. It also carries things like emergency alerts, basic TV guide, and content classification. We have a complete implementation in C that works OK (possibly with some bugs) but that is not really very well organized. We'd like to port it to rust. We will provide you with the official technical standards. | (Some) Rust, Some (C) | Analog subtitles, XDS Working with standards. | Medium | 350 hours |
 | [Rewrite HardsubX subsystem in Rust](/public/gsoc/2022/hardsubx)  | Hardsubx is used to extract subtitles that are burned into videos using OCR. We have a implementation in C that works OK but has many bugs. We'd like to port it to rust. | (Some) Rust, Some (C), OCR | Tesseract Imaging OCR FFmpeg | Medium | 350 hours |
