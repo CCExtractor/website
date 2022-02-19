@@ -12,7 +12,7 @@ Last year we created a [basic one for Linux](https://github.com/CCExtractor/fast
 
 This year we'd like to focus on writer an i3wm teaching tool that trains muscle memory to use i3 with the keyboard only.
 
-If you haven't use i3 yet, we recommend the [regolith system](https://regolith-linux.org/) (that's the one we use). If comes completely ready to use - you can install it from USB, or over an existing Ubuntu. 
+If you haven't used i3 yet, we recommend the [regolith system](https://regolith-linux.org/) (that's the one we use). If comes completely ready to use - you can install it from USB, or over an existing Ubuntu. 
 
 
  **Your job**
