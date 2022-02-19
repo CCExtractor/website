@@ -7,8 +7,13 @@ title: "Mouseless for Linux v2 - i3 edition"
 
 [Mouseless](https://www.producthunt.com/posts/mouseless) is a
 nice tool to practice keyboard shortcuts for a few popular apps.
-Unfortunately it's only available for Mac. We'd like to create an
-open-source Linux version that can be easily extended.
+
+Last year we created a [basic one for Linux](https://github.com/CCExtractor/fastfingers). 
+
+This year we'd like to focus on writer an i3wm teaching tool that trains muscle memory to use i3 with the keyboard only.
+
+If you haven't use i3 yet, we recommend the [regolith system](https://regolith-linux.org/) (that's the one we use). If comes completely ready to use - you can install it from USB, or over an existing Ubuntu. 
+
 
  **Your job**
 
