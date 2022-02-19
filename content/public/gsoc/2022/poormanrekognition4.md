@@ -26,8 +26,16 @@ you can find [here](https://github.com/npbit/RekoUI). It would be great if PMR, 
 to use. You can check the previous implementation and build upon it or take inspiration from Amazon's Rekognition and start afresh. The only point worth noting
 is that we are not looking for anything fancy, the UI should be be simple and easy to use.
 
+- Migrate CI from Travis to Github Actions : One less external service to worry about is almost always a great idea [This](https://docs.github.com/en/actions/migrating-to-github-actions/migrating-from-travis-ci-to-github-actions) could be a great starting point.
+
 - Deploy the service for remote use: Once the above two issues have been resolved
 
+### Mentors
+
+- Mentor : [Pulkit Mishra](https://github.com/PulkitMishra), @pulkit on slack
+
+### Time estimation  
+- 175 hours
 
 ### Relevant links
 
