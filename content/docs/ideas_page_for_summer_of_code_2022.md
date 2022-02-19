@@ -49,6 +49,12 @@ GSOC 2021 was quite successful on this front. The 708 decoder was rewritten in R
 
 In 2022 we'd like to tackle these tasks. If you're interested, you can get some feeling of the system by fixing https://github.com/CCExtractor/ccextractor/issues/1407
 
+Or, to generally show that you know some Rust, tackle something from these very popular Rust projects (they're not related to us, even though we use them and we've committed code from time to time) and send us links to the PRs:
+
+https://github.com/greshake/i3status-rust  
+https://starship.rs/
+
+
 
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size | 
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
@@ -74,7 +80,7 @@ In 2022 we'd like to tackle these tasks. If you're interested, you can get some 
 
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
 | ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
-| [Improve our reference channel for Roku ](/public/gsoc/rokuchannel2) | Roku is currently the most common media streamer. It's cheap and neutral (it's not in any "fight"). Unfortunately, there aren't any good open source channels, so if you want to start your own you have to start from scratch. Last year we started a new channel everyone can use as a starting point. We'd like to continue working on it, adding new features. We will send a free Roku to our student for development. | None | Brightscript Roku Video Streaming | Medium | 350 hours |
+| [Improve our reference channel for Roku ](/public/gsoc/rokuchannel2) | Roku is currently the most common media streamer. It's cheap and neutral (it's not in any "fight"). Unfortunately, there aren't any good open source channels, so if you want to start your own you have to start from scratch. Last year we started a new channel everyone can use as a starting point. We'd like to continue working on it, adding new features. We will send a free Roku to our student for development. | None | Brightscript Roku Video Streaming | Medium | 175 hours |
 
 #### Flutter
 
@@ -82,9 +88,9 @@ In 2022 we'd like to tackle these tasks. If you're interested, you can get some 
 | ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
 | [ ruTorrent mobile interface (II) ](/public/gsoc/flutterrutorrent2) | ruTorrent is a popular web interface for rTorrent, which is possibly the most used BitTorrent client in linux. Last year we started a new project to write a Flutter based interface and was successful and it's gaining traction on its own. We want to work on that project and include new features. | Flutter | BitTorrent | Medium | Discuss |
 | [ support more torrent clients ](/public/gsoc/flutter-more-clients) | We'd like to add support for other clients to our ruTorrent mobile interface (which of course will get a new name): [Flood](https://flood.js.org) and [Deluge](https://deluge-torrent.org). | Flutter | API, Teamwork | Medium |  Discuss |
-| [ Flood Mobile ](/public/gsoc/2022/flood_mobile) | The project was a part of GSoC 21' and had a initial version which interacted with the [Flood](https://flood.js.org) backend. This year we hope to incorporate RSS feed, better file selection and increase the test coverage of the app. | Flutter | Scalability & Testing | Medium |  Discuss |
-| [ Beacon (frontend) ](/public/gsoc/2022/beacon) | This project was started last year and it aims to ease the group travelling (or hiking). By using this, the group leader would be able to share his live location with the entire crew. We want to improve on past work, include new features, and release it. Note: This project has really gotten traction and there are a lot of contributors working on it now.  | Flutter | Scalability | Medium | Discuss |
-| [ TaskWarrior ](/public/gsoc/2022/taskwarrior) | Taskwarrior is a very nice command-line tool (yes, in 2022 — and I love it!) to manage task list. Let's use flutter to create a app for it!! | Flutter | Scalability | Medium | Discuss |
+| [ Flood Mobile ](/public/gsoc/2022/flood_mobile) | The project was a part of GSoC 21' and had a initial version which interacted with the [Flood](https://flood.js.org) backend. This year we hope to incorporate RSS feed, better file selection and increase the test coverage of the app. | Flutter | Scalability & Testing | Medium |  175 hours |
+| [ Beacon (frontend) ](/public/gsoc/2022/beacon) | This project was started last year and it aims to ease the group travelling (or hiking). By using this, the group leader would be able to share his live location with the entire crew. We want to improve on past work, include new features, and release it. Note: This project has really gotten traction and there are a lot of contributors working on it now.  | Flutter | Scalability | Medium | 175 hours |
+| [ TaskWarrior ](/public/gsoc/2022/taskwarrior) | Taskwarrior is a very nice command-line tool (yes, in 2022 — and I love it!) to manage task list. Let's use flutter to create a app for it!! | Flutter | Scalability | Medium | 175 hours |
 
 #### Systems
 | [ Beacon (backend) ](/public/gsoc/2022/beacon) | This project was started last year and it aims to ease the group travelling (or hiking). See the entire description on the Frontend part, above. The backend of course is the cloud part of it that lets us scale with easy. | Linux, cloud | Scalability | Medium | Probably 175 |
@@ -96,11 +102,11 @@ We use [jesec/rtorrent](https://github.com/jesec/rtorrent). It provides a more m
 
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
 | ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
-| [ a modern RPC interface ](/public/gsoc/rtorrent-modern-rpc) | rTorrent currently uses an antique XMLRPC interface, which is limited in capability, not scalable, hard to use, insecure and low-performance. Community needs a modern RPC interface with full bidirectional, stream processing, incremental data loading and high concurrency capabilities, which allows real-time events for RPC users, reduced serialization/transfer overheads, potentially better security (with authentication and/or TLS), etc. | C++ | RPC, Event Loop | Medium/Hard | Discuss |
-| asynchronous name resolution | UDP tracker name resolution is not asynchronous at the moment, which causes blocking in the main thread and can block (timeout) other ongoing/incoming connections/transfers. c-ares or libwebsockets implementation is preferred, as c-ares is already used by curl, which rTorrent depends on, while libwebsockets may be used by a future WebSockets RPC interface. | C, C++ | Threading, Event Loop | Medium | Discuss |
-| improve scalability - on start | It takes 3 minutes to load 28890 entries from the session directory on start. Only 1 core is used. Deal with this situation, potentially by making the session functions thread safe and spawning more threads for the tasks. | C++ | Threading | Medium | Discuss |
-| improve scalability | rTorrent has a well-defined threading behaviour, which makes it stable and light on resources. There are 3 permanent threads only: main, disk and scgi. However, in the age of Gigabit/10G connections, 3 threads are often not sufficient. Implement a new threading model with better scalability. | C++ | Threading | Hard | Discuss |
-| scheduling/queuing | In some cases, users might want to download a series of torrents one-by-one without having to manually start the next when the previous is completed. Implement a scheduler along with a queue to allow users to limit the number of maximum simultaneous downloads. Enqueue if the user adds a download or decrease the limit. Dequeue when a download is completed or the user increases the limit. Keep the queue state across reboots. | C++ | Scheduling | Medium | Discuss |
+| [ a modern RPC interface ](/public/gsoc/rtorrent-modern-rpc) | rTorrent currently uses an antique XMLRPC interface, which is limited in capability, not scalable, hard to use, insecure and low-performance. Community needs a modern RPC interface with full bidirectional, stream processing, incremental data loading and high concurrency capabilities, which allows real-time events for RPC users, reduced serialization/transfer overheads, potentially better security (with authentication and/or TLS), etc. | C++ | RPC, Event Loop | Medium/Hard | 174 hours |
+| asynchronous name resolution | UDP tracker name resolution is not asynchronous at the moment, which causes blocking in the main thread and can block (timeout) other ongoing/incoming connections/transfers. c-ares or libwebsockets implementation is preferred, as c-ares is already used by curl, which rTorrent depends on, while libwebsockets may be used by a future WebSockets RPC interface. | C, C++ | Threading, Event Loop | Medium | 175 hours |
+| improve scalability - on start | It takes 3 minutes to load 28890 entries from the session directory on start. Only 1 core is used. Deal with this situation, potentially by making the session functions thread safe and spawning more threads for the tasks. | C++ | Threading | Medium | 175 hours |
+| improve scalability | rTorrent has a well-defined threading behaviour, which makes it stable and light on resources. There are 3 permanent threads only: main, disk and scgi. However, in the age of Gigabit/10G connections, 3 threads are often not sufficient. Implement a new threading model with better scalability. | C++ | Threading | Hard | 175 hours |
+| scheduling/queuing | In some cases, users might want to download a series of torrents one-by-one without having to manually start the next when the previous is completed. Implement a scheduler along with a queue to allow users to limit the number of maximum simultaneous downloads. Enqueue if the user adds a download or decrease the limit. Dequeue when a download is completed or the user increases the limit. Keep the queue state across reboots. | C++ | Scheduling | Medium | 175 hours |
 
 #### New things we're currently interested on
 
