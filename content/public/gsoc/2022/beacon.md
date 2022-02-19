@@ -2,6 +2,14 @@
 title: "Beacon."
 ---
 
+**Mentors**  
+Mentor for the Back-end: aadibajpai (who started the project as a student during GSoC 2021)  
+Mentor for the Front-end:  Nishtha Bodani (who started the project as a student during GSoC 2021)  
+
+**Time estimation**  
+175 hours for the backend  
+350 hours for the frontend, which could become 2 separate 175 hours projects since there's a number of parallelizable tasks.  
+
 ### Project Brief
 
 Have you ever been to a city tour, or hike, or anything else in which a whole group is supposed to stay together by following a leader (who hopefully, knows where is going) but you don't know anyone else in the group and you can't really get distracted or you might lose the group?
