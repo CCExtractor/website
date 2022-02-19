@@ -93,6 +93,8 @@ https://starship.rs/
 | [ TaskWarrior ](/public/gsoc/2022/taskwarrior) | Taskwarrior is a very nice command-line tool (yes, in 2022 — and I love it!) to manage task list. Let's use flutter to create a app for it!! | Flutter | Scalability | Medium | 175 hours |
 
 #### Systems
+| Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
+| ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
 | [ Beacon (backend) ](/public/gsoc/2022/beacon) | This project was started last year and it aims to ease the group travelling (or hiking). See the entire description on the Frontend part, above. The backend of course is the cloud part of it that lets us scale with easy. | Linux, cloud | Scalability | Medium | Probably 175 |
 | [ Linux tuning for network throughput ](/public/gsoc/linuxtuning) | Come up with a system that tunes the linux kernel to maximize network throughput for a number of workloads, such as web server or BitTorrent. We will provide access to a server with a huge pipe (10 Gbit/s, SSD, lots of cores) and your job is to build a tool that maximizes the throughput (and prove it!) | Linux | Kernel internals, Networking | Medium | 175 hours |
 
