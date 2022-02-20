@@ -104,7 +104,7 @@ We use [jesec/rtorrent](https://github.com/jesec/rtorrent). It provides a more m
 
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
 | ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
-| [ a modern RPC interface ](/public/gsoc/rtorrent-modern-rpc) | rTorrent currently uses an antique XMLRPC interface, which is limited in capability, not scalable, hard to use, insecure and low-performance. Community needs a modern RPC interface with full bidirectional, stream processing, incremental data loading and high concurrency capabilities, which allows real-time events for RPC users, reduced serialization/transfer overheads, potentially better security (with authentication and/or TLS), etc. | C++ | RPC, Event Loop | Medium/Hard | 174 hours |
+| [ a modern RPC interface ](/public/gsoc/rtorrent-modern-rpc) | rTorrent currently uses an antique XMLRPC interface, which is limited in capability, not scalable, hard to use, insecure and low-performance. Community needs a modern RPC interface with full bidirectional, stream processing, incremental data loading and high concurrency capabilities, which allows real-time events for RPC users, reduced serialization/transfer overheads, potentially better security (with authentication and/or TLS), etc. | C++ | RPC, Event Loop | Medium/Hard | 175 hours |
 | asynchronous name resolution | UDP tracker name resolution is not asynchronous at the moment, which causes blocking in the main thread and can block (timeout) other ongoing/incoming connections/transfers. c-ares or libwebsockets implementation is preferred, as c-ares is already used by curl, which rTorrent depends on, while libwebsockets may be used by a future WebSockets RPC interface. | C, C++ | Threading, Event Loop | Medium | 175 hours |
 | improve scalability - on start | It takes 3 minutes to load 28890 entries from the session directory on start. Only 1 core is used. Deal with this situation, potentially by making the session functions thread safe and spawning more threads for the tasks. | C++ | Threading | Medium | 175 hours |
 | improve scalability | rTorrent has a well-defined threading behaviour, which makes it stable and light on resources. There are 3 permanent threads only: main, disk and scgi. However, in the age of Gigabit/10G connections, 3 threads are often not sufficient. Implement a new threading model with better scalability. | C++ | Threading | Hard | 175 hours |
@@ -187,7 +187,7 @@ The current GUI is written in **flutter**.
 The testing tool we use to run regression tests is mainly written in
 **Python**, but it also used Javascript, CSS and some shell
 scripting. The Test suite is written in C\#. One of the projects this
-year is about replacing it.
+year is to move it from a dedicated server to GSoC and improving the scalability of test runs.
 
 The prototype real time subtitle website is written in
 **NodeJS**.
@@ -277,7 +277,7 @@ the list below.
 
  **Best core tool tasks**
 
-We're added a difficulty level to all our [open issues on GitHub](https://github.com/CCExtractor/ccextractor/issues).
+We're added a difficulty level to most of our [open issues on GitHub](https://github.com/CCExtractor/ccextractor/issues).
 Best thing you can do is head there and see if you are able to fix some
 of the easy ones and work your way up. We don't expect you to be able
 to do the hard ones but we'd be impressed if you did :-)
@@ -345,7 +345,7 @@ You can propose to do any of the following ideas, or you can bring your
 own. In any case, make sure you run them by us before you actually
 submit your proposal.
 
-At the very least your proposal needs to
+At the very least your proposal needs to:
 
 - Explain what you want to do, why it is important to you (don't make up a story here — the reason can be that you need it, that you just think it's cool, that you have an itch to work on it, etc), and why it could be important or useful to us.
 - Explain how you intend to accomplish the goal, in enough detail that makes it clear that you have done your homework. For example, “I will modify the CCExtractor binary so that it's able to convert audio to text with perfect accuracy” is the same thing as sending your proposal to the trash. You need to have a plan.
@@ -359,14 +359,7 @@ At the very least your proposal needs to
 - Be realistic and honest with the timeline. Consider each week you should work around 30 hours. If your timeline reserves a lot of time for minor things we'll think that you are not going to be working full-time in GSoC. On the other hand if you promise to do things in a lot less than that it seems realistic to us it will seem that you don't really know how much work things take.
 - If you are going to be using 3rd party libraries (that's OK), make sure to validate that their license is compatible with GPLv2 (which is ours). List the libraries in your proposal. Check that they are cross-platform. If you will need to extend those libraries in any way please explain. In this case, your proposal should include time to get that extension submitted to the maintainers (we love to contribute to other projects).
 
-
-
-Something else: Mentors often have their fingers in several pies. If you
-send the same proposal to several orgs everyone will know. So do
-yourself a favor and don't do that. You can apply to several
-organizations and that's totally fine, but each organization will want
-to see that you have put the time to write a great proposal that is
-focused on them.
+Something else: Mentors often have their fingers in several pies. If you send the same proposal to several orgs everyone will know. So do yourself a favor and don't do that. You can apply to several organizations and that's totally fine, but each organization will want to see that you have put the time to write a great proposal that is focused on them.
 
 #### Useful resources
 
