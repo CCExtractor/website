@@ -98,6 +98,7 @@ https://starship.rs/
 | ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
 | [ Beacon (backend) ](/public/gsoc/2022/beacon) | This project was started last year and it aims to ease the group travelling (or hiking). See the entire description on the Frontend part, above. The backend of course is the cloud part of it that lets us scale with easy. | Linux, cloud | Scalability | Medium | Probably 175 |
 | [ Linux tuning for network throughput ](/public/gsoc/linuxtuning) | Come up with a system that tunes the linux kernel to maximize network throughput for a number of workloads, such as web server or BitTorrent. We will provide access to a server with a huge pipe (10 Gbit/s, SSD, lots of cores) and your job is to build a tool that maximizes the throughput (and prove it!) | Linux | Kernel internals, Networking | Medium | 175 hours |
+| [URL shortener, with a twist](/public/gsoc/2022/urlshortener) | A URL shortener converts a long URL into a shorter one. There are many use cases. Some times it's just the shortening itself we want, for example to share it on twitter. Other times it's about obfuscation. We want to create our own, but with some unique features. | Any language you want | Internet infrastructure | Medium | 175 hours |
 
 #### rTorrent
 
