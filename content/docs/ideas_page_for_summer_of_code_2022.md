@@ -80,7 +80,7 @@ https://starship.rs/
 
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
 | ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
-| [Improve our reference channel for Roku ](/public/gsoc/rokuchannel2) | Roku is currently the most common media streamer. It's cheap and neutral (it's not in any "fight"). Unfortunately, there aren't any good open source channels, so if you want to start your own you have to start from scratch. Last year we started a new channel everyone can use as a starting point. We'd like to continue working on it, adding new features. We will send a free Roku to our student for development. | None | Brightscript Roku Video Streaming | Medium | 175 hours |
+| [Upgrade FFmpeg](/public/gsoc/update_ffmpeg) | FFmpeg is the premier open source video library. We use it to decode video to be able to process burned-in subtitles. They recently made breaking changes to their API (worth it) and the clients need to be updated. CCExtractor is one such client. | Some C | Video, subtitles, API integration, FFmpeg | Easy-Medium | 175 hours |
 
 #### Flutter
 
