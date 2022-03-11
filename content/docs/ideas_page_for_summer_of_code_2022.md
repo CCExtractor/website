@@ -91,6 +91,7 @@ https://starship.rs/
 | [ Flood Mobile ](/public/gsoc/2022/flood_mobile) | The project was a part of GSoC 21' and had a initial version which interacted with the [Flood](https://flood.js.org) backend. This year we hope to incorporate RSS feed, better file selection and increase the test coverage of the app. | Flutter | Scalability & Testing | Medium |  175 hours |
 | [ Beacon (frontend) ](/public/gsoc/2022/beacon) | This project was started last year and it aims to ease the group travelling (or hiking). By using this, the group leader would be able to share his live location with the entire crew. We want to improve on past work, include new features, and release it. Note: This project has really gotten traction and there are a lot of contributors working on it now.  | Flutter | Scalability | Medium | 175 hours |
 | [ TaskWarrior ](/public/gsoc/2022/taskwarrior) | Taskwarrior is a very nice command-line tool (yes, in 2022 — and I love it!) to manage task list. Let's use flutter to create a app for it!! | Flutter | Scalability | Medium | 175 hours |
+| [ It's Urgent ](/public/gsoc/2022/itsurgent) | A notification tool that lets the sender decide if what he/she has to say is so important as to interrupt the receiver | Flutter | Scalability | Medium | 350 hours |
 
 #### Systems
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
