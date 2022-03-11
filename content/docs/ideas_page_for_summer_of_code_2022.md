@@ -80,7 +80,7 @@ https://starship.rs/
 
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
 | ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
-| [Upgrade FFmpeg](/public/gsoc/updateffmpeg) | FFmpeg is the premier open source video library. We use it to decode video to be able to process burned-in subtitles. They recently made breaking changes to their API (worth it) and the clients need to be updated. CCExtractor is one such client. | Some C | Video, subtitles, API integration, FFmpeg | Easy-Medium | 175 hours |
+| [Upgrade FFmpeg](/public/gsoc/2022/updateffmpeg) | FFmpeg is the premier open source video library. We use it to decode video to be able to process burned-in subtitles. They recently made breaking changes to their API (worth it) and the clients need to be updated. CCExtractor is one such client. | Some C | Video, subtitles, API integration, FFmpeg | Easy-Medium | 175 hours |
 
 #### Flutter
 
