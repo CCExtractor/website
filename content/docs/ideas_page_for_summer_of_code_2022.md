@@ -3,6 +3,11 @@ title: "Google Summer of Code (GSoC) 2022 ideas page"
 weight: 1
 ---
 
+{{< tip >}}
+Office hours coming soon.
+
+{{< /tip >}} 
+
 Welcome to our ideas page. It's great you want to start early. Please
 join us in our slack channel! (we'll leave as an exercise to you to
 find it --- it's on our website).
