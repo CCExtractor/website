@@ -16,7 +16,9 @@ which is 16:30 in Central Europe (until the clock changes there) and 9 PM in Ind
 
 (use San francisco Time for "official clock" - 8:30 AM in San Francisco is what matters, if you want to add your local time here send a pull request).
 
-There's no agenda to this meetings. Someone from the team will be around, anyone is welcome, you can ask about GSoC, the org, your project, etc.
+There's no agenda to these meetings. Someone from the team will be around, everyone is welcome, you can ask about GSoC, the org, your project, etc. If there's some other participants asking questions you can stay around and listen. 
+
+We will start at 8:30 and stay around for at least for 30 minutes, so you can show up at any time. At 9:00 if there's a conversation going on we will continue so it might last longer than 30 minutes (as long as needed).
 
 {{< /tip >}} 
 
