@@ -8,7 +8,7 @@ NEW: Office Hours.
 
 Each Sunday (depending on your timezone) we will hold office hours. You can show up and ask your questions. At least one org admin and/or mentor will be around, maybe more. No need to be formal, or even have the camera on if you're shy (but you can). 
 
-To connect, go to this [google meet link](meet.google.com/swu-vmra-tyh).
+To connect, go to this [google meet link](https://meet.google.com/swu-vmra-tyh).
 
 Hours:
 Sundays at 8:30 AM PDT -7:00 hours (Pacific Daylight Time)
