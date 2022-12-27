@@ -3,7 +3,7 @@ title: "Slack"
 ---
 
 Slack is a great communication tool. Most CCExtractor developers hang
-out in a slack team. You're welcome to request an invitation [here](https://slackinvite.ccextractor.org), use token: **subtitles**
+out in a slack team. You're welcome to request an invitation [here](https://slackinvite2.ccextractor.org), use token: **closed captions**
 
 ### Technical issues
 
