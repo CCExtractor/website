@@ -13,7 +13,7 @@ Each Sunday (depending on your timezone) we will hold office hours. You can show
 To connect, go to this [google meet link](https://meet.google.com/swu-vmra-tyh).
 
 Start date: 
-2022-01-29
+2023-01-29
 
 Hours:
 Sundays at 8:30 AM PDT -7:00 hours (Pacific Daylight Time)
@@ -69,9 +69,11 @@ We will update the descriptions often.
 
 #### CCExtractor Rust rewrite
 
-GSOC 2021 was quite successful on this front. The 708 decoder was rewritten in Rust, and in the process we fixed all the known (then) issues with 708. The student who did all this work (Punit Lodha) is going to mentor in 2022. 
+GSoC 2021 was quite successful on this front. The 708 decoder was rewritten in Rust, and in the process we fixed all the known (then) issues with 708. The student who did all this work (Punit Lodha) is going to mentor in 2022. 
 
-In 2022 we'd like to tackle these tasks. If you're interested, you can get some feeling of the system by fixing https://github.com/CCExtractor/ccextractor/issues/1407
+GSoC 2022 had partial success, with one of the projects (608) failing, and another one (HardSubX) succeeding.
+
+In 2023 we'd like to tackle these tasks. If you're interested, you can get some feeling of the system by fixing https://github.com/CCExtractor/ccextractor/issues/1407
 
 Or, to generally show that you know some Rust, tackle something from these very popular Rust projects (they're not related to us, even though we use them and we've committed code from time to time) and send us links to the PRs:
 
@@ -105,6 +107,9 @@ https://starship.rs/
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
 | ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
 | [Upgrade FFmpeg](/public/gsoc/2022/updateffmpeg) | FFmpeg is the premier open source video library. We use it to decode video to be able to process burned-in subtitles. They recently made breaking changes to their API (worth it) and the clients need to be updated. CCExtractor is one such client. | Some C | Video, subtitles, API integration, FFmpeg | Easy-Medium | 175 hours |
+
+#### Virtual Reality
+| [VirtualDesktop](/public/gsoc/2023/quest_virtual_desktop) | Some VR headsets such as Meta's Quest 2 come with a Virtual Desktop tool that lets you connect your computer to the headset and get virtual desktops. There's lots of YouTube videos on this topic, here's [one.](https://www.youtube.com/watch?v=51IBgkw3GJI) . There's a headset component and a computer component. The computer component exists for Windows and Mac, but not for Linux. That's what we want to build. | A system language such as C, C++ or Rust | Linux desktop internals, VR internals | Medium-Hard | 350 hours |
 
 #### Flutter
 
