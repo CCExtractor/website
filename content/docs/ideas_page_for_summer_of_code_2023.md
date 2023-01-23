@@ -109,6 +109,8 @@ https://starship.rs/
 | [Upgrade FFmpeg](/public/gsoc/2022/updateffmpeg) | FFmpeg is the premier open source video library. We use it to decode video to be able to process burned-in subtitles. They recently made breaking changes to their API (worth it) and the clients need to be updated. CCExtractor is one such client. | Some C | Video, subtitles, API integration, FFmpeg | Easy-Medium | 175 hours |
 
 #### Virtual Reality
+| Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size | 
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | [VirtualDesktop](/public/gsoc/2023/quest_virtual_desktop) | Some VR headsets such as Meta's Quest 2 come with a Virtual Desktop tool that lets you connect your computer to the headset and get virtual desktops. There's lots of YouTube videos on this topic, here's [one.](https://www.youtube.com/watch?v=51IBgkw3GJI) . There's a headset component and a computer component. The computer component exists for Windows and Mac, but not for Linux. That's what we want to build. | A system language such as C, C++ or Rust | Linux desktop internals, VR internals | Medium-Hard | 350 hours |
 
 #### Flutter
