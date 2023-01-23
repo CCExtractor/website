@@ -12,6 +12,9 @@ Each Sunday (depending on your timezone) we will hold office hours. You can show
 
 To connect, go to this [google meet link](https://meet.google.com/swu-vmra-tyh).
 
+Start date: 
+2022-01-29
+
 Hours:
 Sundays at 8:30 AM PDT -7:00 hours (Pacific Daylight Time)
 which is 16:30 in Central Europe (until the clock changes there) and 9 PM in India.
