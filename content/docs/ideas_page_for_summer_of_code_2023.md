@@ -3,7 +3,7 @@ title: "Google Summer of Code (GSoC) 2023 ideas page"
 weight: 1
 ---
 
-### This is work in progress! Expect a polished list around January 24!
+### This is work in progress! Expect a polished list around January 31!
 
 {{< tip >}}
 NEW: Office Hours.
