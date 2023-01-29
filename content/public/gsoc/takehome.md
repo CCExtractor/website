@@ -100,6 +100,8 @@ if the dog is a bit far.
 
 It must be fast or the dog will move!
 
+---
+
 ### Rust: Help i3status-rs release 0.30
 
 i3status-rs is a fantastic status bar for i3/sway written completely in Rust. They're in the process of migrating to async rust. 
@@ -107,6 +109,8 @@ i3status-rs is a fantastic status bar for i3/sway written completely in Rust. Th
 There's a few open issues on GitHub. Your job is to solve any 2 (coding, not documentation) and send a PR. There's a few with the tag "good first issue" so you can just do them. 
 
 In general they're easy - they could take a couple of hours, and you'd be helping a popular project!
+
+---
 
 ### Rust: Fix our build system on GitHub
 
