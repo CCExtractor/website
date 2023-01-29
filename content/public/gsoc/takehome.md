@@ -38,6 +38,8 @@ include_one $HOME/.config/regolith2/sway/config.d/* /usr/share/regolith/sway/con
 
 Note that both directories are passed to the same include_one. It would include all the files in the first directory and then from the second directory it would only import the files that weren't import before. So if the first directory contains a file called for example, "70_bar" then such file would be skipped when processing the second directory.
 
+---
+
 ### Meetup auto-RVSP
 
 Language: Any Must work in: **Linux**
