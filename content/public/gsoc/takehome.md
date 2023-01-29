@@ -108,6 +108,12 @@ There's a few open issues on GitHub. Your job is to solve any 2 (coding, not doc
 
 In general they're easy - they could take a couple of hours, and you'd be helping a popular project!
 
+### Rust: Fix our build system on GitHub
 
+Our build system is currently failing due to a bug in the crate that we use for FFmpeg. You can get details here:
 
+https://github.com/zmwangx/rust-ffmpeg-sys/issues/42
 
+It's just .unwrap() being called on None, so _possibly_ it's not a lot of effort to figure it out.
+
+We like people who can troubleshoot - just because the fix won't have -hopefully- a lot of code don't think this task is not important. It is, and solving it qualifies you.
