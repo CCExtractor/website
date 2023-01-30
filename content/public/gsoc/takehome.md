@@ -9,6 +9,8 @@ alternative qualification tasks (we'll add more soon, so come back).
 You can still opt for the standard ones (such as fixing issues on
 GitHub) --- these are just alternatives that are available.
 
+Note: You might be wondering why we don't add links to anything here. It's just to make sure that you know how to find things yourself :-)
+
 ---
 
 ### sway configuration override
@@ -121,3 +123,21 @@ https://github.com/zmwangx/rust-ffmpeg-sys/issues/42
 It's just .unwrap() being called on None, so _possibly_ it's not a lot of effort to figure it out.
 
 We like people who can troubleshoot - just because the fix won't have -hopefully- a lot of code don't think this task is not important. It is, and solving it qualifies you.
+
+----
+### C/C++: Update our libGPAC dependency
+
+GPAC is the library we use to handle MP4. It's vendored (that means we just took it and added it to source tree instead of linking it as an external dependency). The -historic and maybe no longer valid- for this is that importing dependencies in Windows is a nightmare (it's called DLL hell for a reason). 
+
+Anyway, for the time being, we'd be happy to just update our vendored libGPAC for the current version. 
+
+Usually this work takes a few hours.
+
+
+
+
+
+
+
+
+
