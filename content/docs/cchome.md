@@ -95,9 +95,9 @@ Most of these pages are the result of Summer of Code work.
 ---
 #### Summer of Code public/ pages
 
-[Ideas page for Summer of Code 2022](/public/gsoc/ideas_page_for_summer_of_code_2022/)
+[Ideas page for Summer of Code 2022](/public/gsoc/ideas_page_for_summer_of_code_2022)
 
-[Ideas page for Summer of Code 2021](/public/gsoc/ideas_page_for_summer_of_code_2021/)
+[Ideas page for Summer of Code 2021](/public/gsoc/ideas_page_for_summer_of_code_2021)
 
 [Ideas page for Summer of Code 2020](/public/gsoc/ideas_page_for_summer_of_code_2020)
 
