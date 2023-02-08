@@ -31,18 +31,6 @@ HUGO_ENABLEGITINFO = "true"
 
 
 [[redirects]]
-  from = "/public/gsoc/2022/ideas_page_for_summer_of_code_2022" 
-  to = "/docs/ideas_page_for_summer_of_code_2022" 
-  status = 301 
-  force = true
-
-[[redirects]]
-  from = "/public/gsoc/ideas_page_for_summer_of_code_2021" 
-  to = "/docs/ideas_page_for_summer_of_code_2021" 
-  status = 301 
-  force = true
-
-[[redirects]]
   from = "/doku.php"  
   to = "/public/gsoc/welcome_to_summer_of_code_2015/?no-query-string" 
   status = 301 
