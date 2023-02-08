@@ -31,6 +31,12 @@ HUGO_ENABLEGITINFO = "true"
 
 
 [[redirects]]
+  from = "/docs" 
+  to = "/" 
+  status = 301 
+  force = true
+
+[[redirects]]
   from = "/doku.php"  
   to = "/public/gsoc/welcome_to_summer_of_code_2015/?no-query-string" 
   status = 301 
