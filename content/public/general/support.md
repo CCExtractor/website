@@ -25,10 +25,9 @@ When creating a ticket:
 ### Mailing list
 
 We do have a mailing list available [here](https://groups.google.com/forum/#!forum/ccextractor-dev), and all
-GitHub issues are posted here.
+issues can be found back [on our GitHub](https://github.com/CCExtractor/ccextractor/issues).
 
-It's read by the right people; you can use it if you prefer it to
-Slack.
+It's read by the right people; you can use it if you prefer it to Slack.
 
 ### Email
 
