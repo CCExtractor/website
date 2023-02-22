@@ -138,6 +138,8 @@ https://starship.rs/
 
 We use [jesec/rtorrent](https://github.com/jesec/rtorrent). It provides a more modern base with Bazel/CMake and C++ 17 (instead of autotools and C++ 0x). Plus, your works are guaranteed to be incorporated if they match expectations.
 
+Note - we want to have a unified rtorrent that gets the best from jesec's and novik's work. See the first project in this section.
+
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
 | ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
 | [ Unify flood and ruTorrent's rtorrent versions ](/public/gsoc/rtorrent_unification) | Each of the two most important rTorrent frontends have their own backend version. We need to create a version that works with both ruTorrent and Flood. | C++ | Docker, algorithms, security | Medium | 350  hours |
