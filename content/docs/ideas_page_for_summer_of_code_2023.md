@@ -86,14 +86,6 @@ https://starship.rs/
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | [Rewrite 608 decoder in Rust](/public/gsoc/cc_rust_608/)  | CEA-608 is the American standard for analog subtitles. It also carries things like emergency alerts, basic TV guide, and content classification. We have a complete implementation in C that works OK (possibly with some bugs) but that is not really very well organized. We'd like to port it to rust. We will provide you with the official technical standards. | (Some) Rust, Some (C) | Analog subtitles, XDS Working with standards. | Medium | 350 hours |
 | [Rewrite the OCR subsystem in Rust.](/public/gsoc/cc_rust_ocr/) | We use tesseract to OCR bitmap based subtitles. It's a great library, but because its input is a bitmap that is preprocessed (so provide a reasonable input) there's lots of places in which there can be buffer overruns, underruns… many of the problems that Rust shines on are evidenced here. So a Rust rewrite of this would be a big win. | OCR Rust FFI | Tesseract Imaging OCR | Medium | 350 hours |
-| [Add support for DTMB countries](/public/gsoc/dtmb) | DTMB is the standard for Chinese TV, also implemented by countries such as Cuba. What kind of student is ideal for this task? One with lots of analytic skills and patience. If you are one of those, don't disregard this task just because you don't speak (or maybe, even care) about Chinese. The experience on dealing with this will be extremely valuable in the future.We will use part of the organization funds to buy standard documents you might need, a capture device, and in general, anything required to make your life easier. | Rust | DTMB  Video standards Hardware Research | Unknown |  Discuss |
-| [Add Japanese support](/public/gsoc/japanese) | Captions are used by people all over the world on a regular basis. Most of us are familiar with regular horizontal captions at the bottom of the screen, but did you know that in Japan a common position for captions is vertically on the right or left side of the screen? Come learn more about what Japanese audiences need out of captions as well as how captioning standard likes IMSC and WebVTT support these features.| Japanese (or be good with foreign languages), Rust | Depends | Suspected hard |  Discuss |
-
-#### New subtitles tools
-
-| Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size | 
-| ----------- | ----------- | ----------- | ----------- | ----------- | ------ |
-| [Subtitle quality quantification tool](/public/gsoc/2022/subtitle_quality/) | Writing a subtitle quality quantification tool | (Some) Rust, Some (C) | CCExtractor internals | Medium | 350 hours |
 
 #### Support tools we and other orgs use as part of their development process
 
@@ -127,7 +119,6 @@ https://starship.rs/
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
 | ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
 | [ Beacon (backend) ](/public/gsoc/2022/beacon) | This project was started last year and it aims to ease the group travelling (or hiking). See the entire description on the Frontend part, above. The backend of course is the cloud part of it that lets us scale with easy. | Linux, cloud | Scalability | Medium | Probably 175 |
-| [ Linux tuning for network throughput ](/public/gsoc/linuxtuning) | Come up with a system that tunes the linux kernel to maximize network throughput for a number of workloads, such as web server or BitTorrent. We will provide access to a server with a huge pipe (10 Gbit/s, SSD, lots of cores) and your job is to build a tool that maximizes the throughput (and prove it!) | Linux | Kernel internals, Networking | Medium | 175 hours |
 | [URL shortener, with a twist](/public/gsoc/2022/urlshortener) | A URL shortener converts a long URL into a shorter one. There are many use cases. Some times it's just the shortening itself we want, for example to share it on twitter. Other times it's about obfuscation. We want to create our own, but with some unique features. | Any language you want | Internet infrastructure | Medium | 175 hours |
 | [Add complex layouts to sway](https://github.com/swaywm/sway/issues/1666) | Sway is a drop-in replacement for i3, a popular windows manager for Linux that finally gets rid of the ancient X11 protocol. It's fantastic, but it's still missing support for complex scenarios. We'd like you to work on that support. | C | Sway | Hard | 350 hours |
 
@@ -154,8 +145,6 @@ Note - we want to have a unified rtorrent that gets the best from jesec's and no
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ------ |
 | [ Mouseless for Linux v2 - i3 edition ](/public/gsoc/2023/mouseless_i3) | Mouseless is a nice tool to practice keyboard shortcuts for a few popular apps. Unfortunately it's only available for Mac. Last year we created an open source one that runs on Linux. Using that work or not (this is your choice) we want to create one that helps use i3vm (the fantastic windows manager) using keys only. | Your choice | ?? | Unknown | 175 hours |
-| [ BitTorrent over TLS ](/public/gsoc/bittorrent-tls) | BitTorrent protocol is not secure. Its encryption mechanism is outdated and weak. Even for obfuscation, it is ineffective. Nowadays, even an entry-level gateway has the capability to detect and block BitTorrent traffic at little to no risk. The BitTorrent community would benefit from a new standard encryption mechanism that allows strong encryption, forward secrecy and resistance to censorship. | Depends | Networking, Standardization | Hard | 350 hours |
-| [ The next peer-to-peer protocol ](/public/gsoc/cloudtorrent) | BitTorrent is of course the world's most used peer to peer protocol. It's great, but it was designed before the cloud was ubiquitous and it doesn't make use of the places where you have the most storage or the most bandwidth. Can we design something for the next decade? | Depends | Peer-to-peer, cloud | Unknown | 175 hours |
 
 
 #### Artificial Intelligence and clever algorithms
@@ -164,6 +153,11 @@ Note - we want to have a unified rtorrent that gets the best from jesec's and no
 | ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
 | [Poor man's Rekognition (IV)](/public/gsoc/2022/poormanrekognition4) | Amazon Rekognition is a (paid) service that is capable of extracting information and insights from images and videos by identifying objects, text and activities, performing facial analysis, detecting inappropriate scenes, and much more using deep learning. In the last three years, we did some work towards creating a free and open source version of the same by training a bunch of models and creating easy to use APIs. This year we want to improve on the past work. | Python  Computer Vision | Django  Tensorflow | Medium |  175 hours |
 | [Poor man's Textract](/public/gsoc/poormantextract) | Amazon Textract a (paid) service that "automatically extracts text and data from scanned documents. Amazon Textract goes beyond simple optical character recognition (OCR) to also identify the contents of fields in forms and information stored in tables". We want to build a free alternative that provides an output of similar quality. | Your choice | AI  Computer vision  OCR | Unknown | Discuss |
+
+#### Niche ideas
+
+We've moved the less mainstream ideas to their [own page](https://ccextractor.org/docs/classic_ideas/)
+These ideas are not let important, but because they are somewhat esoteric we've decided to give them a place of their own :-)
 
 #### About us
 
