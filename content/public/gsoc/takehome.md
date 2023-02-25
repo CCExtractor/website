@@ -42,14 +42,14 @@ Note that both directories are passed to the same include_one. It would include 
 
 ---
 
-### Meetup auto-RVSP
+### Meetup auto-RSVP
 
 Language: Any Must work in: **Linux**
 
 This task is relatively simple (in theory), but it will help us assess
 your code organization abilities.
 
-Write a program for meetup.com that sends an auto-RVSP to specific
+Write a program for meetup.com that sends an auto-RSVP to specific
 groups. For example, suppose you are a member of 7 different Meetup
 groups, some of which have very popular events that fill up quickly. You
 want to sign up for them as fast as possible to ensure that you get a
