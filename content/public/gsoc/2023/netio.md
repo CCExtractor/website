@@ -2,6 +2,10 @@
 title: "Netio"
 ---
 
+**Mentor:**
+Primary Mentor: Akshat Tripathi (Slack handle: @Akshat Tripathi). Akshat is a GSoC'22 participant with CCExtractor Development. He made contributions to the Flood-Mobile Project.
+
+
 **Time estimation**  
 350 hours
 
