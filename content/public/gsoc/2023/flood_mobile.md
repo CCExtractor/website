@@ -2,6 +2,9 @@
 title: 'Flood Mobile.'
 ---
 
+**Mentor:**
+Akshat Tripathi (Slack handle: @Akshat Tripathi). Akshat is a GSoC'22 participant with CCExtractor Development. He made contributions to the Flood-Mobile Project.
+
 ### Project Brief
 
 Flood is a monitoring service for various torrent clients. It's a Node.js service that communicates with your favorite torrent client and serves a decent mobile UI for administration.
