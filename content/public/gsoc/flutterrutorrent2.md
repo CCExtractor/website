@@ -2,6 +2,9 @@
 title: "rutorrent mobile interface (II)"
 ---
 
+**Mentor:**
+Mohammed Abdul Malik (Slack handle: @buildwithmalik). Malik is a GSoC'22 participant with CCExtractor Development. He made contributions to the RuTorrent Mobile project.
+
  **Introduction**
 
 rutorrent is the most popular web interface for rtorrent, which is
