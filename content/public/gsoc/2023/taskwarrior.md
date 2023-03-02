@@ -1,6 +1,8 @@
 ---
 title: "TaskWarrior."
 ---
+**Mentor:**
+Nishant Singhal (Slack handle: @Nishant Singhal). Nishant Singhal is a GSoC'22 participant with CCExtractor Development. He made contributions to the TaskWarrior Project.
 
 [TaskWarrior](https://taskwarrior.org/) is a very nice command-line tool to manage task list.
 
