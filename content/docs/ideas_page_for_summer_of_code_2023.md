@@ -119,7 +119,6 @@ https://starship.rs/
 #### Systems
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
 | ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
-| [ Beacon (backend) ](/public/gsoc/2022/beacon) | This project was started last year and it aims to ease the group travelling (or hiking). See the entire description on the Frontend part, above. The backend of course is the cloud part of it that lets us scale with easy. | Linux, cloud | Scalability | Medium | Probably 175 |
 | [URL shortener, with a twist](/public/gsoc/2022/urlshortener) | A URL shortener converts a long URL into a shorter one. There are many use cases. Some times it's just the shortening itself we want, for example to share it on twitter. Other times it's about obfuscation. We want to create our own, but with some unique features. | Any language you want | Internet infrastructure | Medium | 175 hours |
 | [Add complex layouts to sway](https://github.com/swaywm/sway/issues/1666) | Sway is a drop-in replacement for i3, a popular windows manager for Linux that finally gets rid of the ancient X11 protocol. It's fantastic, but it's still missing support for complex scenarios. We'd like you to work on that support. | C | Sway | Hard | 350 hours |
 
