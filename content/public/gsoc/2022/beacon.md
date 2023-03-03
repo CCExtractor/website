@@ -3,12 +3,18 @@ title: "Beacon."
 ---
 
 **Mentors**  
-Mentor for the Back-end: aadibajpai (who started the project as a student during GSoC 2021)  
-Mentor for the Front-end:  Nishtha Bodani (who started the project as a student during GSoC 2021)  
+Primary mentor: Techno-Disaster (td on slack)
+Secondary mentor: Carlos (carlos.fernandez on slack)
+
+Emergency Mentor for the Back-end: aadibajpai (who started the project as a student during GSoC 2021)  
+Emergency Mentor for the Front-end:  Nishtha Bodani (who started the project as a student during GSoC 2021)  
+
+aadibajpai and Nishtha expect to be busy during the summer (interships! our students do well!) but they are still around and can be contacted for emergencies. No promises on turn around time though.
+
 
 **Time estimation**  
-175 hours for the backend  
-350 hours for the frontend, which could become 2 separate 175 hours projects since there's a number of parallelizable tasks.  
+175 hours 
+
 
 ### Project Brief
 
@@ -18,7 +24,17 @@ Well, this is the first use case the beacon is supposed to solve!
 
 ### Your Job
 
-This project was started last year and we have separate [backend](https://github.com/CCExtractor/beacon-backend) (tech stack: NodeJS, MongoDB, GraphQL and AWS) and [frontend](https://github.com/CCExtractor/beacon) (tech stack: flutter) repos. 
+This project was started in 2021 and a lot of work was also done in 2022.
+
+During those 2 years we had a separate project for the backend and the frontend.
+
+Because the backend is completed, this year the focus is on the frontend (i.e. flutter only). However, if the app requires backend changes, the contributor is expected to deal with them. So let's say this project is 85% Flutter, 15% the backend.
+
+Read about the backend [here](https://ccextractor.org/public/gsoc/2022/beacon)
+
+### Repos
+[backend](https://github.com/CCExtractor/beacon-backend) (tech stack: NodeJS, MongoDB, GraphQL and AWS) 
+[frontend](https://github.com/CCExtractor/beacon) (tech stack: flutter) repos. 
 
 Your job is to write your proposal on any of the following based on your interest:
 
@@ -45,6 +61,12 @@ Your job is to write your proposal on any of the following based on your interes
   - Implement required features (mentioned above)
   
 <br>
+
+### Very important
+
+Deploy your own backend instance locally. You must be able to be self sufficient and understand both front-end and back-end. 
+
+Test the Flutter app, fix whatever is broken (send PRs) if you find anything, and come up with work to do.
 
 ### Qualification tasks
 
