@@ -33,7 +33,7 @@ Because the backend is completed, this year the focus is on the frontend (i.e. f
 Read about the backend [here](https://ccextractor.org/public/gsoc/2022/beacon)
 
 ### Repos
-[backend](https://github.com/CCExtractor/beacon-backend) (tech stack: NodeJS, MongoDB, GraphQL and AWS) 
+[backend](https://github.com/CCExtractor/beacon-backend) (tech stack: NodeJS, MongoDB, GraphQL and AWS)  
 [frontend](https://github.com/CCExtractor/beacon) (tech stack: flutter) repos. 
 
 Your job is to write your proposal on any of the following based on your interest:
