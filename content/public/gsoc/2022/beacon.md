@@ -3,7 +3,7 @@ title: "Beacon."
 ---
 
 **Mentors**  
-Primary mentor: Techno-Disaster (td on slack)
+Primary mentor: Techno-Disaster (td on slack)  
 Secondary mentor: Carlos (carlos.fernandez on slack)
 
 Emergency Mentor for the Back-end: aadibajpai (who started the project as a student during GSoC 2021)  
