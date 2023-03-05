@@ -2,8 +2,10 @@
 title: 'Flood Mobile.'
 ---
 
-**Mentor:**
-Akshat Tripathi (Slack handle: @Akshat Tripathi). Akshat is a GSoC'22 participant with CCExtractor Development. He made contributions to the Flood-Mobile Project.
+### Mentors
+
+- Jesse Chan (Slack handle: @jesse). Jesec is the primary maintainer of the flood API which is consumed by the Flood-Mobile app as the backend.
+- Akshat Tripathi (Slack handle: @Akshat Tripathi). Akshat is a GSoC'22 participant with CCExtractor Development. He made contributions to the Flood-Mobile Project.
 
 ### Project Brief
 
