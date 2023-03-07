@@ -15,7 +15,7 @@ Note: You might be wondering why we don't add links to anything here. It's just 
 
 ### sway configuration override
 
-sway is a replacement for the popular i3 windows manager in Windows. We care a lot about it because a very successful project from GSoC '22 integrated it in Regolith linux, a ubuntu based distribution that we love.
+sway is a replacement for the popular i3 windows manager in Linux. We care a lot about it because a very successful project from GSoC '22 integrated it in Regolith linux, a ubuntu based distribution that we love.
 
 A configuration option that sway has (and i3 as well) is to include partial configuration files from directories, like this:
 
