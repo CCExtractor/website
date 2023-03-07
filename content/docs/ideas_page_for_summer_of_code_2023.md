@@ -134,7 +134,7 @@ Note - we want to have a unified rtorrent that gets the best from jesec's and no
 
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
 | ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
-| [ Unify flood and ruTorrent's rtorrent versions ](/public/gsoc/rtorrent_unification) | Each of the two most important rTorrent frontends have their own backend version. We need to create a version that works with both ruTorrent and Flood. | C++ | Mostly Docker and rTorrent internals | Easy | 175  hours |
+| [ Unify flood and ruTorrent's rtorrent versions ](/public/gsoc/rtorrent_unification) | Each of the two most important rTorrent frontends have their own backend version. We need to create a version that works with both ruTorrent and Flood. | C++ | Mostly Docker and rTorrent internals | Easy-Medium | 350  hours |
 | [ a modern RPC interface ](/public/gsoc/rtorrent-modern-rpc) | rTorrent currently uses an antique XMLRPC interface, which is limited in capability, not scalable, hard to use, insecure and low-performance. Community needs a modern RPC interface with full bidirectional, stream processing, incremental data loading and high concurrency capabilities, which allows real-time events for RPC users, reduced serialization/transfer overheads, potentially better security (with authentication and/or TLS), etc. | C++ | RPC, Event Loop | Medium/Hard | 350 hours |
 | asynchronous name resolution | UDP tracker name resolution is not asynchronous at the moment, which causes blocking in the main thread and can block (timeout) other ongoing/incoming connections/transfers. c-ares or libwebsockets implementation is preferred, as c-ares is already used by curl, which rTorrent depends on, while libwebsockets may be used by a future WebSockets RPC interface. | C, C++ | Threading, Event Loop | Medium | 350 hours |
 | improve scalability | rTorrent has a well-defined threading behaviour, which makes it stable and light on resources. There are 3 permanent threads only: main, disk and scgi. However, in the age of Gigabit/10G connections, 3 threads are often not sufficient. Implement a new threading model with better scalability. | C++ | Threading | Hard | 350 hours |
@@ -146,13 +146,6 @@ Note - we want to have a unified rtorrent that gets the best from jesec's and no
 | ----------- | ----------- | ----------- | ----------- | ----------- | ------ |
 | [ Mouseless for Linux v2 - i3 edition ]((/public/gsoc/2023/mouseless_i3) | Mouseless is a nice tool to practice keyboard shortcuts for a few popular apps. Unfortunately it's only available for Mac. Last year we created an open source one that runs on Linux. Using that work or not (this is your choice) we want to create one that helps use i3vm (the fantastic windows manager) using keys only. | Your choice | ?? | Unknown | 175 hours |
 
-
-#### Artificial Intelligence and clever algorithms
-
-| Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
-| ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
-| [Poor man's Rekognition (IV)](/public/gsoc/2022/poormanrekognition4) | Amazon Rekognition is a (paid) service that is capable of extracting information and insights from images and videos by identifying objects, text and activities, performing facial analysis, detecting inappropriate scenes, and much more using deep learning. In the last three years, we did some work towards creating a free and open source version of the same by training a bunch of models and creating easy to use APIs. This year we want to improve on the past work. | Python  Computer Vision | Django  Tensorflow | Medium |  175 hours |
-| [Poor man's Textract](/public/gsoc/poormantextract) | Amazon Textract a (paid) service that "automatically extracts text and data from scanned documents. Amazon Textract goes beyond simple optical character recognition (OCR) to also identify the contents of fields in forms and information stored in tables". We want to build a free alternative that provides an output of similar quality. | Your choice | AI  Computer vision  OCR | Unknown | Discuss |
 
 #### Niche ideas
 
