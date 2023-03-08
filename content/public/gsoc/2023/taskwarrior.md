@@ -28,4 +28,4 @@ Because each person has his/her own workflow whoever tackles this project should
 **Useful resources**
 
 [inthe.am - A free server you can use](https://inthe.am/)  
-[A fork of freeinc, a free server that no longer exists but you can run this fork locally)(https://gitlab.com/wt0f/taskd)  
+[A fork of freeinc, a free server that no longer exists but you can run this fork locally](https://gitlab.com/wt0f/taskd)  
