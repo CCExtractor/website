@@ -24,3 +24,8 @@ On top of that, we’d expect to be able to:
 - New ideas will also be appreciated
 
 Because each person has his/her own workflow whoever tackles this project should be familiar with TaskWarrior before actually starting to work on it. It takes just a few minutes to install and configure, and a couple of days to actually love it if you use it :-)
+
+**Useful resources**
+
+[inthe.am - A free server you can use](https://inthe.am/)  
+[A fork of freeinc, a free server that no longer exists but you can run this fork locally)(https://gitlab.com/wt0f/taskd)  
