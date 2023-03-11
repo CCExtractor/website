@@ -1,6 +1,8 @@
 ---
 title: "Ultimate Alarm Clock"
 ---
+**Mentor:**
+Nishant Singhal (Slack handle: @Nishant Singhal). Nishant Singhal is a GSoC'22 participant with CCExtractor Development. He made contributions to the TaskWarrior Project.
 
 **Time estimation**  
 350 hours
