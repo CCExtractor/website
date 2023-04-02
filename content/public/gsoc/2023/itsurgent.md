@@ -19,7 +19,7 @@ We're going to build an application that lets the caller decide if they want to 
 
 a) A sends a notification to B
 b) If B is not in do-not-disturb mode, the alert will be triggered, as with any other app. If B is in do-not-disturb mode then A will get a notification and a challenge
-c) The callenge is up to B to decide. It can be a password, a simple math operation, etc
+c) The challenge is up to B to decide. It can be a password, a simple math operation, etc
 d) A answers the challenge and sends it to B
 e) If correct, then B will ring 
 
