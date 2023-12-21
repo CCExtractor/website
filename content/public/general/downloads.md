@@ -18,7 +18,7 @@ The last version that is guaranteed to work on Windows XP is 0.89. You can downl
 
  **Mac**
 
-[Homebrew package](https://github.com/Homebrew/homebrew-core/blob/master/Formula/ccextractor.rb)
+[Homebrew package](https://github.com/Homebrew/homebrew-core/blob/master/Formula/c/ccextractor.rb)
 (3rd party, not maintained by the CCExtractor team)
 
 **Package managers**
