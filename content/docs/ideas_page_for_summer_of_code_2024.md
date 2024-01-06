@@ -133,7 +133,7 @@ https://starship.rs/
 | ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
 | [URL shortener, with a twist](/public/gsoc/2022/urlshortener) | A URL shortener converts a long URL into a shorter one. There are many use cases. Some times it's just the shortening itself we want, for example to share it on twitter. Other times it's about obfuscation. We want to create our own, but with some unique features. | Any language you want | Internet infrastructure | Medium | 175 hours |
 | [Add complex layouts to sway](https://github.com/swaywm/sway/issues/1666) | Sway is a drop-in replacement for i3, a popular windows manager for Linux that finally gets rid of the ancient X11 protocol. It's fantastic, but it's still missing support for complex scenarios. We'd like you to work on that support. | C | Sway | Hard | 350 hours |
-
+| [Create Nix derivations for Regolith Linux](/public/gsoc/2024/nix_regolith) | Nix is a special Linux distribution with interesting properties such as near perfect reproducibility. Regolith Linux is a collection of packages (for Debian) to deliver a preconfigured i3. We want to get the best of both worlds. | Nix | Nix, regolith | Hard | 350 hours |
 
 
 
