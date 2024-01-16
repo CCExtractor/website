@@ -24,15 +24,15 @@ For historic reasons, we've just increased the version number 0.01 at a time, as
 # Your job
 
 - Integrate and test all the Rust work.
-- Work on the sample platform so all tests pass (this will require some exposure to GitHub actions, Google Cloud, and more)
+- Get all regression tests passing (this will require debugging skills for CCextractor code, but might also expose you to GitHub actions, Google Cloud, and more if the issue turns out to be a bug on the Sample Platform)
 - Get the UI (written in Flutter) to work after all the changes. This is probably not a lot of work; some command line args have changed, and we need to keep things in sync.
-- Prepare a Docker image that can build everything so new developers don't have to fight the environment setup.
+- Prepare a Docker image that can build everything so new developers don't have to fight the environment setup. You can get ideas from the current GitHub actions that already build the software
 - Update FFmpeg bindings from FFmpeg 5 to 6. We use rusty_ffmpeg which already supports 6.1, so this is relatively straightforward. 
 - Prepare release files (automated) to our 1.00 version.
   
 ### Qualification tasks
 
-As you can see, this project has everything: Rust, C, Flutter, Cloud, Docker... 
+As you can see, this project has everything: Rust, C, Flutter, Python, Google Cloud, Docker... 
 
 We don't expect anyone to know everything already of course. Work on a couple of issues on diffent repos (for example, one in Rust and one in Flutter, or any other combination) and send PRs.
 
