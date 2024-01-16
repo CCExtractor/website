@@ -73,6 +73,11 @@ get in touch for questions, or just check their page from time to time.
 We will update the descriptions often. 
 {{< /tip >}}
 
+#### Niche ideas
+
+We've moved the less mainstream ideas to their [own page](https://ccextractor.org/docs/classic_ideas/)
+These ideas are not less important, but because they require more specialized skills (or mindsets) we've decided to give them a place of their own :-) Please take a look after you are done with this page; maybe something there will pick your interest.
+
 #### CCExtractor Core
 
 Since we are now feature complete, and the subtitles work have changed a lot (We won! Almost everything is subtitled now!) it's time to settle down, prepare a really good, stable, battery included release so we can rest on our laurels for a bit after a fantastic run on our core tool. 
@@ -106,33 +111,12 @@ Since we are now feature complete, and the subtitles work have changed a lot (We
 | [Add complex layouts to sway](https://github.com/swaywm/sway/issues/1666) | Sway is a drop-in replacement for i3, a popular windows manager for Linux that finally gets rid of the ancient X11 protocol. It's fantastic, but it's still missing support for complex scenarios. We'd like you to work on that support. | C | Sway | Hard | 350 hours |
 | [Create Nix derivations for Regolith Linux](/public/gsoc/2024/nix_regolith) | Nix is a special Linux distribution with interesting properties such as near perfect reproducibility. Regolith Linux is a collection of packages (for Debian) to deliver a preconfigured i3. We want to get the best of both worlds. | Nix | Nix, regolith | Hard | 350 hours |
 
-
-
-#### rTorrent
-
-We use [jesec/rtorrent](https://github.com/jesec/rtorrent). It provides a more modern base with Bazel/CMake and C++ 17 (instead of autotools and C++ 0x). Plus, your works are guaranteed to be incorporated if they match expectations.
-
-Note - we want to have a unified rtorrent that gets the best from jesec's and novik's work. See the first project in this section.
-
-| Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
-| ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
-| [ Unify flood and ruTorrent's rtorrent versions ](/public/gsoc/rtorrent_unification) | Each of the two most important rTorrent frontends have their own backend version. We need to create a version that works with both ruTorrent and Flood. | C++ | Mostly Docker and rTorrent internals | Easy-Medium | 350  hours |
-| [ a modern RPC interface ](/public/gsoc/rtorrent-modern-rpc) | rTorrent currently uses an antique XMLRPC interface, which is limited in capability, not scalable, hard to use, insecure and low-performance. Community needs a modern RPC interface with full bidirectional, stream processing, incremental data loading and high concurrency capabilities, which allows real-time events for RPC users, reduced serialization/transfer overheads, potentially better security (with authentication and/or TLS), etc. | C++ | RPC, Event Loop | Medium/Hard | 350 hours |
-| asynchronous name resolution | UDP tracker name resolution is not asynchronous at the moment, which causes blocking in the main thread and can block (timeout) other ongoing/incoming connections/transfers. c-ares or libwebsockets implementation is preferred, as c-ares is already used by curl, which rTorrent depends on, while libwebsockets may be used by a future WebSockets RPC interface. | C, C++ | Threading, Event Loop | Medium | 350 hours |
-| improve scalability | rTorrent has a well-defined threading behaviour, which makes it stable and light on resources. There are 3 permanent threads only: main, disk and scgi. However, in the age of Gigabit/10G connections, 3 threads are often not sufficient. Implement a new threading model with better scalability. | C++ | Threading | Hard | 350 hours |
-| scheduling/queuing | In some cases, users might want to download a series of torrents one-by-one without having to manually start the next when the previous is completed. Implement a scheduler along with a queue to allow users to limit the number of maximum simultaneous downloads. Enqueue if the user adds a download or decrease the limit. Dequeue when a download is completed or the user increases the limit. Keep the queue state across reboots. | C++ | Scheduling | Medium | 350 hours |
-
 #### New things we're currently interested on
 
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ------ |
 | [ Mouseless for Linux v2 - i3 edition ](/public/gsoc/2023/mouseless_i3) | Mouseless is a nice tool to practice keyboard shortcuts for a few popular apps. Unfortunately it's only available for Mac. Last year we created an open source one that runs on Linux. Using that work or not (this is your choice) we want to create one that helps use i3vm (the fantastic windows manager) using keys only. | Your choice | ?? | Unknown | 175 hours |
 
-
-#### Niche ideas
-
-We've moved the less mainstream ideas to their [own page](https://ccextractor.org/docs/classic_ideas/)
-These ideas are not let important, but because they are somewhat esoteric we've decided to give them a place of their own :-)
 
 #### About us
 
