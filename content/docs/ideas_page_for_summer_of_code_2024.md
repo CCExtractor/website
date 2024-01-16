@@ -79,31 +79,13 @@ get in touch for questions, or just check their page from time to time.
 We will update the descriptions often. 
 {{< /tip >}}
 
-#### CCExtractor Rust rewrite
+#### CCExtractor Core
 
-GSoC 2021 was quite successful on this front. The 708 decoder was rewritten in Rust, and in the process we fixed all the known (then) issues with 708. The student who did all this work (Punit Lodha) is going to mentor in 2022. 
-
-GSoC 2022 had partial success, with one of the projects (608) failing, and another one (HardSubX) succeeding.
-
-In 2023 we'd like to tackle these tasks. If you're interested, you can get some feeling of the system by fixing https://github.com/CCExtractor/ccextractor/issues/1407
-
-Or, to generally show that you know some Rust, tackle something from these very popular Rust projects (they're not related to us, even though we use them and we've committed code from time to time) and send us links to the PRs:
-
-https://github.com/greshake/i3status-rust  
-https://starship.rs/
-
-
+Since we are now feature complete, and the subtitles work have changed a lot (We won! Almost everything is subtitled now!) it's time to settle down, prepare a really good, stable, battery included release so we can rest on our laurels for a bit after a fantastic run on our core tool. 
 
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size | 
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| [Rewrite 608 decoder in Rust](/public/gsoc/cc_rust_608/)  | CEA-608 is the American standard for analog subtitles. It also carries things like emergency alerts, basic TV guide, and content classification. We have a complete implementation in C that works OK (possibly with some bugs) but that is not really very well organized. We'd like to port it to rust. We will provide you with the official technical standards. | (Some) Rust, Some (C) | Analog subtitles, XDS Working with standards. | Medium | 350 hours |
-| [Rewrite the OCR subsystem in Rust.](/public/gsoc/cc_rust_ocr/) | We use tesseract to OCR bitmap based subtitles. It's a great library, but because its input is a bitmap that is preprocessed (so provide a reasonable input) there's lots of places in which there can be buffer overruns, underruns… many of the problems that Rust shines on are evidenced here. So a Rust rewrite of this would be a big win. | OCR Rust FFI | Tesseract Imaging OCR | Medium | 350 hours |
-
-#### Support tools we and other orgs use as part of their development process
-
-| Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
-| ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
-[The sample platform (/ continuous integration) project](/public/gsoc/sampleplatform) | The sample platform is a good way to help new contributors to check if their code doesn't introduce any regressions. We want to squash the last bugs so it's fully usable for all our CCExtractor contributors, just as we intended to. **This project is guaranteed to be selected if the proposal is good.** | Git Python | Google Cloud API's GitHub Actions GitHub API's Continuous Integration (CI) Automated deployments GitHub integration | Easy/Medium | 175 hours |
+| [CCExtractor Release 1.00](/public/gsoc/2024/nix_regolith/ccextractor_v1.md)  | This is our ambitious project for the summer - work directly with the core team to prepare 1.00 - our first major version bump ever, by doing a huge integration/testing/fixing work | Some of these: Rust, C, Flutter, Docker, GitHub actions | The rest from the previous list. | Hard | 350 hours |
 
 #### Multimedia (misc)
 
