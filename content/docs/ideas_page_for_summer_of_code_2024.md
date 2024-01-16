@@ -81,12 +81,6 @@ Since we are now feature complete, and the subtitles work have changed a lot (We
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | [CCExtractor Release 1.00](/public/gsoc/2024/ccextractor_v1)  | This is our ambitious project for the summer - work directly with the core team to prepare 1.00 - our first major version bump ever, by doing a huge integration/testing/fixing work | Some of these: Rust, C, Flutter, Docker, GitHub actions | The rest from the previous list. | Hard | 350 hours |
 
-#### Multimedia (misc)
-
-| Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
-| ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
-| [Upgrade FFmpeg](/public/gsoc/2022/updateffmpeg) | FFmpeg is the premier open source video library. We use it to decode video to be able to process burned-in subtitles. They recently made breaking changes to their API (worth it) and the clients need to be updated. CCExtractor is one such client. | Some C | Video, subtitles, API integration, FFmpeg | Easy-Medium | 175 hours |
-
 #### Virtual Reality
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size | 
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
