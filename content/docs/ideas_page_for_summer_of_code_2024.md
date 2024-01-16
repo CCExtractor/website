@@ -8,12 +8,6 @@ YES!
 
 We're applying for GSoC 2024!
 
-We will post our initial list of projects in the next few days.
-
-For now, Below is our ideas for 2023. We will remove already done projects and adding new ones. 
-
-
-
 
 ### This is work in progress! New projects are being added as we confirm mentors.
 
