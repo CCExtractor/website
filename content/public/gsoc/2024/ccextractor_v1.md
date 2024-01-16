@@ -1,5 +1,5 @@
 ---
-title: "CCExtractor 1.00 - AKA 'after 14 years we think we're ready to release'.
+title: "CCExtractor 1.00 - AKA after 14 years we think we're ready to release.
 ---
 
 **Mentors:**
@@ -34,3 +34,8 @@ For historic reasons, we've just increased the version number 0.01 at a time, as
 As you can see, this project has everything: Rust, C, Flutter, Cloud, Docker... 
 
 We don't expect anyone to know everything already of course. Work on a couple of issues on diffent repos (for example, one in Rust and one in Flutter, or any other combination) and send PRs.
+
+Or, to generally show that you know some Rust, tackle something from these very popular Rust projects (they're not related to us, even though we use them and we've committed code from time to time) and send us links to the PRs:
+
+https://github.com/greshake/i3status-rust  
+https://starship.rs/
