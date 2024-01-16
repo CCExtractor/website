@@ -1,5 +1,5 @@
 ---
-title: "CCExtractor 1.00 - AKA after 14 years we think we're ready to release.
+title: "CCExtractor 1.00 - AKA after 14 years we think we're ready to release."
 ---
 
 **Mentors:**
