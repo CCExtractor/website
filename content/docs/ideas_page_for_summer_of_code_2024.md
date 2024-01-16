@@ -79,7 +79,7 @@ Since we are now feature complete, and the subtitles work have changed a lot (We
 
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size | 
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| [CCExtractor Release 1.00](/public/gsoc/2024/ccextractor_v1.md)  | This is our ambitious project for the summer - work directly with the core team to prepare 1.00 - our first major version bump ever, by doing a huge integration/testing/fixing work | Some of these: Rust, C, Flutter, Docker, GitHub actions | The rest from the previous list. | Hard | 350 hours |
+| [CCExtractor Release 1.00](/public/gsoc/2024/ccextractor_v1)  | This is our ambitious project for the summer - work directly with the core team to prepare 1.00 - our first major version bump ever, by doing a huge integration/testing/fixing work | Some of these: Rust, C, Flutter, Docker, GitHub actions | The rest from the previous list. | Hard | 350 hours |
 
 #### Multimedia (misc)
 
