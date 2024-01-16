@@ -27,8 +27,9 @@ For historic reasons, we've just increased the version number 0.01 at a time, as
 - Work on the sample platform so all tests pass (this will require some exposure to GitHub actions, Google Cloud, and more)
 - Get the UI (written in Flutter) to work after all the changes. This is probably not a lot of work; some command line args have changed, and we need to keep things in sync.
 - Prepare a Docker image that can build everything so new developers don't have to fight the environment setup.
+- Update FFmpeg bindings from FFmpeg 5 to 6. We use rusty_ffmpeg which already supports 6.1, so this is relatively straightforward. 
 - Prepare release files (automated) to our 1.00 version.
-- 
+  
 ### Qualification tasks
 
 As you can see, this project has everything: Rust, C, Flutter, Cloud, Docker... 
