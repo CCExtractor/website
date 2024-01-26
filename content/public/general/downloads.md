@@ -1,10 +1,10 @@
 ---
-title: "CCExtractor downloads"
+title: "CCExtractor Downloads"
 ---
 
 You can find the latest releases of CCExtractor here: [GitHub releases page](https://github.com/CCExtractor/ccextractor/releases)
 
-Release artifacts available are:
+Available release artifacts are:
 - Full source code
 - Minimal source code (.git and windows directories excluded)
 - MSI installer for Windows
@@ -14,16 +14,11 @@ The windows artifacts include the Flutter GUI, if you use another platform you c
 
 **Windows XP**
 
-The last version that is guaranteed to work on Windows XP is 0.89. You can download the compiled (portable) program with the (old) GUI on the [0.89 GitHub release page](https://github.com/CCExtractor/ccextractor/releases/tag/v0.89)
-
- **Mac**
-
-[Homebrew package](https://github.com/Homebrew/homebrew-core/blob/master/Formula/c/ccextractor.rb)
-(3rd party, not maintained by the CCExtractor team)
+The last guaranteed version to work on Windows XP is 0.89. You can download the compiled (portable) program with the (old) GUI on the [0.89 GitHub release page](https://github.com/CCExtractor/ccextractor/releases/tag/v0.89)
 
 **Package managers**
 
-As far as we know, CCExtractor is available on the next package managers (it might not be the most recent version though):
+As far as we know, CCExtractor is available on the following package managers (it might not be the most recent version though):
 - [AUR GUI](https://aur.archlinux.org/packages/ccextractor-gui-bin/), [AUR CLI](https://aur.archlinux.org/packages/ccextractor/)
 - [Debian](https://packages.debian.org/bullseye/ccextractor)
 - [others](https://pkgs.org/download/ccextractor)
