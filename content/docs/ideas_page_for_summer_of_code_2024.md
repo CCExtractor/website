@@ -23,7 +23,9 @@ Start date (tentative):
 
 Hours:
 Sundays at 8:30 AM PDT -7:00 hours (Pacific Daylight Time)
-which is 17:30 in Central Europe (until the clock changes there) and 10 PM in India.\n-3:30 AM (Monday - the next day) in Sydney, Australia.
+which is 17:30 in Central Europe (until the clock changes there) and 10 PM in India.
+
+\\n- 3:30 AM (Monday - the next day) in Sydney, Australia.
 
 (use San francisco Time for "official clock" - 8:30 AM in San Francisco is what matters, if you want to add your local time here send a pull request).
 
