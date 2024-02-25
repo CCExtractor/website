@@ -17,6 +17,8 @@ We'd like to get Regolith on nix.
 
 From what we've been told, this is doable but hard. 
 
+There is currently an open [issue](https://github.com/regolith-linux/regolith-desktop/issues/604) which discusses this in detail. It might be a good idea to read through the issue before contributing.
+
 ### Your Job
 
 Deliver nix derivations get a regolith experience on nix.
