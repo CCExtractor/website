@@ -115,6 +115,7 @@ Since we are now feature complete, and the subtitles work have changed a lot (We
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ------ |
 | [ Mouseless for Linux v2 - i3 edition ](/public/gsoc/2023/mouseless_i3) | Mouseless is a nice tool to practice keyboard shortcuts for a few popular apps. Unfortunately it's only available for Mac. Last year we created an open source one that runs on Linux. Using that work or not (this is your choice) we want to create one that helps use i3vm (the fantastic windows manager) using keys only. | Your choice | ?? | Unknown | 175 hours |
+| [Desktop Actions in Ilia](/public/gsoc/2024/ilia_context_menu) | Desktop Actions defined in `.desktop` files are used by app launcher to provide access to additional functionalities, typically via context menus. Ilia is an app launcher that currently doesn't support for Desktop Actions due to its keyboard based approach. | Vala, GTK | GTK | Medium | 175 hours |
 
 
 #### About us
