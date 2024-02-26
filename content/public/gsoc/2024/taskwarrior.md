@@ -32,8 +32,6 @@ This year we intend to add a few more features and then release it to the app st
 
 Here's some of the things we want to add:
 
-Sure, here's an expanded and refined version of the project objectives:
-
 1. Develop an iOS home widget for TaskWarrior, providing users with quick access to their tasks directly from the iOS home screen.
 2. Conduct comprehensive unit testing and widget testing to ensure the functionality and stability of the application across various scenarios and devices.
 3. Optimize the application for desktop support, leveraging recent macOS compatibility updates to provide a seamless user experience on desktop platforms.
