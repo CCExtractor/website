@@ -6,7 +6,7 @@ weight: 1
 
 YES! 
 
-We're applying for GSoC 2024!
+We're selected for GSoC 2024!
 
 
 ### This is work in progress! New projects are being added as we confirm mentors.
