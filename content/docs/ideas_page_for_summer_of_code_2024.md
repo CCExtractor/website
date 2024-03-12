@@ -23,9 +23,11 @@ Start date (tentative):
 
 Hours:
 Sundays at 8:30 AM PDT -7:00 hours (Pacific Daylight Time)
-which is 17:30 in Central Europe (until the clock changes there) and 10 PM in India.  
-- 3:30 AM (Monday - the next day) in Sydney, Australia.
-- or use [this link](https://dateful.com/convert/pst-pdt-pacific-time?t=0830) to automatically convert the meeting time to your local timezone.
+which is 16:30 in Central Europe (until the clock changes there) and 9 PM in India.  
+- 2:30 AM (Monday - the next day) in Sydney, Australia.
+- (Better way) - use [this link](https://dateful.com/convert/pst-pdt-pacific-time?t=0830) to automatically convert the meeting time to your local timezone.  
+<br>
+
 
 (use San francisco Time for "official clock" - 8:30 AM in San Francisco is what matters, if you want to add your local time here send a pull request).
 
