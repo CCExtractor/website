@@ -105,7 +105,7 @@ Since we are now feature complete, and the subtitles work have changed a lot (We
 | [ Beacon Watch Companion](/public/gsoc/2024/beacon_watch_companion) | Beacon was started in 2021 and it got a great push also during 2022. It aims to ease the group travelling (or hiking). This project is intended to be a companion for the beacon project for smart watches. | Flutter | Scalability | Medium | 175 hours |
 | [ TaskWarrior ](/public/gsoc/2024/taskwarrior) | Taskwarrior is a very nice command-line tool (yes, in 2022 — and I love it!) to manage task list. This year our target is to making our own Taskserver(or finding alternative to freeinc). And also a functionality to make our own Taskserver like we do in CLI. We want to improve on past work, include new features. | Flutter | Scalability | Medium | 175 hours |
 | [ It's Urgent ](/public/gsoc/2024/itsurgent) | A notification tool that lets the sender decide if what he/she has to say is so important as to interrupt the receiver | Flutter | Scalability | Medium | 350 hours |
-
+| [ Firebase editor ](/public/gsoc/2024/firebase_editor) | A CRUD editor for firebase tables | Flutter | Scalability | Medium | 175 hours |
 
 #### Systems
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
