@@ -37,6 +37,11 @@ We will start at 8:30 and stay around for at least for 30 minutes, so you can sh
 
 {{< /tip >}} 
 
+{{< tip >}}
+[How not to get selected to GSoC](/public/gsoc/how_not_to_be_selected_for_gsoc)
+{{< /tip >}} 
+
+
 Welcome to our ideas page. It's great you want to start early. Please
 join us in our slack channel! (we'll leave this as an exercise for you to
 find --- it's on our website).
