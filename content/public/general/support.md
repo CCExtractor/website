@@ -3,7 +3,7 @@ title: "Slack"
 ---
 
 Slack is a great communication tool. Most CCExtractor developers hang
-out in a slack team. You're welcome to join our Slack channel through the following [invite link](https://join.slack.com/t/rhccgsoc15/shared_invite/zt-2nctzggkl-7yOW7vIm3vL2K~yUlgm6aA). If the link no longer works (it has some limits), send an email to the mail address at the bottom of this page and we'll update it ASAP.
+out in a slack team. You're welcome to join our Slack channel through the following [invite link](https://join.slack.com/t/rhccgsoc15/shared_invite/zt-2nctzggkl-7yOW7vIm3vL2K~yUlgm6aA) . If the link no longer works (it has some limits), send an email to the mail address at the bottom of this page and we'll update it ASAP.
 
 
 ### Technical issues
