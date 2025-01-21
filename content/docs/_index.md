@@ -14,11 +14,11 @@ CCExtractor Development is an informal (meaning we're not incorporated anywhere)
     
 
 {{< tip "warning" >}}
-This website is still in beta, you might come across formatting errors or pages not found. Please report them on slack.    
+This website is still in beta, you might come across formatting errors or pages not found. Please report them on Zulip.    
 {{< /tip >}}
 
 {{< tip >}}
-To get in touch with us, join our slack channel. Most CCExtractor developers hang out in a slack team. You're welcome to request an invitation [here](/public//general/support/)
+To get in touch with us, join our Zulip instance. Most CCExtractor developers hang out on Zulip. You're welcome to request an invitation [here](/public//general/support/)
 
 {{< /tip >}}
 
