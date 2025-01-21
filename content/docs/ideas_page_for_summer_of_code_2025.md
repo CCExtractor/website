@@ -38,9 +38,7 @@ We will start at 8:30 and stay around for at least for 30 minutes, so you can sh
 {{< /tip >}} 
 
 
-Welcome to our ideas page. It's great you want to start early. Please
-join us in our slack channel! (we'll leave this as an exercise for you to
-find --- it's on our website).
+Welcome to our ideas page. It's great you want to start early. Please join us in our Zulip space! (we'll leave this as an exercise for you to find --- it's on our website).
 
 As you will see, this year has a lot of Rust. The reason is simple:
 Security. Our C code base has known (and we suspect, a lot of unknown)
