@@ -76,6 +76,6 @@ The GUI has tons of options so they are seperated into several settings screens.
 
 
 {{< tip >}}
-To report any bugs, please file a issue on github or get in touch with us on slack. Most CCExtractor developers hang out in a slack team. You're welcome to request an invitation [here](/public/general/support/)
+To report any bugs, please file a issue on github or get in touch with us on Zulip. Most CCExtractor developers hang out on Zulip. You're welcome to request an invitation [here](/public/general/support/)
 
 {{< /tip >}}
