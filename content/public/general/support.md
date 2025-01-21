@@ -1,9 +1,9 @@
 ---
-title: "Slack"
+title: "Zulip"
 ---
 
-Slack is a great communication tool. Most CCExtractor developers hang
-out in a slack team. You're welcome to join our Slack channel through the following [invite link](https://join.slack.com/t/rhccgsoc15/shared_invite/zt-2nctzggkl-7yOW7vIm3vL2K~yUlgm6aA) . If the link no longer works (it has some limits), send an email to the mail address at the bottom of this page and we'll update it ASAP.
+Our primary means of communication is through Zulip chat. This space is where you'll find most of CCExtractor's developers, old GSoC contributors and so on.
+You're welcome to join our Zulip community through the following [invite link](https://ccextractor.zulipchat.com/join/7n3sxaevqfizv75p6hekhxqe/). If the link no longer works (it has some limits), send an email to the mail address at the bottom of this page and we'll update it ASAP.
 
 
 ### Technical issues
@@ -28,7 +28,7 @@ When creating a ticket:
 We do have a mailing list available [here](https://groups.google.com/forum/#!forum/ccextractor-dev), and all
 issues can be found back [on our GitHub](https://github.com/CCExtractor/ccextractor/issues).
 
-It's read by the right people; you can use it if you prefer it to Slack.
+It's read by the right people; you can use it if you prefer it to Zulip.
 
 ### Email
 
