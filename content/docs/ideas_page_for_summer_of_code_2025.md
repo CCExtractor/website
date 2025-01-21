@@ -121,16 +121,16 @@ October.
 
 We have *mentors all over the world* (North America, Europe, Asia and
 Australia), so time zones are never a problem. Our main channel of
-communication is a [Slack channel](/public/general/support) to
+communication is a [Zulip instance](/public/general/support) to
 which everyone is welcome. We expect all accepted students to be
-available on Slack very often, even if you don't need to talk to your
+available on Zulip very often, even if you don't need to talk to your
 mentor. This will help you ask questions when necessary, and you might
 be able to help others out as well while working on your project.
 
-Exception: If your country (such as **Russia**) has banned Slack please get in touch in we'll work out a solution with you. We absolutely want you to participate.
+Exception: If your country (such as **Russia**) has banned Zulip please get in touch in we'll work out a solution with you. We absolutely want you to participate.
 
 A [mailing list](https://groups.google.com/forum/#!forum/ccextractor-dev)
-is also available for those that prefer email over Slack. Note that getting replies might be faster on Slack though.
+is also available for those that prefer email over Zulip. Note that getting replies might be faster on Zulip though (and it should be just as organized!).
 
 **All our top committers will be mentoring**. Many of them are former GSoC students or winners of GCI.
 
@@ -278,7 +278,7 @@ It goes without saying that everyone in the community has to be polite
 and respectful, and consider everyone else a member of a team and not a
 competitor.
 
-All developers are part of the team, by the way. Our Slack channel has
+All developers are part of the team, by the way. Our Zulip instance has
 mentors, code-in participants, other students, or developers and users
 that are none of the above but they all play some kind of role in
 CCExtractor's community.
@@ -288,8 +288,8 @@ time. Most of us have day jobs, and as such are limited in the time we
 can use to guide you. We'd like to spend it on quality discussions, and
 not on things that are for example written on this website, things that
 you can easily retrieve by reading documentation on used libraries or on
-the software's help screen. Asking this kind of questions in the Slack
-channel shows little respect for our time. This doesn't mean you can't
+the software's help screen. Asking this kind of questions in the Zulip
+instance shows little respect for our time. This doesn't mean you can't
 ask questions, but remember that being a clueless user and a lazy
 developer are two very different things. If you ask those questions you
 will probably get an answer as if you were a clueless user (polite no
