@@ -18,7 +18,7 @@ Start date:
 2025-02-02
 
 Hours:
-Sundays at 8:30 AM PDT(Pacific Daylight Time)
+Sundays at 8:30 AM PDT (Pacific Daylight Time)
 which is 17:30 PM CET (Central Europe Time) and 10 PM IST (Indian Standard Time).  
 - 3:30 AM (Monday - the next day) in Sydney, Australia.
 
