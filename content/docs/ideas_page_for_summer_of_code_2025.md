@@ -8,30 +8,36 @@ weight: 1
 ### This is work in progress! However we intend to have a number of project listed early this year, so check often.
 
 {{< tip >}}
-NEW: Office Hours.
+### **NEW: Office Hours**
 
-Each Sunday (depending on your timezone) we will hold office hours. You can show up and ask your questions. At least one org admin and/or mentor will be around, maybe more. No need to be formal, or even have the camera on if you're shy (but you can). 
+Starting **February 2, 2025**, we will be holding **weekly office hours every Sunday** (depending on your timezone). This is an open session where you can drop in, ask your questions, and have a conversation with an **org admin and/or mentor**—maybe more. There’s no need to be formal, and if you’re shy, you don’t even have to turn your camera on.  
 
-To connect, go to this [google meet link](https://meet.google.com/swu-vmra-tyh).
+To join, simply use this **[Google Meet link](https://meet.google.com/swu-vmra-tyh)**. The sessions will begin at **8:30 AM San Francisco Time**, which serves as the official reference time.
 
-Start date: 
-2025-02-02
+<div id="timeDisplay"></div>
+<script src="/js/timeDisplay.js"></script>
 
-Hours:
-Sundays at 8:30 AM PDT -7:00 hours (Pacific Daylight Time)
-which is 16:30 in Central Europe (until the clock changes there) and 9 PM in India.  
-- 1:30 AM (Monday - the next day) in Sydney, Australia.
-- (Better way) - use [this link](https://dateful.com/convert/pst-pdt-pacific-time?t=0830) to automatically convert the meeting time to your local timezone.  
-<br>
+<style>
+  #timeDisplay table {
+    width: 80%; /* Adjust the width of the table */
+    margin: 0 auto; /* Center the table */
+    font-size: 0.9rem; /* Make the text smaller */
+    border-collapse: collapse; /* Makes the table look cleaner */
+    padding: 10px; /* Adjust the padding of table */
 
+  }
+  
+  #timeDisplay th, #timeDisplay td {
+    padding: 8px; /* Adjust the padding inside cells */
+    text-align: center; /* Center-align text */
+    border: 1px solid #ddd; /* Add borders between cells */
+  }
+</style>
 
-(use San francisco Time for "official clock" - 8:30 AM in San Francisco is what matters, if you want to add your local time here send a pull request).
+There is **no fixed agenda** for these meetings. Whether you want to ask about **GSoC, the organization, your project, or anything else**, you’re welcome to join. If others are discussing something, you can also stay and listen. We will be available for **at least 30 minutes**, but if a conversation is ongoing at **9:00 AM San Francisco Time**, we’ll **continue as long as needed**.  
 
-There's no agenda to these meetings. Someone from the team will be around, everyone is welcome, you can ask about GSoC, the org, your project, etc. If there's some other participants asking questions you can stay around and listen. 
-
-We will start at 8:30 and stay around for at least for 30 minutes, so you can show up at any time. At 9:00 if there's a conversation going on we will continue so it might last longer than 30 minutes (as long as needed).
-
-{{< /tip >}} 
+Feel free to drop by, ask questions, or just hang out. We look forward to seeing you there!
+{{< /tip >}}
 
 {{< tip >}}
 [How not to get selected to GSoC](/public/gsoc/how_not_to_be_selected_for_gsoc)
