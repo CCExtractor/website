@@ -95,6 +95,8 @@ Since we are now feature complete, and the subtitles work have changed a lot (We
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
 | ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
 | [ Ultimate Alarm Clock III ] | The ultimate alarm clock, with features no other one has. And free! | Flutter | Good application design | Medium | 350 hours |
+| [ Beacon Watch Companion](/public/gsoc/2025/beacon_watch_companion) | Beacon was started in 2021 and it got a great push also during 2022 and 2024. It aims to ease the group travelling (or hiking). This project is intended to be a companion for the beacon project for smart watches. | Flutter | Scalability | Medium | 175 hours |
+| [ Ultimate Alarm Clock Watch Companion](/public/gsoc/2025/ultimate_alarm_clock_watch_companion) | Ultimate Alarm Clock launched in 2023 and gained significant momentum in 2024. It aims to offer unique features that set it apart from other alarm clock apps—all for free!. This project is intended to be a companion for the ultimate alarm clock project for smart watches. | Flutter | Scalability | Medium | 175 hours |
 
 #### Systems
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
