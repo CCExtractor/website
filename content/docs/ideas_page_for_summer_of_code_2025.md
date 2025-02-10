@@ -93,24 +93,29 @@ Since we are now feature complete, and the subtitles work have changed a lot (We
 
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size | 
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| [CCExtractor Release 1.00](/public/gsoc/2024/ccextractor_v1)  | This is our ambitious project for the summer - work directly with the core team to prepare 1.00 - our first major version bump ever, by doing a huge integration/testing/fixing work | Some of these: Rust, C, Flutter, Docker, GitHub actions | The rest from the previous list. | Hard | 350 hours |
+| [CCExtractor Release 1.00](/public/gsoc/2025/ccextractor_v1)  | This is our ambitious project for the summer - work directly with the core team to prepare 1.00 - our first major version bump ever, by getting our PR's from last year vetted, tested and integrated | Some of these: Rust, C, Flutter, Docker, GitHub actions | The rest from the previous list. | Hard | 350 hours |
 
 #### Flutter
 
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
 | ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
-| [ Ultimate Alarm Clock III ] | The ultimate alarm clock, with features no other one has. And free! | Flutter | Good application design | Medium | 350 hours |
+| [ Ultimate Alarm Clock III ](/public/gsoc/2025/ultimate_alarm_clock_watch_companion) | The ultimate alarm clock, with features no other one has. And free! | Flutter | Good application design | Medium | 350 hours |
 | [ Beacon Watch Companion](/public/gsoc/2025/beacon_watch_companion) | Beacon was started in 2021 and it got a great push also during 2022 and 2024. It aims to ease the group travelling (or hiking). This project is intended to be a companion for the beacon project for smart watches. | Flutter | Scalability | Medium | 175 hours |
 | [ Ultimate Alarm Clock Watch Companion](/public/gsoc/2025/ultimate_alarm_clock_watch_companion) | Ultimate Alarm Clock launched in 2023 and gained significant momentum in 2024. It aims to offer unique features that set it apart from other alarm clock apps—all for free!. This project is intended to be a companion for the ultimate alarm clock project for smart watches. | Flutter | Scalability | Medium | 175 hours |
+| [ support more torrent clients ](/public/gsoc/flutter-more-clients) | We'd like to add support for other clients to our ruTorrent mobile interface (which of course will get a new name): [Flood](https://flood.js.org) and [Deluge](https://deluge-torrent.org). | Flutter | API, Teamwork | Medium |  Discuss |
 
 #### Systems
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
 | ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
+| [URL shortener, with a twist](/public/gsoc/2025/urlshortener) | A URL shortener converts a long URL into a shorter one. There are many use cases. Some times it's just the shortening itself we want, for example to share it on twitter. Other times it's about obfuscation. We want to create our own, but with some unique features. | Any language you want | Internet infrastructure | Medium | 175 hours |
+| [Add complex layouts to sway](/public/gsoc/2025/sway_complex) | Sway is a drop-in replacement for i3, a popular windows manager for Linux that finally gets rid of the ancient X11 protocol. It's fantastic, but it's still missing support for complex scenarios. We'd like you to work on that support. | C | Sway | Hard | 350 hours |
 
 #### New things we're currently interested on
 
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ------ |
+| [ Mouseless for Linux v2 - i3 edition ](/public/gsoc/2025/mouseless_i3) | Mouseless is a nice tool to practice keyboard shortcuts for a few popular apps. Unfortunately it's only available for Mac. Last year we created an open source one that runs on Linux. Using that work or not (this is your choice) we want to create one that helps use i3vm (the fantastic windows manager) using keys only. | Your choice | ?? | Unknown | 175 hours |
+| [Desktop Actions in Ilia](/public/gsoc/2025/ilia_context_menu) | Desktop Actions defined in `.desktop` files are used by app launcher to provide access to additional functionalities, typically via context menus. Ilia is an app launcher that currently doesn't support for Desktop Actions due to its keyboard based approach. | Vala, GTK | GTK | Medium | 175 hours |
 
 
 #### About us

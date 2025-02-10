@@ -1,9 +1,9 @@
 ---
-title: "Google Summer of Code (GSoC) 2024 ideas page - classics"
+title: "Google Summer of Code (GSoC) 2025 ideas page - classics"
 weight: 1
 ---
 
-### This page contains ideas that we find interesting and we would love to do but maybe there are too niche or complicated and no one ever picks them up :-)
+*This page contains ideas that we find interesting and we would love to do but maybe there are too niche or complicated and no one ever picks them up :-)*
 
 Thanks for visiting this page!
 These projects have the same importance as those in the main page. We just moved them to their own page to help keep things tidy.
