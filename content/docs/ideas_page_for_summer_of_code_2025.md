@@ -5,7 +5,7 @@ weight: 1
 
 ### This is work in progress! However we intend to have a number of project listed early this year, so check often.
 
-<span style="text-decoration: underline;">**Note: **</span> For classic, well-established project ideas that have been part of CCExtractor's GSoC program for several years, check out the [GSoC 2025 Classic Projects](https://ccextractor.org/docs/classic_ideas/) page.
+<span style="text-decoration: underline;">**Note:**</span> For classic, well-established project ideas that have been part of CCExtractor's GSoC program for several years, check out the [GSoC 2025 Classic Projects](https://ccextractor.org/docs/classic_ideas/) page.
 
 {{< tip >}}
 
