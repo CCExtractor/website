@@ -30,7 +30,7 @@ that has to be maintained. It is also very promising in terms of API stability (
 
 This is why we want to experiment with a variant based on COSMIC. 
 
-### Your Job
+### Your task
 
 We've had some initial success getting COSMIC components to work well with sway and Regolith.
 Your job is to make sure the COSMIC integration as seamless as possible. The goal for the project 
