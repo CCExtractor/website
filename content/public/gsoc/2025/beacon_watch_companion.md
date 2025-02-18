@@ -18,7 +18,7 @@ Well, this is the first use case the beacon is supposed to solve! Read more abou
 
 This project is intended to be a smart watch companion for the beacon project.
 
-### Your Job
+### Your task
 
 Create a watch companion for the beacon project.
 The following would be required to fulfill the above goal:
