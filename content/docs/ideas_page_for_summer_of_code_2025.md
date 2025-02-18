@@ -192,7 +192,7 @@ written in **Python**, but since they are small tools that do their
 job you don't need to worry much about them.
 
 For totally new things you can use whatever tool you feel is best for
-the job.
+the task at hand.
 
 #### About sample media and other resources
 

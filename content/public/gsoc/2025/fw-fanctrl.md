@@ -17,7 +17,7 @@ Under the hood, they use [ectool](https://gitlab.howett.net/DHowett/ectool) , a 
 
 Of course, ideally you wouldn't be spawning a new process every second... which is what happens now. Instead, the functionality would be exposed as a library with python bindings.
 
-# Your job
+## Your task
 
 - Make the requirements changes in ectool so that the functionality is available as a library that can be called from different languages.
 - Create, specifically, the Python bindings.

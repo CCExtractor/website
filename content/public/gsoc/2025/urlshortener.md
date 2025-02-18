@@ -16,7 +16,7 @@ These are the features we want to add:
 - URLs might have an expiration date (and a start date).  
 - URLs, when opened, might send a confirmation email to the creator (something like "wife opened your URL xxxx").  
 
-### Your Job
+### Your Task
 
 Implement the system. We want it to scale, but this is GSoC, so it's OK if you rely on some external system to do the heavy litfing for that. For example, you might use Firebase, or maybe a Cloudflare worker, etc.  
 
