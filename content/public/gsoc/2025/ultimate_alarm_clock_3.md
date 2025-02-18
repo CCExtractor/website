@@ -37,7 +37,7 @@ There's 350 hours in this project, and the goal is to have a good alarm clock th
 
 We don't want a clone of anything that already exists.
 
-### Your Job
+### Your Task
 
 Add most of all of the features listed, and come up with new ones in the proposal.
 

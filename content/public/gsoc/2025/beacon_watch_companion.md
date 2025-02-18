@@ -27,7 +27,7 @@ The following would be required to fulfill the above goal:
 - Replicate the beacon project features to the beacon watch companion.
 - Work closely with the beacon project team.
 
-For now your job is to write your proposal by having an understanding of the beacon project (including screen design mockups etc in proposal would be great).
+For now your task is to write your proposal by having an understanding of the beacon project (including screen design mockups etc in proposal would be great).
 
 
 ### Note

@@ -33,7 +33,7 @@ This is why we want to experiment with a variant based on COSMIC.
 ### Your task
 
 We've had some initial success getting COSMIC components to work well with sway and Regolith.
-Your job is to make sure the COSMIC integration as seamless as possible. The goal for the project 
+Your task is to make sure the COSMIC integration as seamless as possible. The goal for the project 
 is to have a working COSMIC based session that is on par or better in terms of integration with GNOME.
 
 Since COSMIC is wayland native, we're only concerned with the wayland session of regolith.
