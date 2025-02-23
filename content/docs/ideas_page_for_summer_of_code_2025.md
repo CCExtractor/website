@@ -150,21 +150,12 @@ is also available for those that prefer email over Zulip. Note that getting repl
 
 #### Perks
 
-All accepted students get a programming book immediately after being
-accepted, with the hope that they read them before the coding
-starts. We want to see if this increases the quality of the work. So far
-we have selected these three books (pick one), but we're open to
-suggestions: [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882),
-[Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949),
-[Cracking the code interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850).
+All accepted students get a programming book or course immediately
+after being accepted, with the hope that they read them before the
+coding starts. We want to see if this increases the quality of the
+work. You can pick any programming book or course under 100$ and
+we will provide it.
 
-We will also provide to all accepted students: - 6 months of access
-(from the acceptance date) to all courses in
-[educative.io](https://www.educative.io/) - 12 months of
-access (from the acceptance date) to
-[backtobackswe](https://backtobackswe.com), which is a
-fantastic resource to learn algorithms, prepare for coding interviews,
-and in general learn fundamentals.
 
 #### About what we use
 
