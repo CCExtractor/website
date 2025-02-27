@@ -3,7 +3,7 @@ title: "Ultimate Alarm Clock III"
 ---
 **Mentors:**
 Rijuth Menon R (Slack handle: @Rijuth Menon R). Rijuth was the contributor for GSoC '23 for this project and is now going to mentor it during GSoC while he himself continues to work on it.
-Nishant Singhal (Slack handle: @Nishant Singhal). Nishant Singhal is a GSoC'22 participant with CCExtractor Development. He made contributions to the TaskWarrior Project. He was the mentor for this project during 2023.
+Nishant Singhal (Zulip handle: [@Nishant Singhal](https://ccextractor.zulipchat.com/#user/856505)). Nishant Singhal is a GSoC'22 participant with CCExtractor Development. He made contributions to the TaskWarrior Project. He was the mentor for this project during 2023.
 
 **Time estimation**  
 350 hours
