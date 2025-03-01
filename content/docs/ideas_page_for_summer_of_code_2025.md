@@ -111,6 +111,7 @@ Since we are now feature complete, and the subtitles work have changed a lot (We
 | [COSMIC Session For Regolith](/public/gsoc/2025/regolith_cosmic) | COSMIC is a wayland based desktop environment written from scratch in rust, with modularity in mind. We're interested in swapping the GNOME components of Regolith DE with COSMIC. | Rust | Wayland, Iced, DBus, etc | Medium | 350 hours |
 | [Add complex layouts to sway](/public/gsoc/2025/sway_complex) | Sway is a drop-in replacement for i3, a popular windows manager for Linux that finally gets rid of the ancient X11 protocol. It's fantastic, but it's still missing support for complex scenarios. We'd like you to work on that support. | C | Sway | Hard | 350 hours |
 | [Expose ectool functionality as a library](/public/gsoc/2025/fw-fanctrl) | ectool is a CLI that lets you interact with an embedded controller for laptops. Expose its functionality as a library so it's possible to use it without spawning the CLI. | C, Python | Interlanguage connectivity | Medium | 350 hours |
+| [CCSync](/public/gsoc/2025/taskserver) |This project aims to develop a comprehensive platform that can be used sync tasks with taskserver.A hosted solution for syncing your TaskWarrior client.Setting up your own TaskServer takes some effort.And platforms like inthe.am,freecinc have shut down their services.So we want to create a platform similar to inthe.am , freecinc and wingtask. | Any language you want | Internet infrastructure | Medium | 175 hours |
 
 #### New things we're currently interested on
 
