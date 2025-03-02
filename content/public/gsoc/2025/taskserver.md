@@ -15,7 +15,7 @@ title: "TaskServer"
 
 Last year, we worked on CCSync (TaskServer), and this year, our goal is to make it production-ready and ship it to users.
 
-## Your Job
+## Your task
 ### Platform Requirements
 1. **Authentication System**
    - Sign up/login via Google, Email, or Password
