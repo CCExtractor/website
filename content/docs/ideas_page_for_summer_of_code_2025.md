@@ -102,14 +102,18 @@ Since we are now feature complete, and the subtitles work have changed a lot (We
 | [ Ultimate Alarm Clock III ](/public/gsoc/2025/ultimate_alarm_clock_watch_companion)            | The ultimate alarm clock, with features no other one has. And free!                                                                                                                                                                                                             | Flutter               | Good application design | Medium     | 350 hours |
 | [ Beacon Watch Companion](/public/gsoc/2025/beacon_watch_companion)                             | Beacon was started in 2021 and it got a great push also during 2022 and 2024. It aims to ease the group travelling (or hiking). This project is intended to be a companion for the beacon project for smart watches.                                                            | Flutter               | Scalability             | Medium     | 175 hours |
 | [ Ultimate Alarm Clock Watch Companion](/public/gsoc/2025/ultimate_alarm_clock_watch_companion) | Ultimate Alarm Clock launched in 2023 and gained significant momentum in 2024. It aims to offer unique features that set it apart from other alarm clock apps—all for free!. This project is intended to be a companion for the ultimate alarm clock project for smart watches. | Flutter               | Scalability             | Medium     | 175 hours |
+| [ Smart Health Reminder ](/public/gsoc/2025/smart_health_reminder) | A fun and interactive health tracking app with smart reminders, challenges, and gamification. Stay healthy effortlessly! | Flutter | Gamification & UX design | Medium | 350 hours |
 | [ support more torrent clients ](/public/gsoc/flutter-more-clients)                             | We'd like to add support for other clients to our ruTorrent mobile interface (which of course will get a new name): [Flood](https://flood.js.org) and [Deluge](https://deluge-torrent.org).                                                                                     | Flutter               | API, Teamwork           | Medium     | Discuss   |
 
 #### Systems
+| Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
+| ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
+| [URL shortener, with a twist](/public/gsoc/2025/urlshortener) | A URL shortener converts a long URL into a shorter one. There are many use cases. Some times it's just the shortening itself we want, for example to share it on twitter. Other times it's about obfuscation. We want to create our own, but with some unique features. | Any language you want | Internet infrastructure | Medium | 175 hours |
+| [COSMIC Session For Regolith](/public/gsoc/2025/regolith_cosmic) | COSMIC is a wayland based desktop environment written from scratch in rust, with modularity in mind. We're interested in swapping the GNOME components of Regolith DE with COSMIC. | Rust | Wayland, Iced, DBus, etc | Medium | 350 hours |
+| [Add complex layouts to sway](/public/gsoc/2025/sway_complex) | Sway is a drop-in replacement for i3, a popular windows manager for Linux that finally gets rid of the ancient X11 protocol. It's fantastic, but it's still missing support for complex scenarios. We'd like you to work on that support. | C | Sway | Hard | 350 hours |
+| [Expose ectool functionality as a library](/public/gsoc/2025/fw-fanctrl) | ectool is a CLI that lets you interact with an embedded controller for laptops. Expose its functionality as a library so it's possible to use it without spawning the CLI. | C, Python | Interlanguage connectivity | Medium | 350 hours |
+| [CCSync](/public/gsoc/2025/taskserver) |This project aims to develop a comprehensive platform that can be used sync tasks with taskserver.A hosted solution for syncing your TaskWarrior client.Setting up your own TaskServer takes some effort.And platforms like inthe.am,freecinc have shut down their services.So we want to create a platform similar to inthe.am , freecinc and wingtask. | Any language you want | Internet infrastructure | Medium | 175 hours |
 
-| Name                                                          | Description                                                                                                                                                                                                                                                             | Tech you need to know | Tech you will learn     | Difficulty | Size      |
-| ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | ----------------------- | ---------- | --------- |
-| [URL shortener, with a twist](/public/gsoc/2025/urlshortener) | A URL shortener converts a long URL into a shorter one. There are many use cases. Some times it's just the shortening itself we want, for example to share it on twitter. Other times it's about obfuscation. We want to create our own, but with some unique features. | Any language you want | Internet infrastructure | Medium     | 175 hours |
-| [Add complex layouts to sway](/public/gsoc/2025/sway_complex) | Sway is a drop-in replacement for i3, a popular windows manager for Linux that finally gets rid of the ancient X11 protocol. It's fantastic, but it's still missing support for complex scenarios. We'd like you to work on that support.                               | C                     | Sway                    | Hard       | 350 hours |
 
 #### New things we're currently interested on
 
@@ -149,21 +153,12 @@ is also available for those that prefer email over Zulip. Note that getting repl
 
 #### Perks
 
-All accepted students get a programming book immediately after being
-accepted, with the hope that they read them before the coding
-starts. We want to see if this increases the quality of the work. So far
-we have selected these three books (pick one), but we're open to
-suggestions: [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882),
-[Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949),
-[Cracking the code interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850).
+All accepted students get a programming book or course immediately
+after being accepted, with the hope that they read them before the
+coding starts. We want to see if this increases the quality of the
+work. You can pick any programming book or course under 100$ and
+we will provide it.
 
-We will also provide to all accepted students: - 6 months of access
-(from the acceptance date) to all courses in
-[educative.io](https://www.educative.io/) - 12 months of
-access (from the acceptance date) to
-[backtobackswe](https://backtobackswe.com), which is a
-fantastic resource to learn algorithms, prepare for coding interviews,
-and in general learn fundamentals.
 
 #### About what we use
 
@@ -191,7 +186,7 @@ written in **Python**, but since they are small tools that do their
 job you don't need to worry much about them.
 
 For totally new things you can use whatever tool you feel is best for
-the job.
+the task at hand.
 
 #### About sample media and other resources
 

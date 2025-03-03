@@ -103,7 +103,18 @@ if the dog is a bit far.
 It must be fast or the dog will move!
 
 ---
+### Face Condition Detection in Any Lighting  
 
+Language: Flutter  
+Must work in: Android, iOS (OK if you can just test in one, but we will test in both and if it doesn't work, we'll send you the debug info so you can fix it).  
+
+Write a Flutter app that detects a person's face and analyzes its condition in real-time, even in different lighting environments.  
+
+For example: The app should identify if the person looks tired, stressed, happy, or sad. It should also detect if the lighting is too bright or too dim and adjust the face detection accordingly.  
+
+It must be fast and work in all lighting conditions!
+
+---
 ### Rust: Help i3status-rs release 0.30
 
 i3status-rs is a fantastic status bar for i3/sway written completely in Rust. They're in the process of migrating to async rust. 

@@ -22,7 +22,7 @@ application menus that appear on right clicking the application entry.
 Ilia is an application launcher used by Regolith, but it lacks support for
 Desktop Actions.
 
-### Your Job
+### Your task
 Add support for Desktop Actions to Ilia. You need to take into account that
 Regolith is a keyboard oriented desktop environment, which means the desktop
 actions should be accessible without having to click.
