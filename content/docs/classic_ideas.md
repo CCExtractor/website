@@ -25,9 +25,9 @@ These projects have the same importance as those in the main page. We just moved
 
 #### Systems
 
-| Name                                                              | Description                                                                                                                                                                                                                                                                                                     | Tech you need to know | Tech you will learn          | Difficulty | Size      |
-| ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | ---------------------------- | ---------- | --------- |
-| [ Linux tuning for network throughput ](/public/gsoc/linuxtuning) | Come up with a system that tunes the linux kernel to maximize network throughput for a number of workloads, such as web server or BitTorrent. We will provide access to a server with a huge pipe (10 Gbit/s, SSD, lots of cores) and your job is to build a tool that maximizes the throughput (and prove it!) | Linux                 | Kernel internals, Networking | Medium     | 175 hours |
+| Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
+| ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
+| [ Linux tuning for network throughput ](/public/gsoc/linuxtuning) | Come up with a system that tunes the linux kernel to maximize network throughput for a number of workloads, such as web server or BitTorrent. We will provide access to a server with a huge pipe (10 Gbit/s, SSD, lots of cores) and your task is to build a tool that maximizes the throughput (and prove it!) | Linux | Kernel internals, Networking | Medium | 175 hours |
 
 #### Research
 

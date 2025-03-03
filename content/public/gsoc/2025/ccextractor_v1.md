@@ -21,7 +21,7 @@ The goal of this project is to get all of that good stuff that is almost done an
 
 For historic reasons, we've just increased the version number 0.01 at a time, as we said "1.00 should be really good". Well, the time is now.
 
-# Your job
+# Your task
 
 - Integrate and test all the Rust work. We have a bunch of open PR's that should be good (thanks to excellent contributors in the past years), but never got merged.
 - *Get all regression tests passing* (this will require debugging skills for CCextractor code, but might also expose you to GitHub actions, Google Cloud, and more if the issue turns out to be a bug on the Sample Platform)
