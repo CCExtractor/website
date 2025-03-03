@@ -3,7 +3,7 @@ title: "Mouseless for Linux v2 - i3 edition"
 ---
 
 
- **Introduction**
+## Introduction
 
 [Mouseless](https://www.producthunt.com/posts/mouseless) is a nice tool to practice keyboard shortcuts for a few popular apps.
 
@@ -16,13 +16,13 @@ This year we'd like to focus on writer an i3wm teaching tool that trains muscle 
 If you haven't used i3 yet, we recommend the [regolith system](https://regolith-linux.org/) (that's the one we use). If comes completely ready to use - you can install it from USB, or over an existing Ubuntu. 
 
 
- **Your job**
+## Your task
 
 We want to create Mouseless for i3. You can start from scratch, you can use their work (check the license though!)... it's up to you.
 
 We recommend you start by actually checking out mouseless to get an idea, and then come up with a plan.
 
-**Qualification tasks**
+## Qualification tasks
 
 Take a look at [this page](/public/gsoc/takehome).
 

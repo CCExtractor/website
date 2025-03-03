@@ -16,7 +16,7 @@ We want to put an end to this nonsense :-) So we built an alarm clock that has f
 
 We want to now extend the project and develop a watch companion for the ultimate alarm clock project.
 
-### Your Job
+### Your Task
 Create a watch companion for the ultimate alarm clock project.
 The following would be required to fulfill the above goal:
 - Have an understanding of the ultimate alarm clock project.
@@ -24,7 +24,7 @@ The following would be required to fulfill the above goal:
 - Replicate the ultimate alarm clock project features to the ultimate alarm clock watch companion.
 - Work closely with the ultimate alarm clock project team.
 
-For now your job is to write your proposal by having an understanding of the ultimate alarm clock project (including screen design mockups etc in proposal would be great).
+For now your task is to write your proposal by having an understanding of the ultimate alarm clock project (including screen design mockups etc in proposal would be great).
 
 ### Note
 
