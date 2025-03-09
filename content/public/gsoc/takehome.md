@@ -86,23 +86,6 @@ If it doesn't work, fix it and send a PR.
 acon").
 
 ---
-### Camera with intelligent autozoom in Flutter
-
-Language: Flutter Must work in: Android, iOS (OK if you can just
-test in one, but we will test in both and if it doesn't work we'll
-send you the debug info so you can fix it).
-
-Write a Flutter app that lets you take pictures of anything and
-autozooms to the right size to pick up an object that is in view. For
-example: Take a collection of dogs, or cats (there are probably
-pretrained models for this, it's up to you to look them up). If your
-app is used to take a picture of a dog, then the zoom should be
-automatically adjusted to take a picture of the dog in foreground, even
-if the dog is a bit far.
-
-It must be fast or the dog will move!
-
----
 ### Face Condition Detection in Any Lighting  
 
 Language: Flutter  
