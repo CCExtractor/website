@@ -37,6 +37,7 @@ To join, simply use this **[Google Meet link](https://meet.google.com/swu-vmra-t
   }
 </style>
 
+<p>&nbsp;</p> 
 There is **no fixed agenda** for these meetings. Whether you want to ask about **GSoC, the organization, your project, or anything else**, you’re welcome to join. If others are discussing something, you can also stay and listen. We will be available for **at least 30 minutes**, but if a conversation is ongoing at **9:00 AM San Francisco Time**, we’ll **continue as long as needed**.  
 
 Feel free to drop by, ask questions, or just hang out. We look forward to seeing you there!
