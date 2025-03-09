@@ -3,14 +3,15 @@ title: "Ultimate Alarm Clock Watch Companion."
 ---
 
 **Mentors**  
-Primary mentor: Akshat Tripathi (Slack handle: @Akshat Tripathi). Akshat is a GSoC'22 participant and GSoC'23 & 24 mentor with CCExtractor Development. He made contributions to the Flood-Mobile Project.  
+Primary mentor: Rijuth Menon R (Zulip handle: @Rijuth Menon R). Rijuth was the contributor for GSoC '23 and mentor for the UAC Project.
+Akshat Tripathi (Slack handle: @Akshat Tripathi). Akshat is a GSoC'22 participant and GSoC'23 & 24 mentor with CCExtractor Development. He made contributions to the Flood-Mobile Project.  
 
 
 **Time estimation**  
 175 hours 
 
 ### Project Brief
-There's plenty of alarm clocks for mobile, of course. But the most decent ones are expensive. Some even have subscriptions. Really, for a clock? They cost more than an actual physical clock.
+There are plenty of alarm clocks for mobile, of course. But the most decent ones are expensive. Some even have subscriptions. Really, for a clock? They cost more than an actual physical clock.
 
 We want to put an end to this nonsense :-) So we built an alarm clock that has features that the rest don't and that it's open source, free, no ads, etc.
 
