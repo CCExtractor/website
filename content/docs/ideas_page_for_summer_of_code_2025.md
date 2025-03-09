@@ -11,10 +11,14 @@ weight: 1
 
 Starting **February 2, 2025**, we will be holding **weekly office hours every Sunday** (depending on your timezone). This is an open session where you can drop in, ask your questions, and have a conversation with an **org admin and/or mentor**—maybe more. There’s no need to be formal, and if you’re shy, you don’t even have to turn your camera on.  
 
-To join, simply use this **[Google Meet link](https://meet.google.com/swu-vmra-tyh)**. The sessions will begin at **8:30 AM San Francisco Time**, which serves as the official reference time.
+To join, simply use this **[Google Meet link](https://meet.google.com/swu-vmra-tyh)**. The sessions will begin at **10:30 AM San Francisco Time**, which serves as the official reference time.
 
 <div id="timeDisplay"></div>
 <script src="/js/timeDisplay.js"></script>
+    <script>
+        displayInternationalTimes("T10:30:00-08:00");
+    </script>
+
 
 <style>
   #timeDisplay table {
