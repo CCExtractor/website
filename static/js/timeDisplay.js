@@ -1,4 +1,4 @@
-function displayInternationalTimes() {
+function displayInternationalTimes(baseTime) {
     const baseDate = new Date();
     const formatter = new Intl.DateTimeFormat("en-US", {
       timeZone: "America/Los_Angeles",
@@ -10,7 +10,7 @@ function displayInternationalTimes() {
     // Set to 8:30 AM in California
     const [month, day, year] = formatter.format(baseDate).split("/");
     const californiaTime = new Date(
-      `${year}-${month}-${day}T08:30:00-08:00`
+      `${year}-${month}-${day}${baseTime}`
     ); // PST is UTC-8
   
     const locations = [
@@ -60,4 +60,3 @@ function displayInternationalTimes() {
     document.getElementById("timeDisplay").innerHTML = html;
   }
   
-  displayInternationalTimes();
