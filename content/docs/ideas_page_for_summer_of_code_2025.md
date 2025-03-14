@@ -108,7 +108,7 @@ Since we are now feature complete, and the subtitles work have changed a lot (We
 | [ Ultimate Alarm Clock Watch Companion](/public/gsoc/2025/ultimate_alarm_clock_watch_companion) | Ultimate Alarm Clock launched in 2023 and gained significant momentum in 2024. It aims to offer unique features that set it apart from other alarm clock apps—all for free!. This project is intended to be a companion for the ultimate alarm clock project for smart watches. | Flutter | Scalability | Medium | 175 hours |
 | [ Smart Health Reminder ](/public/gsoc/2025/smart_health_reminder) | A fun and interactive health tracking app with smart reminders, challenges, and gamification. Stay healthy effortlessly! | Flutter | Gamification & UX design | Medium | 350 hours |
 | [ support more torrent clients ](/public/gsoc/flutter-more-clients) | We'd like to add support for other clients to our ruTorrent mobile interface (which of course will get a new name): [Flood](https://flood.js.org) and [Deluge](https://deluge-torrent.org). | Flutter | API, Teamwork | Medium |  Discuss |
-| [TaskWarrior](/public/gsoc/taskwarrior) |We aim to enhance the existing app by seamlessly integrating CCSync/TaskServer for better synchronization and functionality.: | Flutter | Scalability | Medium | 175 hours | 
+| [TaskWarrior](/public/gsoc/2025/taskwarrior) |We aim to enhance the existing app by seamlessly integrating CCSync/TaskServer for better synchronization and functionality.: | Flutter | Scalability | Medium | 175 hours | 
 
 
 #### Systems
