@@ -3,7 +3,7 @@ title: "CCExtractor 1.00 - AKA after 15 years we think we're ready to release."
 ---
 
 **Mentors:**
-Carlos (carlos.fernandez), Willem (canihavesomecoffee), punit (Punit Lodha)
+Carlos (carlos.fernandez), Willem (canihavesomecoffee), Prateek (prateekmedia)
 
 Because this is a very large project, with a number of different areas, *all three* of us will be involved (i.e. there's no backup mentors, we're all primary mentors).
 
@@ -25,8 +25,7 @@ For historic reasons, we've just increased the version number 0.01 at a time, as
 
 - Integrate and test all the Rust work. We have a bunch of open PR's that should be good (thanks to excellent contributors in the past years), but never got merged.
 - *Get all regression tests passing* (this will require debugging skills for CCextractor code, but might also expose you to GitHub actions, Google Cloud, and more if the issue turns out to be a bug on the Sample Platform)
-- Get the UI (written in Flutter) to work after all the changes. This is probably not a lot of work; some command line args have changed, and we need to keep things in sync.
-- Prepare a Docker image that can build everything so new developers don't have to fight the environment setup. You can get ideas from the current GitHub actions that already build the software
+- Sync the changes or if there is any need of bug fixes and release CCExtractor GUI (Flutter).
 - Prepare release files (automated) to our 1.00 version.
 
 The most important part is to get the number of open PR's to 0 and make sure all known regressions are fixed.
