@@ -1,8 +1,4 @@
----
-title: "TaskServer"
----
-
-# **TaskServer (CCSync) - Making Task Synchronization Effortless**
+# **Task Server II - Making Task Synchronization Effortless**
 
 ## **Mentor**
 
@@ -19,13 +15,13 @@ title: "TaskServer"
 
 [TaskWarrior](https://taskwarrior.org/) is a powerful command-line task management tool that enables users to manage tasks locally or sync them across multiple devices. It offers robust filtering, script integrations, and advanced task tracking via CLI.
 
-[TaskServer](https://github.com/CCExtractor/ccsync) (also known as **CCSync**) is the core daemon that facilitates task synchronization between different TaskWarrior clients. **Last year**, we laid the foundation for **CCSync**, allowing it to work as a TaskServer with basic functionality.
+[TaskServer](https://github.com/CCExtractor/ccsync) (also known as **Task Server II**) is the core daemon that facilitates task synchronization between different TaskWarrior clients. **Last year**, we laid the foundation for **Task Server II**, allowing it to work as a TaskServer with basic functionality.
 
 ✅ **This year, our primary focus is to make TaskServer production-ready** — ensuring that users can self-host it, use it as a public service, and integrate it smoothly with the existing TaskWarrior mobile app. We also want to significantly **improve performance, efficiency, and usability** based on the learnings from last year.
 
 **We will stick to Golang as the base language** for the backend, but contributors are free to use any modern JavaScript framework/library (React.js, Vue.js, Next.js, etc.) for the frontend. Additionally, if needed, contributors can use any other language to build supporting services or tooling.
 
-⚠ **A major part of your work will also involve helping us integrate CCSync (TaskServer) with our TaskWarrior mobile app**. This will ensure seamless cross-device sync and a rich user experience.
+⚠ **A major part of your work will also involve helping us integrate Task Server II (TaskServer) with our TaskWarrior mobile app**. This will ensure seamless cross-device sync and a rich user experience.
 
 [ TaskWarrior](/public/gsoc/2025/taskwarrior)
 
@@ -42,15 +38,15 @@ Your task will be to **finalize TaskServer for production** by implementing key 
 - Integration with TaskWarrior mobile app
 - Enhancing the Web UI
 
-Additionally, **a lot of the groundwork was already done last year**. However, we believe there’s still **a lot of room for improvement** in terms of performance, architecture, and scalability. This year, we aim to:
+Additionally, **a lot of the groundwork was already done last year**. However, we believe there's still **a lot of room for improvement** in terms of performance, architecture, and scalability. This year, we aim to:
 
 - ✅ Improve the API architecture
 - ✅ Build a production-grade Web UI
 - ✅ Enhance sync stability across devices
 - ✅ Optimize server performance and resource utilization
-- ✅ Seamlessly integrate CCSync with our mobile app
+- ✅ Seamlessly integrate Task Server II with our mobile app
 
-Your role will be crucial in taking **CCSync from “experimental” to “production-ready”**.
+Your role will be crucial in taking **Task Server II from "experimental" to "production-ready"**.
 
 ---
 
@@ -63,7 +59,7 @@ Your role will be crucial in taking **CCSync from “experimental” to “produ
   - **Email & Password Login**
   - **JWT (JSON Web Tokens)** for session management.
 - Ensure all TaskServer API endpoints are secured using the JWT token.
-- Align authentication with TaskWarrior’s existing protocol for seamless integration.
+- Align authentication with TaskWarrior's existing protocol for seamless integration.
 - Encrypt user passwords and tokens using encryption.
 
 ---
@@ -85,7 +81,7 @@ Your role will be crucial in taking **CCSync from “experimental” to “produ
   - **Tasks** (ID, description, due date, priority, etc.)
   - **Projects** (Project-specific task lists)
   - **Tags** (Task categorization)
-- Ensure complete compatibility with TaskWarrior’s current schema.
+- Ensure complete compatibility with TaskWarrior's current schema.
 - Enable bi-directional sync between TaskWarrior clients and TaskServer.
 
 ---
@@ -108,7 +104,7 @@ We expect contributors to have a clear understanding of the TaskWarrior mobile a
 
 - Provide easy self-hosting options using **Docker**.
 - Allow users to host their own TaskServer using a one-click setup.
-- Ensure that CCExtractor can also host **CCSync** as a public service.
+- Ensure that CCExtractor can also host **Task Server II** as a public service.
 - Include environment variables and config files to customize deployment.
 - Provide instructions to deploy on:
   - **Docker Compose**
@@ -184,7 +180,7 @@ The Web UI should include:
   - ✅ Deployment Setup (Docker/Self-hosted)
   - ✅ Web UI Usage
   - ✅ Mobile App Integration Guide
-- Provide a simple “Getting Started” guide.
+- Provide a simple "Getting Started" guide.
 
 ---
 
@@ -226,7 +222,7 @@ We highly recommend sticking to the following stack:
 
 ## 🚀 **Why Is This Project Important?**
 
-We strongly believe that **CCSync (TaskServer)** can become the go-to solution for task synchronization across devices. By making it **production-ready**, we are empowering all the TaskWarrior users with:
+We strongly believe that **Task Server II (TaskServer)** can become the go-to solution for task synchronization across devices. By making it **production-ready**, we are empowering all the TaskWarrior users with:
 
 - ✅ Seamless cross-device sync.
 - ✅ Easy self-hosting.
@@ -244,4 +240,4 @@ Your contribution will leave a lasting impact on the open-source productivity sp
 💬 **Questions?**  
 Put your questions in Zulip.
 
-**We’re super excited to see how you improve TaskServer. Let’s build something amazing together! 🚀**
+**We're super excited to see how you improve TaskServer. Let's build something amazing together! 🚀**
