@@ -16,7 +16,7 @@ To join, simply use this **[Google Meet link](https://meet.google.com/swu-vmra-t
 <div id="timeDisplay"></div>
 <script src="/js/timeDisplay.js"></script>
   <script>
-      displayInternationalTimes("T10:30:00-08:00");
+      displayInternationalTimes("T10:30:00-07:00");
   </script>
 
 
