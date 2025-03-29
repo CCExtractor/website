@@ -15,13 +15,6 @@ These projects have the same importance as those in the main page. We just moved
 | [Add support for DTMB countries](/public/gsoc/dtmb) | DTMB is the standard for Chinese TV, also implemented by countries such as Cuba. What kind of student is ideal for this task? One with lots of analytic skills and patience. If you are one of those, don't disregard this task just because you don't speak (or maybe, even care) about Chinese. The experience on dealing with this will be extremely valuable in the future.We will use part of the organization funds to buy standard documents you might need, a capture device, and in general, anything required to make your life easier. | Rust | DTMB  Video standards Hardware Research | Unknown |  Discuss |
 | [Add Japanese support](/public/gsoc/japanese) | Captions are used by people all over the world on a regular basis. Most of us are familiar with regular horizontal captions at the bottom of the screen, but did you know that in Japan a common position for captions is vertically on the right or left side of the screen? Come learn more about what Japanese audiences need out of captions as well as how captioning standard likes IMSC and WebVTT support these features.| Japanese (or be good with foreign languages), Rust | Depends | Suspected hard |  Discuss |
 
-#### New subtitles tools
-
-| Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size | 
-| ----------- | ----------- | ----------- | ----------- | ----------- | ------ |
-| [Subtitle quality quantification tool](/public/gsoc/2022/subtitle_quality/) | Writing a subtitle quality quantification tool | (Some) Rust, Some (C) | CCExtractor internals | Medium | 350 hours |
-
-
 #### Systems
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
 | ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
