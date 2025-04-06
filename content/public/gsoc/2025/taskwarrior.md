@@ -184,7 +184,7 @@ Here’s the preferred tech stack:
 
 ## 📜 **Ready to Contribute?**
 
-👉 **[Start the Qualification Task](https://ccextractor.org/gsoc/takehome)**
+👉 **[Start the Qualification Task](https://ccextractor.org/public/gsoc/takehome)**
 
 💬 **Questions?**  
 Put your questions in Zulip.
