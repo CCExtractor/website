@@ -25,9 +25,9 @@ As far as we know, CCExtractor is available on the following package managers (i
 
  **Additional software written by the team**
 
-[ User Documentation for Subtitle Downloader ](http://www.ccextractor.org/doku.php?id=public/gsoc/repository_documentation)
+[ User Documentation for Subtitle Downloader ](/public/gsoc/2016/abishek/subtitle_downloader/)
 
-[ User Documentation for Activity Extractor ](http://www.ccextractor.org/doku.php?id=public/codein/activity_extractor_user_docs)
+[ User Documentation for Activity Extractor ](/public/codein/activity_extractor_user_docs/)
 
 [CCAligner - Word by Word Audio Subtitle Synchronisation Tool and API](/public/gsoc/2017/saurabh)
 
