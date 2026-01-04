@@ -7,6 +7,10 @@ weight: 1
 This is work in progress! However we intend to have a number of projects listed early this year, so check often.
 {{< /tip >}}
 
+{{< tip "warning" >}}
+**Important:** Please read our [AI Policy](/public/gsoc/ai_policy/) before submitting any PRs.
+{{< /tip >}}
+
 For classic, niche project ideas, check out the [Classic Projects page](/docs/classic_ideas/).
 
 {{< tip >}}
