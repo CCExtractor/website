@@ -9,7 +9,7 @@ weight: 1
 {{< tip >}}
 ### **NEW: Office Hours**
 
-Starting **February 2, 2026**, we will be holding **weekly office hours every Sunday** (depending on your timezone). This is an open session where you can drop in, ask your questions, and have a conversation with an **org admin and/or mentor**—maybe more. There's no need to be formal, and if you're shy, you don't even have to turn your camera on.
+Starting **February 8, 2026**, we will be holding **weekly office hours every Sunday** (depending on your timezone). This is an open session where you can drop in, ask your questions, and have a conversation with an **org admin and/or mentor**—maybe more. There's no need to be formal, and if you're shy, you don't even have to turn your camera on.
 
 To join, simply use this **[Google Meet link](https://meet.google.com/swu-vmra-tyh)**. The sessions will begin at **10:30 AM San Francisco Time**, which serves as the official reference time.
 
