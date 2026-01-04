@@ -1,5 +1,5 @@
 ---
-title: "Google Summer of Code (GSoC) 2025 ideas page - classics"
+title: "Google Summer of Code (GSoC) 2026 ideas page - classics"
 weight: 1
 ---
 
