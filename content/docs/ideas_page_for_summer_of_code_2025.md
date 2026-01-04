@@ -5,6 +5,7 @@ weight: 1
 
 
 ### This is work in progress! However we intend to have a number of project listed early this year, so check often.
+For classic, niche project ideas, check out the [GSoC 2025 Classic Projects page](/content/docs/classic_ideas.md).
 
 {{< tip >}}
 ### **NEW: Office Hours**
