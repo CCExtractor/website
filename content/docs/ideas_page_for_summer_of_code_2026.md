@@ -7,6 +7,8 @@ weight: 1
 This is work in progress! However we intend to have a number of projects listed early this year, so check often.
 {{< /tip >}}
 
+For classic, niche project ideas, check out the [Classic Projects page](/docs/classic_ideas/).
+
 {{< tip >}}
 ### **NEW: Office Hours**
 
