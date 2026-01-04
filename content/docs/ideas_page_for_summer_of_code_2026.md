@@ -3,8 +3,9 @@ title: "Google Summer of Code (GSoC) 2026 ideas page"
 weight: 1
 ---
 
-
-### This is work in progress! However we intend to have a number of project listed early this year, so check often.
+{{< tip "warning" >}}
+This is work in progress! However we intend to have a number of projects listed early this year, so check often.
+{{< /tip >}}
 
 {{< tip >}}
 ### **NEW: Office Hours**
