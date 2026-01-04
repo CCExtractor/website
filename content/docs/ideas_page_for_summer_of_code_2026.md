@@ -1,21 +1,22 @@
 ---
-title: "Google Summer of Code (GSoC) 2025 ideas page"
+title: "Google Summer of Code (GSoC) 2026 ideas page"
 weight: 1
 ---
 
-For classic, niche project ideas, check out the [Classic Projects page](/docs/classic_ideas/).
+
+### This is work in progress! However we intend to have a number of project listed early this year, so check often.
 
 {{< tip >}}
 ### **NEW: Office Hours**
 
-Starting **February 2, 2025**, we will be holding **weekly office hours every Sunday** (depending on your timezone). This is an open session where you can drop in, ask your questions, and have a conversation with an **org admin and/or mentor**—maybe more. There’s no need to be formal, and if you’re shy, you don’t even have to turn your camera on.  
+Starting **February 2, 2026**, we will be holding **weekly office hours every Sunday** (depending on your timezone). This is an open session where you can drop in, ask your questions, and have a conversation with an **org admin and/or mentor**—maybe more. There's no need to be formal, and if you're shy, you don't even have to turn your camera on.
 
 To join, simply use this **[Google Meet link](https://meet.google.com/swu-vmra-tyh)**. The sessions will begin at **10:30 AM San Francisco Time**, which serves as the official reference time.
 
 <div id="timeDisplay"></div>
 <script src="/js/timeDisplay.js"></script>
   <script>
-      displayInternationalTimes("T10:30:00","2025-03-30"); /* time and date input as in San Francisco */
+      displayInternationalTimes("T10:30:00","2026-03-30"); /* time and date input as in San Francisco */
   </script>
 
 
@@ -28,7 +29,7 @@ To join, simply use this **[Google Meet link](https://meet.google.com/swu-vmra-t
     padding: 10px; /* Adjust the padding of table */
 
   }
-  
+
   #timeDisplay th, #timeDisplay td {
     padding: 8px; /* Adjust the padding inside cells */
     text-align: center; /* Center-align text */
@@ -36,15 +37,15 @@ To join, simply use this **[Google Meet link](https://meet.google.com/swu-vmra-t
   }
 </style>
 
-<p>&nbsp;</p> 
-There is **no fixed agenda** for these meetings. Whether you want to ask about **GSoC, the organization, your project, or anything else**, you’re welcome to join. If others are discussing something, you can also stay and listen. We will be available for **at least 30 minutes**, but if a conversation is ongoing at **9:00 AM San Francisco Time**, we’ll **continue as long as needed**.  
+<p>&nbsp;</p>
+There is **no fixed agenda** for these meetings. Whether you want to ask about **GSoC, the organization, your project, or anything else**, you're welcome to join. If others are discussing something, you can also stay and listen. We will be available for **at least 30 minutes**, but if a conversation is ongoing at **9:00 AM San Francisco Time**, we'll **continue as long as needed**.
 
 Feel free to drop by, ask questions, or just hang out. We look forward to seeing you there!
 {{< /tip >}}
 
 {{< tip >}}
 [How not to get selected to GSoC](/public/gsoc/how_not_to_be_selected_for_gsoc)
-{{< /tip >}} 
+{{< /tip >}}
 
 
 Welcome to our ideas page. It's great you want to start early. Please join us in our Zulip space! (we'll leave this as an exercise for you to find --- it's on our website).
@@ -82,7 +83,7 @@ resources we will provide to you, etc.
 {{< tip >}}
 Some tasks descriptions are still vague. We know that. Feel free to
 get in touch for questions, or just check their page from time to time.
-We will update the descriptions often. 
+We will update the descriptions often.
 {{< /tip >}}
 
 #### Niche ideas
@@ -92,39 +93,39 @@ These ideas are not less important, but because they require more specialized sk
 
 #### CCExtractor Core
 
-Since we are now feature complete, and the subtitles work have changed a lot (We won! Almost everything is subtitled now!) it's time to settle down, prepare a really good, stable, battery included release so we can rest on our laurels for a bit after a fantastic run on our core tool. 
+Since we are now feature complete, and the subtitles work have changed a lot (We won! Almost everything is subtitled now!) it's time to settle down, prepare a really good, stable, battery included release so we can rest on our laurels for a bit after a fantastic run on our core tool.
 
-| Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size | 
+| Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| [CCExtractor Release 1.00](/public/gsoc/2025/ccextractor_v1)  | This is our ambitious project for the summer - work directly with the core team to prepare 1.00 - our first major version bump ever, by getting our PR's from last year vetted, tested and integrated | Some of these: Rust, C, Flutter, Docker, GitHub actions | The rest from the previous list. | Hard | 350 hours |
+| [CCExtractor Release 1.00](/public/gsoc/2026/ccextractor_v1)  | This is our ambitious project for the summer - work directly with the core team to prepare 1.00 - our first major version bump ever, by getting our PR's from last year vetted, tested and integrated | Some of these: Rust, C, Flutter, Docker, GitHub actions | The rest from the previous list. | Hard | 350 hours |
 
 #### Flutter
 
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
 | ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
-| [ Ultimate Alarm Clock III ](/public/gsoc/2025/ultimate_alarm_clock_3) | The ultimate alarm clock, with features no other one has. And free! | Flutter | Good application design | Medium | 350 hours |
-| [ Beacon Watch Companion](/public/gsoc/2025/beacon_watch_companion) | Beacon was started in 2021 and it got a great push also during 2022 and 2024. It aims to ease the group travelling (or hiking). This project is intended to be a companion for the beacon project for smart watches. | Flutter | Scalability | Medium | 175 hours |
-| [ Ultimate Alarm Clock Watch Companion](/public/gsoc/2025/ultimate_alarm_clock_watch_companion) | Ultimate Alarm Clock launched in 2023 and gained significant momentum in 2024. It aims to offer unique features that set it apart from other alarm clock apps—all for free!. This project is intended to be a companion for the ultimate alarm clock project for smart watches. | Flutter | Scalability | Medium | 175 hours |
-| [ Smart Health Reminder ](/public/gsoc/2025/smart_health_reminder) | A fun and interactive health tracking app with smart reminders, challenges, and gamification. Stay healthy effortlessly! | Flutter | Gamification & UX design | Medium | 350 hours |
+| [ Ultimate Alarm Clock III ](/public/gsoc/2026/ultimate_alarm_clock_3) | The ultimate alarm clock, with features no other one has. And free! | Flutter | Good application design | Medium | 350 hours |
+| [ Beacon Watch Companion](/public/gsoc/2026/beacon_watch_companion) | Beacon was started in 2021 and it got a great push also during 2022 and 2024. It aims to ease the group travelling (or hiking). This project is intended to be a companion for the beacon project for smart watches. | Flutter | Scalability | Medium | 175 hours |
+| [ Ultimate Alarm Clock Watch Companion](/public/gsoc/2026/ultimate_alarm_clock_watch_companion) | Ultimate Alarm Clock launched in 2023 and gained significant momentum in 2024. It aims to offer unique features that set it apart from other alarm clock apps—all for free!. This project is intended to be a companion for the ultimate alarm clock project for smart watches. | Flutter | Scalability | Medium | 175 hours |
+| [ Smart Health Reminder ](/public/gsoc/2026/smart_health_reminder) | A fun and interactive health tracking app with smart reminders, challenges, and gamification. Stay healthy effortlessly! | Flutter | Gamification & UX design | Medium | 350 hours |
 | [ support more torrent clients ](/public/gsoc/flutter-more-clients) | We'd like to add support for other clients to our ruTorrent mobile interface (which of course will get a new name): [Flood](https://flood.js.org) and [Deluge](https://deluge-torrent.org). | Flutter | API, Teamwork | Medium |  Discuss |
-| [TaskWarrior](/public/gsoc/2025/taskwarrior) |We aim to enhance the existing app by seamlessly integrating CCSync/TaskServer for better synchronization and functionality.: | Flutter | Scalability | Medium | 175 hours | 
+| [TaskWarrior](/public/gsoc/2026/taskwarrior) |We aim to enhance the existing app by seamlessly integrating CCSync/TaskServer for better synchronization and functionality.: | Flutter | Scalability | Medium | 175 hours |
 
 
 #### Systems
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
 | ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
-| [URL shortener, with a twist](/public/gsoc/2025/urlshortener) | A URL shortener converts a long URL into a shorter one. There are many use cases. Some times it's just the shortening itself we want, for example to share it on twitter. Other times it's about obfuscation. We want to create our own, but with some unique features. | Any language you want | Internet infrastructure | Medium | 175 hours |
-| [COSMIC Session For Regolith](/public/gsoc/2025/regolith_cosmic) | COSMIC is a wayland based desktop environment written from scratch in rust, with modularity in mind. We're interested in swapping the GNOME components of Regolith DE with COSMIC. | Rust | Wayland, Iced, DBus, etc | Medium | 350 hours |
-| [Add complex layouts to sway](/public/gsoc/2025/sway_complex) | Sway is a drop-in replacement for i3, a popular windows manager for Linux that finally gets rid of the ancient X11 protocol. It's fantastic, but it's still missing support for complex scenarios. We'd like you to work on that support. | C | Sway | Hard | 350 hours |
-| [Expose ectool functionality as a library](/public/gsoc/2025/fw-fanctrl) | ectool is a CLI that lets you interact with an embedded controller for laptops. Expose its functionality as a library so it's possible to use it without spawning the CLI. | C, Python | Interlanguage connectivity | Medium | 350 hours |
-| [Task Server II](/public/gsoc/2025/taskserver) |This project aims to develop a comprehensive platform that can be used sync tasks with taskserver.A hosted solution for syncing your TaskWarrior client.Setting up your own TaskServer takes some effort.And platforms like inthe.am,freecinc have shut down their services.So we want to create a platform similar to inthe.am , freecinc and wingtask. | Any language you want | Internet infrastructure | Medium | 175 hours |
+| [URL shortener, with a twist](/public/gsoc/2026/urlshortener) | A URL shortener converts a long URL into a shorter one. There are many use cases. Some times it's just the shortening itself we want, for example to share it on twitter. Other times it's about obfuscation. We want to create our own, but with some unique features. | Any language you want | Internet infrastructure | Medium | 175 hours |
+| [COSMIC Session For Regolith](/public/gsoc/2026/regolith_cosmic) | COSMIC is a wayland based desktop environment written from scratch in rust, with modularity in mind. We're interested in swapping the GNOME components of Regolith DE with COSMIC. | Rust | Wayland, Iced, DBus, etc | Medium | 350 hours |
+| [Add complex layouts to sway](/public/gsoc/2026/sway_complex) | Sway is a drop-in replacement for i3, a popular windows manager for Linux that finally gets rid of the ancient X11 protocol. It's fantastic, but it's still missing support for complex scenarios. We'd like you to work on that support. | C | Sway | Hard | 350 hours |
+| [Expose ectool functionality as a library](/public/gsoc/2026/fw-fanctrl) | ectool is a CLI that lets you interact with an embedded controller for laptops. Expose its functionality as a library so it's possible to use it without spawning the CLI. | C, Python | Interlanguage connectivity | Medium | 350 hours |
+| [Task Server II](/public/gsoc/2026/taskserver) |This project aims to develop a comprehensive platform that can be used sync tasks with taskserver.A hosted solution for syncing your TaskWarrior client.Setting up your own TaskServer takes some effort.And platforms like inthe.am,freecinc have shut down their services.So we want to create a platform similar to inthe.am , freecinc and wingtask. | Any language you want | Internet infrastructure | Medium | 175 hours |
 
 #### New things we're currently interested on
 
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ------ |
-| [ Mouseless for Linux v2 - i3 edition ](/public/gsoc/2025/mouseless_i3) | Mouseless is a nice tool to practice keyboard shortcuts for a few popular apps. Unfortunately it's only available for Mac. Last year we created an open source one that runs on Linux. Using that work or not (this is your choice) we want to create one that helps use i3vm (the fantastic windows manager) using keys only. | Your choice | ?? | Unknown | 175 hours |
-| [Desktop Actions in Ilia](/public/gsoc/2025/ilia_context_menu) | Desktop Actions defined in `.desktop` files are used by app launcher to provide access to additional functionalities, typically via context menus. Ilia is an app launcher that currently doesn't support for Desktop Actions due to its keyboard based approach. | Vala, GTK | GTK | Medium | 175 hours |
+| [ Mouseless for Linux v2 - i3 edition ](/public/gsoc/2026/mouseless_i3) | Mouseless is a nice tool to practice keyboard shortcuts for a few popular apps. Unfortunately it's only available for Mac. Last year we created an open source one that runs on Linux. Using that work or not (this is your choice) we want to create one that helps use i3vm (the fantastic windows manager) using keys only. | Your choice | ?? | Unknown | 175 hours |
+| [Desktop Actions in Ilia](/public/gsoc/2026/ilia_context_menu) | Desktop Actions defined in `.desktop` files are used by app launcher to provide access to additional functionalities, typically via context menus. Ilia is an app launcher that currently doesn't support for Desktop Actions due to its keyboard based approach. | Vala, GTK | GTK | Medium | 175 hours |
 
 
 #### About us
@@ -340,7 +341,7 @@ submit your proposal.
 At the very least your proposal needs to:
 
 - Explain what you want to do, why it is important to you (don't make up a story here — the reason can be that you need it, that you just think it's cool, that you have an itch to work on it, etc), and why it could be important or useful to us.
-- Explain how you intend to accomplish the goal, in enough detail that makes it clear that you have done your homework. For example, “I will modify the CCExtractor binary so that it's able to convert audio to text with perfect accuracy” is the same thing as sending your proposal to the trash. You need to have a plan.
+- Explain how you intend to accomplish the goal, in enough detail that makes it clear that you have done your homework. For example, "I will modify the CCExtractor binary so that it's able to convert audio to text with perfect accuracy" is the same thing as sending your proposal to the trash. You need to have a plan.
 - Detail the timeline explaining what the expected progress is for each week or every two weeks (pay special attention to the milestones within the GSoC timeline itself, of course) and how we should validate the results.
 - Detail what kind of support you will need from us. For example, if you are going to need test streams, hardware, access to a server, etc, let us know, so we can prepare everything for you as soon as possible.
 - Detail your expected working hours in UTC. We're used to weird working schedules, so don't worry about working in the middle of the night, or weekends instead of other days, etc. Knowing your hours may help us to match you better with a mentor.
