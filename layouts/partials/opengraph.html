@@ -1,0 +1,6 @@
+{{- partial "opengraph.html" . -}}
+{{- partial "schema.html" . -}}
+{{- partial "twitter_cards.html" . -}}
+{{- if eq (getenv "HUGO_ENV") "production" }}
+{{- partial "google_analytics.html" . }}
+{{- end }}
