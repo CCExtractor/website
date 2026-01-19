@@ -9,10 +9,10 @@ program (that can be called by scripts so integration with larger
 processes is straightforward).
 
 Running CCExtractor without any parameter will display a help screen
-with all the options. As of version 0.88 the help screen is as follows:
+with all the options. As of version 0.96.5 the help screen is as follows:
 
 ```
-CCExtractor 1.0, Carlos Fernandez Sanz, Volker Quetschke..
+CCExtractor 0.96.5, Carlos Fernandez Sanz, Volker Quetschke..
 Teletext portions taken from Petr Kutalek's telxcc
 --------------------------------------------------------------------------
 Originally based on McPoodle's tools. Check his page for lots of information
@@ -154,6 +154,7 @@ Input Formats:
           - m2ts: BDAV MPEG-2 Transport Stream
           - mkv:  Matroska container and WebM
           - mxf:  Material Exchange Format (MXF)
+          - scc:  Scenarist Closed Caption (SCC)
 
 Output Formats:
       --out <format>
@@ -170,7 +171,7 @@ Output Formats:
           - raw:         CC data in McPoodle's Broadcast format
           - dvdraw:      CC data in McPoodle's DVD format
           - mcc:         CC data compressed using MacCaption Format
-          - txt:         Transcript (no time codes, no roll-up captions, just the plain transcription)    
+          - txt:         Transcript (no time codes, no roll-up captions, just the plain transcription)
           - ttxt:        Timed Transcript (transcription with time info)
           - g608:        Grid 608 format
           - smptett:     SMPTE Timed Text (W3C TTML) format
@@ -199,6 +200,18 @@ Options that affect how input files will be processed:
           Use 90090 (instead of 90000) as MPEG clock frequency.
           (reported to be needed at least by Panasonic DMR-ES15
           DVD Recorder)
+
+      --scc-framerate <fps>
+          Set the frame rate for SCC (Scenarist Closed Caption) input files.
+          Valid values: 29.97 (default), 24, 25, 30
+          Example: --scc-framerate 25
+
+      --scc-accurate-timing
+          Enable bandwidth-aware timing for SCC output (issue #1120).
+          When enabled, captions are pre-loaded ahead of their display time
+          based on the EIA-608 transmission bandwidth (2 bytes/frame).
+          This ensures YouTube and broadcast compliance by preventing
+          caption collisions. Use this for professional SCC output.
 
       --videoedited
           By default, ccextractor will process input files in
@@ -537,6 +550,18 @@ Options that affect what kind of output will be produced:
           13    Raw line. Treat the image as a single text line,
           bypassing hacks that are Tesseract-specific.
 
+      --ocr-line-split
+          Split subtitle images into lines before OCR.
+          Uses PSM 7 (single text line mode) for each line,
+          which can improve accuracy for multi-line bitmap subtitles
+          (VOBSUB, DVD, DVB).
+
+      --no-ocr-blacklist
+          Disable the OCR character blacklist.
+          By default, CCExtractor blacklists characters like |, \, `, _
+          that are commonly misrecognized (e.g. 'I' as '|').
+          Use this flag to disable the blacklist.
+
       --mkvlang <lang>
           For MKV subtitles, select which language's caption
           stream will be processed. e.g. 'eng' for English.
@@ -747,6 +772,15 @@ Teletext related options:
           Use this page for subtitles (if this parameter
           is not used, try to autodetect). In Spain the
           page is always 888, may vary in other countries.
+          You can specify multiple pages by using --tpage
+          multiple times (e.g., --tpage 891 --tpage 892).
+          Each page will be output to a separate file with
+          suffix _pNNN (e.g., output_p891.srt, output_p892.srt).
+
+      --tpages-all
+          Extract all teletext subtitle pages found in the stream.
+          Each page will be output to a separate file with
+          suffix _pNNN (e.g., output_p891.srt, output_p892.srt).
 
       --tverbose
           Enable verbose mode in the teletext decoder.
@@ -858,7 +892,7 @@ Burned-in subtitle extraction:
           closed captions and burned in subtitles
 
 An example command for burned-in subtitle extraction is as follows:
-ccextractor video.mp4 --hardsubx --subcolor white --detect-italics --whiteness-thresh 90 --conf-thresh 60 
+ccextractor video.mp4 --hardsubx --subcolor white --detect-italics --whiteness-thresh 90 --conf-thresh 60
 
 Notes on File name related options:
   You can pass as many input files as you need. They will be processed in order.
@@ -907,12 +941,12 @@ Notes on adding credits:
   to display the message for at least the specified time.
 
 Notes on the CEA-708 decoder:
-        By default, ccextractor now extracts both CEA-608 and CEA-708 subtitles
-        if they are present in the input. This results in two output files: one
-        for CEA-608 and one for CEA-708.
-        To extract only CEA-608 subtitles, use -1, -2, or -12.
-        To extract only CEA-708 subtitles, use -svc.
-        To extract both CEA-608 and CEA-708 subtitles, use both -1/-2/-12 and -svc.
+	By default, ccextractor now extracts both CEA-608 and CEA-708 subtitles
+	if they are present in the input. This results in two output files: one
+	for CEA-608 and one for CEA-708.
+	To extract only CEA-608 subtitles, use -1, -2, or -12.
+	To extract only CEA-708 subtitles, use -svc.
+	To extract both CEA-608 and CEA-708 subtitles, use both -1/-2/-12 and -svc.
   While it is starting to be useful, it's
   a work in progress. A number of things don't work yet in the decoder
   itself, and many of the auxiliary tools (case conversion to name one)
@@ -942,5 +976,4 @@ Notes on spupng output format:
     /tmp/output_2.d/sub0000.png
     /tmp/output_2.d/sub0001.png
     ...
-
 ```
