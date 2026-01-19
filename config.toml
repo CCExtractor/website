@@ -7,7 +7,7 @@ theme = ["github.com/onweru/compose"]
 # theme = "compose"
 enableGitInfo = true
 
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy", "term"]
 
 [outputs]
   home = ["HTML", "RSS","JSON"]
