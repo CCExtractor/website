@@ -73,6 +73,13 @@ function getNextOfficeSunday(fromDate) {
   // Calculate next Sunday's date
   const nextSunday = new Date(sfYear, sfMonth - 1, sfDay + daysUntilSunday);
 
+  // Office hours start on February 8, 2026 - ensure we don't show a date before that
+  const seasonStart = new Date(2026, 1, 8); // Feb 8, 2026
+  if (nextSunday < seasonStart) {
+    // Return February 8, 2026 (which is a Sunday)
+    return createSFDate(2026, 2, 8, OFFICE_HOURS_TIME.hour, OFFICE_HOURS_TIME.minute);
+  }
+
   return createSFDate(
     nextSunday.getFullYear(),
     nextSunday.getMonth() + 1,
