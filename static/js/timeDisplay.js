@@ -12,22 +12,26 @@ function getSanFranciscoNow() {
 
 // Create a Date object for a specific SF time
 function createSFDate(year, month, day, hour, minute) {
-  // Create a date string and parse it as SF time
-  const dateStr = `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}T${String(hour).padStart(2, '0')}:${String(minute).padStart(2, '0')}:00`;
+  // To correctly determine DST for SF, we need to check what SF's timezone
+  // would be on the target date. We do this by creating a UTC date close to
+  // our target, then checking SF's timezone name at that moment.
 
-  // Create a temporary date to determine DST
-  const tempDate = new Date(year, month - 1, day, hour, minute, 0);
+  // Start with PST assumption (UTC-8) to get approximate UTC time
+  const approxUtc = Date.UTC(year, month - 1, day, hour + 8, minute, 0);
+  const approxDate = new Date(approxUtc);
+
+  // Check what timezone SF is in at this approximate time
   const formatter = new Intl.DateTimeFormat("en-US", {
     timeZone: "America/Los_Angeles",
     timeZoneName: "short",
   });
-  const parts = formatter.formatToParts(tempDate);
+  const parts = formatter.formatToParts(approxDate);
   const tzName = parts.find((part) => part.type === "timeZoneName").value;
 
-  // Adjust offset based on DST (PDT = UTC-7, PST = UTC-8)
+  // Now use the correct offset (PDT = UTC-7, PST = UTC-8)
   const offsetHours = tzName === "PDT" ? 7 : 8;
 
-  // Calculate UTC time
+  // Calculate correct UTC time
   const utcMillis = Date.UTC(year, month - 1, day, hour + offsetHours, minute, 0);
   return new Date(utcMillis);
 }
