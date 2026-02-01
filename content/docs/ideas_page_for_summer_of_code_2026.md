@@ -22,9 +22,9 @@ To join, simply use this **[Google Meet link](https://meet.google.com/swu-vmra-t
 
 <div id="timeDisplay"></div>
 <script src="/js/timeDisplay.js"></script>
-  <script>
-      displayInternationalTimes("T10:30:00","2026-03-30"); /* time and date input as in San Francisco */
-  </script>
+<script>
+    displayInternationalTimes();
+</script>
 
 
 <style>
@@ -113,9 +113,6 @@ Since we are now feature complete, and the subtitles work have changed a lot (We
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
 | ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
 | [ Ultimate Alarm Clock III ](/public/gsoc/2026/ultimate_alarm_clock_3) | The ultimate alarm clock, with features no other one has. And free! | Flutter | Good application design | Medium | 350 hours |
-| [ Beacon Watch Companion](/public/gsoc/2026/beacon_watch_companion) | Beacon was started in 2021 and it got a great push also during 2022 and 2024. It aims to ease the group travelling (or hiking). This project is intended to be a companion for the beacon project for smart watches. | Flutter | Scalability | Medium | 175 hours |
-| [ Ultimate Alarm Clock Watch Companion](/public/gsoc/2026/ultimate_alarm_clock_watch_companion) | Ultimate Alarm Clock launched in 2023 and gained significant momentum in 2024. It aims to offer unique features that set it apart from other alarm clock apps—all for free!. This project is intended to be a companion for the ultimate alarm clock project for smart watches. | Flutter | Scalability | Medium | 175 hours |
-| [ Smart Health Reminder ](/public/gsoc/2026/smart_health_reminder) | A fun and interactive health tracking app with smart reminders, challenges, and gamification. Stay healthy effortlessly! | Flutter | Gamification & UX design | Medium | 350 hours |
 | [ support more torrent clients ](/public/gsoc/flutter-more-clients) | We'd like to add support for other clients to our ruTorrent mobile interface (which of course will get a new name): [Flood](https://flood.js.org) and [Deluge](https://deluge-torrent.org). | Flutter | API, Teamwork | Medium |  Discuss |
 | [TaskWarrior](/public/gsoc/2026/taskwarrior) |We aim to enhance the existing app by seamlessly integrating CCSync/TaskServer for better synchronization and functionality.: | Flutter | Scalability | Medium | 175 hours |
 
@@ -123,17 +120,14 @@ Since we are now feature complete, and the subtitles work have changed a lot (We
 #### Systems
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
 | ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
-| [URL shortener, with a twist](/public/gsoc/2026/urlshortener) | A URL shortener converts a long URL into a shorter one. There are many use cases. Some times it's just the shortening itself we want, for example to share it on twitter. Other times it's about obfuscation. We want to create our own, but with some unique features. | Any language you want | Internet infrastructure | Medium | 175 hours |
 | [COSMIC Session For Regolith](/public/gsoc/2026/regolith_cosmic) | COSMIC is a wayland based desktop environment written from scratch in rust, with modularity in mind. We're interested in swapping the GNOME components of Regolith DE with COSMIC. | Rust | Wayland, Iced, DBus, etc | Medium | 350 hours |
 | [Add complex layouts to sway](/public/gsoc/2026/sway_complex) | Sway is a drop-in replacement for i3, a popular windows manager for Linux that finally gets rid of the ancient X11 protocol. It's fantastic, but it's still missing support for complex scenarios. We'd like you to work on that support. | C | Sway | Hard | 350 hours |
-| [Expose ectool functionality as a library](/public/gsoc/2026/fw-fanctrl) | ectool is a CLI that lets you interact with an embedded controller for laptops. Expose its functionality as a library so it's possible to use it without spawning the CLI. | C, Python | Interlanguage connectivity | Medium | 350 hours |
 | [Task Server III](/public/gsoc/2026/taskserver) | CCSync is a sync server, web interface, and integration platform for TaskWarrior III, built on top of the taskchampion sync architecture. TaskWarrior 3.0 support works great with CCSync as of now. Hence, for GSoC 2026, the goal would be to expand the services, extending CCSync to more services, by adding more integrations, improving the overall UI/UX. | Medium | 175 hours |
 
 #### New things we're currently interested on
 
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ------ |
-| [ Mouseless for Linux v2 - i3 edition ](/public/gsoc/2026/mouseless_i3) | Mouseless is a nice tool to practice keyboard shortcuts for a few popular apps. Unfortunately it's only available for Mac. Last year we created an open source one that runs on Linux. Using that work or not (this is your choice) we want to create one that helps use i3vm (the fantastic windows manager) using keys only. | Your choice | ?? | Unknown | 175 hours |
 | [Desktop Actions in Ilia](/public/gsoc/2026/ilia_context_menu) | Desktop Actions defined in `.desktop` files are used by app launcher to provide access to additional functionalities, typically via context menus. Ilia is an app launcher that currently doesn't support for Desktop Actions due to its keyboard based approach. | Vala, GTK | GTK | Medium | 175 hours |
 
 
@@ -160,9 +154,6 @@ mentor. This will help you ask questions when necessary, and you might
 be able to help others out as well while working on your project.
 
 Exception: If your country (such as **Russia**) has banned Zulip please get in touch in we'll work out a solution with you. We absolutely want you to participate.
-
-A [mailing list](https://groups.google.com/forum/#!forum/ccextractor-dev)
-is also available for those that prefer email over Zulip. Note that getting replies might be faster on Zulip though (and it should be just as organized!).
 
 **All our top committers will be mentoring**. Many of them are former GSoC students or winners of GCI.
 

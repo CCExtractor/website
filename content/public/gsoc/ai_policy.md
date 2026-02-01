@@ -2,7 +2,7 @@
 title: "Using AI to generate PRs before and during GSoC"
 ---
 
-#### Based on [Kornia's policy](https://github.com/kornia/kornia/blob/main/AI_POLICY.md)
+#### Based on [Kornia's policy](https://github.com/kornia/kornia/blob/main/AI_POLICY.md). Also, read [Using LLMs at Oxide](https://rfd.shared.oxide.computer/rfd/0576).
 
 ## 1. Core Philosophy
 
