@@ -106,6 +106,7 @@ Since we are now feature complete, and the subtitles work have changed a lot (We
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | [CCExtractor Release 1.00](/public/gsoc/2026/ccextractor_v1)  | This is our ambitious project for the summer - work directly with the core team to prepare 1.00 - our first major version bump ever, by getting our PR's from last year vetted, tested and integrated | Some of these: Rust, C, Flutter, Docker, GitHub actions | The rest from the previous list. | Hard | 350 hours |
+| [Sample Platform NG](/public/gsoc/2026/sample_platform_ng) | The Sample Platform was one of the original projects in GSoC for us. It's served us very well over the years, but it could use a modernization. This includes a new UI, backend improvements, repository update and more. | React, Javascript | Cloud (GCP), GitHub workflows, media formats | Medium | 350 hours |
 
 #### Flutter
 
