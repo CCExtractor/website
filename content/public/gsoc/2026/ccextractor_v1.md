@@ -19,7 +19,7 @@ The sample platform is working OK-ish now.
 
 The goal of this project is to get all of that good stuff that is almost done and prepare a 1.00 bundle.
 
-For historic reasons, we've just increased the version number 0.01 at a time, as we said "1.00 should be really good". Well, the time is now.
+For historic reasons, we've just increased the version number 0.01 at a time, as we said "1.00 should be perfect". Well, the time is now.
 
 # Your task
 
