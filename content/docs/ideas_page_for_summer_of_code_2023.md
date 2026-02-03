@@ -263,7 +263,7 @@ course no student ranks in all criteria, so don't worry when you read
 the list below.
 
  **Work on our core tool**: Even if you are going to be working
-        on something totally different. This might seen counter
+        on something totally different. This might seem counter
         intuitive, but the thing is if you prove you can dig into our
         (messy) code base, find yourself your way around it, and fix a
         few bugs, you are just the kind of person we can trust to
