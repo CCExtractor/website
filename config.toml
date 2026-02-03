@@ -3,7 +3,7 @@ title = "CCExtractor"
 enableRobotsTXT = true
 # this example loads the theme as hugo module
 # comment out line below, and uncomment the line after it if you prefer to load the theme normally
-theme = ["github.com/Techno-Disaster/compose"]
+theme = ["github.com/onweru/compose"]
 # theme = "compose"
 enableGitInfo = true
 
