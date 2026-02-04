@@ -4,7 +4,6 @@
 
 **Mabud Alam**
 
-- Slack Handle: [@mabud]
 - Zulip Handle: [https://ccextractor.zulipchat.com/#user/856060](https://ccextractor.zulipchat.com/#user/856060)
 
 ## **Time Estimation**

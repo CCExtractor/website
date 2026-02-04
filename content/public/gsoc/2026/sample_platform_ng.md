@@ -14,19 +14,21 @@ The Sample Platform was one of the original projects in GSoC for us. It's served
 ### Current Issues and Goals
 
 **UI and Frontend:**
-- We can probably do a UI refresh very quickly with AI now and modernize it.
 - There's no frontend (of any kind) to define the tests, it's all queries (SQL) direct to the DB.
+- We can probably do a UI refresh very quickly with AI now and modernize it.
 
 **AI-Friendly Testing:**
-- Make it AI friendly; this means that we always compile with debug info and for each test we make the full output (not just the result) available for download as well as the sample (directly). Basically, we want to be able to give an AI one URL with a run and from there it should be able to access everything - binaries, coredumps (if there's one), input (i.e. samples), arguments, outputs (real and expected).
+- Make it AI friendly; this means that we always compile with debug info* and for each test we make the full output (not just the result) available for download as well as the sample (directly). Basically, we want to be able to give an AI one URL with a run and from there it should be able to access everything - binaries, coredumps (if there's one), input (i.e. samples), arguments, outputs (real and expected).
+
+\* This is not done inside the platform, up to you to figure out where ;) 
 
 **Test Infrastructure:**
+- Current state of tests are either Pass or Fail. We don't have a state of "Never worked" to reflect a situation in which we have samples but they have some problem and there's never been a version of CCExtractor that worked with those samples.
 - We need a way to bisect.
 - Estimation of test duration can give negative results.
-- Current state of tests are either Pass or Fail. We don't have a state of "Never worked" to reflect a situation in which we have samples but they have some problem and there's never been a version of CCExtractor that worked with those samples.
 
 **Build Improvements:**
-- We don't have a way to run tests on Mac. We want to add Mac testing support.
+- We don't have a way to run tests on Mac. We want to add Mac testing support. Your proposal should include investigation whether or not this is possible with GCP and what cost it would entail to also run (limited) tests on Mac.
 - We're not validating the Docker build.
 
 **Test Suite Expansion:**
@@ -42,17 +44,17 @@ The Sample Platform was one of the original projects in GSoC for us. It's served
 
 # Your task
 
-Work on the above issues to modernize and improve the Sample Platform. This includes:
+Work on the above issues to modernize and improve the Sample Platform. This includes (in order of importance):
 
-- Implement a modern UI refresh
-- Create a frontend for test definition (replacing direct SQL queries)
 - Make the platform AI-friendly with comprehensive output access
-- Implement bisect functionality
 - Add "Never worked" test state
-- Add Mac testing support
+- Create a frontend for test definition (replacing direct SQL queries)
+- Implement bisect functionality
 - Expand the test suite with samples from issues and external sources
-- Implement cross-platform result comparison
 - Improve the comparison algorithm to handle frame offsets
+- Implement cross-platform result comparison
+- Add Mac testing support
+- Implement a modern UI refresh
 
 ### Qualification tasks
 

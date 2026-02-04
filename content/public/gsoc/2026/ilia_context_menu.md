@@ -16,8 +16,8 @@ of application.
 
 Desktop Actions within .desktop files are additional actions that can be
 performed on an application, such as opening a specific file or performing a
-specific operation. These actions are typically made availabe to users via
-application menus that appear on right clicking the application entry.
+specific operation. These actions are typically made available to users via
+application menus that appear on right-clicking the application entry.
 
 Ilia is an application launcher used by Regolith, but it lacks support for
 Desktop Actions.

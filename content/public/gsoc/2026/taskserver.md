@@ -84,7 +84,7 @@ All features described below are part of the same project and are expected to be
        - Google Calendar (to be done after integration of our calendar view)
        - Jira
        - Code Host Integration
-         - GitHub / GitLab issues via Bugwarrior (only in sekf hostable environment)
+         - GitHub / GitLab issues via Bugwarrior (only in self-hostable environment)
      - Notification Engine
        - Backend-driven reminders
        - Email notifications
@@ -101,7 +101,7 @@ All features described below are part of the same project and are expected to be
 
 5. **Account Portability & Data Control (Medium Priority)**
    - **Deliverables:**
-     - Bulk task export (JSON) and import can be used to get users onboardedd easily
+     - Bulk task export (JSON) and import can be used to get users onboarded easily
      - Account reset / data wipe tools, with tools like --prune to delete all tasks from our sync server if the user intends to do so.
      - UUID-safe migration utilities, for moving tasks from one account to another, on demand.
 

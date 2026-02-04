@@ -43,7 +43,7 @@ These are not high priority, but these tasks will help us make a much more maint
 
 ### Features we don't care about
 
-We don't want a lot of bloat. There's lots of alarm clocks that do things like sleep tracking (which you can do much better with a dedicated app), lulabys...
+We don't want a lot of bloat. There's lots of alarm clocks that do things like sleep tracking (which you can do much better with a dedicated app), lullabies...
 
 There's 350 hours in this project, and the goal is to have a good alarm clock that stands out.
 
@@ -51,7 +51,7 @@ We don't want a clone of anything that already exists.
 
 ### Your Task
 
-Add most of all of the features listed, and come up with new ones in the proposal.
+Add most to all the features listed, and come up with new ones in the proposal.
 
 ### Qualification tasks
 

@@ -4,7 +4,7 @@ weight: 1
 ---
 
 {{< tip "warning" >}}
-This is work in progress! However we intend to have a number of projects listed early this year, so check often.
+This is work in progress! However, we intend to have a number of projects listed early this year, so check often.
 {{< /tip >}}
 
 {{< tip "warning" >}}
@@ -16,9 +16,13 @@ For classic, niche project ideas, check out the [Classic Projects page](/docs/cl
 {{< tip >}}
 ### **NEW: Office Hours**
 
-Starting **February 8, 2026**, we will be holding **weekly office hours every Sunday** (depending on your timezone). This is an open session where you can drop in, ask your questions, and have a conversation with an **org admin and/or mentor**—maybe more. There's no need to be formal, and if you're shy, you don't even have to turn your camera on.
+Starting **February 8, 2026**, we will be holding **weekly office hours every Sunday** (depending on your timezone). 
+This is an open session where you can drop in, ask your questions, and have a conversation with an 
+**org admin and/or mentor**—maybe more. There's no need to be formal, and if you're shy, you don't even have to turn 
+your camera on.
 
-To join, simply use this **[Google Meet link](https://meet.google.com/swu-vmra-tyh)**. The sessions will begin at **10:30 AM San Francisco Time**, which serves as the official reference time.
+To join, simply use this **[Google Meet link](https://meet.google.com/swu-vmra-tyh)**. The sessions will begin at **10:30 AM San Francisco Time**, 
+which serves as the official reference time.
 
 <div id="timeDisplay"></div>
 <script src="/js/timeDisplay.js"></script>
@@ -46,7 +50,10 @@ To join, simply use this **[Google Meet link](https://meet.google.com/swu-vmra-t
 
 <p>&nbsp;</p>
 
-There is **no fixed agenda** for these meetings. Whether you want to ask about **GSoC, the organization, your project, or anything else**, you're welcome to join. If others are discussing something, you can also stay and listen. We will be available for **at least 30 minutes**, but if a conversation is ongoing at **9:00 AM San Francisco Time**, we'll **continue as long as needed**.
+There is **no fixed agenda** for these meetings. Whether you want to ask about **GSoC, the organization, your project, 
+or anything else**, you're welcome to join. If others are discussing something, you can also stay and listen. We will 
+be available for **at least 30 minutes**, but if a conversation is ongoing at **9:00 AM San Francisco Time**, we'll 
+**continue as long as needed**.
 
 Feel free to drop by, ask questions, or just hang out. We look forward to seeing you there!
 {{< /tip >}}
@@ -56,7 +63,8 @@ Feel free to drop by, ask questions, or just hang out. We look forward to seeing
 {{< /tip >}}
 
 
-Welcome to our ideas page. It's great you want to start early. Please join us in our Zulip space! (we'll leave this as an exercise for you to find --- it's on our website).
+Welcome to our ideas page. It's great you want to start early. Please join us in our Zulip space! (we'll leave this as 
+an exercise for you to find --- it's on our website).
 
 As you will see, this year has a lot of Rust. The reason is simple:
 Security. Our C code base has known (and we suspect, a lot of unknown)
@@ -81,8 +89,7 @@ you as a student.
 
 Important: If you have something else in mind that relates to subtitles
 and accessibility please get in touch. We prefer that you do something
-that you are passionate about even if it's something we hadn't
-considered.
+that you are passionate about even if it's something we hadn't considered.
 
 After you check out our ideas please continue reading to the bottom of
 the page to get information about who we are, how we collaborate, what
@@ -97,11 +104,15 @@ We will update the descriptions often.
 #### Niche ideas
 
 We've moved the less mainstream ideas to their [own page](https://ccextractor.org/docs/classic_ideas/)
-These ideas are not less important, but because they require more specialized skills (or mindsets) we've decided to give them a place of their own :-) Please take a look after you are done with this page; maybe something there will pick your interest.
+These ideas are not less important, but because they require more specialized skills (or mindsets) we've decided to 
+give them a place of their own :-) Please take a look after you are done with this page; maybe something there will 
+pick your interest.
 
 #### CCExtractor Core
 
-Since we are now feature complete, and the subtitles work have changed a lot (We won! Almost everything is subtitled now!) it's time to settle down, prepare a really good, stable, battery included release so we can rest on our laurels for a bit after a fantastic run on our core tool.
+Since we are now feature complete, and the subtitles work have changed a lot (We won! Almost everything is subtitled 
+now!) it's time to settle down, prepare a perfect, stable, battery included release so we can rest on our laurels for 
+a bit after a fantastic run on our core tool.
 
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
@@ -162,7 +173,7 @@ Exception: If your country (such as **Russia**) has banned Zulip please get in t
 All accepted students get a programming book or course immediately
 after being accepted, with the hope that they read them before the
 coding starts. We want to see if this increases the quality of the
-work. You can pick any programming book or course under 100$ and
+work. You can pick any programming book or course under 100$, and
 we will provide it.
 
 
@@ -182,8 +193,7 @@ The testing tool we use to run regression tests is mainly written in
 scripting. The Test suite is written in C\#. One of the projects this
 year is to move it from a dedicated server to GSoC and improving the scalability of test runs.
 
-The prototype real time subtitle website is written in
-**NodeJS**.
+The prototype real time subtitle website is written in **NodeJS**.
 
 We also have a number of support tools that do a number of different
 things, from downloading subtitles from streaming services to
@@ -230,8 +240,8 @@ course no student ranks in all criteria, so don't worry when you read
 the list below.
 
  **Work on our core tool**: Even if you are going to be working
-        on something totally different. This might seen counter
-        intuitive, but the thing is if you prove you can dig into our
+        on something totally different. This might seem counterintuitive,
+        but the thing is if you prove you can dig into our
         (messy) code base, find yourself your way around it, and fix a
         few bugs, you are just the kind of person we can trust to
         "figure things out". GSoC is among other things, a learning
@@ -273,7 +283,7 @@ the list below.
 We're added a difficulty level to most of our [open issues on GitHub](https://github.com/CCExtractor/ccextractor/issues).
 Best thing you can do is head there and see if you are able to fix some
 of the easy ones and work your way up. We don't expect you to be able
-to do the hard ones but we'd be impressed if you did :-)
+to do the hard ones, but we'd be impressed if you did :-)
 
 For some of the easy ones you don't even need to know C. Just being
 able to compile CCExtractor and dig around a bit will be enough.
@@ -294,7 +304,7 @@ competitor.
 
 All developers are part of the team, by the way. Our Zulip instance has
 mentors, code-in participants, other students, or developers and users
-that are none of the above but they all play some kind of role in
+that are none of the above, but they all play some kind of role in
 CCExtractor's community.
 
 Part of being respectful is giving consideration to everyone else's
@@ -325,7 +335,7 @@ software. From time to time there's a chance to do something
 interesting that affects CCExtractor and something else (FFmpeg comes to
 mind, but also Kodi, VLC, libGPAC, Red Hen, to mention just a few of our
 friends that typically participate in Summer of Code). So how does this
-work? As long as the work benefits CCExtractor and it's part of your
+work? As long as the work benefits CCExtractor, and it's part of your
 summer project, we're OK with you spending some time on the other
 project. For example if you are improving our MP4 support, for which we
 use libGPAC, and need to fix or improve something on libGPAC you are
@@ -340,16 +350,16 @@ submit your proposal.
 
 At the very least your proposal needs to:
 
-- Explain what you want to do, why it is important to you (don't make up a story here — the reason can be that you need it, that you just think it's cool, that you have an itch to work on it, etc), and why it could be important or useful to us.
+- Explain what you want to do, why it is important to you (don't make up a story here — the reason can be that you need it, that you just think it's cool, that you have an itch to work on it, etc.), and why it could be important or useful to us.
 - Explain how you intend to accomplish the goal, in enough detail that makes it clear that you have done your homework. For example, "I will modify the CCExtractor binary so that it's able to convert audio to text with perfect accuracy" is the same thing as sending your proposal to the trash. You need to have a plan.
 - Detail the timeline explaining what the expected progress is for each week or every two weeks (pay special attention to the milestones within the GSoC timeline itself, of course) and how we should validate the results.
-- Detail what kind of support you will need from us. For example, if you are going to need test streams, hardware, access to a server, etc, let us know, so we can prepare everything for you as soon as possible.
+- Detail what kind of support you will need from us. For example, if you are going to need test streams, hardware, access to a server, etc., let us know, so we can prepare everything for you as soon as possible.
 - Detail your expected working hours in UTC. We're used to weird working schedules, so don't worry about working in the middle of the night, or weekends instead of other days, etc. Knowing your hours may help us to match you better with a mentor.
 - Mention your planned absences. We don't need you to detail what you will be doing when you are not working of course, but if you are going away for any reason we need to know so we don't think you've abandoned.
 - Link to your GitHub (or any other repository) profile, if you have one, so we can take a look at your previous work.
-- GSoC is a coding program: This means that ideas that are about testing (unless it involves coding something to test our programs ;) ), website design, etc, are out.
+- GSoC is a coding program: This means that ideas that are about testing (unless it involves coding something to test our programs ;) ), website design, etc., are out.
 - However, we want to have good documentation: Make sure you have time to write a good technical article explaining your work.
-- Be realistic and honest with the timeline. Consider each week you should work around 30 hours. If your timeline reserves a lot of time for minor things we'll think that you are not going to be working full-time in GSoC. On the other hand if you promise to do things in a lot less than that it seems realistic to us it will seem that you don't really know how much work things take.
+- Be realistic and honest with the timeline. Consider each week you should work around 30 hours. If your timeline reserves a lot of time for minor things we'll think that you are not going to be working full-time in GSoC. On the other hand if you promise to do things in a lot less than that it seems realistic to us, it will seem that you don't really know how much work things take.
 - If you are going to be using 3rd party libraries (that's OK), make sure to validate that their license is compatible with GPLv2 (which is ours). List the libraries in your proposal. Check that they are cross-platform. If you will need to extend those libraries in any way please explain. In this case, your proposal should include time to get that extension submitted to the maintainers (we love to contribute to other projects).
 
 Something else: Mentors often have their fingers in several pies. If you send the same proposal to several orgs everyone will know. So do yourself a favor and don't do that. You can apply to several organizations and that's totally fine, but each organization will want to see that you have put the time to write a great proposal that is focused on them.

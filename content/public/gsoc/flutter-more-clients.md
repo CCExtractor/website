@@ -9,7 +9,7 @@ client. It's popular because it's quite efficient and performs really
 well compared to alternatives, but its web interface is terrible and the
 desktop UI is not great.
 
-However it does have a good plugin system and writing proper
+However, it does have a good plugin system and writing proper
 alternatives with Flutter is possible and not painful, so let's go for
 it.
 
@@ -24,7 +24,7 @@ a UI counterpart at all.
  **Flood**
 
 [Flood](https://flood.js.org) is a monitoring service for various torrent
-clients. It's a Node.js service that communicates with your a torrent
+clients. It's a Node.js service that communicates with your torrent
 client and serves a decent web UI (in React) for administration.
 
 Flood backend can communicate with different clients. However, it exposes
@@ -44,9 +44,9 @@ Head maintainer of Flood, [jesec](https://github.com/jesec), is one of the
 mentors. He can provide help if you have troubles setting up Flood or
 encountered issues with Flood's API.
 
- **Your job**
+ **Your task**
 
-The job is to extend Flutter app to support Deluge and/or Flood.
+The task at hand is to extend Flutter app to support Deluge and/or Flood.
 
 You should work with your peer, whose goal may be different from yours,
 to find a way to support multiple API integrations in one application.
