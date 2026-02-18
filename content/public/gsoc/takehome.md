@@ -121,7 +121,7 @@ We like people who can troubleshoot - just because the fix won't have -hopefully
 ----
 ### C/C++: Update our libGPAC dependency
 
-GPAC is the library we use to handle MP4. It's vendored (that means we just took it and added it to source tree instead of linking it as an external dependency). The -historic and maybe no longer valid- for this is that importing dependencies in Windows is a nightmare (it's called DLL hell for a reason). 
+GPAC is the library we use to handle MP4. It's vendored (that means we just took it and added it to source tree instead of linking it as an external dependency). The -historic and maybe no longer valid- reason for this is that importing dependencies in Windows is a nightmare (it's called DLL hell for a reason). 
 
 Anyway, for the time being, we'd be happy to just update our vendored libGPAC for the current version. 
 
