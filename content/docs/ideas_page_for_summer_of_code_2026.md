@@ -133,7 +133,7 @@ a bit after a fantastic run on our core tool.
 | ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
 | [COSMIC Session For Regolith](/public/gsoc/2026/regolith_cosmic) | COSMIC is a wayland based desktop environment written from scratch in rust, with modularity in mind. We're interested in swapping the GNOME components of Regolith DE with COSMIC. | Rust | Wayland, Iced, DBus, etc | Medium | 350 hours |
 | [Add complex layouts to sway](/public/gsoc/2026/sway_complex) | Sway is a drop-in replacement for i3, a popular windows manager for Linux that finally gets rid of the ancient X11 protocol. It's fantastic, but it's still missing support for complex scenarios. We'd like you to work on that support. | C | Sway | Hard | 350 hours |
-| [Task Server III](/public/gsoc/2026/taskserver) | CCSync is a sync server, web interface, and integration platform for TaskWarrior III, built on top of the taskchampion sync architecture. TaskWarrior 3.0 support works great with CCSync as of now. Hence, for GSoC 2026, the goal would be to expand the services, extending CCSync to more services, by adding more integrations, improving the overall UI/UX. | Medium | 175 hours |
+| [Task Server III](/public/gsoc/2026/taskserver) | CCSync is a sync server, web interface, and integration platform for TaskWarrior III, built on top of the taskchampion sync architecture. TaskWarrior 3.0 support works great with CCSync as of now. Hence, for GSoC 2026, the goal would be to expand the services, extending CCSync to more services, by adding more integrations, improving the overall UI/UX. | Typescript, Go | Internet infrastructure & UI/UX design |Medium | 175 hours |
 
 #### New things we're currently interested on
 
