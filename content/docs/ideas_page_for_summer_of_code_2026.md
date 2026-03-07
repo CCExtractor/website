@@ -139,7 +139,7 @@ a bit after a fantastic run on our core tool.
 
 | Name | Description | Tech you need to know | Tech you will learn | Difficulty | Size |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ------ |
-| [Desktop Actions in Ilia](/public/gsoc/2026/ilia_context_menu) | Desktop Actions defined in `.desktop` files are used by app launcher to provide access to additional functionalities, typically via context menus. Ilia is an app launcher that currently doesn't support for Desktop Actions due to its keyboard based approach. | Vala, GTK | GTK | Medium | 175 hours |
+| [Pluggable architecture for ilia](/public/gsoc/2026/ilia_plugin_system) | Ilia has many pages that are tied to regolith, making it wierd to use outside of it. Extending ilia with new pages requires upstream contributions. Implement a robust plugin system to get around this. | Vala, GTK | GTK | Hard | 350 hours |
 
 
 #### About us
