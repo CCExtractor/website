@@ -125,7 +125,7 @@ a bit after a fantastic run on our core tool.
 | ----------- | ----------- | ----------- | ----------- | ----------- |  ------ |
 | [ Ultimate Alarm Clock III ](/public/gsoc/2026/ultimate_alarm_clock_3) | The ultimate alarm clock, with features no other one has. And free! | Flutter | Good application design | Medium | 350 hours |
 | [ support more torrent clients ](/public/gsoc/flutter-more-clients) | We'd like to add support for other clients to our ruTorrent mobile interface (which of course will get a new name): [Flood](https://flood.js.org) and [Deluge](https://deluge-torrent.org). | Flutter | API, Teamwork | Medium |  Discuss |
-| [TaskWarrior](/public/gsoc/2026/taskwarrior) |We aim to enhance the existing app by seamlessly integrating CCSync/TaskServer for better synchronization and functionality.: | Flutter | Scalability | Medium | 175 hours |
+| [TaskWarrior](/public/gsoc/2026/taskwarrior) | Backend Migration, Codebase Modularization, and Reporting Enhancements.  | Flutter | Scalability | Medium | 175 hours |
 
 
 #### Systems
