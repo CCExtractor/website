@@ -40,8 +40,8 @@ Structure may look like:
 
 ### 6. UI and UX Improvements
 Some of the following interfaces are to be implemented as in given mockups
-Issue 1: https://github.com/CCExtractor/taskwarrior-flutter/issues/421
-Issue 2: https://github.com/CCExtractor/taskwarrior-flutter/issues/385
+- Issue 1: https://github.com/CCExtractor/taskwarrior-flutter/issues/421
+- Issue 2: https://github.com/CCExtractor/taskwarrior-flutter/issues/385
 
 #### References
 1. https://github.com/CCExtractor/taskwarrior-flutter/issues/382
