@@ -1,7 +1,7 @@
 ### Smart Health Reminder & Gamification  
 
 **Mentor:**  
-Rijuth Menon R (Zulip handle: @Rijuth Menon R). Rijuth was the contributor for GSoC '23 for Ultimate Alarm Clock and has mentored it.
+Nishant Singhal (Zulip handle: @[Nishant Singhal](https://ccextractor.zulipchat.com/#user/856505)). Nishant Singhal is a GSoC'22 participant with CCExtractor Development. He made contributions to the TaskWarrior Project.He was the mentor for UAC project during 2023.
 
 **Time estimation**  
 350 hours  
