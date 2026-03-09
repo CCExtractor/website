@@ -37,3 +37,14 @@ Structure may look like:
 
 ### 5. Implementation of reports
 - Refer: [CCExtractor/taskwarrior-flutter#418](https://github.com/CCExtractor/taskwarrior-flutter/issues/418)
+
+### 6. UI and UX Improvements
+Some of the following interfaces are to be implemented as in given mockups
+Issue 1: https://github.com/CCExtractor/taskwarrior-flutter/issues/421
+Issue 2: https://github.com/CCExtractor/taskwarrior-flutter/issues/385
+
+#### References
+1. https://github.com/CCExtractor/taskwarrior-flutter/issues/382
+2. https://github.com/CCExtractor/taskwarrior-flutter/issues/378
+3. https://github.com/CCExtractor/taskwarrior-flutter/issues/385
+4. https://github.com/CCExtractor/taskwarrior-flutter/issues/421
