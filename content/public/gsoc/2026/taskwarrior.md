@@ -1,5 +1,5 @@
 # **TaskWarrior Mobile App**
-# GSoC 2026 Goals
+## GSoC 2026 Goals
 
 **Mentors:** 
 - [Shubham Ingale](https://ccextractor.zulipchat.com/#user/862906)
@@ -48,3 +48,9 @@ Some of the following interfaces are to be implemented as in given mockups
 2. https://github.com/CCExtractor/taskwarrior-flutter/issues/378
 3. https://github.com/CCExtractor/taskwarrior-flutter/issues/385
 4. https://github.com/CCExtractor/taskwarrior-flutter/issues/421
+
+## Qualification Task
+
+Add a function query_task() in rust lib (tc_helper) to search for a task(s) using different attribute(s) such as uuid, status, tags(+/-), project. Use that fuction somewhere in flutter side.
+
+Send link for that branch **do not open PR to the repo** and also add link in proposal.
